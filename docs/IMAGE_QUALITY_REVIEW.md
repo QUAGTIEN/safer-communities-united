@@ -1,5 +1,12 @@
 # Kiểm tra chất lượng ảnh demo
 
+## Cập nhật sau khi dựng The Facts — lượt 7
+
+Đã đo 12 hình trên dev và Pages static export ở bảy chiều rộng × DPR 1/2; không phóng vượt native dimensions ở DPR 1. Tại cả 1440 và 390 px, 12/12 hình thiếu ngân sách pixel DPR 2. Đây không phải chứng nhận optical sharpness; nguồn ảnh lớn hơn vẫn cần về sau.
+
+Tám photo crops cũ và bốn exact-pixel fragments mới giữ nguyên nguồn; document/map thumbnails có nhãn minh họa. Header backgrounds chỉ có visible faded portions; CTA chỉ có strip 286 × 37 px, không kéo thành full background. Không AI/upscale/sharpen hoặc chỉnh map. [Báo cáo](CODING_ROUND_07.md), [số đo](coding-round-07-checks.json).
+
+
 ## Cập nhật sau khi dựng Growth & Daily Life — lượt 6
 
 Đã đo 19 hình trên dev/static export ở bảy chiều rộng × DPR 1/2. Không phóng vượt native pixels ở DPR 1. Tại 1440 px có 19/19 hình thiếu ngân sách pixel DPR 2; tại 390 px có 12/19 hình thiếu. Không coi đủ pixel là đã chứng nhận sắc nét quang học.

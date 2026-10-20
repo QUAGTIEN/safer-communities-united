@@ -1,5 +1,14 @@
 # Quyết định hiện hành của dự án
 
+## Coding lượt 7 — The Facts đã hoàn thành trong phạm vi demo
+
+> oke, hãy bắt đầu code nhé
+
+Người dùng yêu cầu bắt đầu ngay sau phần xác nhận lượt 7 The Facts / Evidence & Records. Đã thay `/the-facts` preview bằng F-01/F-02 theo PDF 69–72: bốn groups, năm selected illustrative records, bốn supplied-source anchors và Evidence → Action. [Báo cáo](CODING_ROUND_07.md), [kiểm tra](coding-round-07-checks.json). Ba route The Proposal/Take Action/About vẫn preview; lượt 8 chưa tự bắt đầu.
+
+Metadata/agency/date/purpose từ screenshot giữ nhãn unverified; hai supplied original links không xác thực thumbnail/claims. Ba water originals/datasets thiếu mở preview. Giữ Water record caveat, không fake 124 results hoặc dynamic search/filter/sort/pagination. Catalog dùng đủ 21 supplied URLs, không coi là independent verified records. Dùng tám photo crops cũ và bốn exact-pixel fragments mới có provenance; archive/PDF/maps gốc bất biến. Độ nét DPR 2 còn giới hạn. Cập nhật demo qua GitHub Pages theo quyền đã có; không backend hoặc data collection.
+
+
 ## Link demo GitHub Pages
 
 > thôi, nếu vậy tôi tạo link bằng git trước được không

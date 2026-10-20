@@ -6,6 +6,8 @@
 
 ## Kết quả
 
+Lượt coding 7 dùng tám photo crops cũ và bốn exact-pixel fragments mới (ba illustrative document/cover, một map thumbnail), giữ provenance/hashes. [Báo cáo The Facts](../docs/CODING_ROUND_07.md). Các thumbnails không phải authenticated records/GIS; original archive/PDF/ba maps giữ nguyên.
+
 Lượt coding 6 dùng 11 photo crops hiện có và tám fragments mới (bảy visual regions, một illustrative cover), có exact-pixel provenance/hashes. [Báo cáo Growth](../docs/CODING_ROUND_06.md) giữ rõ sample counts, conceptual density, schematic service locations/drive times và missing timeline/evidence. Services asset giữ đầy đủ legend màu/north arrow/scale. Không sửa archive/PDF/ba map gốc.
 
 Lượt coding 5 dùng 10 photo crops hiện có và 12 vùng Water screenshots mới, có pixel equality/provenance/hash. [Báo cáo Water](../docs/CODING_ROUND_05.md) phân biệt technical illustrations với GIS/contamination evidence thật, chart artwork với annual inputs và original records còn thiếu. Không sửa archive hoặc ba map gốc.

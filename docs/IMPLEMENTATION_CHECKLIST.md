@@ -2,7 +2,7 @@
 
 ## Trạng thái và tài liệu nguồn
 
-**Lượt 1–6 — Foundation, Home, Issues, Roads, Water và Growth đã hoàn thành trong phạm vi demo.** Xem [báo cáo lượt 6 và giới hạn](CODING_ROUND_06.md); các báo cáo lượt trước được giữ. Bốn route khác vẫn preview; lượt 7 The Facts chưa tự bắt đầu, không public launch.
+**Lượt 1–7 — Foundation, Home, Issues, Roads, Water, Growth và The Facts đã hoàn thành trong phạm vi demo.** Xem [lượt 7 và giới hạn](CODING_ROUND_07.md); báo cáo các lượt trước vẫn giữ. Ba route còn preview; lượt 8 chưa bắt đầu. Chỉ cập nhật static demo GitHub Pages theo yêu cầu đã có, không backend/data collection.
 
 Người dùng đã xác nhận kết thúc kiểm duyệt; [kế hoạch 11 lượt coding](CODING_PLAN.md) là thứ tự thực hiện hiện hành. Các trạng thái “chờ duyệt” trong phần ghi lịch sử lập hồ sơ dưới đây mô tả thời điểm tạo tài liệu, không mở lại phần đã duyệt. Dùng ảnh tạm theo quyết định mới nhất; tìm ảnh thay để sau, chất lượng vẫn phải kiểm tra khi render.
 
@@ -135,10 +135,12 @@ Giữ mở ngoài phạm vi demo:
 
 ### 3.8. Evidence & Records (PDF 69–72)
 
-- [ ] Bốn issue/source groups và fixed library cards đúng mẫu.
-- [ ] Source metadata/finding/purpose đúng tài liệu; link gốc chỉ khi được cung cấp.
-- [ ] Không search/filter động, không giả 124 verified results hoặc metadata đã xác thực.
-- [ ] Mọi card/CTA tới source hoặc demo preview có nhãn; Evidence → Action có đích.
+- [x] Bốn issue/source groups và fixed library cards đúng selected copy/artwork.
+- [x] Metadata/purpose từ artwork có nhãn minh họa/chưa xác minh, date thiếu không tự điền; link gốc chỉ dùng URL được cung cấp.
+- [x] Không search/filter động, không giả 124 verified results hoặc metadata đã xác thực.
+- [x] Mọi card/CTA tới supplied source hoặc labelled preview; Evidence → Action có đích.
+- [ ] Verified full inventory, card-level agencies/dates/purposes/findings và original water datasets/records.
+- [ ] Full unoccluded heading/banner backgrounds và nguồn ảnh đủ nét DPR 2.
 
 ### 3.9. Action và các preview (PDF 73–88)
 

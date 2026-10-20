@@ -2,7 +2,7 @@
 
 Địa chỉ đã cấu hình: https://quagtien.github.io/safer-communities-united/
 
-Người dùng yêu cầu dùng link GitHub trước: “thôi, nếu vậy tôi tạo link bằng git trước được không”. Phạm vi là xuất bản static demo hiện có qua GitHub Pages; không mở backend, form submission hoặc production campaign. Lượt 7 chưa bắt đầu.
+Người dùng yêu cầu dùng link GitHub trước: “thôi, nếu vậy tôi tạo link bằng git trước được không”. Phạm vi là xuất bản static demo hiện có qua GitHub Pages; không mở backend, form submission hoặc production campaign. Trạng thái coding hiện hành xem [kế hoạch](CODING_PLAN.md).
 
 ## Cách xuất bản
 
@@ -15,7 +15,7 @@ Người dùng yêu cầu dùng link GitHub trước: “thôi, nếu vậy tôi
 
 Theo dõi build/deploy tại https://github.com/QUAGTIEN/safer-communities-united/actions/workflows/pages.yml . Push mới lên `main` sẽ cập nhật link demo sau khi workflow thành công.
 
-## Kiểm tra trước khi xuất bản
+## Kiểm tra khi thiết lập lần đầu (trước lượt 7)
 
 - Build với base path và TypeScript qua.
 - Static server mô phỏng subdirectory: chín route HTTP 200, đúng section counts (Home 6, Issues 6, Roads 8, Water 9, Growth 8), bốn route previews giữ nhãn.
@@ -25,3 +25,5 @@ Theo dõi build/deploy tại https://github.com/QUAGTIEN/safer-communities-unite
 - Shared navigation/footer và nội dung lượt 1–6 giữ nguyên. Giới hạn dữ liệu/ảnh và các preview chưa hoàn thiện vẫn như các báo cáo trước.
 
 QA scripts/screenshots ở `tmp/github-pages-qa/`; [kết quả local](github-pages-checks.json). Kết quả workflow và HTTP thực tế trên link công khai được kiểm tra khi xuất bản, không suy từ build local.
+
+The Facts được bổ sung ở lượt 7; [báo cáo và kiểm tra](CODING_ROUND_07.md) ghi phạm vi mới và giới hạn.

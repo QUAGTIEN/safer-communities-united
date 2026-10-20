@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "purpose": "Preserved visible technical/landscape regions from selected Issues/Roads/Water/Growth screenshots; illustrations, not verified GIS datasets; chart and historic inputs unverified.",
+  "purpose": "Preserved visible technical/landscape regions from selected Issues/Roads/Water/Growth/Facts screenshots; illustrations, not verified GIS datasets; chart and historic inputs unverified.",
   "visuals": [
     {
       "id": "I03-map",
@@ -602,6 +602,33 @@
       ],
       "verified_geographic_data": false,
       "immutable": true
+    },
+    {
+      "id": "F02-map",
+      "path": "assets/demo-current/visuals/facts-septic-classification-thumbnail.png",
+      "parent_path": "assets/blueprint/ui-references/evidence/bp-p072-01-library.png",
+      "parent_sha256": "0feea65b9b33cde5e791317386f66a010d14383229664cd9ff69fccbdda85ab4",
+      "crop_box_xyxy": [
+        61,
+        734,
+        259,
+        791
+      ],
+      "width": 198,
+      "height": 57,
+      "source_pdf_pages": [
+        72
+      ],
+      "section_ids": [
+        "F-02"
+      ],
+      "sha256": "70524a6cbd2477cabfddbfc3d3d47aa796528882d2d8327ae6d3aea7309975f3",
+      "operations": [
+        "source pixel crop",
+        "lossless PNG encoding"
+      ],
+      "immutable": true,
+      "verified_geographic_data": false
     }
   ]
 }

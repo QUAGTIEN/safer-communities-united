@@ -218,6 +218,90 @@
       "label": "Illustrative cover",
       "verified_official_document": false,
       "immutable": true
+    },
+    {
+      "id": "F01-documents",
+      "path": "assets/demo-current/documents/facts-planning-covers.png",
+      "parent_path": "assets/blueprint/ui-references/evidence/bp-p070-01-issue-groups.png",
+      "parent_sha256": "b8a05e1c8695f9eb7d74904fd0cdb7a2ece526697378c26f35aa95acd893ca8b",
+      "crop_box_xyxy": [
+        1145,
+        316,
+        1500,
+        489
+      ],
+      "width": 355,
+      "height": 173,
+      "source_pdf_pages": [
+        70
+      ],
+      "section_ids": [
+        "F-01"
+      ],
+      "sha256": "c292a287a0cf513edbf833afcdb3997468829bacf574d4430b1082b1a7a5cf20",
+      "operations": [
+        "source pixel crop",
+        "lossless PNG encoding"
+      ],
+      "immutable": true,
+      "label": "Illustrative document preview",
+      "verified_official_document": false
+    },
+    {
+      "id": "F02-cover",
+      "path": "assets/demo-current/documents/facts-livable-communities-cover.png",
+      "parent_path": "assets/blueprint/ui-references/evidence/bp-p072-01-library.png",
+      "parent_sha256": "0feea65b9b33cde5e791317386f66a010d14383229664cd9ff69fccbdda85ab4",
+      "crop_box_xyxy": [
+        61,
+        277,
+        259,
+        378
+      ],
+      "width": 198,
+      "height": 101,
+      "source_pdf_pages": [
+        72
+      ],
+      "section_ids": [
+        "F-02"
+      ],
+      "sha256": "a88a97656d00e9691816c3b7b78abdda34b3ddb85b95d42a56595090c277b7f8",
+      "operations": [
+        "source pixel crop",
+        "lossless PNG encoding"
+      ],
+      "immutable": true,
+      "label": "Illustrative document preview",
+      "verified_official_document": false
+    },
+    {
+      "id": "F02-response",
+      "path": "assets/demo-current/documents/facts-public-record-response.png",
+      "parent_path": "assets/blueprint/ui-references/evidence/bp-p072-01-library.png",
+      "parent_sha256": "0feea65b9b33cde5e791317386f66a010d14383229664cd9ff69fccbdda85ab4",
+      "crop_box_xyxy": [
+        61,
+        405,
+        259,
+        495
+      ],
+      "width": 198,
+      "height": 90,
+      "source_pdf_pages": [
+        72
+      ],
+      "section_ids": [
+        "F-02"
+      ],
+      "sha256": "7b15c3e1623df2c170af3ee178b2df8ac7d7f83cccd0fb45f0f7f5becffc2fff",
+      "operations": [
+        "source pixel crop",
+        "lossless PNG encoding"
+      ],
+      "immutable": true,
+      "label": "Illustrative document preview",
+      "verified_official_document": false
     }
   ]
 }

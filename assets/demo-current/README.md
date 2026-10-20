@@ -17,7 +17,9 @@ Theo chỉ dẫn mới nhất: “oke, tôi sẽ thay sau nhưng hiện tại b�
 
 ## Phạm vi “y chang”
 
-Lượt 6 bổ sung bảy visual regions và một cover fragment của Growth vào hai manifests hiện có. Then/Today giữ legends và graphic annotations, không phải verified historical GIS; density giữ selected rural lanes/tree cover; services giữ toàn legend màu/scale. Evidence map/cover thumbnails có nhãn minh họa. 11 photo crops cũ dùng nguyên file; không khôi phục cảnh bị che. [Báo cáo](../../docs/CODING_ROUND_06.md). Tổng dẫn xuất hiện có: 22 visual regions và tám document/cover fragments, ngoài 79 photo crops ban đầu.
+Lượt 7 thêm ba document/cover fragments và một map thumbnail từ PDF 70/72, có parent/crop-box/pixel equality/hashes trong hai manifests. Tám photo crops cũ dùng nguyên file; partial backgrounds/CTA strip không được phục hồi hoặc upscale. Tổng dẫn xuất sau lượt 7: 23 visual regions, 11 document/cover fragments, ngoài 79 photo crops ban đầu. [Báo cáo và giới hạn](../../docs/CODING_ROUND_07.md).
+
+Lượt 6 bổ sung bảy visual regions và một cover fragment của Growth vào hai manifests hiện có. Then/Today giữ legends và graphic annotations, không phải verified historical GIS; density giữ selected rural lanes/tree cover; services giữ toàn legend màu/scale. Evidence map/cover thumbnails có nhãn minh họa. 11 photo crops cũ dùng nguyên file; không khôi phục cảnh bị che. [Báo cáo](../../docs/CODING_ROUND_06.md). Tổng sau lượt 6: 22 visual regions và tám document/cover fragments, ngoài 79 photo crops ban đầu.
 
 Lượt 5 bổ sung 10 visual regions và hai document thumbnails của Water; [visual manifest](visual-fragments.json), [document manifest](document-fragments.json). Bao gồm hero visible region/ba sơ đồ, hai map, chart nguyên artwork, system overview và cutaway đúng bản, evidence thumbnails. Chart inputs chưa xác minh; hero có flag partial-scene, không phục hồi phần background bị che. Mười photo crops cũ của Water được dùng nguyên file. [Báo cáo và giới hạn](../../docs/CODING_ROUND_05.md).
 

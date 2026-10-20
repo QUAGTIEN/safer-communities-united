@@ -1,6 +1,6 @@
 # Kế hoạch các lượt coding — First Clickable Demo
 
-**Cập nhật:** lượt 1–6 đã hoàn thành trong phạm vi demo; [Foundation](CODING_ROUND_01.md), [Home](CODING_ROUND_02.md), [Issues](CODING_ROUND_03.md), [Roads](CODING_ROUND_04.md), [Water](CODING_ROUND_05.md), [Growth và giới hạn](CODING_ROUND_06.md). Lượt 7–11 còn mở; tiếp theo The Facts, chưa tự bắt đầu. Phần nhắc lại kế hoạch bên dưới là hồ sơ ở thời điểm trước coding.
+**Cập nhật:** lượt 1–7 đã hoàn thành trong phạm vi demo; xem [The Facts và giới hạn](CODING_ROUND_07.md) cùng các báo cáo lượt 1–6. Lượt 8–11 còn mở; tiếp theo The Proposal & Comparison, chưa tự bắt đầu. Phần nhắc lại kế hoạch bên dưới là hồ sơ ở thời điểm trước coding.
 
 Người dùng xác nhận kết thúc kiểm duyệt: “oke, coi như đã kiểm duyệt xong , bây giờ bạn hãy nhắc lại kế hoạch các lượt coding nhé”. Bước này chốt lại kế hoạch, chưa khởi tạo hoặc code website.
 

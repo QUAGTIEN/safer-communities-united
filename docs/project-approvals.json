@@ -21,7 +21,7 @@
     "provenance_of_screenshot_photos": "unverified-not-proven-ai",
     "current_demo_photos": "use-exact-visible-screenshot-pixel-crops; preserve-existing-overlays; no-hidden-content-recovery"
   },
-  "current_authorized_task": "configure-and-publish-existing-static-demo-on-GitHub-Pages",
+  "current_authorized_task": "complete-coding-round-7-The-Facts-and-update-authorized-GitHub-Pages-demo",
   "current_task_downloads_or_replacements_performed": false,
   "website_implementation_authorized": true,
   "public_launch_or_data_collection_authorized": false,
@@ -54,7 +54,8 @@
     "issues_display_review": "docs/coding-round-03-checks.json; DPR 2 limitations remain",
     "roads_display_review": "docs/coding-round-04-checks.json; DPR 2 limitations remain",
     "water_display_review": "docs/coding-round-05-checks.json; DPR 2 limitations remain",
-    "growth_display_review": "docs/coding-round-06-checks.json; DPR 2 limitations remain"
+    "growth_display_review": "docs/coding-round-06-checks.json; DPR 2 limitations remain",
+    "facts_display_review": "docs/coding-round-07-checks.json; DPR 2 limitations remain"
   },
   "review_phase": {
     "status": "complete-by-user",
@@ -64,7 +65,7 @@
     "coding_plan": "docs/CODING_PLAN.md",
     "coding_round_count": 11
   },
-  "website_implementation_authorized_scope": "rounds 1–6 plus shared navigation/footer and public GitHub Pages demo; round 7 not started",
+  "website_implementation_authorized_scope": "rounds 1–7 plus shared navigation/footer and public static Pages demo; round 8 not started",
   "coding_round_01": {
     "user_message_verbatim": "oke, hãy bắt đầu lượt code đầu tiên.",
     "status": "complete",
@@ -221,5 +222,27 @@
     "scope": "Public static demo only; no production campaign or data collection.",
     "vercel_settings_changed": false,
     "next_round_automatically_started": false
+  },
+  "coding_round_07": {
+    "user_message_verbatim": "oke, hãy bắt đầu code nhé",
+    "context": "User authorized execution after confirmation of round 7 The Facts/Evidence & Records.",
+    "status": "complete-with-disclosed-demo-source-and-image-limitations",
+    "page": "/the-facts",
+    "report": "docs/CODING_ROUND_07.md",
+    "checks": "docs/coding-round-07-checks.json",
+    "sections": [
+      "F-01",
+      "F-02"
+    ],
+    "other_routes": "Home/Issues/Roads/Water/Growth retained; The Proposal/Take Action/About remain previews",
+    "next_round": 8,
+    "next_round_automatically_started": false,
+    "missing_sources": "Verified full inventory and card-level original sources/dates/agencies/purposes; water datasets/records remain missing or unverified.",
+    "visual_limits": "Visible screenshot regions only; DPR 2 limitations remain.",
+    "new_screenshot_fragments": {
+      "documents": 3,
+      "visuals": 1,
+      "pixel_preserving": true
+    }
   }
 }

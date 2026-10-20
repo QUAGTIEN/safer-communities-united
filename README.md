@@ -1,6 +1,6 @@
 # Safer Communities United — Keystone–Odessa
 
-First Clickable Demo theo blueprint khách hàng. **Lượt 1–6 (Foundation, Home, Issues, Roads, Water, Growth) đã hoàn thành trong phạm vi demo.** Home có H-01…H-06; Issues có I-01…I-06; Roads có R-01…R-08; Water có W-01…W-09; `/issues/growth-daily-life` có L-01…L-08. Bốn route còn lại vẫn có nhãn preview cho các lượt tiếp theo.
+First Clickable Demo theo blueprint khách hàng. **Lượt 1–7 (Foundation, Home, Issues, Roads, Water, Growth, The Facts) đã hoàn thành trong phạm vi demo.** Home H-01…H-06; Issues I-01…I-06; Roads R-01…R-08; Water W-01…W-09; Growth L-01…L-08; `/the-facts` F-01/F-02. Ba route The Proposal, Take Action, About vẫn labelled previews.
 
 ## Link demo GitHub Pages
 
@@ -38,17 +38,18 @@ Build tạo static export tại `out/`; workflow Pages xuất bản static demo 
 - `src/components/layout/`: wordmark chữ, header/menu responsive, footer và container.
 - `src/components/ui/`: component nền tảng; `src/components/demo/`: labelled route/section previews và modal; `src/components/home/`: Home; `src/components/content/`: map figure và source links.
 - `src/content/site.ts`, `pages.ts`: nhãn, route, headings và placeholder destinations tách khỏi UI.
-- `scripts/sync-assets.mjs`: kiểm tra nguồn bằng SHA-256 rồi copy đúng byte 3 maps/79 photo crops/8 illustrative document-cover fragments/22 screenshot visual regions vào `public/assets/`; tạo `assets.generated.json` và `blueprint.generated.json` chứa bindings và 57 source sections.
+- `scripts/sync-assets.mjs`: kiểm tra nguồn bằng SHA-256 rồi copy đúng byte 3 maps/79 photo crops/11 illustrative document-cover fragments/23 screenshot visual regions vào `public/assets/`; tạo `assets.generated.json` và `blueprint.generated.json` chứa bindings và 57 source sections.
 - `src/content/home.ts`: copy Home tách khỏi presentation; `src/content/sources.ts`: URL chính xác từ source register. Home giữ plain-text methodology và caveat Water theo D-04.
 - `src/content/issues.ts`, `src/components/issues/`, `src/app/issues/issues.css`: sáu section Issues, anchor navigation, timeline và sơ đồ Connections bằng React. Ba source previews giữ trạng thái chưa xác minh; map screenshot từ `visual-fragments.json` bảo toàn pixel/legend.
 - `src/content/roads.ts`, `src/components/roads/`, `src/app/issues/roads-safety/roads.css`: tám section Roads, safety anchors, evidence cards và summary comparison. Hero thiếu ảnh dùng labelled preview; Safety finding/metadata chưa xác minh, không thêm crash counts/response-time data. Hai bìa và document thumbnails chỉ là screenshot illustrations, không thay tài liệu gốc.
 - `src/content/water.ts`, `src/components/water/`, `src/app/issues/water-septic/water.css`: chín section Water, conceptual illustrations, record-scope caveats, utility-route exceptions và Core Conflict đúng concise copy. Dataset/chart inputs/evidence metadata chưa xác minh có nhãn; không layer map hoặc backend.
 - `src/content/growth.ts`, `src/components/growth/`, `src/app/issues/growth-daily-life/growth.css`: tám section Growth, selected density, static services map và comparison/evidence. Sample counts/drive-time caveats giữ rõ; missing policy map/timeline/Master Assessment/datasets dùng labelled previews.
+- `src/content/facts.ts`, `src/components/facts/`, `src/app/the-facts/facts.css`: bốn issue groups, năm illustrative library rows, grouped supplied-source links và Evidence → Action. Metadata/purpose unverified giữ nhãn; search/filter/sort/pagination chỉ có demo preview, không fake result count.
 - `assets/blueprint/`: archive bất biến; `assets/demo-current/`: crop tạm đã duyệt. Không sửa nguồn trong hai thư mục này khi chỉnh UI.
 
 ## Phạm vi và giới hạn
 
-Bổ sung theo yêu cầu sau lượt 6: crossfade khi đổi route, smooth anchor scroll, hỗ trợ reduced-motion; footer thêm thông tin khu vực, social và copyright/Terms/Privacy có nhãn Demo version. [Báo cáo và kiểm tra](docs/NAVIGATION_FOOTER_UPDATE.md). Social URLs/email/legal text thật vẫn là labelled previews. Lượt 7 chưa bắt đầu.
+Bổ sung theo yêu cầu sau lượt 6: crossfade khi đổi route, smooth anchor scroll, hỗ trợ reduced-motion; footer thêm thông tin khu vực, social và copyright/Terms/Privacy có nhãn Demo version. [Báo cáo và kiểm tra](docs/NAVIGATION_FOOTER_UPDATE.md). Social URLs/email/legal text thật vẫn là labelled previews.
 
 Giữ nguyên English copy đã chọn, sáu mục menu và Get Involved. Comparison nằm trong The Proposal. Các footer destinations thiếu nội dung mở demo preview, không bịa policy/contact details. Logo độc lập chưa được cung cấp nên dùng wordmark bằng chữ; favicon để trống có chủ ý.
 
@@ -68,6 +69,7 @@ Home dùng ảnh tạm đã chốt, ba bản đồ gốc xếp dọc full-width 
 - [Báo cáo lượt 4 và giới hạn nguồn/ảnh](docs/CODING_ROUND_04.md), [kết quả kiểm tra Roads](docs/coding-round-04-checks.json).
 - [Báo cáo lượt 5 và giới hạn nguồn/ảnh](docs/CODING_ROUND_05.md), [kết quả kiểm tra Water](docs/coding-round-05-checks.json).
 - [Báo cáo lượt 6 và giới hạn nguồn/ảnh](docs/CODING_ROUND_06.md), [kết quả kiểm tra Growth](docs/coding-round-06-checks.json).
+- [Báo cáo lượt 7 và giới hạn nguồn/ảnh](docs/CODING_ROUND_07.md), [kết quả kiểm tra The Facts](docs/coding-round-07-checks.json).
 - [Chất lượng ảnh](docs/IMAGE_QUALITY_REVIEW.md), [cấu trúc blueprint](structure.md).
 - [Nguồn component/font và giấy phép](docs/THIRD_PARTY_NOTICES.md).
 

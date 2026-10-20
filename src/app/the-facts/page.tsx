@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { FoundationPage } from "@/components/demo/foundation-page";
+import { FactsPageContent } from "@/components/facts/facts-page";
+import "./facts.css";
 
 export const metadata: Metadata = { title: "The Facts" };
-export default function FactsPage() { return <FoundationPage path="/the-facts" />; }
+export default function FactsPage() { return <FactsPageContent />; }

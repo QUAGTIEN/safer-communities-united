@@ -1,0 +1,2085 @@
+{
+  "status": "passed",
+  "base": "http://127.0.0.1:3001/safer-communities-united",
+  "checks": {
+    "copyLeaves": 81,
+    "pdfLeaves": 58,
+    "artworkLeaves": 23,
+    "anchors": 4,
+    "sourceLinks": 23,
+    "uniqueSourceURLs": 21,
+    "previewDialogs": 4,
+    "ctaDestinations": 3,
+    "retainedPreviews": 3
+  },
+  "cases": [
+    {
+      "width": 320,
+      "dpr": 1,
+      "status": "passed"
+    },
+    {
+      "width": 390,
+      "dpr": 1,
+      "status": "passed"
+    },
+    {
+      "width": 560,
+      "dpr": 1,
+      "status": "passed"
+    },
+    {
+      "width": 768,
+      "dpr": 1,
+      "status": "passed"
+    },
+    {
+      "width": 1000,
+      "dpr": 1,
+      "status": "passed"
+    },
+    {
+      "width": 1152,
+      "dpr": 1,
+      "status": "passed"
+    },
+    {
+      "width": 1440,
+      "dpr": 1,
+      "status": "passed"
+    },
+    {
+      "width": 320,
+      "dpr": 2,
+      "status": "passed"
+    },
+    {
+      "width": 390,
+      "dpr": 2,
+      "status": "passed"
+    },
+    {
+      "width": 560,
+      "dpr": 2,
+      "status": "passed"
+    },
+    {
+      "width": 768,
+      "dpr": 2,
+      "status": "passed"
+    },
+    {
+      "width": 1000,
+      "dpr": 2,
+      "status": "passed"
+    },
+    {
+      "width": 1152,
+      "dpr": 2,
+      "status": "passed"
+    },
+    {
+      "width": 1440,
+      "dpr": 2,
+      "status": "passed"
+    }
+  ],
+  "imageBudgets": [
+    {
+      "width": 320,
+      "dpr": 1,
+      "images": [
+        {
+          "id": "P070-01",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-01.png",
+          "nativeWidth": 446,
+          "nativeHeight": 237,
+          "cssWidth": 280,
+          "cssHeight": 148.78125,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-02",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-02.png",
+          "nativeWidth": 354,
+          "nativeHeight": 171,
+          "cssWidth": 278,
+          "cssHeight": 134.28125,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-03",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-03.png",
+          "nativeWidth": 346,
+          "nativeHeight": 171,
+          "cssWidth": 278,
+          "cssHeight": 137.390625,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-04",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-04.png",
+          "nativeWidth": 350,
+          "nativeHeight": 171,
+          "cssWidth": 278,
+          "cssHeight": 135.8125,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F01-documents",
+          "src": "/safer-communities-united/assets/demo/documents/facts-planning-covers.png",
+          "nativeWidth": 355,
+          "nativeHeight": 173,
+          "cssWidth": 278,
+          "cssHeight": 135.46875,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-01",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-01.png",
+          "nativeWidth": 376,
+          "nativeHeight": 160,
+          "cssWidth": 280,
+          "cssHeight": 119.140625,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-cover",
+          "src": "/safer-communities-united/assets/demo/documents/facts-livable-communities-cover.png",
+          "nativeWidth": 198,
+          "nativeHeight": 101,
+          "cssWidth": 198,
+          "cssHeight": 101,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-response",
+          "src": "/safer-communities-united/assets/demo/documents/facts-public-record-response.png",
+          "nativeWidth": 198,
+          "nativeHeight": 90,
+          "cssWidth": 198,
+          "cssHeight": 90,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-04",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-04.png",
+          "nativeWidth": 197,
+          "nativeHeight": 84,
+          "cssWidth": 197,
+          "cssHeight": 84,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-05",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-05.png",
+          "nativeWidth": 197,
+          "nativeHeight": 79,
+          "cssWidth": 197,
+          "cssHeight": 79,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-map",
+          "src": "/safer-communities-united/assets/demo/visuals/facts-septic-classification-thumbnail.png",
+          "nativeWidth": 198,
+          "nativeHeight": 57,
+          "cssWidth": 198,
+          "cssHeight": 57,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-07",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-07.png",
+          "nativeWidth": 286,
+          "nativeHeight": 37,
+          "cssWidth": 230,
+          "cssHeight": 29.75,
+          "filter": "none",
+          "objectFit": "fill"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "dpr": 1,
+      "images": [
+        {
+          "id": "P070-01",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-01.png",
+          "nativeWidth": 446,
+          "nativeHeight": 237,
+          "cssWidth": 350,
+          "cssHeight": 185.984375,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-02",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-02.png",
+          "nativeWidth": 354,
+          "nativeHeight": 171,
+          "cssWidth": 348,
+          "cssHeight": 168.09375,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-03",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-03.png",
+          "nativeWidth": 346,
+          "nativeHeight": 171,
+          "cssWidth": 346,
+          "cssHeight": 171,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-04",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-04.png",
+          "nativeWidth": 350,
+          "nativeHeight": 171,
+          "cssWidth": 348,
+          "cssHeight": 170.015625,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F01-documents",
+          "src": "/safer-communities-united/assets/demo/documents/facts-planning-covers.png",
+          "nativeWidth": 355,
+          "nativeHeight": 173,
+          "cssWidth": 348,
+          "cssHeight": 169.578125,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-01",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-01.png",
+          "nativeWidth": 376,
+          "nativeHeight": 160,
+          "cssWidth": 350,
+          "cssHeight": 148.921875,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-cover",
+          "src": "/safer-communities-united/assets/demo/documents/facts-livable-communities-cover.png",
+          "nativeWidth": 198,
+          "nativeHeight": 101,
+          "cssWidth": 198,
+          "cssHeight": 101,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-response",
+          "src": "/safer-communities-united/assets/demo/documents/facts-public-record-response.png",
+          "nativeWidth": 198,
+          "nativeHeight": 90,
+          "cssWidth": 198,
+          "cssHeight": 90,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-04",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-04.png",
+          "nativeWidth": 197,
+          "nativeHeight": 84,
+          "cssWidth": 197,
+          "cssHeight": 84,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-05",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-05.png",
+          "nativeWidth": 197,
+          "nativeHeight": 79,
+          "cssWidth": 197,
+          "cssHeight": 79,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-map",
+          "src": "/safer-communities-united/assets/demo/visuals/facts-septic-classification-thumbnail.png",
+          "nativeWidth": 198,
+          "nativeHeight": 57,
+          "cssWidth": 198,
+          "cssHeight": 57,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-07",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-07.png",
+          "nativeWidth": 286,
+          "nativeHeight": 37,
+          "cssWidth": 286,
+          "cssHeight": 37,
+          "filter": "none",
+          "objectFit": "fill"
+        }
+      ]
+    },
+    {
+      "width": 560,
+      "dpr": 1,
+      "images": [
+        {
+          "id": "P070-01",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-01.png",
+          "nativeWidth": 446,
+          "nativeHeight": 237,
+          "cssWidth": 446,
+          "cssHeight": 237,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-02",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-02.png",
+          "nativeWidth": 354,
+          "nativeHeight": 171,
+          "cssWidth": 354,
+          "cssHeight": 171,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-03",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-03.png",
+          "nativeWidth": 346,
+          "nativeHeight": 171,
+          "cssWidth": 346,
+          "cssHeight": 171,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-04",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-04.png",
+          "nativeWidth": 350,
+          "nativeHeight": 171,
+          "cssWidth": 350,
+          "cssHeight": 171,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F01-documents",
+          "src": "/safer-communities-united/assets/demo/documents/facts-planning-covers.png",
+          "nativeWidth": 355,
+          "nativeHeight": 173,
+          "cssWidth": 355,
+          "cssHeight": 173,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-01",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-01.png",
+          "nativeWidth": 376,
+          "nativeHeight": 160,
+          "cssWidth": 376,
+          "cssHeight": 160,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-cover",
+          "src": "/safer-communities-united/assets/demo/documents/facts-livable-communities-cover.png",
+          "nativeWidth": 198,
+          "nativeHeight": 101,
+          "cssWidth": 198,
+          "cssHeight": 101,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-response",
+          "src": "/safer-communities-united/assets/demo/documents/facts-public-record-response.png",
+          "nativeWidth": 198,
+          "nativeHeight": 90,
+          "cssWidth": 198,
+          "cssHeight": 90,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-04",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-04.png",
+          "nativeWidth": 197,
+          "nativeHeight": 84,
+          "cssWidth": 197,
+          "cssHeight": 84,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-05",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-05.png",
+          "nativeWidth": 197,
+          "nativeHeight": 79,
+          "cssWidth": 197,
+          "cssHeight": 79,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-map",
+          "src": "/safer-communities-united/assets/demo/visuals/facts-septic-classification-thumbnail.png",
+          "nativeWidth": 198,
+          "nativeHeight": 57,
+          "cssWidth": 198,
+          "cssHeight": 57,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-07",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-07.png",
+          "nativeWidth": 286,
+          "nativeHeight": 37,
+          "cssWidth": 286,
+          "cssHeight": 37,
+          "filter": "none",
+          "objectFit": "fill"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "dpr": 1,
+      "images": [
+        {
+          "id": "P070-01",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-01.png",
+          "nativeWidth": 446,
+          "nativeHeight": 237,
+          "cssWidth": 174.21875,
+          "cssHeight": 92.578125,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-02",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-02.png",
+          "nativeWidth": 354,
+          "nativeHeight": 171,
+          "cssWidth": 338,
+          "cssHeight": 163.265625,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-03",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-03.png",
+          "nativeWidth": 346,
+          "nativeHeight": 171,
+          "cssWidth": 338,
+          "cssHeight": 167.03125,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-04",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-04.png",
+          "nativeWidth": 350,
+          "nativeHeight": 171,
+          "cssWidth": 338,
+          "cssHeight": 165.125,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F01-documents",
+          "src": "/safer-communities-united/assets/demo/documents/facts-planning-covers.png",
+          "nativeWidth": 355,
+          "nativeHeight": 173,
+          "cssWidth": 338,
+          "cssHeight": 164.703125,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-01",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-01.png",
+          "nativeWidth": 376,
+          "nativeHeight": 160,
+          "cssWidth": 174.21875,
+          "cssHeight": 74.125,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-cover",
+          "src": "/safer-communities-united/assets/demo/documents/facts-livable-communities-cover.png",
+          "nativeWidth": 198,
+          "nativeHeight": 101,
+          "cssWidth": 160,
+          "cssHeight": 81.609375,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-response",
+          "src": "/safer-communities-united/assets/demo/documents/facts-public-record-response.png",
+          "nativeWidth": 198,
+          "nativeHeight": 90,
+          "cssWidth": 160,
+          "cssHeight": 72.71875,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-04",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-04.png",
+          "nativeWidth": 197,
+          "nativeHeight": 84,
+          "cssWidth": 160,
+          "cssHeight": 68.21875,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-05",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-05.png",
+          "nativeWidth": 197,
+          "nativeHeight": 79,
+          "cssWidth": 160,
+          "cssHeight": 64.15625,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-map",
+          "src": "/safer-communities-united/assets/demo/visuals/facts-septic-classification-thumbnail.png",
+          "nativeWidth": 198,
+          "nativeHeight": 57,
+          "cssWidth": 160,
+          "cssHeight": 46.046875,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-07",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-07.png",
+          "nativeWidth": 286,
+          "nativeHeight": 37,
+          "cssWidth": 256,
+          "cssHeight": 33.109375,
+          "filter": "none",
+          "objectFit": "fill"
+        }
+      ]
+    },
+    {
+      "width": 1000,
+      "dpr": 1,
+      "images": [
+        {
+          "id": "P070-01",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-01.png",
+          "nativeWidth": 446,
+          "nativeHeight": 237,
+          "cssWidth": 234.375,
+          "cssHeight": 124.53125,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-02",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-02.png",
+          "nativeWidth": 354,
+          "nativeHeight": 171,
+          "cssWidth": 354,
+          "cssHeight": 171,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-03",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-03.png",
+          "nativeWidth": 346,
+          "nativeHeight": 171,
+          "cssWidth": 346,
+          "cssHeight": 171,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-04",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-04.png",
+          "nativeWidth": 350,
+          "nativeHeight": 171,
+          "cssWidth": 350,
+          "cssHeight": 171,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F01-documents",
+          "src": "/safer-communities-united/assets/demo/documents/facts-planning-covers.png",
+          "nativeWidth": 355,
+          "nativeHeight": 173,
+          "cssWidth": 355,
+          "cssHeight": 173,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-01",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-01.png",
+          "nativeWidth": 376,
+          "nativeHeight": 160,
+          "cssWidth": 234.375,
+          "cssHeight": 99.71875,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-cover",
+          "src": "/safer-communities-united/assets/demo/documents/facts-livable-communities-cover.png",
+          "nativeWidth": 198,
+          "nativeHeight": 101,
+          "cssWidth": 160,
+          "cssHeight": 81.609375,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-response",
+          "src": "/safer-communities-united/assets/demo/documents/facts-public-record-response.png",
+          "nativeWidth": 198,
+          "nativeHeight": 90,
+          "cssWidth": 160,
+          "cssHeight": 72.71875,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-04",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-04.png",
+          "nativeWidth": 197,
+          "nativeHeight": 84,
+          "cssWidth": 160,
+          "cssHeight": 68.21875,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-05",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-05.png",
+          "nativeWidth": 197,
+          "nativeHeight": 79,
+          "cssWidth": 160,
+          "cssHeight": 64.15625,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-map",
+          "src": "/safer-communities-united/assets/demo/visuals/facts-septic-classification-thumbnail.png",
+          "nativeWidth": 198,
+          "nativeHeight": 57,
+          "cssWidth": 160,
+          "cssHeight": 46.046875,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-07",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-07.png",
+          "nativeWidth": 286,
+          "nativeHeight": 37,
+          "cssWidth": 256,
+          "cssHeight": 33.109375,
+          "filter": "none",
+          "objectFit": "fill"
+        }
+      ]
+    },
+    {
+      "width": 1152,
+      "dpr": 1,
+      "images": [
+        {
+          "id": "P070-01",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-01.png",
+          "nativeWidth": 446,
+          "nativeHeight": 237,
+          "cssWidth": 265.46875,
+          "cssHeight": 141.0625,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-02",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-02.png",
+          "nativeWidth": 354,
+          "nativeHeight": 171,
+          "cssWidth": 354,
+          "cssHeight": 171,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-03",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-03.png",
+          "nativeWidth": 346,
+          "nativeHeight": 171,
+          "cssWidth": 346,
+          "cssHeight": 171,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-04",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-04.png",
+          "nativeWidth": 350,
+          "nativeHeight": 171,
+          "cssWidth": 350,
+          "cssHeight": 171,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F01-documents",
+          "src": "/safer-communities-united/assets/demo/documents/facts-planning-covers.png",
+          "nativeWidth": 355,
+          "nativeHeight": 173,
+          "cssWidth": 355,
+          "cssHeight": 173,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-01",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-01.png",
+          "nativeWidth": 376,
+          "nativeHeight": 160,
+          "cssWidth": 265.46875,
+          "cssHeight": 112.953125,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-cover",
+          "src": "/safer-communities-united/assets/demo/documents/facts-livable-communities-cover.png",
+          "nativeWidth": 198,
+          "nativeHeight": 101,
+          "cssWidth": 160,
+          "cssHeight": 81.609375,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-response",
+          "src": "/safer-communities-united/assets/demo/documents/facts-public-record-response.png",
+          "nativeWidth": 198,
+          "nativeHeight": 90,
+          "cssWidth": 160,
+          "cssHeight": 72.71875,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-04",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-04.png",
+          "nativeWidth": 197,
+          "nativeHeight": 84,
+          "cssWidth": 160,
+          "cssHeight": 68.21875,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-05",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-05.png",
+          "nativeWidth": 197,
+          "nativeHeight": 79,
+          "cssWidth": 160,
+          "cssHeight": 64.15625,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-map",
+          "src": "/safer-communities-united/assets/demo/visuals/facts-septic-classification-thumbnail.png",
+          "nativeWidth": 198,
+          "nativeHeight": 57,
+          "cssWidth": 160,
+          "cssHeight": 46.046875,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-07",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-07.png",
+          "nativeWidth": 286,
+          "nativeHeight": 37,
+          "cssWidth": 256,
+          "cssHeight": 33.109375,
+          "filter": "none",
+          "objectFit": "fill"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "dpr": 1,
+      "images": [
+        {
+          "id": "P070-01",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-01.png",
+          "nativeWidth": 446,
+          "nativeHeight": 237,
+          "cssWidth": 331.84375,
+          "cssHeight": 176.328125,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-02",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-02.png",
+          "nativeWidth": 354,
+          "nativeHeight": 171,
+          "cssWidth": 314,
+          "cssHeight": 151.671875,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-03",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-03.png",
+          "nativeWidth": 346,
+          "nativeHeight": 171,
+          "cssWidth": 314,
+          "cssHeight": 155.171875,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-04",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-04.png",
+          "nativeWidth": 350,
+          "nativeHeight": 171,
+          "cssWidth": 314,
+          "cssHeight": 153.40625,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F01-documents",
+          "src": "/safer-communities-united/assets/demo/documents/facts-planning-covers.png",
+          "nativeWidth": 355,
+          "nativeHeight": 173,
+          "cssWidth": 314,
+          "cssHeight": 153.015625,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-01",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-01.png",
+          "nativeWidth": 376,
+          "nativeHeight": 160,
+          "cssWidth": 331.84375,
+          "cssHeight": 141.203125,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-cover",
+          "src": "/safer-communities-united/assets/demo/documents/facts-livable-communities-cover.png",
+          "nativeWidth": 198,
+          "nativeHeight": 101,
+          "cssWidth": 198,
+          "cssHeight": 101,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-response",
+          "src": "/safer-communities-united/assets/demo/documents/facts-public-record-response.png",
+          "nativeWidth": 198,
+          "nativeHeight": 90,
+          "cssWidth": 198,
+          "cssHeight": 90,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-04",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-04.png",
+          "nativeWidth": 197,
+          "nativeHeight": 84,
+          "cssWidth": 197,
+          "cssHeight": 84,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-05",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-05.png",
+          "nativeWidth": 197,
+          "nativeHeight": 79,
+          "cssWidth": 197,
+          "cssHeight": 79,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-map",
+          "src": "/safer-communities-united/assets/demo/visuals/facts-septic-classification-thumbnail.png",
+          "nativeWidth": 198,
+          "nativeHeight": 57,
+          "cssWidth": 198,
+          "cssHeight": 57,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-07",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-07.png",
+          "nativeWidth": 286,
+          "nativeHeight": 37,
+          "cssWidth": 256,
+          "cssHeight": 33.109375,
+          "filter": "none",
+          "objectFit": "fill"
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "dpr": 2,
+      "images": [
+        {
+          "id": "P070-01",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-01.png",
+          "nativeWidth": 446,
+          "nativeHeight": 237,
+          "cssWidth": 280,
+          "cssHeight": 148.78125,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-02",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-02.png",
+          "nativeWidth": 354,
+          "nativeHeight": 171,
+          "cssWidth": 278,
+          "cssHeight": 134.28125,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-03",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-03.png",
+          "nativeWidth": 346,
+          "nativeHeight": 171,
+          "cssWidth": 278,
+          "cssHeight": 137.390625,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-04",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-04.png",
+          "nativeWidth": 350,
+          "nativeHeight": 171,
+          "cssWidth": 278,
+          "cssHeight": 135.8125,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F01-documents",
+          "src": "/safer-communities-united/assets/demo/documents/facts-planning-covers.png",
+          "nativeWidth": 355,
+          "nativeHeight": 173,
+          "cssWidth": 278,
+          "cssHeight": 135.46875,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-01",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-01.png",
+          "nativeWidth": 376,
+          "nativeHeight": 160,
+          "cssWidth": 280,
+          "cssHeight": 119.140625,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-cover",
+          "src": "/safer-communities-united/assets/demo/documents/facts-livable-communities-cover.png",
+          "nativeWidth": 198,
+          "nativeHeight": 101,
+          "cssWidth": 198,
+          "cssHeight": 101,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-response",
+          "src": "/safer-communities-united/assets/demo/documents/facts-public-record-response.png",
+          "nativeWidth": 198,
+          "nativeHeight": 90,
+          "cssWidth": 198,
+          "cssHeight": 90,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-04",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-04.png",
+          "nativeWidth": 197,
+          "nativeHeight": 84,
+          "cssWidth": 197,
+          "cssHeight": 84,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-05",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-05.png",
+          "nativeWidth": 197,
+          "nativeHeight": 79,
+          "cssWidth": 197,
+          "cssHeight": 79,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-map",
+          "src": "/safer-communities-united/assets/demo/visuals/facts-septic-classification-thumbnail.png",
+          "nativeWidth": 198,
+          "nativeHeight": 57,
+          "cssWidth": 198,
+          "cssHeight": 57,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-07",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-07.png",
+          "nativeWidth": 286,
+          "nativeHeight": 37,
+          "cssWidth": 230,
+          "cssHeight": 29.75,
+          "filter": "none",
+          "objectFit": "fill"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "dpr": 2,
+      "images": [
+        {
+          "id": "P070-01",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-01.png",
+          "nativeWidth": 446,
+          "nativeHeight": 237,
+          "cssWidth": 350,
+          "cssHeight": 185.984375,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-02",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-02.png",
+          "nativeWidth": 354,
+          "nativeHeight": 171,
+          "cssWidth": 348,
+          "cssHeight": 168.09375,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-03",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-03.png",
+          "nativeWidth": 346,
+          "nativeHeight": 171,
+          "cssWidth": 346,
+          "cssHeight": 171,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-04",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-04.png",
+          "nativeWidth": 350,
+          "nativeHeight": 171,
+          "cssWidth": 348,
+          "cssHeight": 170.015625,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F01-documents",
+          "src": "/safer-communities-united/assets/demo/documents/facts-planning-covers.png",
+          "nativeWidth": 355,
+          "nativeHeight": 173,
+          "cssWidth": 348,
+          "cssHeight": 169.578125,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-01",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-01.png",
+          "nativeWidth": 376,
+          "nativeHeight": 160,
+          "cssWidth": 350,
+          "cssHeight": 148.921875,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-cover",
+          "src": "/safer-communities-united/assets/demo/documents/facts-livable-communities-cover.png",
+          "nativeWidth": 198,
+          "nativeHeight": 101,
+          "cssWidth": 198,
+          "cssHeight": 101,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-response",
+          "src": "/safer-communities-united/assets/demo/documents/facts-public-record-response.png",
+          "nativeWidth": 198,
+          "nativeHeight": 90,
+          "cssWidth": 198,
+          "cssHeight": 90,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-04",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-04.png",
+          "nativeWidth": 197,
+          "nativeHeight": 84,
+          "cssWidth": 197,
+          "cssHeight": 84,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-05",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-05.png",
+          "nativeWidth": 197,
+          "nativeHeight": 79,
+          "cssWidth": 197,
+          "cssHeight": 79,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-map",
+          "src": "/safer-communities-united/assets/demo/visuals/facts-septic-classification-thumbnail.png",
+          "nativeWidth": 198,
+          "nativeHeight": 57,
+          "cssWidth": 198,
+          "cssHeight": 57,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-07",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-07.png",
+          "nativeWidth": 286,
+          "nativeHeight": 37,
+          "cssWidth": 286,
+          "cssHeight": 37,
+          "filter": "none",
+          "objectFit": "fill"
+        }
+      ]
+    },
+    {
+      "width": 560,
+      "dpr": 2,
+      "images": [
+        {
+          "id": "P070-01",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-01.png",
+          "nativeWidth": 446,
+          "nativeHeight": 237,
+          "cssWidth": 446,
+          "cssHeight": 237,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-02",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-02.png",
+          "nativeWidth": 354,
+          "nativeHeight": 171,
+          "cssWidth": 354,
+          "cssHeight": 171,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-03",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-03.png",
+          "nativeWidth": 346,
+          "nativeHeight": 171,
+          "cssWidth": 346,
+          "cssHeight": 171,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-04",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-04.png",
+          "nativeWidth": 350,
+          "nativeHeight": 171,
+          "cssWidth": 350,
+          "cssHeight": 171,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F01-documents",
+          "src": "/safer-communities-united/assets/demo/documents/facts-planning-covers.png",
+          "nativeWidth": 355,
+          "nativeHeight": 173,
+          "cssWidth": 355,
+          "cssHeight": 173,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-01",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-01.png",
+          "nativeWidth": 376,
+          "nativeHeight": 160,
+          "cssWidth": 376,
+          "cssHeight": 160,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-cover",
+          "src": "/safer-communities-united/assets/demo/documents/facts-livable-communities-cover.png",
+          "nativeWidth": 198,
+          "nativeHeight": 101,
+          "cssWidth": 198,
+          "cssHeight": 101,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-response",
+          "src": "/safer-communities-united/assets/demo/documents/facts-public-record-response.png",
+          "nativeWidth": 198,
+          "nativeHeight": 90,
+          "cssWidth": 198,
+          "cssHeight": 90,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-04",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-04.png",
+          "nativeWidth": 197,
+          "nativeHeight": 84,
+          "cssWidth": 197,
+          "cssHeight": 84,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-05",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-05.png",
+          "nativeWidth": 197,
+          "nativeHeight": 79,
+          "cssWidth": 197,
+          "cssHeight": 79,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-map",
+          "src": "/safer-communities-united/assets/demo/visuals/facts-septic-classification-thumbnail.png",
+          "nativeWidth": 198,
+          "nativeHeight": 57,
+          "cssWidth": 198,
+          "cssHeight": 57,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-07",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-07.png",
+          "nativeWidth": 286,
+          "nativeHeight": 37,
+          "cssWidth": 286,
+          "cssHeight": 37,
+          "filter": "none",
+          "objectFit": "fill"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "dpr": 2,
+      "images": [
+        {
+          "id": "P070-01",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-01.png",
+          "nativeWidth": 446,
+          "nativeHeight": 237,
+          "cssWidth": 174.21875,
+          "cssHeight": 92.578125,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-02",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-02.png",
+          "nativeWidth": 354,
+          "nativeHeight": 171,
+          "cssWidth": 338,
+          "cssHeight": 163.265625,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-03",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-03.png",
+          "nativeWidth": 346,
+          "nativeHeight": 171,
+          "cssWidth": 338,
+          "cssHeight": 167.03125,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-04",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-04.png",
+          "nativeWidth": 350,
+          "nativeHeight": 171,
+          "cssWidth": 338,
+          "cssHeight": 165.125,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F01-documents",
+          "src": "/safer-communities-united/assets/demo/documents/facts-planning-covers.png",
+          "nativeWidth": 355,
+          "nativeHeight": 173,
+          "cssWidth": 338,
+          "cssHeight": 164.703125,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-01",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-01.png",
+          "nativeWidth": 376,
+          "nativeHeight": 160,
+          "cssWidth": 174.21875,
+          "cssHeight": 74.125,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-cover",
+          "src": "/safer-communities-united/assets/demo/documents/facts-livable-communities-cover.png",
+          "nativeWidth": 198,
+          "nativeHeight": 101,
+          "cssWidth": 160,
+          "cssHeight": 81.609375,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-response",
+          "src": "/safer-communities-united/assets/demo/documents/facts-public-record-response.png",
+          "nativeWidth": 198,
+          "nativeHeight": 90,
+          "cssWidth": 160,
+          "cssHeight": 72.71875,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-04",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-04.png",
+          "nativeWidth": 197,
+          "nativeHeight": 84,
+          "cssWidth": 160,
+          "cssHeight": 68.21875,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-05",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-05.png",
+          "nativeWidth": 197,
+          "nativeHeight": 79,
+          "cssWidth": 160,
+          "cssHeight": 64.15625,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-map",
+          "src": "/safer-communities-united/assets/demo/visuals/facts-septic-classification-thumbnail.png",
+          "nativeWidth": 198,
+          "nativeHeight": 57,
+          "cssWidth": 160,
+          "cssHeight": 46.046875,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-07",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-07.png",
+          "nativeWidth": 286,
+          "nativeHeight": 37,
+          "cssWidth": 256,
+          "cssHeight": 33.109375,
+          "filter": "none",
+          "objectFit": "fill"
+        }
+      ]
+    },
+    {
+      "width": 1000,
+      "dpr": 2,
+      "images": [
+        {
+          "id": "P070-01",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-01.png",
+          "nativeWidth": 446,
+          "nativeHeight": 237,
+          "cssWidth": 234.375,
+          "cssHeight": 124.53125,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-02",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-02.png",
+          "nativeWidth": 354,
+          "nativeHeight": 171,
+          "cssWidth": 354,
+          "cssHeight": 171,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-03",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-03.png",
+          "nativeWidth": 346,
+          "nativeHeight": 171,
+          "cssWidth": 346,
+          "cssHeight": 171,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-04",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-04.png",
+          "nativeWidth": 350,
+          "nativeHeight": 171,
+          "cssWidth": 350,
+          "cssHeight": 171,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F01-documents",
+          "src": "/safer-communities-united/assets/demo/documents/facts-planning-covers.png",
+          "nativeWidth": 355,
+          "nativeHeight": 173,
+          "cssWidth": 355,
+          "cssHeight": 173,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-01",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-01.png",
+          "nativeWidth": 376,
+          "nativeHeight": 160,
+          "cssWidth": 234.375,
+          "cssHeight": 99.71875,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-cover",
+          "src": "/safer-communities-united/assets/demo/documents/facts-livable-communities-cover.png",
+          "nativeWidth": 198,
+          "nativeHeight": 101,
+          "cssWidth": 160,
+          "cssHeight": 81.609375,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-response",
+          "src": "/safer-communities-united/assets/demo/documents/facts-public-record-response.png",
+          "nativeWidth": 198,
+          "nativeHeight": 90,
+          "cssWidth": 160,
+          "cssHeight": 72.71875,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-04",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-04.png",
+          "nativeWidth": 197,
+          "nativeHeight": 84,
+          "cssWidth": 160,
+          "cssHeight": 68.21875,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-05",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-05.png",
+          "nativeWidth": 197,
+          "nativeHeight": 79,
+          "cssWidth": 160,
+          "cssHeight": 64.15625,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-map",
+          "src": "/safer-communities-united/assets/demo/visuals/facts-septic-classification-thumbnail.png",
+          "nativeWidth": 198,
+          "nativeHeight": 57,
+          "cssWidth": 160,
+          "cssHeight": 46.046875,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-07",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-07.png",
+          "nativeWidth": 286,
+          "nativeHeight": 37,
+          "cssWidth": 256,
+          "cssHeight": 33.109375,
+          "filter": "none",
+          "objectFit": "fill"
+        }
+      ]
+    },
+    {
+      "width": 1152,
+      "dpr": 2,
+      "images": [
+        {
+          "id": "P070-01",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-01.png",
+          "nativeWidth": 446,
+          "nativeHeight": 237,
+          "cssWidth": 265.46875,
+          "cssHeight": 141.0625,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-02",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-02.png",
+          "nativeWidth": 354,
+          "nativeHeight": 171,
+          "cssWidth": 354,
+          "cssHeight": 171,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-03",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-03.png",
+          "nativeWidth": 346,
+          "nativeHeight": 171,
+          "cssWidth": 346,
+          "cssHeight": 171,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-04",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-04.png",
+          "nativeWidth": 350,
+          "nativeHeight": 171,
+          "cssWidth": 350,
+          "cssHeight": 171,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F01-documents",
+          "src": "/safer-communities-united/assets/demo/documents/facts-planning-covers.png",
+          "nativeWidth": 355,
+          "nativeHeight": 173,
+          "cssWidth": 355,
+          "cssHeight": 173,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-01",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-01.png",
+          "nativeWidth": 376,
+          "nativeHeight": 160,
+          "cssWidth": 265.46875,
+          "cssHeight": 112.953125,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-cover",
+          "src": "/safer-communities-united/assets/demo/documents/facts-livable-communities-cover.png",
+          "nativeWidth": 198,
+          "nativeHeight": 101,
+          "cssWidth": 160,
+          "cssHeight": 81.609375,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-response",
+          "src": "/safer-communities-united/assets/demo/documents/facts-public-record-response.png",
+          "nativeWidth": 198,
+          "nativeHeight": 90,
+          "cssWidth": 160,
+          "cssHeight": 72.71875,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-04",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-04.png",
+          "nativeWidth": 197,
+          "nativeHeight": 84,
+          "cssWidth": 160,
+          "cssHeight": 68.21875,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-05",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-05.png",
+          "nativeWidth": 197,
+          "nativeHeight": 79,
+          "cssWidth": 160,
+          "cssHeight": 64.15625,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-map",
+          "src": "/safer-communities-united/assets/demo/visuals/facts-septic-classification-thumbnail.png",
+          "nativeWidth": 198,
+          "nativeHeight": 57,
+          "cssWidth": 160,
+          "cssHeight": 46.046875,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-07",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-07.png",
+          "nativeWidth": 286,
+          "nativeHeight": 37,
+          "cssWidth": 256,
+          "cssHeight": 33.109375,
+          "filter": "none",
+          "objectFit": "fill"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "dpr": 2,
+      "images": [
+        {
+          "id": "P070-01",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-01.png",
+          "nativeWidth": 446,
+          "nativeHeight": 237,
+          "cssWidth": 331.84375,
+          "cssHeight": 176.328125,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-02",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-02.png",
+          "nativeWidth": 354,
+          "nativeHeight": 171,
+          "cssWidth": 314,
+          "cssHeight": 151.671875,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-03",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-03.png",
+          "nativeWidth": 346,
+          "nativeHeight": 171,
+          "cssWidth": 314,
+          "cssHeight": 155.171875,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P070-04",
+          "src": "/safer-communities-united/assets/demo/evidence/p070-04.png",
+          "nativeWidth": 350,
+          "nativeHeight": 171,
+          "cssWidth": 314,
+          "cssHeight": 153.40625,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F01-documents",
+          "src": "/safer-communities-united/assets/demo/documents/facts-planning-covers.png",
+          "nativeWidth": 355,
+          "nativeHeight": 173,
+          "cssWidth": 314,
+          "cssHeight": 153.015625,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-01",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-01.png",
+          "nativeWidth": 376,
+          "nativeHeight": 160,
+          "cssWidth": 331.84375,
+          "cssHeight": 141.203125,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-cover",
+          "src": "/safer-communities-united/assets/demo/documents/facts-livable-communities-cover.png",
+          "nativeWidth": 198,
+          "nativeHeight": 101,
+          "cssWidth": 198,
+          "cssHeight": 101,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-response",
+          "src": "/safer-communities-united/assets/demo/documents/facts-public-record-response.png",
+          "nativeWidth": 198,
+          "nativeHeight": 90,
+          "cssWidth": 198,
+          "cssHeight": 90,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-04",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-04.png",
+          "nativeWidth": 197,
+          "nativeHeight": 84,
+          "cssWidth": 197,
+          "cssHeight": 84,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-05",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-05.png",
+          "nativeWidth": 197,
+          "nativeHeight": 79,
+          "cssWidth": 197,
+          "cssHeight": 79,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "F02-map",
+          "src": "/safer-communities-united/assets/demo/visuals/facts-septic-classification-thumbnail.png",
+          "nativeWidth": 198,
+          "nativeHeight": 57,
+          "cssWidth": 198,
+          "cssHeight": 57,
+          "filter": "none",
+          "objectFit": "fill"
+        },
+        {
+          "id": "P072-07",
+          "src": "/safer-communities-united/assets/demo/evidence/p072-07.png",
+          "nativeWidth": 286,
+          "nativeHeight": 37,
+          "cssWidth": 256,
+          "cssHeight": 33.109375,
+          "filter": "none",
+          "objectFit": "fill"
+        }
+      ]
+    }
+  ],
+  "servedHashes": [
+    {
+      "id": "bp-p008-01-official-boundary-map",
+      "sha256": "385ee9bcc364f7e51643d74417d5df93df0de8f9cbfb69ea8f50c998bd0653eb"
+    },
+    {
+      "id": "bp-p009-01-land-parcels-conservation-map",
+      "sha256": "07f897fdab75e2db857f7f93707508ebb0f305854f24171b29ebb76d63a2d3dc"
+    },
+    {
+      "id": "bp-p011-01-roads-traffic-map",
+      "sha256": "5fd2a1bb8bc9c62ec0b34815aaaef2b4e7c710c052b5ffb61ac4bf86847b8fe6"
+    },
+    {
+      "id": "P070-01",
+      "sha256": "fed0a8743e6e53c62338956ed975815330237acb2dab6b4209876880a6365cb0"
+    },
+    {
+      "id": "P070-02",
+      "sha256": "0142eadb2e57302a6fe5470570661d006a52e86b5915cf5c28eb1fb302bdcb7e"
+    },
+    {
+      "id": "P070-03",
+      "sha256": "ac82f48c1007564a1ba46d2046bc043aece26b1a73905ddd04f62c2cabf970a8"
+    },
+    {
+      "id": "P070-04",
+      "sha256": "624ec272c87e7f16bce870b74e589f80a498886947edc78298faaef5f73dcb87"
+    },
+    {
+      "id": "P072-01",
+      "sha256": "a6fcf72a213edb97617056fa87754a371dfc7c1b29ca92cddf6964de669b459b"
+    },
+    {
+      "id": "P072-04",
+      "sha256": "16f42095fa4b458ddee2e683502a0053832728d7aca25da9620932eb416428c2"
+    },
+    {
+      "id": "P072-05",
+      "sha256": "80f1b2a35c698a2f2c1442b7dd24992587e88e6a5291a9b28249633deda62099"
+    },
+    {
+      "id": "P072-07",
+      "sha256": "9568c49ae8b4911951dd6ba562a5ee9bfe12738d7bed8a656f2f99e21ae6b553"
+    },
+    {
+      "id": "F02-map",
+      "sha256": "70524a6cbd2477cabfddbfc3d3d47aa796528882d2d8327ae6d3aea7309975f3"
+    },
+    {
+      "id": "F01-documents",
+      "sha256": "c292a287a0cf513edbf833afcdb3997468829bacf574d4430b1082b1a7a5cf20"
+    },
+    {
+      "id": "F02-cover",
+      "sha256": "a88a97656d00e9691816c3b7b78abdda34b3ddb85b95d42a56595090c277b7f8"
+    },
+    {
+      "id": "F02-response",
+      "sha256": "7b15c3e1623df2c170af3ee178b2df8ac7d7f83cccd0fb45f0f7f5becffc2fff"
+    }
+  ],
+  "errors": [],
+  "httpErrors": [],
+  "writes": [],
+  "external": [],
+  "benignNavigationCancellations": 171,
+  "commands": {
+    "typecheck": "passed",
+    "rootBuild": "passed",
+    "pagesBasePathBuild": "passed",
+    "staticExportRoutes": 9
+  },
+  "devValidation": {
+    "base": "http://127.0.0.1:3000",
+    "status": "passed",
+    "checks": {
+      "copyLeaves": 81,
+      "pdfLeaves": 58,
+      "artworkLeaves": 23,
+      "anchors": 4,
+      "sourceLinks": 23,
+      "uniqueSourceURLs": 21,
+      "previewDialogs": 4,
+      "ctaDestinations": 3,
+      "retainedPreviews": 3
+    },
+    "cases": [
+      {
+        "width": 320,
+        "dpr": 1,
+        "status": "passed"
+      },
+      {
+        "width": 390,
+        "dpr": 1,
+        "status": "passed"
+      },
+      {
+        "width": 560,
+        "dpr": 1,
+        "status": "passed"
+      },
+      {
+        "width": 768,
+        "dpr": 1,
+        "status": "passed"
+      },
+      {
+        "width": 1000,
+        "dpr": 1,
+        "status": "passed"
+      },
+      {
+        "width": 1152,
+        "dpr": 1,
+        "status": "passed"
+      },
+      {
+        "width": 1440,
+        "dpr": 1,
+        "status": "passed"
+      },
+      {
+        "width": 320,
+        "dpr": 2,
+        "status": "passed"
+      },
+      {
+        "width": 390,
+        "dpr": 2,
+        "status": "passed"
+      },
+      {
+        "width": 560,
+        "dpr": 2,
+        "status": "passed"
+      },
+      {
+        "width": 768,
+        "dpr": 2,
+        "status": "passed"
+      },
+      {
+        "width": 1000,
+        "dpr": 2,
+        "status": "passed"
+      },
+      {
+        "width": 1152,
+        "dpr": 2,
+        "status": "passed"
+      },
+      {
+        "width": 1440,
+        "dpr": 2,
+        "status": "passed"
+      }
+    ],
+    "servedHashes": [
+      {
+        "id": "bp-p008-01-official-boundary-map",
+        "sha256": "385ee9bcc364f7e51643d74417d5df93df0de8f9cbfb69ea8f50c998bd0653eb"
+      },
+      {
+        "id": "bp-p009-01-land-parcels-conservation-map",
+        "sha256": "07f897fdab75e2db857f7f93707508ebb0f305854f24171b29ebb76d63a2d3dc"
+      },
+      {
+        "id": "bp-p011-01-roads-traffic-map",
+        "sha256": "5fd2a1bb8bc9c62ec0b34815aaaef2b4e7c710c052b5ffb61ac4bf86847b8fe6"
+      },
+      {
+        "id": "P070-01",
+        "sha256": "fed0a8743e6e53c62338956ed975815330237acb2dab6b4209876880a6365cb0"
+      },
+      {
+        "id": "P070-02",
+        "sha256": "0142eadb2e57302a6fe5470570661d006a52e86b5915cf5c28eb1fb302bdcb7e"
+      },
+      {
+        "id": "P070-03",
+        "sha256": "ac82f48c1007564a1ba46d2046bc043aece26b1a73905ddd04f62c2cabf970a8"
+      },
+      {
+        "id": "P070-04",
+        "sha256": "624ec272c87e7f16bce870b74e589f80a498886947edc78298faaef5f73dcb87"
+      },
+      {
+        "id": "P072-01",
+        "sha256": "a6fcf72a213edb97617056fa87754a371dfc7c1b29ca92cddf6964de669b459b"
+      },
+      {
+        "id": "P072-04",
+        "sha256": "16f42095fa4b458ddee2e683502a0053832728d7aca25da9620932eb416428c2"
+      },
+      {
+        "id": "P072-05",
+        "sha256": "80f1b2a35c698a2f2c1442b7dd24992587e88e6a5291a9b28249633deda62099"
+      },
+      {
+        "id": "P072-07",
+        "sha256": "9568c49ae8b4911951dd6ba562a5ee9bfe12738d7bed8a656f2f99e21ae6b553"
+      },
+      {
+        "id": "F02-map",
+        "sha256": "70524a6cbd2477cabfddbfc3d3d47aa796528882d2d8327ae6d3aea7309975f3"
+      },
+      {
+        "id": "F01-documents",
+        "sha256": "c292a287a0cf513edbf833afcdb3997468829bacf574d4430b1082b1a7a5cf20"
+      },
+      {
+        "id": "F02-cover",
+        "sha256": "a88a97656d00e9691816c3b7b78abdda34b3ddb85b95d42a56595090c277b7f8"
+      },
+      {
+        "id": "F02-response",
+        "sha256": "7b15c3e1623df2c170af3ee178b2df8ac7d7f83cccd0fb45f0f7f5becffc2fff"
+      }
+    ],
+    "errors": [],
+    "httpErrors": []
+  },
+  "finalExportHtmlSha256": "3eee18ba5e35195ac4ff88a3512344336725b98f1dc12f486790499d25962bb5",
+  "limitations": [
+    "Library record metadata and purposes transcribed from artwork are unverified; two supplied originals do not authenticate thumbnails/claims.",
+    "Three water originals/datasets and verified full inventory missing; labelled previews.",
+    "Search/filter/sort/pagination are future scope; no verified 124-result count.",
+    "12/12 images at 390 and 1440 lack DPR 2 pixel budget; native pixels preserved; no optical-sharpness certification.",
+    "Partial backgrounds/CTA strip only; no hidden scene recovery."
+  ]
+}
