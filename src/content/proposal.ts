@@ -1,0 +1,66 @@
+// Approved current copy: blueprint PDF 62, 64–68. Labels/CTAs also occur
+// in the selected artwork (PDF 63/65/67/68); see PROPOSAL_ARTWORK_TRANSCRIPT.
+// No separate approved Proposal introduction or full policy-by-policy documents.
+export const proposal = {
+  roads: {
+    eyebrow: "COMPARISON 01",
+    label: "ROADS & SAFETY",
+    title: "SHOULD THE LOOK OF A ROAD MATTER MORE THAN THE SAFETY OF THE PEOPLE USING IT?",
+    intro: "We can value rural character and still question the restrictions that shape our roads.",
+    rows: [
+      { label: "ROAD DESIGN", communityTitle: "WHY LIMIT THE OPTIONS BEFORE ASSESSING THE NEED?", community: "The Community Plan prioritizes rural, two-lane road character and limits certain changes.", countyTitle: "ASSESS SAFETY, MOBILITY AND LOCAL CONDITIONS.", county: "Countywide policies address road-user needs and context-sensitive design." },
+      { label: "GUNN HIGHWAY", communityTitle: "SHOULD A ROAD RESTRICTION BE BEYOND QUESTION?", community: "Gunn Highway is subject to expansion restrictions.", countyTitle: "REASSESS THE RESTRICTIONS.", county: "County policy calls for reevaluating constrained roads before each long-range transportation plan update." },
+      { label: "LIGHTING", communityTitle: "DOES SOMEONE HAVE TO GET HURT FIRST?", community: "The Community Plan discourages street lighting and allows it when public safety is at risk.", countyTitle: "LIGHTING CAN RESPECT ITS SURROUNDINGS.", county: "County policies address context-sensitive lighting and intersection visibility." },
+      { label: "WALKING AND CROSSINGS", communityTitle: "WHY SHOULD RURAL CHARACTER LIMIT THE DISCUSSION?", community: "The Community Plan permits specified improvements and supports trails while retaining rural road character.", countyTitle: "MAKE PEOPLE’S NEEDS CENTRAL TO THE ASSESSMENT.", county: "County policies address crossing visibility, walking, cycling and safe routes to schools." },
+    ],
+    result: "PROTECT THE CHARACTER OF THE AREA. QUESTION THE RULES THAT GOVERN ITS ROADS.",
+    caveat: "Countywide policies already apply. Retiring the Community Plan and changing related restrictions would not automatically approve or fund road projects.",
+    cta: "View the Full Roads Comparison →",
+    sourceIds: ["SRC-10", "SRC-16", "SRC-13", "SRC-11", "SRC-14"],
+  },
+  water: {
+    eyebrow: "COMPARISON 02",
+    label: "WATER & WASTEWATER",
+    title: "From Infrastructure Limits to More Response Tools",
+    communityIntro: "Emphasizes water protection but has more limited infrastructure response options.",
+    countyIntro: "Provides a broader planning framework and more specific response tools.",
+    rows: [
+      { community: "Makes protection of water resources a priority, but does not contain the same requirement to consider soil conditions and permeability.", county: "Requires development decisions to consider physical land and soil conditions, including permeability." },
+      { community: "Does not contain a comparable policy for aging or failing septic systems.", county: "Provides a pathway to respond when septic creates a documented environmental problem." },
+      { community: "Does not create a specific septic/wastewater response for wellhead or wellfield protection areas.", county: "Allows centralized service in certain Wellhead Resource Protection Areas and Tampa Bay Water Wellfield Mitigation Areas when conditions are met." },
+      { community: "Calls for stormwater management plans, but does not set the same technical standard for cumulative flooding and water quality.", county: "Requires stormwater technical standards to address cumulative impacts on flooding and water quality." },
+    ],
+    limitTitle: "KEYSTONE–ODESSA LIMIT",
+    limit: "One Water Policy 4.3.7 excludes properties within the Keystone–Odessa Community Plan boundary from the wellhead/wellfield pathway described above.",
+    result: "The County framework provides more specific tools to respond to current water, septic, groundwater, and stormwater conditions.",
+    cta: "View the Full Water Comparison →",
+    sourceIds: ["SRC-10", "SRC-16", "SRC-18"],
+  },
+  growth: {
+    eyebrow: "COMPARISON 03",
+    label: "GROWTH & HOUSING",
+    title: "Two Ways of Managing Growth and Housing",
+    rows: [
+      { community: "Uses approximately one dwelling unit per five acres in the relevant areas.", county: "Uses mapped land-use categories that establish maximum densities and intensities." },
+      { community: "Favors a low-density, scattered residential pattern.", county: "Rural density limits still apply, including the general one dwelling per five gross acres policy, with specified exceptions." },
+      { community: "Its residential provisions do not directly address housing affordability.", county: "Has housing goals and policies related to housing choice and affordability." },
+      { community: "The residential policies focus strongly on maintaining the area’s rural development pattern.", county: "Supports tools including infill, small lots, accessory homes, and different housing types, with adequate infrastructure." },
+    ],
+    result: "The County framework still protects rural-area density while also providing explicit policies for housing choice and affordability.",
+    cta: "View the Full Growth & Housing Comparison →",
+    sourceIds: ["SRC-10", "SRC-16"],
+  },
+  remains: {
+    label: "IF THE COMMUNITY PLAN IS REMOVED, WHAT REMAINS?",
+    title: "Keystone–Odessa will still be planned and managed.",
+    removeTitle: "KEYSTONE–ODESSA COMMUNITY PLAN",
+    removeText: "Area-specific policy layer",
+    county: "HILLSBOROUGH COUNTY COMPREHENSIVE PLAN",
+    protections: ["LAND DEVELOPMENT CODE", "FUTURE LAND USE POLICIES", "MOBILITY & SAFETY POLICIES", "WATER & ENVIRONMENTAL POLICIES", "ZONING & DEVELOPMENT STANDARDS", "APPLICABLE HEALTH / ENGINEERING / ENVIRONMENTAL STANDARDS"],
+    message: "The proposed change is a change to the policy layer that applies to Keystone–Odessa. The Countywide planning framework continues to apply.",
+    campaignTitle: "RETIRE THE EXTRA PLAN. KEEP THE PROTECTIONS.",
+    campaign: "Ask the County to retire the separate Community Plan, reconsider related restrictions and retain enforceable safeguards through the amendment process.",
+    sourceNote: "Source: Livable Communities Element. Livable Communities compilation dated June 26, 2026. Effective dates: p. 3. County framework relationship: pp. 4–5. Keystone–Odessa: pp. 17–27. Transportation and lighting: p. 24.",
+    countyCta: "Learn More About the County Framework",
+  },
+} as const;

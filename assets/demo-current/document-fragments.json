@@ -302,6 +302,33 @@
       "immutable": true,
       "label": "Illustrative document preview",
       "verified_official_document": false
+    },
+    {
+      "id": "C04-cover",
+      "path": "assets/demo-current/documents/comparison-retired-plan-cover.png",
+      "parent_path": "assets/blueprint/ui-references/comparison/bp-p068-01-what-remains.png",
+      "parent_sha256": "49d25defc2d918398aa1fc9116e1a1f61e6b939ca1d119dabd26e8e550b6a792",
+      "crop_box_xyxy": [
+        94,
+        414,
+        411,
+        744
+      ],
+      "width": 317,
+      "height": 330,
+      "source_pdf_pages": [
+        68
+      ],
+      "section_ids": [
+        "C-04"
+      ],
+      "sha256": "9800bb5a070eea5320dc0cbb297abb8dbc0b8f46dd194a2ad7f98d4e3742898b",
+      "operations": [
+        "source pixel crop",
+        "lossless PNG encoding"
+      ],
+      "immutable": true,
+      "verified_official_document": false
     }
   ]
 }

@@ -17,6 +17,8 @@ Theo chỉ dẫn mới nhất: “oke, tôi sẽ thay sau nhưng hiện tại b�
 
 ## Phạm vi “y chang”
 
+Lượt 8 bổ sung năm visual fragments và một illustrative cover từ PDF 63/65/67/68, có crop box/parent hash/pixel equality/own hash. Giữ đúng map thumbnail và bốn banner illustrations; không phục hồi background bị che. 13 photo crops cũ giữ nguyên file. Tổng sau lượt 8: 28 visual regions và 12 document/cover fragments, ngoài 79 photo crops ban đầu. [Báo cáo và giới hạn](../../docs/CODING_ROUND_08.md).
+
 Lượt 7 thêm ba document/cover fragments và một map thumbnail từ PDF 70/72, có parent/crop-box/pixel equality/hashes trong hai manifests. Tám photo crops cũ dùng nguyên file; partial backgrounds/CTA strip không được phục hồi hoặc upscale. Tổng dẫn xuất sau lượt 7: 23 visual regions, 11 document/cover fragments, ngoài 79 photo crops ban đầu. [Báo cáo và giới hạn](../../docs/CODING_ROUND_07.md).
 
 Lượt 6 bổ sung bảy visual regions và một cover fragment của Growth vào hai manifests hiện có. Then/Today giữ legends và graphic annotations, không phải verified historical GIS; density giữ selected rural lanes/tree cover; services giữ toàn legend màu/scale. Evidence map/cover thumbnails có nhãn minh họa. 11 photo crops cũ dùng nguyên file; không khôi phục cảnh bị che. [Báo cáo](../../docs/CODING_ROUND_06.md). Tổng sau lượt 6: 22 visual regions và tám document/cover fragments, ngoài 79 photo crops ban đầu.

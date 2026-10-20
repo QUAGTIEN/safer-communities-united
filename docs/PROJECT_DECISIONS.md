@@ -1,5 +1,14 @@
 # Quyết định hiện hành của dự án
 
+## Coding lượt 8 — The Proposal & Comparison
+
+> hãy bắt đầu lượt code thứ 8 nhé.
+
+Người dùng yêu cầu bắt đầu sau phần xác nhận phạm vi lượt 8. Đã triển khai `/the-proposal`: P-01 intro preview do thiếu approved copy/layout; C-01 Roads, C-02 Water, C-03 Growth & Housing đúng Screenshot 110 và C-04 What Remains theo PDF 61–68. Comparison dùng anchors, không thêm route/menu cấp cao. [Báo cáo](CODING_ROUND_08.md), [kiểm tra](coding-round-08-checks.json). Lượt 9 — Take Action chưa tự bắt đầu; Take Action/About còn preview.
+
+Giữ nguyên current English copy, no automatic road approval/funding caveat, One Water 4.3.7 exclusion, rural density/adequate-infrastructure conditions và campaign passage dưới diagram. Full comparison documents thiếu dùng ba preview dialogs; policy interpretations/source dates chưa xác minh có nhãn. Dùng 13 photo crops cũ, năm visual fragments và một illustrative cover mới với pixel equality/provenance/hashes. Original PDF/archive/maps bất biến; ảnh DPR 2 còn giới hạn. Cập nhật static demo GitHub Pages theo quyền đã có; không data collection hoặc chỉnh Vercel.
+
+
 ## Coding lượt 7 — The Facts đã hoàn thành trong phạm vi demo
 
 > oke, hãy bắt đầu code nhé

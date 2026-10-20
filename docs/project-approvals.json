@@ -21,7 +21,7 @@
     "provenance_of_screenshot_photos": "unverified-not-proven-ai",
     "current_demo_photos": "use-exact-visible-screenshot-pixel-crops; preserve-existing-overlays; no-hidden-content-recovery"
   },
-  "current_authorized_task": "complete-coding-round-7-The-Facts-and-update-authorized-GitHub-Pages-demo",
+  "current_authorized_task": "complete-coding-round-8-The-Proposal-and-Comparison-and-update-authorized-GitHub-Pages-demo",
   "current_task_downloads_or_replacements_performed": false,
   "website_implementation_authorized": true,
   "public_launch_or_data_collection_authorized": false,
@@ -55,7 +55,8 @@
     "roads_display_review": "docs/coding-round-04-checks.json; DPR 2 limitations remain",
     "water_display_review": "docs/coding-round-05-checks.json; DPR 2 limitations remain",
     "growth_display_review": "docs/coding-round-06-checks.json; DPR 2 limitations remain",
-    "facts_display_review": "docs/coding-round-07-checks.json; DPR 2 limitations remain"
+    "facts_display_review": "docs/coding-round-07-checks.json; DPR 2 limitations remain",
+    "proposal_display_review": "docs/coding-round-08-checks.json; DPR 2 limitations remain"
   },
   "review_phase": {
     "status": "complete-by-user",
@@ -65,7 +66,7 @@
     "coding_plan": "docs/CODING_PLAN.md",
     "coding_round_count": 11
   },
-  "website_implementation_authorized_scope": "rounds 1–7 plus shared navigation/footer and public static Pages demo; round 8 not started",
+  "website_implementation_authorized_scope": "rounds 1–8 plus shared navigation/footer and public static Pages demo; round 9 not started",
   "coding_round_01": {
     "user_message_verbatim": "oke, hãy bắt đầu lượt code đầu tiên.",
     "status": "complete",
@@ -242,6 +243,30 @@
     "new_screenshot_fragments": {
       "documents": 3,
       "visuals": 1,
+      "pixel_preserving": true
+    }
+  },
+  "coding_round_08": {
+    "date_local": "2026-10-21",
+    "user_message_verbatim": "hãy bắt đầu lượt code thứ 8 nhé.",
+    "status": "complete-with-disclosed-demo-source-and-image-limitations",
+    "page": "/the-proposal",
+    "report": "docs/CODING_ROUND_08.md",
+    "checks": "docs/coding-round-08-checks.json",
+    "sections": [
+      "P-01",
+      "C-01",
+      "C-02",
+      "C-03",
+      "C-04"
+    ],
+    "other_routes": "Home/Issues/Roads/Water/Growth/Facts retained; Take Action/About remain labelled previews",
+    "next_round": 9,
+    "next_round_automatically_started": false,
+    "missing_sources": "Approved Proposal introduction copy/selected layout; full policy-by-policy comparison documents; independent verification of policy interpretations and dates; larger source images.",
+    "new_screenshot_fragments": {
+      "visuals": 5,
+      "documents": 1,
       "pixel_preserving": true
     }
   }

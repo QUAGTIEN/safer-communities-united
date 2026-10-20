@@ -1,5 +1,9 @@
 # Kiểm tra chất lượng ảnh demo
 
+## Cập nhật The Proposal & Comparison — lượt 8
+
+Đo 19 hình trên bảy chiều rộng × DPR 1/2. Không phóng vượt native pixels tại DPR 1; ở 1440 px có 19/19 hình thiếu ngân sách DPR 2, ở 390 px có 17/19 hình thiếu. Đây không phải chứng nhận optical sharpness. Partial heading landscapes chỉ giữ phần nhìn thấy; không dựng lại nền bị che. Map thumbnail/cover có nhãn minh họa; original maps/PDF/archive bất biến. [Báo cáo](CODING_ROUND_08.md), [số đo](coding-round-08-checks.json).
+
 ## Cập nhật sau khi dựng The Facts — lượt 7
 
 Đã đo 12 hình trên dev và Pages static export ở bảy chiều rộng × DPR 1/2; không phóng vượt native dimensions ở DPR 1. Tại cả 1440 và 390 px, 12/12 hình thiếu ngân sách pixel DPR 2. Đây không phải chứng nhận optical sharpness; nguồn ảnh lớn hơn vẫn cần về sau.

@@ -2,7 +2,7 @@
 
 ## Trạng thái và tài liệu nguồn
 
-**Lượt 1–7 — Foundation, Home, Issues, Roads, Water, Growth và The Facts đã hoàn thành trong phạm vi demo.** Xem [lượt 7 và giới hạn](CODING_ROUND_07.md); báo cáo các lượt trước vẫn giữ. Ba route còn preview; lượt 8 chưa bắt đầu. Chỉ cập nhật static demo GitHub Pages theo yêu cầu đã có, không backend/data collection.
+**Lượt 1–8 đã hoàn thành trong phạm vi demo.** Xem [lượt 8 và giới hạn](CODING_ROUND_08.md); báo cáo các lượt trước vẫn giữ. The Proposal có intro preview và bốn Comparison sections. Take Action/About còn preview; lượt 9 chưa bắt đầu. Chỉ cập nhật static demo GitHub Pages theo yêu cầu đã có, không backend/data collection.
 
 Người dùng đã xác nhận kết thúc kiểm duyệt; [kế hoạch 11 lượt coding](CODING_PLAN.md) là thứ tự thực hiện hiện hành. Các trạng thái “chờ duyệt” trong phần ghi lịch sử lập hồ sơ dưới đây mô tả thời điểm tạo tài liệu, không mở lại phần đã duyệt. Dùng ảnh tạm theo quyết định mới nhất; tìm ảnh thay để sau, chất lượng vẫn phải kiểm tra khi render.
 

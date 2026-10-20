@@ -6,6 +6,8 @@
 
 ## Kết quả
 
+Lượt coding 8 dùng 13 photo crops cũ và sáu exact-pixel fragments mới: bốn banner illustrations, map thumbnail Screenshot 110 và illustrative crossed cover What Remains. [Báo cáo Proposal](../docs/CODING_ROUND_08.md); không vẽ lại minh họa, sửa bản đồ hoặc xác thực artwork thành official records.
+
 Lượt coding 7 dùng tám photo crops cũ và bốn exact-pixel fragments mới (ba illustrative document/cover, một map thumbnail), giữ provenance/hashes. [Báo cáo The Facts](../docs/CODING_ROUND_07.md). Các thumbnails không phải authenticated records/GIS; original archive/PDF/ba maps giữ nguyên.
 
 Lượt coding 6 dùng 11 photo crops hiện có và tám fragments mới (bảy visual regions, một illustrative cover), có exact-pixel provenance/hashes. [Báo cáo Growth](../docs/CODING_ROUND_06.md) giữ rõ sample counts, conceptual density, schematic service locations/drive times và missing timeline/evidence. Services asset giữ đầy đủ legend màu/north arrow/scale. Không sửa archive/PDF/ba map gốc.

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "purpose": "Preserved visible technical/landscape regions from selected Issues/Roads/Water/Growth/Facts screenshots; illustrations, not verified GIS datasets; chart and historic inputs unverified.",
+  "purpose": "Preserved visible technical/landscape regions from selected Issues/Roads/Water/Growth/Facts/Comparison screenshots; illustrations, not verified GIS datasets; chart and historic inputs unverified.",
   "visuals": [
     {
       "id": "I03-map",
@@ -623,6 +623,141 @@
         "F-02"
       ],
       "sha256": "70524a6cbd2477cabfddbfc3d3d47aa796528882d2d8327ae6d3aea7309975f3",
+      "operations": [
+        "source pixel crop",
+        "lossless PNG encoding"
+      ],
+      "immutable": true,
+      "verified_geographic_data": false
+    },
+    {
+      "id": "C01-banner",
+      "path": "assets/demo-current/visuals/comparison-roads-banner.png",
+      "parent_path": "assets/blueprint/ui-references/comparison/bp-p063-01-roads.png",
+      "parent_sha256": "29399f16281891b4d0347084adcb66c765f0bd4abec3ffaf27d13112aa67186d",
+      "crop_box_xyxy": [
+        40,
+        1182,
+        291,
+        1266
+      ],
+      "width": 251,
+      "height": 84,
+      "source_pdf_pages": [
+        63
+      ],
+      "section_ids": [
+        "C-01"
+      ],
+      "sha256": "fd08f36f4b614710cd53c4115112306faf2c1ebad1ee90fc8364fa708917d9cd",
+      "operations": [
+        "source pixel crop",
+        "lossless PNG encoding"
+      ],
+      "immutable": true,
+      "verified_geographic_data": false
+    },
+    {
+      "id": "C02-banner",
+      "path": "assets/demo-current/visuals/comparison-water-banner.png",
+      "parent_path": "assets/blueprint/ui-references/comparison/bp-p065-01-water.png",
+      "parent_sha256": "e7f54587ad27de98d5cd3e52c71add710357ae81b3a4efa0baaf3f9b47f4d709",
+      "crop_box_xyxy": [
+        45,
+        815,
+        281,
+        900
+      ],
+      "width": 236,
+      "height": 85,
+      "source_pdf_pages": [
+        65
+      ],
+      "section_ids": [
+        "C-02"
+      ],
+      "sha256": "fb21f19440a3b6fb7ea0da1dc2546baaafad3c493ef341e410c2a2db61b4a304",
+      "operations": [
+        "source pixel crop",
+        "lossless PNG encoding"
+      ],
+      "immutable": true,
+      "verified_geographic_data": false
+    },
+    {
+      "id": "C03-map",
+      "path": "assets/demo-current/visuals/comparison-growth-map.png",
+      "parent_path": "assets/blueprint/ui-references/comparison/bp-p067-01-growth-housing-screenshot-110.png",
+      "parent_sha256": "8653bd648aaa0b6b314d556295113c4fe688e67f553201a9f40f2686c17c4865",
+      "crop_box_xyxy": [
+        803,
+        369,
+        993,
+        453
+      ],
+      "width": 190,
+      "height": 84,
+      "source_pdf_pages": [
+        67
+      ],
+      "section_ids": [
+        "C-03"
+      ],
+      "sha256": "e1a88da51f66b852bcaed63eb850460e075891154d51998d62d954026fad88b5",
+      "operations": [
+        "source pixel crop",
+        "lossless PNG encoding"
+      ],
+      "immutable": true,
+      "verified_geographic_data": false
+    },
+    {
+      "id": "C03-banner",
+      "path": "assets/demo-current/visuals/comparison-growth-banner.png",
+      "parent_path": "assets/blueprint/ui-references/comparison/bp-p067-01-growth-housing-screenshot-110.png",
+      "parent_sha256": "8653bd648aaa0b6b314d556295113c4fe688e67f553201a9f40f2686c17c4865",
+      "crop_box_xyxy": [
+        40,
+        798,
+        275,
+        879
+      ],
+      "width": 235,
+      "height": 81,
+      "source_pdf_pages": [
+        67
+      ],
+      "section_ids": [
+        "C-03"
+      ],
+      "sha256": "64685e0d32b30e3d508e87b486c4083bad49d07a62fba58cdf0fed2cc71df976",
+      "operations": [
+        "source pixel crop",
+        "lossless PNG encoding"
+      ],
+      "immutable": true,
+      "verified_geographic_data": false
+    },
+    {
+      "id": "C04-banner",
+      "path": "assets/demo-current/visuals/comparison-remains-banner.png",
+      "parent_path": "assets/blueprint/ui-references/comparison/bp-p068-01-what-remains.png",
+      "parent_sha256": "49d25defc2d918398aa1fc9116e1a1f61e6b939ca1d119dabd26e8e550b6a792",
+      "crop_box_xyxy": [
+        39,
+        782,
+        279,
+        858
+      ],
+      "width": 240,
+      "height": 76,
+      "source_pdf_pages": [
+        68
+      ],
+      "section_ids": [
+        "C-04"
+      ],
+      "sha256": "8205963cc206434da9c5d4c8d280579678635f819c6857ff2fbabfa4fefdf001",
       "operations": [
         "source pixel crop",
         "lossless PNG encoding"

@@ -27,3 +27,5 @@ Theo dõi build/deploy tại https://github.com/QUAGTIEN/safer-communities-unite
 QA scripts/screenshots ở `tmp/github-pages-qa/`; [kết quả local](github-pages-checks.json). Kết quả workflow và HTTP thực tế trên link công khai được kiểm tra khi xuất bản, không suy từ build local.
 
 The Facts được bổ sung ở lượt 7; [báo cáo và kiểm tra](CODING_ROUND_07.md) ghi phạm vi mới và giới hạn.
+
+The Proposal & Comparison được bổ sung ở lượt 8; [báo cáo và kiểm tra](CODING_ROUND_08.md) ghi P-01/C-01…C-04, hai route previews còn lại và các giới hạn nguồn/ảnh.

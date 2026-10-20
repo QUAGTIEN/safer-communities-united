@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { FoundationPage } from "@/components/demo/foundation-page";
+import { ProposalPageContent } from "@/components/proposal/proposal-page";
+import "./proposal.css";
 
 export const metadata: Metadata = { title: "The Proposal" };
-export default function ProposalPage() { return <FoundationPage path="/the-proposal" />; }
+export default function ProposalPage() { return <ProposalPageContent />; }
