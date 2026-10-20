@@ -1,0 +1,150 @@
+.water-page { background: var(--cream); }
+.water-hero { padding-top: 2rem; }
+.water-breadcrumb { display: flex; align-items: center; gap: 0.5rem; font-size: 0.8125rem; line-height: 1.6; }
+.water-breadcrumb a { text-decoration: underline; text-underline-offset: 0.2rem; }
+.water-hero-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 2rem; align-items: center; margin-top: 2rem; }
+.water-hero h1 { margin-top: 0.75rem; font-size: clamp(2.25rem, 4vw, 3.875rem); line-height: 1.12; letter-spacing: -0.035em; font-weight: 700; }
+.water-lead { max-width: 78rem; margin-top: 1rem; font-size: 1rem; line-height: 1.75; }
+.water-hero .water-cta, .water-next-grid .water-cta { margin-top: 1.75rem; }
+.water-image { display: block; width: 100%; height: auto; margin-inline: auto; }
+.water-caption { margin-top: 0.5rem; font-size: 0.75rem; line-height: 1.6; text-align: center; }
+.water-hero-connections { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+.water-hero-connections li { display: flex; align-items: center; gap: 1.25rem; min-width: 0; }
+.water-hero-connections .water-image { width: 6rem; flex-shrink: 0; }
+.water-hero-connections h2 { font-family: var(--font-inter), sans-serif; font-size: 0.875rem; font-weight: 700; line-height: 1.5; }
+.water-hero-connections p { margin-top: 0.5rem; font-size: 0.8125rem; line-height: 1.7; }
+.water-statement { margin-top: 1.75rem; padding: 1.25rem 1.5rem; border-left: 3px solid var(--teal); background: var(--white); font-family: var(--font-source-serif), Georgia, serif; font-size: clamp(1.25rem, 2vw, 1.875rem); font-weight: 650; line-height: 1.5; }
+.water-topic-nav { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 0.75rem; margin-top: 1.75rem; }
+.water-topic-nav a { display: flex; align-items: center; gap: 0.625rem; min-height: 4rem; padding: 0.75rem; border: 1px solid var(--gray); background: var(--white); border-radius: var(--radius); font-size: 0.75rem; font-weight: 600; line-height: 1.5; }
+.water-topic-nav a:hover { border-color: var(--teal); color: var(--teal); }
+.water-topic-nav a > svg:first-child { width: 1.25rem; height: 1.25rem; color: var(--teal); flex-shrink: 0; }
+.water-topic-nav a > span { flex: 1; }
+.water-topic-nav a > svg:last-child { flex-shrink: 0; }
+.water-section { padding-block: 4rem; border-bottom: 1px solid var(--gray); }
+.water-white { background: var(--white); }
+.water-heading { max-width: 47ch; margin-top: 0.75rem; font-size: clamp(2rem, 3.2vw, 3rem); font-weight: 700; line-height: 1.16; letter-spacing: -0.03em; }
+.water-data-grid { display: grid; grid-template-columns: 1fr 1.3fr; gap: 2rem; align-items: start; }
+.water-figure { min-width: 0; }
+.water-figure figcaption { padding: 0.875rem 1rem; background: var(--white); border: 1px solid var(--gray); font-size: 0.8125rem; line-height: 1.7; text-align: center; }
+.water-source-link { display: inline-flex; align-items: center; gap: 0.5rem; min-height: 2.75rem; padding-block: 0.5rem; color: var(--teal); font-size: 0.8125rem; line-height: 1.6; text-decoration: underline; text-underline-offset: 0.2rem; }
+.water-source-link > svg { flex-shrink: 0; }
+.water-source-row { display: flex; align-items: center; flex-wrap: wrap; gap: 0.5rem 1.5rem; margin-top: 1rem; }
+.water-numbers { display: grid; grid-template-columns: 0.8fr 1.2fr; gap: 1.5rem; margin-top: 1.5rem; padding: 1.5rem; border: 1px solid var(--gray); background: var(--white); border-radius: var(--radius); }
+.water-total { display: flex; flex-direction: column; }
+.water-total dd { order: -1; color: var(--navy); font-family: var(--font-source-serif), Georgia, serif; font-size: clamp(2rem, 3.2vw, 3rem); font-weight: 700; line-height: 1.2; }
+.water-total dt { margin-top: 0.5rem; font-size: 0.875rem; line-height: 1.6; }
+.water-groups { display: grid; gap: 0.75rem; }
+.water-groups > div { display: flex; gap: 0.875rem; align-items: baseline; }
+.water-groups dd { order: -1; min-width: 3.5rem; font-family: var(--font-source-serif), Georgia, serif; font-size: 1.375rem; font-weight: 700; color: var(--teal); }
+.water-groups > div:last-child dd { color: var(--coral); }
+.water-groups dt { font-size: 0.8125rem; line-height: 1.6; }
+.water-detail { margin-top: 1rem; font-size: 0.9375rem; line-height: 1.8; }
+.water-scope { margin-top: 1.25rem; padding-left: 1rem; border-left: 2px solid var(--teal); font-size: 0.8125rem; line-height: 1.8; }
+.water-date-range { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-block: 1.5rem 1rem; padding: 0.875rem 1rem; background: var(--cream); font-weight: 600; }
+.water-connected-grid { display: grid; grid-template-columns: 0.8fr 1.2fr; gap: 2rem; align-items: start; }
+.water-connected-grid .water-heading { font-size: clamp(1.875rem, 3vw, 2.75rem); }
+#groundwater { margin-top: 1.75rem; }
+.water-reading { max-width: 74rem; margin-top: 2rem; font-size: 1rem; line-height: 1.8; }
+.water-reading h3 { margin-bottom: 1rem; font-size: clamp(1.5rem, 2.4vw, 2.25rem); font-weight: 700; line-height: 1.3; }
+.water-petition-band { display: flex; justify-content: space-between; align-items: center; gap: 2rem; padding: 1.75rem; margin-top: 1.75rem; background: var(--navy); color: var(--white); }
+.water-petition-band h3 { font-size: 1.5rem; font-weight: 700; line-height: 1.4; }
+.water-petition-band p { max-width: 58rem; margin-top: 0.75rem; font-size: 0.9375rem; line-height: 1.8; }
+.water-options-grid { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 2rem; align-items: start; }
+.water-options-grid > div > .water-image { margin-top: 1.5rem; }
+.water-options-steps { display: grid; gap: 1.5rem; }
+.water-options-steps li { position: relative; padding: 1.5rem; border: 1px solid var(--gray); border-radius: var(--radius); background: var(--cream); }
+.water-step-heading { display: flex; align-items: start; gap: 1rem; }
+.water-step-heading > span { display: grid; flex-shrink: 0; place-items: center; width: 2rem; height: 2rem; border-radius: 50%; background: var(--teal); color: var(--white); font-weight: 700; }
+.water-step-heading h3 { font-family: var(--font-inter), sans-serif; font-size: 0.9375rem; font-weight: 700; line-height: 1.5; }
+.water-options-steps li > p { margin-top: 1rem; font-size: 0.9375rem; line-height: 1.75; }
+.water-step-arrow { display: block; position: absolute; left: calc(50% - 0.75rem); bottom: -1.5rem; height: 1.5rem; color: var(--teal); }
+.water-option-photos { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin-top: 1rem; }
+.water-option-photos .water-image { width: min(100%, 6rem); }
+.water-options-closing { margin-top: 2rem; }
+.water-options-closing h3 { font-size: 1.75rem; font-weight: 700; line-height: 1.4; }
+.water-options-closing > p { margin-top: 1rem; font-size: 0.9375rem; line-height: 1.8; }
+.water-research { padding: 1.5rem; border: 1px solid var(--gray); background: var(--white); font-size: 0.875rem; line-height: 1.8; }
+.water-research > p + p { margin-top: 1rem; }
+.water-source-note { margin-top: 1rem; font-size: 0.8125rem; line-height: 1.8; }
+.water-conflict-panel { margin-top: 2rem; }
+.water-conflict-panel > h2 { padding: 1.75rem; background: var(--navy); color: var(--white); font-size: clamp(2.5rem, 5vw, 4.5rem); line-height: 1.1; font-weight: 700; text-align: center; letter-spacing: -0.025em; }
+.water-conflict-intro { margin-top: 1.5rem; font-family: var(--font-source-serif), Georgia, serif; font-size: clamp(1.5rem, 2.4vw, 2.25rem); line-height: 1.4; font-weight: 650; }
+.water-conflict-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 1.5rem; }
+.water-conflict-cards article { padding: 1.5rem; background: var(--white); border: 1px solid var(--gray); border-top: 3px solid var(--teal); border-radius: var(--radius); }
+.water-conflict-cards article:last-child { border-top-color: var(--coral); }
+.water-conflict-cards h3 { display: flex; align-items: start; gap: 1rem; font-size: 1.75rem; font-weight: 700; line-height: 1.25; }
+.water-conflict-cards h3 > svg { width: 2rem; height: 2rem; flex-shrink: 0; color: var(--teal); }
+.water-conflict-cards article:last-child h3 > svg { color: var(--coral); }
+.water-conflict-cards p { margin-top: 1rem; font-size: 1.0625rem; line-height: 1.75; }
+.water-conflict-closing { margin-top: 1.5rem; padding: 1.5rem; background: var(--navy); color: var(--white); text-align: center; font-family: var(--font-source-serif), Georgia, serif; font-size: clamp(1.75rem, 3vw, 2.75rem); font-weight: 700; line-height: 1.3; }
+.water-comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 1.5rem; }
+.water-comparison-panel { min-width: 0; border: 1px solid var(--gray); border-radius: var(--radius); overflow: hidden; }
+.water-comparison-heading { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 1rem; padding: 1.25rem; background: var(--coral); color: var(--white); }
+.water-county-panel .water-comparison-heading { background: var(--teal); }
+.water-comparison-heading h3 { font-size: 1.25rem; font-weight: 700; line-height: 1.4; }
+.water-comparison-heading .water-image { width: 8rem; }
+.water-comparison-panel ul { padding: 0.5rem 1.25rem; }
+.water-comparison-panel li { display: flex; gap: 1rem; align-items: start; padding-block: 1.125rem; border-bottom: 1px solid var(--gray); font-size: 0.9375rem; line-height: 1.75; }
+.water-comparison-panel li:last-child { border-bottom: 0; }
+.water-comparison-panel li svg { width: 1.25rem; height: 1.25rem; flex-shrink: 0; margin-top: 0.25rem; color: var(--coral); }
+.water-county-panel li svg { color: var(--teal); }
+.water-comparison-panel > .water-source-link { margin: 0.5rem 1.25rem 1.25rem; }
+.water-comparison-action { margin-top: 1.5rem; text-align: center; }
+.water-evidence-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 1rem; margin-top: 1.5rem; }
+.water-evidence-card { display: flex; flex-direction: column; align-items: start; min-width: 0; padding: 1rem; border: 1px solid var(--gray); border-radius: var(--radius); background: var(--white); }
+.water-evidence-card h3 { margin-top: 1rem; font-size: 1.25rem; font-weight: 700; line-height: 1.35; }
+.water-card-subtitle { margin-top: 0.5rem; font-size: 0.8125rem; line-height: 1.7; }
+.water-demo-label { margin-top: 1rem; padding-left: 0.75rem; border-left: 2px solid var(--teal); font-size: 0.75rem; line-height: 1.7; }
+.water-card-finding { margin-block: 1rem; font-size: 0.875rem; line-height: 1.75; }
+.water-evidence-card dl { width: 100%; margin-top: auto; border-top: 1px solid var(--gray); padding-top: 1rem; font-size: 0.75rem; line-height: 1.8; }
+.water-evidence-card dl > div + div { margin-top: 0.75rem; }
+.water-evidence-card dt { font-weight: 600; }
+.water-evidence-card > button { margin-top: 1rem; padding-inline: 0.75rem; font-size: 0.75rem; }
+.water-policy-sources { margin-top: 0.75rem; }
+.water-next-grid { display: grid; grid-template-columns: 1fr 1.1fr; gap: 2rem; align-items: center; }
+@media (max-width: 74.999rem) {
+  .water-topic-nav { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .water-evidence-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .water-hero-connections li { flex-direction: column; align-items: start; gap: 0.75rem; }
+  .water-numbers { grid-template-columns: 1fr; gap: 1rem; }
+  .water-comparison-heading { grid-template-columns: 1fr; }
+  .water-comparison-heading .water-image { width: 8rem; margin-inline: 0; }
+}
+@media (max-width: 61.999rem) {
+  .water-hero-grid, .water-data-grid, .water-connected-grid, .water-options-grid, .water-next-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+  .water-numbers { grid-template-columns: 1fr 1fr; }
+  .water-petition-band { flex-direction: column; align-items: start; gap: 1.5rem; }
+}
+@media (max-width: 47.999rem) {
+  .water-hero-connections, .water-comparison-grid, .water-conflict-cards, .water-evidence-grid { grid-template-columns: 1fr; }
+  .water-hero-connections li { flex-direction: row; align-items: center; gap: 1rem; }
+  .water-hero-connections .water-image { width: 5rem; }
+  .water-evidence-card { padding: 1.5rem; }
+  .water-card-finding { font-size: 0.9375rem; }
+  .water-evidence-card dl { font-size: 0.8125rem; }
+  .water-evidence-card > button { font-size: 0.875rem; }
+  .water-comparison-heading { grid-template-columns: 1fr auto; }
+  .water-comparison-heading .water-image { width: 6rem; }
+}
+@media (max-width: 39.999rem) {
+  .water-hero { padding-top: 1.5rem; }
+  .water-hero h1 { font-size: clamp(2rem, 8vw, 2.875rem); }
+  .water-section { padding-block: 2.5rem; }
+  .water-heading, .water-connected-grid .water-heading { font-size: clamp(1.75rem, 7vw, 2.375rem); line-height: 1.2; }
+  .water-lead { font-size: 0.9375rem; }
+  .water-topic-nav { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.625rem; }
+  .water-topic-nav a { gap: 0.5rem; padding: 0.625rem; font-size: 0.6875rem; }
+  .water-topic-nav a > svg:first-child { width: 1rem; height: 1rem; }
+  .water-numbers { grid-template-columns: 1fr; padding: 1.25rem; }
+  .water-groups > div { justify-content: space-between; }
+  .water-statement { padding: 1.25rem; }
+  .water-petition-band, .water-research { padding: 1.25rem; }
+  .water-conflict-panel > h2 { padding: 1.25rem; font-size: clamp(2rem, 8vw, 3rem); }
+  .water-conflict-cards article { padding: 1.25rem; }
+  .water-conflict-cards h3 { gap: 0.75rem; font-size: 1.375rem; }
+  .water-conflict-cards h3 > svg { width: 1.5rem; height: 1.5rem; }
+  .water-conflict-cards p { font-size: 1rem; }
+  .water-comparison-heading { grid-template-columns: 1fr; }
+  .water-comparison-heading h3 { font-size: 1.125rem; }
+  .water-cta { width: 100%; }
+}

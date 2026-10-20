@@ -1,0 +1,223 @@
+{
+  "schema_version": 1,
+  "purpose": "Temporary illustrative document and cover fragments from approved screenshots; not verified official record previews.",
+  "documents": [
+    {
+      "id": "P017-05",
+      "path": "assets/demo-current/documents/p017-05.png",
+      "parent_path": "assets/blueprint/ui-references/home/bp-p017-01-home.png",
+      "parent_sha256": "82952770c64f9b28161be84498235ca310a89e0d260e8dcc29fcf86f4a61fd87",
+      "crop_box_xyxy": [
+        1130,
+        609,
+        1495,
+        754
+      ],
+      "width": 365,
+      "height": 145,
+      "source_pdf_pages": [
+        17
+      ],
+      "section_ids": [
+        "H-06"
+      ],
+      "sha256": "15cc673e963d40c27b4fdd4643d6ea964761d4729bb2578077e5fc0fef106776",
+      "label": "Illustrative document preview",
+      "verified_official_document": false,
+      "operations": [
+        "source pixel crop",
+        "lossless PNG encoding"
+      ]
+    },
+    {
+      "id": "R07-record",
+      "path": "assets/demo-current/documents/public-records-preview.png",
+      "parent_path": "assets/blueprint/ui-references/roads/bp-p039-01-records-evidence.png",
+      "parent_sha256": "61e239fe56ecfb631f421cd282c0acc164ea4e718f9fc1fa34a8fa2d0c95e1ba",
+      "crop_box_xyxy": [
+        935,
+        411,
+        1202,
+        643
+      ],
+      "width": 267,
+      "height": 232,
+      "source_pdf_pages": [
+        39
+      ],
+      "section_ids": [
+        "R-07"
+      ],
+      "sha256": "100d16b5f55a4c5bfb267750a2f0d4cfda3bbda4d7a83256a77cc9331d694cb6",
+      "operations": [
+        "source pixel crop",
+        "lossless PNG encoding"
+      ],
+      "label": "Illustrative document preview",
+      "verified_official_document": false
+    },
+    {
+      "id": "R07-policy",
+      "path": "assets/demo-current/documents/community-plan-excerpt-preview.png",
+      "parent_path": "assets/blueprint/ui-references/roads/bp-p039-01-records-evidence.png",
+      "parent_sha256": "61e239fe56ecfb631f421cd282c0acc164ea4e718f9fc1fa34a8fa2d0c95e1ba",
+      "crop_box_xyxy": [
+        1244,
+        410,
+        1498,
+        661
+      ],
+      "width": 254,
+      "height": 251,
+      "source_pdf_pages": [
+        39
+      ],
+      "section_ids": [
+        "R-07"
+      ],
+      "sha256": "e559ca0befcb190a91e7e7f5848488f52cb19a1e0e92dff92357c56086e5b2c8",
+      "operations": [
+        "source pixel crop",
+        "lossless PNG encoding"
+      ],
+      "label": "Illustrative document preview",
+      "verified_official_document": false
+    },
+    {
+      "id": "R08-community",
+      "path": "assets/demo-current/documents/community-plan-cover-preview.png",
+      "parent_path": "assets/blueprint/ui-references/roads/bp-p041-01-planning-comparison.png",
+      "parent_sha256": "24406c277240485f5eb0a78f3f7b6d8b265ec04d93037e41fef1de0f346adc38",
+      "crop_box_xyxy": [
+        24,
+        321,
+        314,
+        900
+      ],
+      "width": 290,
+      "height": 579,
+      "source_pdf_pages": [
+        41
+      ],
+      "section_ids": [
+        "R-08"
+      ],
+      "sha256": "580814f8c06484dd220a135fd6d4fc84e6195395cb13d5cbe2cbf4d39bdc40c8",
+      "operations": [
+        "source pixel crop",
+        "lossless PNG encoding"
+      ],
+      "label": "Illustrative cover",
+      "verified_official_document": false
+    },
+    {
+      "id": "R08-county",
+      "path": "assets/demo-current/documents/county-plan-cover-preview.png",
+      "parent_path": "assets/blueprint/ui-references/roads/bp-p041-01-planning-comparison.png",
+      "parent_sha256": "24406c277240485f5eb0a78f3f7b6d8b265ec04d93037e41fef1de0f346adc38",
+      "crop_box_xyxy": [
+        1161,
+        318,
+        1454,
+        900
+      ],
+      "width": 293,
+      "height": 582,
+      "source_pdf_pages": [
+        41
+      ],
+      "section_ids": [
+        "R-08"
+      ],
+      "sha256": "5fb56006acbfe66530c1d3b87919b21cbb976f2e654df92f3f7f1e0b7a5df639",
+      "operations": [
+        "source pixel crop",
+        "lossless PNG encoding"
+      ],
+      "label": "Illustrative cover",
+      "verified_official_document": false
+    },
+    {
+      "id": "W08-record",
+      "path": "assets/demo-current/documents/water-public-records-preview.png",
+      "parent_path": "assets/blueprint/ui-references/water/bp-p053-01-evidence-next.jpg",
+      "parent_sha256": "9ddef21971681ec8422543f383a9506263be2a67178306359ea4678ecb1f459e",
+      "crop_box_xyxy": [
+        886,
+        266,
+        1158,
+        371
+      ],
+      "width": 272,
+      "height": 105,
+      "source_pdf_pages": [
+        53
+      ],
+      "section_ids": [
+        "W-08"
+      ],
+      "sha256": "8c730c17b8eda547d8147861843e238bceca96bf32cda43358c84bea105da024",
+      "operations": [
+        "source pixel crop",
+        "lossless PNG encoding"
+      ],
+      "label": "Illustrative document preview",
+      "verified_official_document": false
+    },
+    {
+      "id": "W08-policy",
+      "path": "assets/demo-current/documents/water-planning-policy-preview.png",
+      "parent_path": "assets/blueprint/ui-references/water/bp-p053-01-evidence-next.jpg",
+      "parent_sha256": "9ddef21971681ec8422543f383a9506263be2a67178306359ea4678ecb1f459e",
+      "crop_box_xyxy": [
+        1170,
+        265,
+        1436,
+        372
+      ],
+      "width": 266,
+      "height": 107,
+      "source_pdf_pages": [
+        53
+      ],
+      "section_ids": [
+        "W-08"
+      ],
+      "sha256": "451782a16f3b51bdd2e167a30df1f0c869c727bc70d45df9adcfd92d8cbe2c86",
+      "operations": [
+        "source pixel crop",
+        "lossless PNG encoding"
+      ],
+      "label": "Illustrative document preview",
+      "verified_official_document": false
+    },
+    {
+      "id": "L07-plan",
+      "path": "assets/demo-current/documents/growth-plan-cover.png",
+      "parent_path": "assets/blueprint/ui-references/growth/bp-p060-01-evidence-next.jpg",
+      "parent_sha256": "be39256c8d2e0bbaeec93294b39fc16f7685668e70fa3b7f0c343f6953d1ea02",
+      "crop_box_xyxy": [
+        319,
+        270,
+        499,
+        423
+      ],
+      "width": 180,
+      "height": 153,
+      "source_pdf_pages": [
+        60
+      ],
+      "section_ids": [
+        "L-07"
+      ],
+      "sha256": "cba5699d81d22fba7e6d97a33ba76d475fd6359fca30f339bcaf3fb901303864",
+      "operations": [
+        "source pixel crop",
+        "lossless PNG encoding"
+      ],
+      "label": "Illustrative cover",
+      "verified_official_document": false,
+      "immutable": true
+    }
+  ]
+}

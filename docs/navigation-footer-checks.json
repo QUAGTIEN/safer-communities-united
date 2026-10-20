@@ -1,0 +1,171 @@
+{
+  "status": "passed",
+  "base": "http://127.0.0.1:3001",
+  "routes": 9,
+  "footerWidths": [
+    320,
+    390,
+    768,
+    1152,
+    1440
+  ],
+  "footerDialogs": 5,
+  "mainMenuDestinations": 6,
+  "mobileMenu": true,
+  "backForward": true,
+  "unsupportedBrowserFallback": true,
+  "normalSamples": [
+    [
+      {
+        "name": "page-fade-in",
+        "pseudo": "::view-transition-new(page-content)",
+        "duration": 220
+      },
+      {
+        "name": "page-fade-out",
+        "pseudo": "::view-transition-old(page-content)",
+        "duration": 140
+      },
+      {
+        "pseudo": "::view-transition-group(root)",
+        "duration": 0
+      },
+      {
+        "pseudo": "::view-transition",
+        "duration": 0
+      }
+    ],
+    [
+      {
+        "name": "page-fade-in",
+        "pseudo": "::view-transition-new(page-content)",
+        "duration": 220
+      },
+      {
+        "name": "page-fade-out",
+        "pseudo": "::view-transition-old(page-content)",
+        "duration": 140
+      },
+      {
+        "pseudo": "::view-transition-group(root)",
+        "duration": 0
+      },
+      {
+        "pseudo": "::view-transition",
+        "duration": 0
+      }
+    ],
+    [
+      {
+        "name": "page-fade-in",
+        "pseudo": "::view-transition-new(page-content)",
+        "duration": 220
+      },
+      {
+        "name": "page-fade-out",
+        "pseudo": "::view-transition-old(page-content)",
+        "duration": 140
+      },
+      {
+        "pseudo": "::view-transition-group(root)",
+        "duration": 0
+      },
+      {
+        "pseudo": "::view-transition",
+        "duration": 0
+      }
+    ],
+    [
+      {
+        "name": "page-fade-in",
+        "pseudo": "::view-transition-new(page-content)",
+        "duration": 220
+      },
+      {
+        "name": "page-fade-out",
+        "pseudo": "::view-transition-old(page-content)",
+        "duration": 140
+      },
+      {
+        "pseudo": "::view-transition-group(root)",
+        "duration": 0
+      },
+      {
+        "pseudo": "::view-transition",
+        "duration": 0
+      }
+    ],
+    [
+      {
+        "name": "page-fade-in",
+        "pseudo": "::view-transition-new(page-content)",
+        "duration": 220
+      },
+      {
+        "name": "page-fade-out",
+        "pseudo": "::view-transition-old(page-content)",
+        "duration": 140
+      },
+      {
+        "pseudo": "::view-transition-group(root)",
+        "duration": 0
+      },
+      {
+        "pseudo": "::view-transition",
+        "duration": 0
+      }
+    ],
+    [
+      {
+        "name": "page-fade-in",
+        "pseudo": "::view-transition-new(page-content)",
+        "duration": 220
+      },
+      {
+        "name": "page-fade-out",
+        "pseudo": "::view-transition-old(page-content)",
+        "duration": 140
+      },
+      {
+        "pseudo": "::view-transition-group(root)",
+        "duration": 0
+      },
+      {
+        "pseudo": "::view-transition",
+        "duration": 0
+      }
+    ]
+  ],
+  "reducedSamples": [
+    [
+      {
+        "pseudo": "::view-transition-group(root)",
+        "duration": 0
+      },
+      {
+        "pseudo": "::view-transition",
+        "duration": 0
+      }
+    ]
+  ],
+  "errors": [],
+  "httpErrors": [],
+  "writes": [],
+  "external": [],
+  "anchor": {
+    "status": "passed",
+    "distinctScrollPositions": 56,
+    "finalTargetY": 225.9375,
+    "hash": "#water-septic"
+  },
+  "commands": {
+    "typecheck": "passed",
+    "build": "passed",
+    "static_export_routes": 9
+  },
+  "limitations": [
+    "Social destinations and legal terms not supplied; labelled demo previews only.",
+    "Transition effect depends on browser support; unsupported API fallback verified."
+  ],
+  "exportIssuesHtmlSha256": "0d00dc197561a73ed1b81bf3791313da27fef75aa97cb65ee6280d2cecf2c58e"
+}

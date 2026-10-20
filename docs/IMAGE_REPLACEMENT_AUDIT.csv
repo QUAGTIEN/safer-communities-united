@@ -1,0 +1,122 @@
+﻿id,pdf_page,label_vi,action,brief_key,parent_asset_path,locator_percent_xyxy,section_ids,note_vi
+P008-01,8,Official Community Plan boundary map,keep-original-map,,assets/blueprint/maps/bp-p008-01-official-boundary-map.png,"[0, 0, 100, 100]","['H-02', 'R-06']",File nhúng độc lập từ PDF; tính nguyên bản trích xuất không tự xác minh GIS/data. Giữ nguyên tuyệt đối.
+P009-01,9,"Land, parcels and conservation map",keep-original-map,,assets/blueprint/maps/bp-p009-01-land-parcels-conservation-map.png,"[0, 0, 100, 100]","['H-03', 'H-04', 'R-06']",File nhúng độc lập từ PDF; tính nguyên bản trích xuất không tự xác minh GIS/data. Giữ nguyên tuyệt đối.
+P011-01,11,Road network and traffic map,keep-original-map,,assets/blueprint/maps/bp-p011-01-roads-traffic-map.png,"[0, 0, 100, 100]","['H-05', 'R-06']",File nhúng độc lập từ PDF; tính nguyên bản trích xuất không tự xác minh GIS/data. Giữ nguyên tuyệt đối.
+P013-01,13,Toàn bộ panel tham chiếu map (dùng lại ở Roads),keep-illustration,,assets/blueprint/layout-previews/bp-p013-01-map-comparison-panel-1.png,"[0, 0, 100, 100]","['H-02', 'R-06']",Giữ panel gốc và map trong panel; không tìm ảnh thay cho map.
+P014-01,14,Toàn bộ panel tham chiếu map (dùng lại ở Roads),keep-illustration,,assets/blueprint/layout-previews/bp-p014-01-map-comparison-panel-2.png,"[0, 0, 100, 100]","['H-03', 'H-04', 'R-06']",Giữ panel gốc và map trong panel; không tìm ảnh thay cho map.
+P015-01,15,Toàn bộ panel tham chiếu map (dùng lại ở Roads),keep-illustration,,assets/blueprint/layout-previews/bp-p015-01-map-comparison-panel-3.png,"[0, 0, 100, 100]","['H-05', 'R-06']",Giữ panel gốc và map trong panel; không tìm ảnh thay cho map.
+P017-01,17,Hero — cảnh đường/cộng đồng với cổng Keystone–Odessa,replace-photo,rural,assets/blueprint/ui-references/home/bp-p017-01-home.png,"[43, 8, 100, 53]","['H-01', 'H-06']",Không giả cổng/biển tên địa phương; ưu tiên ảnh local có nguồn thật.
+P017-02,17,Issue card Roads — đường và traffic,replace-photo,road-day,assets/blueprint/ui-references/home/bp-p017-01-home.png,"[4, 63, 26, 75]","['H-01', 'H-06']",
+P017-03,17,Issue card Water — hồ/cảnh quan nước,replace-photo,lake,assets/blueprint/ui-references/home/bp-p017-01-home.png,"[27, 63, 49, 75]","['H-01', 'H-06']",
+P017-04,17,Issue card Everyday Needs — nhà ở,replace-photo,housing,assets/blueprint/ui-references/home/bp-p017-01-home.png,"[50, 63, 72, 75]","['H-01', 'H-06']",
+P017-05,17,Issue card Community Plan — ảnh bìa văn bản,source-document,,assets/blueprint/ui-references/home/bp-p017-01-home.png,"[73, 63, 96, 75]","['H-01', 'H-06']",Dùng preview đúng Community Plan/Livable Communities thật; không tìm stock giả cover.
+P019-01,19,Ảnh đường và pedestrian bên dưới heading Roads,replace-photo,road-day,assets/blueprint/ui-references/issues/bp-p019-01-roads-overview.png,"[3, 44, 58, 84]","['I-01', 'I-02']",
+P021-01,21,Map septic/wells/boundary bên trái,hold-map,,assets/blueprint/ui-references/issues/bp-p021-01-water-overview.png,"[1, 28, 59, 72]",['I-03'],"Không phải một trong ba map file độc lập; giữ nguyên, chưa xác minh GIS provenance; không thay bằng ảnh stock."
+P021-02,21,Septic Concentration,replace-photo,septic-lid,assets/blueprint/ui-references/issues/bp-p021-01-water-overview.png,"[60, 47, 72, 53]",['I-03'],
+P021-03,21,Septic Repairs,replace-photo,septic-repair,assets/blueprint/ui-references/issues/bp-p021-01-water-overview.png,"[73, 47, 85, 53]",['I-03'],
+P021-04,21,Private Wells,replace-photo,well,assets/blueprint/ui-references/issues/bp-p021-01-water-overview.png,"[86, 47, 99, 53]",['I-03'],
+P021-05,21,Groundwater — thumbnail mặt nước,replace-photo,lake,assets/blueprint/ui-references/issues/bp-p021-01-water-overview.png,"[60, 56, 72, 62]",['I-03'],
+P021-06,21,"Wellfields, Lakes & Wetlands",replace-photo,lake,assets/blueprint/ui-references/issues/bp-p021-01-water-overview.png,"[73, 56, 85, 62]",['I-03'],
+P021-07,21,Water & Wastewater Infrastructure,replace-photo,water-infrastructure,assets/blueprint/ui-references/issues/bp-p021-01-water-overview.png,"[86, 56, 99, 62]",['I-03'],
+P023-01,23,Schematic service-pin map,keep-illustration,,assets/blueprint/ui-references/issues/bp-p023-01-everyday-needs.png,"[5, 27, 48, 64]",['I-04'],Blueprint chỉ định illustration và not verified locations; không đổi thành bản đồ dịch vụ mới.
+P025-01,25,Boundary map bên trái,hold-map,,assets/blueprint/ui-references/issues/bp-p025-01-outdated-community-plan.png,"[2, 31, 46, 89]",['I-05'],
+P025-02,25,Timeline 2001 — countryside,replace-photo,rural,assets/blueprint/ui-references/issues/bp-p025-01-outdated-community-plan.png,"[48, 49, 63, 62]",['I-05'],
+P025-03,25,Timeline TODAY — traffic,replace-photo,road-day,assets/blueprint/ui-references/issues/bp-p025-01-outdated-community-plan.png,"[65, 51, 81, 62]",['I-05'],
+P025-04,25,Timeline 2026 — tòa nhà civic,replace-photo,civic-building,assets/blueprint/ui-references/issues/bp-p025-01-outdated-community-plan.png,"[83, 54, 98, 62]",['I-05'],
+P025-05,25,Policy area Roads — thumbnail,replace-photo,road-day,assets/blueprint/ui-references/issues/bp-p025-01-outdated-community-plan.png,"[48, 79, 60, 88]",['I-05'],
+P025-06,25,Policy area Water — thumbnail,replace-photo,lake,assets/blueprint/ui-references/issues/bp-p025-01-outdated-community-plan.png,"[61, 79, 72, 88]",['I-05'],
+P025-07,25,Policy area Housing — thumbnail,replace-photo,housing,assets/blueprint/ui-references/issues/bp-p025-01-outdated-community-plan.png,"[73, 79, 85, 88]",['I-05'],
+P025-08,25,Policy area Services — thumbnail,replace-photo,retail,assets/blueprint/ui-references/issues/bp-p025-01-outdated-community-plan.png,"[86, 79, 98, 88]",['I-05'],
+P027-01,27,Background aerial nằm sau toàn bộ connection diagram,hold-mixed,aerial,assets/blueprint/ui-references/issues/bp-p027-01-issues-connected.png,"[0, 29, 100, 93]",['I-06'],"Có thể cần ảnh nền khác sau này, nhưng không thay cả composite và không làm mất arrows/labels/diagram được duyệt."
+P027-02,27,Dải photo Roads ở đầu cột 1,replace-photo,road-day,assets/blueprint/ui-references/issues/bp-p027-01-issues-connected.png,"[5, 37, 35, 43]",['I-06'],
+P027-03,27,Dải photo Water ở đầu cột 2,replace-photo,lake,assets/blueprint/ui-references/issues/bp-p027-01-issues-connected.png,"[36, 37, 64, 43]",['I-06'],
+P027-04,27,Dải photo Housing ở đầu cột 3,replace-photo,housing,assets/blueprint/ui-references/issues/bp-p027-01-issues-connected.png,"[66, 37, 95, 43]",['I-06'],
+P030-01,30,Ảnh đường ban đêm góc trên phải,replace-photo,road-night,assets/blueprint/ui-references/roads/bp-p030-01-street-lighting.png,"[50, 8, 97, 49]",['R-02'],
+P031-01,31,Ảnh road/traffic dưới heading Gunn Highway,replace-photo,road-day,assets/blueprint/ui-references/roads/bp-p031-01-gunn-highway.jpg,"[4, 32, 58, 57]",['R-03'],
+P031-02,31,Gunn Highway route map bên phải,hold-map,,assets/blueprint/ui-references/roads/bp-p031-01-gunn-highway.jpg,"[61, 9, 97, 59]",['R-03'],
+P032-01,32,Pedestrian/cyclist trên lề đường,replace-photo,walking,assets/blueprint/ui-references/roads/bp-p032-01-walking-biking-crossings.png,"[51, 8, 97, 46]",['R-04'],
+P033-01,33,Fire engine/EMS trên đường,replace-photo,emergency,assets/blueprint/ui-references/roads/bp-p033-01-emergency-access.jpg,"[51, 8, 97, 47]",['R-05'],
+P039-01,39,Safety Data — ảnh collision,replace-photo,crash,assets/blueprint/ui-references/roads/bp-p039-01-records-evidence.png,"[2, 41, 20, 63]",['R-07'],
+P039-02,39,Traffic Data — ảnh xe cộ,replace-photo,road-day,assets/blueprint/ui-references/roads/bp-p039-01-records-evidence.png,"[22, 41, 40, 63]",['R-07'],
+P039-03,39,Maps card — Gunn Highway/boundary map,hold-map,,assets/blueprint/ui-references/roads/bp-p039-01-records-evidence.png,"[41, 40, 59, 65]",['R-07'],
+P039-04,39,Public Records — thumbnail hồ sơ,source-document,,assets/blueprint/ui-references/roads/bp-p039-01-records-evidence.png,"[61, 40, 79, 63]",['R-07'],"Cần đúng Van Dyke study/public record, không mock official paperwork."
+P039-05,39,Community Plan — thumbnail trang trích policy,source-document,,assets/blueprint/ui-references/roads/bp-p039-01-records-evidence.png,"[81, 40, 97, 65]",['R-07'],Lấy trang thật đúng nguồn/policy; chữ trong mock thumbnail không tự là trích dẫn đã xác minh.
+P041-01,41,Ảnh road làm nền sau Community Plan cover,replace-photo,road-day,assets/blueprint/ui-references/roads/bp-p041-01-planning-comparison.png,"[2, 32, 21, 91]",['R-08'],
+P041-02,41,Ảnh city/highway aerial sau County cover,replace-photo,county-aerial,assets/blueprint/ui-references/roads/bp-p041-01-planning-comparison.png,"[79, 32, 99, 91]",['R-08'],
+P041-03,41,Community Plan illustrative cover,source-document,,assets/blueprint/ui-references/roads/bp-p041-01-planning-comparison.png,"[3, 35, 20, 72]",['R-08'],"Đây là illustrative cover trong mockup, không coi là cover pháp lý gốc."
+P041-04,41,County Comprehensive Plan cover/collage,source-document,,assets/blueprint/ui-references/roads/bp-p041-01-planning-comparison.png,"[80, 40, 98, 81]",['R-08'],Lấy preview từ bản County Plan thật; không tìm riêng các ảnh trang trí bên trong fake cover.
+P043-01,43,Hero aerial có Community Plan boundary overlay,hold-mixed,aerial,assets/blueprint/ui-references/water/bp-p043-01-hero.png,"[38, 7, 100, 57]",['W-01'],Không thay background bằng một hồ ngẫu nhiên rồi giữ boundary overlay. Cần ảnh nền và overlay gốc có quan hệ địa lý đúng.
+P043-02,43,Ba sơ đồ Septic → Groundwater → Wells,keep-illustration,,assets/blueprint/ui-references/water/bp-p043-01-hero.png,"[5, 58, 95, 74]",['W-01'],"Minh họa kỹ thuật, không nằm trong danh sách stock photo."
+P044-01,44,Septic classification map,hold-map,,assets/blueprint/ui-references/water/bp-p044-01-septic-scale.jpg,"[54, 14, 98, 72]",['W-02'],
+P045-01,45,Repair records map,hold-map,,assets/blueprint/ui-references/water/bp-p045-01-repair-records.jpg,"[54, 14, 98, 72]",['W-03'],
+P045-02,45,Repair timeline/chart,hold-map,,assets/blueprint/ui-references/water/bp-p045-01-repair-records.jpg,"[4, 49, 53, 71]",['W-03'],"Data visual: không sửa bar heights, year labels hoặc tìm chart khác thay. Cần raw data nếu muốn xác minh."
+P047-01,47,Connected-water 3D cutaway ở trên,keep-illustration,,assets/blueprint/ui-references/water/bp-p047-01-connected-water.png,"[43, 10, 99, 34]",['W-04'],"Selected conceptual illustration; giữ đúng bản, không regenerate."
+P047-02,47,Groundwater cross-section giữa trang,keep-illustration,,assets/blueprint/ui-references/water/bp-p047-01-connected-water.png,"[0, 35, 100, 57]",['W-04'],Giữ conceptual/not contamination event caveat; không thay bằng ảnh ô nhiễm thực tế.
+P049-01,49,Ảnh hồ lớn bên trái,replace-photo,lake,assets/blueprint/ui-references/water/bp-p049-01-wastewater-options.png,"[0, 50, 43, 76]",['W-05'],
+P049-02,49,Circle 1 — septic lid,replace-photo,septic-lid,assets/blueprint/ui-references/water/bp-p049-01-wastewater-options.png,"[48, 13, 58, 26]",['W-05'],
+P049-03,49,Circle 2 — vòi/thiết bị cấp nước,replace-photo,well,assets/blueprint/ui-references/water/bp-p049-01-wastewater-options.png,"[65, 13, 75, 26]",['W-05'],"Ảnh hiện tại giống faucet, không tự gọi là wellhead; chọn ảnh phù hợp copy thật."
+P049-04,49,Circle 3 — landscape nước,replace-photo,lake,assets/blueprint/ui-references/water/bp-p049-01-wastewater-options.png,"[82, 13, 92, 26]",['W-05'],
+P051-01,51,Dải ảnh hồ/cây dưới LEFT OUT. BY CHOICE.,replace-photo,lake,assets/blueprint/ui-references/water/bp-p051-01-core-conflict.png,"[0, 17, 100, 25]",['W-06'],
+P052-01,52,Banner photo Community Plan — rural road,replace-photo,rural,assets/blueprint/ui-references/water/bp-p052-01-comparison-summary.png,"[4, 25, 48, 34]",['W-07'],
+P052-02,52,Banner photo County Plan — city,replace-photo,county-aerial,assets/blueprint/ui-references/water/bp-p052-01-comparison-summary.png,"[51, 25, 96, 34]",['W-07'],
+P053-01,53,Septic Data — aerial neighborhood thumbnail,replace-photo,aerial,assets/blueprint/ui-references/water/bp-p053-01-evidence-next.jpg,"[3, 27, 21, 38]","['W-08', 'W-09']",
+P053-02,53,Repair Records — excavation thumbnail,replace-photo,septic-repair,assets/blueprint/ui-references/water/bp-p053-01-evidence-next.jpg,"[22, 27, 40, 38]","['W-08', 'W-09']",
+P053-03,53,Water & Well Maps thumbnail,hold-map,,assets/blueprint/ui-references/water/bp-p053-01-evidence-next.jpg,"[41, 27, 59, 38]","['W-08', 'W-09']",
+P053-04,53,Public Records folder thumbnail,source-document,,assets/blueprint/ui-references/water/bp-p053-01-evidence-next.jpg,"[60, 27, 78, 38]","['W-08', 'W-09']",Ưu tiên preview đúng hồ sơ; nếu chỉ folder trang trí thì không gắn nó như original record.
+P053-05,53,Planning Policies document thumbnail,source-document,,assets/blueprint/ui-references/water/bp-p053-01-evidence-next.jpg,"[79, 27, 97, 38]","['W-08', 'W-09']",
+P053-06,53,Next issue — ảnh đường/nhà ở,replace-photo,housing,assets/blueprint/ui-references/water/bp-p053-01-evidence-next.jpg,"[48, 73, 100, 100]","['W-08', 'W-09']",
+P055-01,55,Then map/aerial với layers và số liệu Early 2000s,hold-mixed,,assets/blueprint/ui-references/growth/bp-p055-01-then-today.jpg,"[3, 31, 49, 74]",['L-01'],"Không tìm ảnh countryside bất kỳ làm before; có map layers/legend và mốc thời gian, giữ nguyên/chờ provenance."
+P055-02,55,Today map/aerial với layers và số liệu 2026,hold-mixed,,assets/blueprint/ui-references/growth/bp-p055-01-then-today.jpg,"[50, 31, 98, 74]",['L-01'],Không thay ảnh today độc lập làm sai phép so sánh địa lý/thời gian.
+P057-01,57,Natural Rural Density Comparison — hai panel và labels,keep-illustration,,assets/blueprint/ui-references/growth/bp-p057-01-natural-rural-density.jpg,"[2, 36, 98, 82]","['L-02', 'L-03']",Blueprint chọn riêng; giữ cả hai phía/labels/trees/rural lanes. Không tìm hai stock photos để thay mô hình mật độ.
+P058-01,58,Service map/legend/heatmap/pins,hold-map,,assets/blueprint/ui-references/growth/bp-p058-01-services-map.jpg,"[2, 31, 77, 82]",['L-04'],Đã ghi minh họa travel times; không thay map bằng ảnh satellite/route mới.
+P058-02,58,Grocery Stores thumbnail,replace-photo,grocery,assets/blueprint/ui-references/growth/bp-p058-01-services-map.jpg,"[91, 39, 99, 45]",['L-04'],
+P058-03,58,Healthcare thumbnail,replace-photo,healthcare,assets/blueprint/ui-references/growth/bp-p058-01-services-map.jpg,"[91, 45, 99, 51]",['L-04'],
+P058-04,58,Childcare thumbnail,replace-photo,childcare,assets/blueprint/ui-references/growth/bp-p058-01-services-map.jpg,"[91, 51, 99, 57]",['L-04'],
+P058-05,58,Restaurants thumbnail,replace-photo,restaurant,assets/blueprint/ui-references/growth/bp-p058-01-services-map.jpg,"[91, 57, 99, 63]",['L-04'],
+P058-06,58,Employment/Jobs thumbnail,replace-photo,employment,assets/blueprint/ui-references/growth/bp-p058-01-services-map.jpg,"[91, 63, 99, 69]",['L-04'],
+P059-01,59,Cột trái — ảnh landscape/housing dài,replace-photo,rural,assets/blueprint/ui-references/growth/bp-p059-01-comparison-summary.jpg,"[3, 33, 22, 81]",['L-06'],
+P059-02,59,Cột phải — ảnh residential aerial dài,replace-photo,aerial,assets/blueprint/ui-references/growth/bp-p059-01-comparison-summary.jpg,"[80, 33, 98, 81]",['L-06'],
+P060-01,60,Community Plan card — document cover,source-document,,assets/blueprint/ui-references/growth/bp-p060-01-evidence-next.jpg,"[21, 27, 34, 43]","['L-07', 'L-08']",
+P060-02,60,Land-Use Maps thumbnail,hold-map,,assets/blueprint/ui-references/growth/bp-p060-01-evidence-next.jpg,"[51, 27, 65, 43]","['L-07', 'L-08']",
+P060-03,60,Housing Data — aerial photo,replace-photo,aerial,assets/blueprint/ui-references/growth/bp-p060-01-evidence-next.jpg,"[84, 27, 98, 43]","['L-07', 'L-08']",
+P060-04,60,Service Map thumbnail,hold-map,,assets/blueprint/ui-references/growth/bp-p060-01-evidence-next.jpg,"[21, 45, 34, 61]","['L-07', 'L-08']",
+P060-05,60,Travel Data — traffic photo,replace-photo,road-day,assets/blueprint/ui-references/growth/bp-p060-01-evidence-next.jpg,"[51, 45, 65, 61]","['L-07', 'L-08']",
+P060-06,60,Infrastructure Records — construction photo,replace-photo,construction,assets/blueprint/ui-references/growth/bp-p060-01-evidence-next.jpg,"[84, 45, 98, 61]","['L-07', 'L-08']",
+P060-07,60,Outdated Plan continuation — rural aerial,replace-photo,aerial,assets/blueprint/ui-references/growth/bp-p060-01-evidence-next.jpg,"[49, 63, 100, 84]","['L-07', 'L-08']",
+P063-01,63,Roads comparison header — road photo góc phải,replace-photo,road-day,assets/blueprint/ui-references/comparison/bp-p063-01-roads.png,"[61, 8, 96, 18]",['C-01'],
+P063-02,63,Community Plan column — road strip,replace-photo,road-day,assets/blueprint/ui-references/comparison/bp-p063-01-roads.png,"[6, 20, 49, 26]",['C-01'],
+P063-03,63,County Framework column — road strip,replace-photo,road-day,assets/blueprint/ui-references/comparison/bp-p063-01-roads.png,"[50, 20, 95, 26]",['C-01'],Có thể tái dùng cùng ảnh thật cho hai cột để tránh so sánh sai hai địa điểm.
+P065-01,65,Water comparison header — hồ và bồn nước,replace-photo,water-infrastructure,assets/blueprint/ui-references/comparison/bp-p065-01-water.png,"[49, 7, 99, 26]",['C-02'],
+P067-01,67,Screenshot 110 — rural landscape header,replace-photo,rural,assets/blueprint/ui-references/comparison/bp-p067-01-growth-housing-screenshot-110.png,"[46, 7, 100, 29]",['C-03'],"Giữ composition Screenshot 110, chỉ thay ảnh chụp trang trí."
+P067-02,67,Community Plan row 1 — pasture/fence,replace-photo,rural,assets/blueprint/ui-references/comparison/bp-p067-01-growth-housing-screenshot-110.png,"[5, 36, 17, 44]",['C-03'],
+P067-03,67,Community Plan row 2 — narrow rural lane,replace-photo,rural,assets/blueprint/ui-references/comparison/bp-p067-01-growth-housing-screenshot-110.png,"[5, 45, 17, 54]",['C-03'],
+P067-04,67,Community Plan row 3 — farmhouse,replace-photo,housing,assets/blueprint/ui-references/comparison/bp-p067-01-growth-housing-screenshot-110.png,"[5, 55, 17, 64]",['C-03'],
+P067-05,67,Community Plan row 4 — countryside,replace-photo,rural,assets/blueprint/ui-references/comparison/bp-p067-01-growth-housing-screenshot-110.png,"[5, 65, 17, 74]",['C-03'],
+P067-06,67,County row 2 — residential aerial,replace-photo,aerial,assets/blueprint/ui-references/comparison/bp-p067-01-growth-housing-screenshot-110.png,"[52, 45, 65, 54]",['C-03'],
+P067-07,67,County row 3 — townhomes,replace-photo,housing-choice,assets/blueprint/ui-references/comparison/bp-p067-01-growth-housing-screenshot-110.png,"[52, 55, 65, 64]",['C-03'],
+P067-08,67,County row 4 — wood-frame construction,replace-photo,construction,assets/blueprint/ui-references/comparison/bp-p067-01-growth-housing-screenshot-110.png,"[52, 65, 65, 74]",['C-03'],
+P067-09,67,County row 1 — land-use map thumbnail,hold-map,,assets/blueprint/ui-references/comparison/bp-p067-01-growth-housing-screenshot-110.png,"[52, 36, 65, 44]",['C-03'],Map không thuộc nhóm photo được thay; chưa xác nhận đây là official GIS map.
+P068-01,68,What remains — rural lake/houses header,replace-photo,rural,assets/blueprint/ui-references/comparison/bp-p068-01-what-remains.png,"[49, 7, 100, 26]",['C-04'],
+P068-02,68,REMOVE — Community Plan cover,source-document,,assets/blueprint/ui-references/comparison/bp-p068-01-what-remains.png,"[8, 35, 27, 71]",['C-04'],Giữ REMOVE diagram/strike-through logic bằng UI; preview tài liệu lấy từ file thật.
+P070-01,70,Evidence header — light landscape background,replace-photo,rural,assets/blueprint/ui-references/evidence/bp-p070-01-issue-groups.png,"[67, 0, 100, 27]",['F-01'],
+P070-02,70,Road Evidence — road photo,replace-photo,road-day,assets/blueprint/ui-references/evidence/bp-p070-01-issue-groups.png,"[4, 26, 26, 41]",['F-01'],
+P070-03,70,Water Evidence — lake photo,replace-photo,lake,assets/blueprint/ui-references/evidence/bp-p070-01-issue-groups.png,"[27, 26, 49, 41]",['F-01'],
+P070-04,70,Growth Evidence — houses photo,replace-photo,housing,assets/blueprint/ui-references/evidence/bp-p070-01-issue-groups.png,"[51, 26, 73, 41]",['F-01'],
+P070-05,70,Planning Documents — cover collage,source-document,,assets/blueprint/ui-references/evidence/bp-p070-01-issue-groups.png,"[74, 26, 97, 41]",['F-01'],
+P072-01,72,Library heading — faded trees/landscape,replace-photo,rural,assets/blueprint/ui-references/evidence/bp-p072-01-library.png,"[60, 0, 99, 16]",['F-02'],
+P072-02,72,Library row 1 — Livable Communities cover,source-document,,assets/blueprint/ui-references/evidence/bp-p072-01-library.png,"[4, 27, 17, 38]",['F-02'],
+P072-03,72,Library row 2 — agency response thumbnail,source-document,,assets/blueprint/ui-references/evidence/bp-p072-01-library.png,"[4, 40, 17, 49]",['F-02'],"Lấy preview đúng September 23, 2026 response nếu được cung cấp, không dùng mock letterhead."
+P072-04,72,Library row 3 — water landscape thumbnail,replace-photo,lake,assets/blueprint/ui-references/evidence/bp-p072-01-library.png,"[4, 51, 17, 60]",['F-02'],
+P072-05,72,Library row 4 — septic repair photo,replace-photo,septic-repair,assets/blueprint/ui-references/evidence/bp-p072-01-library.png,"[4, 62, 17, 70]",['F-02'],
+P072-06,72,Library row 5 — septic classification map,hold-map,,assets/blueprint/ui-references/evidence/bp-p072-01-library.png,"[4, 72, 17, 80]",['F-02'],
+P072-07,72,From Evidence to Action — countryside background,replace-photo,rural,assets/blueprint/ui-references/evidence/bp-p072-01-library.png,"[63, 86, 99, 98]",['F-02'],
+P074-01,74,Action hero — family/community beside landscape,replace-photo,family,assets/blueprint/ui-references/action/bp-p074-01-hero.png,"[0, 7, 100, 89]",['A-01'],Không coi người trong ảnh mới là supporters thật.
+P079-01,79,Add Support card — clipboard,replace-photo,support-prop,assets/blueprint/ui-references/action/bp-p079-01-three-actions.png,"[4, 30, 33, 47]",['A-02'],
+P079-02,79,Share Story card — writing in notebook,replace-photo,writing,assets/blueprint/ui-references/action/bp-p079-01-three-actions.png,"[35, 30, 64, 47]",['A-02'],
+P079-03,79,Share Information card — stack of folders,replace-photo,paperwork,assets/blueprint/ui-references/action/bp-p079-01-three-actions.png,"[66, 30, 96, 47]",['A-02'],"Đây là props minh họa, không phải public records cụ thể."
+P080-01,80,Share Story — mailbox/rural street background,replace-photo,mailbox,assets/blueprint/ui-references/action/bp-p080-01-story-preview.png,"[0, 7, 100, 88]",['A-04'],Giữ form/text là UI; không sao chép số 33556 trên mailbox như một địa chỉ xác minh.
+P081-01,81,Laptop + miniature webpage + share choices,ui-component,,assets/blueprint/ui-references/action/bp-p081-01-sharing-preview.png,"[48, 12, 100, 85]",['A-05'],Dựng composition UI từ giao diện demo thật khi code; không tìm ảnh khác chứa website/CTA/text bịa và không tìm từng ảnh nhỏ lồng trong màn hình.
+P082-01,82,Road Safety story — road photo,replace-photo,road-day,assets/blueprint/ui-references/action/bp-p082-01-sample-stories.png,"[4, 30, 34, 51]",['A-06'],
+P082-02,82,Water story — cloudy-water glass,replace-photo,water-glass,assets/blueprint/ui-references/action/bp-p082-01-sample-stories.png,"[35, 30, 65, 51]",['A-06'],"Chỉ minh họa sample story, không ảnh chứng minh water contamination tại Odessa."
+P082-03,82,Everyday Access story — pharmacy/shops,replace-photo,retail,assets/blueprint/ui-references/action/bp-p082-01-sample-stories.png,"[66, 30, 96, 51]",['A-06'],
+P087-01,87,Petition backdrop — cảnh cây/đường hai bên,replace-photo,rural,assets/blueprint/ui-references/action/bp-p087-01-approved-petition.png,"[0, 3, 100, 95]","['A-07', 'A-08']","Chỉ thay background nếu cần; toàn văn petition và mọi consent/field dựng bằng HTML, không thay ảnh cả form."

@@ -1,0 +1,13 @@
+node_modules/
+.next/
+out/
+coverage/
+*.tsbuildinfo
+.env*
+!.env.example
+public/assets/
+src/content/assets.generated.json
+src/content/blueprint.generated.json
+tmp/
+.DS_Store
+npm-debug.log*

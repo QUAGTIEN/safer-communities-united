@@ -1,0 +1,144 @@
+.roads-page { background: var(--cream); }
+.roads-hero { padding-top: 2rem; }
+.roads-breadcrumb { display: flex; align-items: center; gap: 0.5rem; font-size: 0.8125rem; line-height: 1.6; }
+.roads-breadcrumb a { text-decoration: underline; text-underline-offset: 0.2rem; }
+.roads-hero-grid { display: grid; grid-template-columns: 1.3fr 1fr; gap: 3rem; align-items: center; margin-block: 2rem; }
+.roads-hero h1 { margin-top: 0.75rem; font-size: clamp(2.5rem, 4.6vw, 4.5rem); line-height: 1.1; letter-spacing: -0.035em; font-weight: 700; }
+.roads-lead { max-width: 76rem; margin-top: 1rem; font-size: 1rem; line-height: 1.75; }
+.roads-hero-topics { margin-block: 1.5rem; color: var(--teal); font-size: 0.9375rem; font-weight: 600; line-height: 1.8; }
+.roads-hero-preview { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1rem; min-height: 22rem; padding: 2rem; background: var(--white); border: 1px solid var(--gray); text-align: center; font-size: 0.9375rem; }
+.roads-hero-preview > svg { width: 3rem; height: 3rem; color: var(--teal); }
+.roads-safety-nav { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.75rem; margin-top: 2rem; }
+.roads-safety-nav a { display: flex; gap: 0.875rem; align-items: center; min-height: 4.5rem; padding: 0.875rem; border: 1px solid var(--gray); border-radius: var(--radius); background: var(--white); }
+.roads-safety-nav a > span:nth-child(2) { flex: 1; font-family: var(--font-source-serif), Georgia, serif; font-size: 0.9375rem; font-weight: 650; line-height: 1.4; }
+.roads-nav-number { display: block; font-family: var(--font-inter), sans-serif; color: var(--coral); font-size: 0.75rem; }
+.roads-nav-icon { display: grid; place-items: center; flex-shrink: 0; width: 2.5rem; height: 2.5rem; border-radius: 50%; background: var(--teal); color: var(--white); }
+.roads-nav-icon svg { width: 1.25rem; height: 1.25rem; }
+.roads-safety-nav a:hover, .roads-safety-nav .roads-current-issue { border-color: var(--coral); }
+.roads-safety-nav .roads-current-issue .roads-nav-icon { background: var(--coral); }
+.roads-section { padding-block: 4rem; border-bottom: 1px solid var(--gray); }
+.roads-section-white { background: var(--white); }
+.roads-section-label { display: flex; align-items: baseline; gap: 0.5rem; color: var(--navy); }
+.roads-section-label > span { color: var(--coral); font-size: 1rem; }
+.roads-heading { max-width: 47ch; margin-top: 0.875rem; font-size: clamp(2rem, 3.2vw, 3.125rem); line-height: 1.15; letter-spacing: -0.03em; font-weight: 700; }
+.roads-feature-grid { display: grid; grid-template-columns: 1fr 1.4fr; gap: 2rem; align-items: start; }
+.roads-image { display: block; width: 100%; height: auto; margin-inline: auto; }
+.roads-info-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin-top: 1.75rem; }
+.roads-info-card { --card-accent: var(--navy); min-width: 0; padding: 1.5rem; background: var(--white); border: 1px solid var(--gray); border-top: 3px solid var(--card-accent); border-radius: var(--radius); }
+.roads-tone-coral { --card-accent: var(--coral); }
+.roads-tone-teal { --card-accent: var(--teal); }
+.roads-card-heading { display: flex; align-items: start; gap: 0.875rem; margin-bottom: 1rem; }
+.roads-card-heading > svg { width: 1.5rem; height: 1.5rem; flex-shrink: 0; color: var(--card-accent); }
+.roads-card-heading h3 { font-family: var(--font-inter), sans-serif; font-size: 0.875rem; line-height: 1.5; font-weight: 700; color: var(--card-accent); }
+.roads-card-content { font-size: 0.9375rem; line-height: 1.75; }
+.roads-rule-emphasis { font-weight: 600; }
+.roads-design-excerpt { padding: 1rem; margin-top: 1rem; background: var(--cream); border-left: 2px solid var(--gray); }
+.roads-design-excerpt > p { font-family: var(--font-source-serif), Georgia, serif; font-size: 1.0625rem; line-height: 1.6; font-style: italic; }
+.roads-design-excerpt > span { display: block; margin-top: 0.75rem; font-size: 0.75rem; line-height: 1.6; }
+.roads-card-closing { margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid var(--gray); font-weight: 600; }
+.roads-factor-list { display: grid; gap: 1rem; margin-top: 1rem; }
+.roads-factor-list li { display: flex; gap: 0.75rem; align-items: start; }
+.roads-factor-list svg { width: 1.25rem; height: 1.25rem; margin-top: 0.1875rem; flex-shrink: 0; color: var(--teal); }
+.roads-source-link { display: inline-flex; align-items: center; gap: 0.5rem; min-height: 2.75rem; padding-block: 0.5rem; margin-top: 0.5rem; color: var(--teal); font-size: 0.8125rem; line-height: 1.6; text-decoration: underline; text-underline-offset: 0.2rem; }
+.roads-source-link > svg { flex-shrink: 0; }
+.roads-source-row { display: flex; flex-wrap: wrap; gap: 0.25rem 1.5rem; }
+.roads-reading { max-width: 70rem; margin-top: 1.75rem; font-size: 1rem; line-height: 1.8; }
+.roads-reading > p + p { margin-top: 1rem; }
+.roads-reading h3, .roads-data-note h3 { margin-bottom: 0.75rem; font-size: 1.375rem; font-weight: 700; line-height: 1.4; }
+.roads-source-note, .roads-reading .roads-source-note { margin-top: 1rem; font-size: 0.8125rem; line-height: 1.8; }
+.roads-gunn-grid { display: grid; grid-template-columns: 1.3fr 1fr; gap: 1.75rem; align-items: start; }
+.roads-gunn-photo { margin-top: 1.5rem; }
+.roads-route-map figcaption { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 0.25rem 1.5rem; padding: 0.5rem 1rem; background: var(--cream); font-size: 0.8125rem; line-height: 1.6; }
+.roads-route-map .roads-source-link { margin-top: 0; }
+.roads-data-note { margin-top: 1.5rem; padding: 1.5rem; border-left: 3px solid var(--teal); background: var(--cream); font-size: 0.9375rem; line-height: 1.8; }
+.roads-photo-caption { margin-top: 0.5rem; font-size: 0.75rem; line-height: 1.6; text-align: right; }
+.roads-demo-note { padding-left: 0.75rem; border-left: 2px solid var(--teal); font-size: 0.75rem; line-height: 1.7; }
+.roads-section > .site-container > .roads-demo-note { margin-top: 1.5rem; }
+.roads-map-descriptions { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-block: 1.75rem; }
+.roads-map-descriptions article { padding: 1.75rem; background: var(--white); border: 1px solid var(--gray); border-radius: var(--radius); }
+.roads-map-descriptions h3 { margin-top: 1rem; margin-bottom: 0.75rem; font-size: 1.5rem; font-weight: 700; line-height: 1.3; }
+.roads-map-descriptions p { margin-top: 0.75rem; font-size: 1rem; line-height: 1.8; }
+.roads-map-message { max-width: 58rem; margin-bottom: 1.5rem; font-family: var(--font-source-serif), Georgia, serif; color: var(--teal); font-size: 1.625rem; font-weight: 700; line-height: 1.5; }
+.roads-evidence-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 1rem; margin-top: 1.75rem; }
+.roads-evidence-card { display: flex; flex-direction: column; align-items: start; min-width: 0; padding: 1rem; border: 1px solid var(--gray); border-radius: var(--radius); background: var(--white); }
+.roads-evidence-category { display: flex; align-items: start; gap: 0.75rem; color: var(--teal); }
+.roads-evidence-category > svg { width: 1.5rem; height: 1.5rem; flex-shrink: 0; }
+.roads-evidence-category h3 { font-family: var(--font-inter), sans-serif; font-size: 0.8125rem; font-weight: 700; line-height: 1.5; }
+.roads-evidence-topics { min-height: 4rem; margin-top: 0.75rem; font-size: 0.75rem; line-height: 1.7; }
+.roads-evidence-card .roads-image { margin-top: 0.75rem; }
+.roads-evidence-card .roads-demo-note { margin-top: 1rem; }
+.roads-evidence-card h4 { margin-block: 1rem 0.625rem; font-size: 1.125rem; line-height: 1.3; font-weight: 700; }
+.roads-evidence-text { margin-bottom: 1.25rem; font-size: 0.875rem; line-height: 1.7; }
+.roads-evidence-metadata { width: 100%; margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--gray); font-size: 0.75rem; line-height: 1.7; }
+.roads-evidence-metadata p + p { margin-top: 0.5rem; }
+.roads-evidence-card > button { margin-top: 1rem; padding-inline: 0.75rem; font-size: 0.75rem; }
+.roads-evidence-card > .roads-source-link { margin-top: 0.75rem; font-size: 0.75rem; }
+.roads-evidence-reading { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+.roads-petition-band { display: flex; align-items: center; justify-content: space-between; gap: 2rem; margin-top: 1.75rem; padding: 1.75rem; background: var(--navy); color: var(--white); }
+.roads-petition-band p { max-width: 40rem; font-size: 1.0625rem; line-height: 1.7; }
+.roads-comparison-grid { display: grid; grid-template-columns: 1fr 1fr; align-items: start; gap: 1.5rem; margin-top: 1.75rem; }
+.roads-comparison-panel { min-width: 0; padding: 1.25rem; background: var(--white); border: 1px solid var(--gray); border-top: 3px solid var(--navy); border-radius: var(--radius); }
+.roads-county-panel { border-top-color: var(--teal); }
+.roads-comparison-header { display: flex; gap: 0.875rem; align-items: start; }
+.roads-comparison-header > svg { width: 1.75rem; height: 1.75rem; flex-shrink: 0; color: var(--teal); }
+.roads-comparison-header h3 { font-size: 1.25rem; font-weight: 700; line-height: 1.4; }
+.roads-comparison-intro { margin-block: 0.75rem 1.25rem; font-size: 0.8125rem; line-height: 1.7; }
+.roads-comparison-inner { display: grid; grid-template-columns: 0.9fr 1.2fr; gap: 1rem; align-items: start; }
+.roads-county-panel .roads-comparison-inner { grid-template-columns: 1.2fr 0.9fr; }
+.roads-comparison-inner figcaption { padding-block: 0.75rem; font-size: 0.75rem; line-height: 1.6; text-align: center; }
+.roads-comparison-inner li { padding-block: 1rem; border-top: 1px solid var(--gray); }
+.roads-comparison-inner li:first-child { border-top: 0; padding-top: 0; }
+.roads-comparison-inner h4 { margin-bottom: 0.5rem; font-size: 1.125rem; font-weight: 700; line-height: 1.3; }
+.roads-comparison-inner li p { font-size: 0.8125rem; line-height: 1.7; }
+.roads-summary-action { display: flex; justify-content: space-between; align-items: center; gap: 2rem; margin-top: 2rem; padding: 1.5rem; background: var(--white); border: 1px solid var(--gray); }
+.roads-summary-action > p { max-width: 44rem; font-size: 0.9375rem; line-height: 1.8; }
+@media (max-width: 74.999rem) {
+  .roads-evidence-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .roads-comparison-inner, .roads-county-panel .roads-comparison-inner { grid-template-columns: 1fr; }
+  .roads-comparison-inner figure { max-width: 18rem; margin-inline: auto; }
+  .roads-county-panel .roads-comparison-inner figure { grid-row: 1; }
+  .roads-summary-action { align-items: start; flex-direction: column; }
+}
+@media (max-width: 61.999rem) {
+  .roads-hero-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+  .roads-hero-preview { min-height: 12rem; }
+  .roads-feature-grid, .roads-gunn-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+  .roads-safety-nav { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .roads-info-grid { grid-template-columns: 1fr; }
+  .roads-card-heading { margin-bottom: 0.75rem; }
+  .roads-petition-band { flex-direction: column; align-items: start; gap: 1.25rem; }
+  .roads-evidence-topics { min-height: 4rem; }
+}
+@media (max-width: 47.999rem) {
+  .roads-evidence-grid, .roads-comparison-grid, .roads-evidence-reading, .roads-map-descriptions { grid-template-columns: 1fr; }
+  .roads-evidence-card { padding: 1.5rem; }
+  .roads-evidence-topics { min-height: 0; margin-bottom: 0.75rem; }
+  .roads-evidence-card .roads-image { margin-top: 0.5rem; }
+  .roads-evidence-card h4 { font-size: 1.375rem; }
+  .roads-evidence-category h3 { font-size: 0.9375rem; }
+  .roads-evidence-card > button, .roads-evidence-card > .roads-source-link { font-size: 0.875rem; }
+  .roads-evidence-text { font-size: 0.9375rem; }
+  .roads-comparison-inner li p { font-size: 0.9375rem; }
+  .roads-comparison-inner h4 { font-size: 1.25rem; }
+}
+@media (max-width: 39.999rem) {
+  .roads-hero { padding-top: 1.5rem; }
+  .roads-hero-grid { margin-top: 1.5rem; }
+  .roads-hero h1 { font-size: clamp(2.125rem, 8.5vw, 3rem); }
+  .roads-section { padding-block: 2.5rem; }
+  .roads-heading { font-size: clamp(1.75rem, 7vw, 2.5rem); line-height: 1.2; }
+  .roads-lead { font-size: 0.9375rem; }
+  .roads-safety-nav { gap: 0.625rem; }
+  .roads-safety-nav a { gap: 0.5rem; padding: 0.625rem; }
+  .roads-safety-nav a > span:nth-child(2) { font-size: 0.8125rem; }
+  .roads-nav-icon { width: 1.75rem; height: 1.75rem; }
+  .roads-nav-icon svg { width: 1rem; height: 1rem; }
+  .roads-safety-nav a > svg { width: 0.75rem; }
+  .roads-info-card { padding: 1.25rem; }
+  .roads-reading { font-size: 0.9375rem; }
+  .roads-data-note { padding: 1.25rem; }
+  .roads-cta { width: 100%; }
+  .roads-petition-band { padding: 1.25rem; }
+  .roads-map-message { font-size: 1.375rem; }
+  .roads-summary-action { padding: 1.25rem; }
+}

@@ -1,0 +1,607 @@
+{
+  "schema_version": 1,
+  "purpose": "Preserved visible technical/landscape regions from selected Issues/Roads/Water/Growth screenshots; illustrations, not verified GIS datasets; chart and historic inputs unverified.",
+  "visuals": [
+    {
+      "id": "I03-map",
+      "path": "assets/demo-current/visuals/water-overview-map.png",
+      "parent_path": "assets/blueprint/ui-references/issues/bp-p021-01-water-overview.png",
+      "parent_sha256": "ea930be498e7c837788e509a38935b1533afa7795bc177b99b4b907926f9949a",
+      "crop_box_xyxy": [
+        23,
+        354,
+        859,
+        891
+      ],
+      "width": 836,
+      "height": 537,
+      "source_pdf_pages": [
+        21
+      ],
+      "section_ids": [
+        "I-03"
+      ],
+      "sha256": "b71bb0c7099ac0b788d939dfe7aa56bddc606b7e75a3b03989208f60567d39ae",
+      "operations": [
+        "source pixel crop",
+        "lossless PNG encoding"
+      ],
+      "verified_geographic_data": false,
+      "immutable": true
+    },
+    {
+      "id": "I04-map",
+      "path": "assets/demo-current/visuals/services-illustration.png",
+      "parent_path": "assets/blueprint/ui-references/issues/bp-p023-01-everyday-needs.png",
+      "parent_sha256": "af11466a1ed8dead1a18dbd7c36cf78ee0d9ae7da256b1e1ecc16172bab86489",
+      "crop_box_xyxy": [
+        26,
+        414,
+        570,
+        938
+      ],
+      "width": 544,
+      "height": 524,
+      "source_pdf_pages": [
+        23
+      ],
+      "section_ids": [
+        "I-04"
+      ],
+      "sha256": "efcfd9f2bba101385d6a5616f82b92297c862cfc2c7890d987b1a8d6044ced12",
+      "operations": [
+        "source pixel crop",
+        "lossless PNG encoding"
+      ],
+      "verified_geographic_data": false,
+      "immutable": true
+    },
+    {
+      "id": "I05-map",
+      "path": "assets/demo-current/visuals/community-plan-illustration.png",
+      "parent_path": "assets/blueprint/ui-references/issues/bp-p025-01-outdated-community-plan.png",
+      "parent_sha256": "2a96673898a04d7c87cc76b5a9d4a8051bdac368d2b88082897ea6d9b17c08cb",
+      "crop_box_xyxy": [
+        30,
+        292,
+        771,
+        831
+      ],
+      "width": 741,
+      "height": 539,
+      "source_pdf_pages": [
+        25
+      ],
+      "section_ids": [
+        "I-05"
+      ],
+      "sha256": "a977dc2ccc0ffa8613b617cbce969d40523633f0f4277cba7a00d35d285353d7",
+      "operations": [
+        "source pixel crop",
+        "lossless PNG encoding"
+      ],
+      "verified_geographic_data": false,
+      "immutable": true
+    },
+    {
+      "id": "R03-map",
+      "path": "assets/demo-current/visuals/gunn-highway-illustration.png",
+      "parent_path": "assets/blueprint/ui-references/roads/bp-p031-01-gunn-highway.jpg",
+      "parent_sha256": "6af0f3551f1f4ccea7533312519f278e544f94f0ee96ea8bbd0e8f8b29f87f8b",
+      "crop_box_xyxy": [
+        851,
+        123,
+        1450,
+        644
+      ],
+      "width": 599,
+      "height": 521,
+      "source_pdf_pages": [
+        31
+      ],
+      "section_ids": [
+        "R-03"
+      ],
+      "sha256": "80a8fd0adddbd102253ab56dabd64fe3c2deb4249c96e038ba02056458a99ebe",
+      "operations": [
+        "source pixel crop",
+        "lossless PNG encoding"
+      ],
+      "verified_geographic_data": false,
+      "immutable": true
+    },
+    {
+      "id": "R07-map",
+      "path": "assets/demo-current/visuals/gunn-evidence-illustration.png",
+      "parent_path": "assets/blueprint/ui-references/roads/bp-p039-01-records-evidence.png",
+      "parent_sha256": "61e239fe56ecfb631f421cd282c0acc164ea4e718f9fc1fa34a8fa2d0c95e1ba",
+      "crop_box_xyxy": [
+        634,
+        411,
+        910,
+        659
+      ],
+      "width": 276,
+      "height": 248,
+      "source_pdf_pages": [
+        39
+      ],
+      "section_ids": [
+        "R-07"
+      ],
+      "sha256": "65aeeabc31339c582831d9f109085e4873ac6005cbf5de331c30033a60b0c85f",
+      "operations": [
+        "source pixel crop",
+        "lossless PNG encoding"
+      ],
+      "verified_geographic_data": false,
+      "immutable": true
+    },
+    {
+      "id": "W01-landscape",
+      "path": "assets/demo-current/visuals/water-hero-visible-landscape.png",
+      "parent_path": "assets/blueprint/ui-references/water/bp-p043-01-hero.png",
+      "parent_sha256": "e2f17b8eb181eec9ebc1c174212dd936c425d7c3d820a7b9dbf49d4e7beabd3f",
+      "crop_box_xyxy": [
+        740,
+        61,
+        1336,
+        507
+      ],
+      "width": 596,
+      "height": 446,
+      "source_pdf_pages": [
+        43
+      ],
+      "section_ids": [
+        "W-01"
+      ],
+      "sha256": "f0d40986ab572c0473b74ab535e481ec150a069b9d25ceb54a7b73bf49684e8e",
+      "operations": [
+        "source pixel crop",
+        "lossless PNG encoding"
+      ],
+      "verified_geographic_data": false,
+      "immutable": true,
+      "flags": [
+        "partial-scene",
+        "baked-gradient",
+        "boundary-overlay"
+      ],
+      "full_hidden_background_recovered": false
+    },
+    {
+      "id": "W01-septic",
+      "path": "assets/demo-current/visuals/water-hero-septic-diagram.png",
+      "parent_path": "assets/blueprint/ui-references/water/bp-p043-01-hero.png",
+      "parent_sha256": "e2f17b8eb181eec9ebc1c174212dd936c425d7c3d820a7b9dbf49d4e7beabd3f",
+      "crop_box_xyxy": [
+        100,
+        512,
+        228,
+        643
+      ],
+      "width": 128,
+      "height": 131,
+      "source_pdf_pages": [
+        43
+      ],
+      "section_ids": [
+        "W-01"
+      ],
+      "sha256": "ba87a6a9d0b92601ec93d3af5521f42edcbc9f986d4173a79b66e5941331c6ac",
+      "operations": [
+        "source pixel crop",
+        "lossless PNG encoding"
+      ],
+      "verified_geographic_data": false,
+      "immutable": true
+    },
+    {
+      "id": "W01-groundwater",
+      "path": "assets/demo-current/visuals/water-hero-groundwater-diagram.png",
+      "parent_path": "assets/blueprint/ui-references/water/bp-p043-01-hero.png",
+      "parent_sha256": "e2f17b8eb181eec9ebc1c174212dd936c425d7c3d820a7b9dbf49d4e7beabd3f",
+      "crop_box_xyxy": [
+        528,
+        512,
+        655,
+        643
+      ],
+      "width": 127,
+      "height": 131,
+      "source_pdf_pages": [
+        43
+      ],
+      "section_ids": [
+        "W-01"
+      ],
+      "sha256": "3af8175f43af1fccf0b0752d50f43c568544618706f2accef2d411d5ebd655a7",
+      "operations": [
+        "source pixel crop",
+        "lossless PNG encoding"
+      ],
+      "verified_geographic_data": false,
+      "immutable": true
+    },
+    {
+      "id": "W01-well",
+      "path": "assets/demo-current/visuals/water-hero-well-diagram.png",
+      "parent_path": "assets/blueprint/ui-references/water/bp-p043-01-hero.png",
+      "parent_sha256": "e2f17b8eb181eec9ebc1c174212dd936c425d7c3d820a7b9dbf49d4e7beabd3f",
+      "crop_box_xyxy": [
+        944,
+        513,
+        1073,
+        643
+      ],
+      "width": 129,
+      "height": 130,
+      "source_pdf_pages": [
+        43
+      ],
+      "section_ids": [
+        "W-01"
+      ],
+      "sha256": "512c0daf949935990df03b14d43dd3a10807937db82b2d03fe121b6226006a53",
+      "operations": [
+        "source pixel crop",
+        "lossless PNG encoding"
+      ],
+      "verified_geographic_data": false,
+      "immutable": true
+    },
+    {
+      "id": "W02-map",
+      "path": "assets/demo-current/visuals/septic-classification-illustration.png",
+      "parent_path": "assets/blueprint/ui-references/water/bp-p044-01-septic-scale.jpg",
+      "parent_sha256": "560d8819a12f221a033b335409c7a8eb32a9148250f260f650e4c6df210b8e71",
+      "crop_box_xyxy": [
+        605,
+        108,
+        1340,
+        574
+      ],
+      "width": 735,
+      "height": 466,
+      "source_pdf_pages": [
+        44
+      ],
+      "section_ids": [
+        "W-02"
+      ],
+      "sha256": "78326d39a265cbdca793a0f7d6835abeac05dbc8b5e4302df287f4c1d95eaf79",
+      "operations": [
+        "source pixel crop",
+        "lossless PNG encoding"
+      ],
+      "verified_geographic_data": false,
+      "immutable": true
+    },
+    {
+      "id": "W03-map",
+      "path": "assets/demo-current/visuals/repair-records-illustration.png",
+      "parent_path": "assets/blueprint/ui-references/water/bp-p045-01-repair-records.jpg",
+      "parent_sha256": "084a6e1ab86ecc11f4c3d2b26fdb11bdf1bf1ef22e3f0163bbd31b41b4bf3556",
+      "crop_box_xyxy": [
+        734,
+        111,
+        1415,
+        647
+      ],
+      "width": 681,
+      "height": 536,
+      "source_pdf_pages": [
+        45
+      ],
+      "section_ids": [
+        "W-03"
+      ],
+      "sha256": "42293c841c1aa6c4e67e7735a2940dc4697f2e6ad77587f6e15bce46db9364a5",
+      "operations": [
+        "source pixel crop",
+        "lossless PNG encoding"
+      ],
+      "verified_geographic_data": false,
+      "immutable": true
+    },
+    {
+      "id": "W03-chart",
+      "path": "assets/demo-current/visuals/repair-records-chart-preview.png",
+      "parent_path": "assets/blueprint/ui-references/water/bp-p045-01-repair-records.jpg",
+      "parent_sha256": "084a6e1ab86ecc11f4c3d2b26fdb11bdf1bf1ef22e3f0163bbd31b41b4bf3556",
+      "crop_box_xyxy": [
+        68,
+        488,
+        714,
+        646
+      ],
+      "width": 646,
+      "height": 158,
+      "source_pdf_pages": [
+        45
+      ],
+      "section_ids": [
+        "W-03"
+      ],
+      "sha256": "cca252065b969439766136f311a961c555608fd163455305ca6ba81d8d28b1ee",
+      "operations": [
+        "source pixel crop",
+        "lossless PNG encoding"
+      ],
+      "verified_geographic_data": false,
+      "immutable": true,
+      "annual_chart_inputs_verified": false
+    },
+    {
+      "id": "W04-system",
+      "path": "assets/demo-current/visuals/connected-water-system-illustration.png",
+      "parent_path": "assets/blueprint/ui-references/water/bp-p047-01-connected-water.png",
+      "parent_sha256": "980ce21a7e180bbef140ac38a3f17a7eac01bd099b45b98f0ca3e16232b99d6c",
+      "crop_box_xyxy": [
+        505,
+        103,
+        1338,
+        397
+      ],
+      "width": 833,
+      "height": 294,
+      "source_pdf_pages": [
+        47
+      ],
+      "section_ids": [
+        "W-04"
+      ],
+      "sha256": "e204c8363348325b721a527acc0394604ab25d85a01c8171e122eff8a0346bdb",
+      "operations": [
+        "source pixel crop",
+        "lossless PNG encoding"
+      ],
+      "verified_geographic_data": false,
+      "immutable": true
+    },
+    {
+      "id": "W04-cutaway",
+      "path": "assets/demo-current/visuals/connected-water-conceptual-cutaway.png",
+      "parent_path": "assets/blueprint/ui-references/water/bp-p047-01-connected-water.png",
+      "parent_sha256": "980ce21a7e180bbef140ac38a3f17a7eac01bd099b45b98f0ca3e16232b99d6c",
+      "crop_box_xyxy": [
+        0,
+        480,
+        1341,
+        731
+      ],
+      "width": 1341,
+      "height": 251,
+      "source_pdf_pages": [
+        47
+      ],
+      "section_ids": [
+        "W-04"
+      ],
+      "sha256": "3c254d25c73386cc97f8fbec68eaa005634fc5b325376977f37b69907045973a",
+      "operations": [
+        "source pixel crop",
+        "lossless PNG encoding"
+      ],
+      "verified_geographic_data": false,
+      "immutable": true
+    },
+    {
+      "id": "W08-map",
+      "path": "assets/demo-current/visuals/water-well-map-preview.png",
+      "parent_path": "assets/blueprint/ui-references/water/bp-p053-01-evidence-next.jpg",
+      "parent_sha256": "9ddef21971681ec8422543f383a9506263be2a67178306359ea4678ecb1f459e",
+      "crop_box_xyxy": [
+        603,
+        266,
+        873,
+        371
+      ],
+      "width": 270,
+      "height": 105,
+      "source_pdf_pages": [
+        53
+      ],
+      "section_ids": [
+        "W-08"
+      ],
+      "sha256": "c492b06a1494f2f44a6c8c6d6585160e65ca67f3647bc99376b6b9534d24095f",
+      "operations": [
+        "source pixel crop",
+        "lossless PNG encoding"
+      ],
+      "verified_geographic_data": false,
+      "immutable": true
+    },
+    {
+      "id": "L01-then",
+      "path": "assets/demo-current/visuals/then-map.png",
+      "parent_path": "assets/blueprint/ui-references/growth/bp-p055-01-then-today.jpg",
+      "parent_sha256": "f12087946737e29c908dd01bf9ab7b8c3a893349d1b1372031c19dd13598630e",
+      "crop_box_xyxy": [
+        0,
+        272,
+        737,
+        684
+      ],
+      "width": 737,
+      "height": 412,
+      "source_pdf_pages": [
+        55
+      ],
+      "section_ids": [
+        "L-01"
+      ],
+      "sha256": "b4400ece10c84fe7c53d16b653cb39d8d9ecdeaea35a1e9d56c6860a02fa744b",
+      "operations": [
+        "source pixel crop",
+        "lossless PNG encoding"
+      ],
+      "verified_geographic_data": false,
+      "immutable": true
+    },
+    {
+      "id": "L01-today",
+      "path": "assets/demo-current/visuals/today-map.png",
+      "parent_path": "assets/blueprint/ui-references/growth/bp-p055-01-then-today.jpg",
+      "parent_sha256": "f12087946737e29c908dd01bf9ab7b8c3a893349d1b1372031c19dd13598630e",
+      "crop_box_xyxy": [
+        743,
+        272,
+        1476,
+        684
+      ],
+      "width": 733,
+      "height": 412,
+      "source_pdf_pages": [
+        55
+      ],
+      "section_ids": [
+        "L-01"
+      ],
+      "sha256": "4be4ccc634d4db821f338de00b00a4b8274a9c45697512e2051df89979af869f",
+      "operations": [
+        "source pixel crop",
+        "lossless PNG encoding"
+      ],
+      "verified_geographic_data": false,
+      "immutable": true
+    },
+    {
+      "id": "L02-five-acre",
+      "path": "assets/demo-current/visuals/five-acre-pattern.png",
+      "parent_path": "assets/blueprint/ui-references/growth/bp-p057-01-natural-rural-density.jpg",
+      "parent_sha256": "1825c3e7e3f2f5f5ce4d63a1526aea14a86b789bfdc2479c3c08caa13b6cf15f",
+      "crop_box_xyxy": [
+        43,
+        439,
+        763,
+        701
+      ],
+      "width": 720,
+      "height": 262,
+      "source_pdf_pages": [
+        57
+      ],
+      "section_ids": [
+        "L-02"
+      ],
+      "sha256": "ebd657dac18f059b79f45114eb7fc72b5ad38dcd04b8e54a2f61fd02a3d7a376",
+      "operations": [
+        "source pixel crop",
+        "lossless PNG encoding"
+      ],
+      "verified_geographic_data": false,
+      "immutable": true
+    },
+    {
+      "id": "L02-moderate",
+      "path": "assets/demo-current/visuals/moderate-pattern.png",
+      "parent_path": "assets/blueprint/ui-references/growth/bp-p057-01-natural-rural-density.jpg",
+      "parent_sha256": "1825c3e7e3f2f5f5ce4d63a1526aea14a86b789bfdc2479c3c08caa13b6cf15f",
+      "crop_box_xyxy": [
+        773,
+        439,
+        1496,
+        701
+      ],
+      "width": 723,
+      "height": 262,
+      "source_pdf_pages": [
+        57
+      ],
+      "section_ids": [
+        "L-02"
+      ],
+      "sha256": "6a59551088f4098369c25f2159724ea0fe069267a66fdd7adf8655544e924529",
+      "operations": [
+        "source pixel crop",
+        "lossless PNG encoding"
+      ],
+      "verified_geographic_data": false,
+      "immutable": true
+    },
+    {
+      "id": "L04-map",
+      "path": "assets/demo-current/visuals/growth-services-map.png",
+      "parent_path": "assets/blueprint/ui-references/growth/bp-p058-01-services-map.jpg",
+      "parent_sha256": "71ea92aa3bce3c4a2712dc5efdfcb6156322f79dc7f3edafd9d62a07311097d0",
+      "crop_box_xyxy": [
+        20,
+        307,
+        1141,
+        806
+      ],
+      "width": 1121,
+      "height": 499,
+      "source_pdf_pages": [
+        58
+      ],
+      "section_ids": [
+        "L-04"
+      ],
+      "sha256": "be3be8102cdfe14bcc075fa247fbb1cb780ddb3bbb93d53f33af0ed10f03ef47",
+      "operations": [
+        "source pixel crop",
+        "lossless PNG encoding"
+      ],
+      "verified_geographic_data": false,
+      "immutable": true
+    },
+    {
+      "id": "L07-landuse",
+      "path": "assets/demo-current/visuals/growth-landuse-thumbnail.png",
+      "parent_path": "assets/blueprint/ui-references/growth/bp-p060-01-evidence-next.jpg",
+      "parent_sha256": "be39256c8d2e0bbaeec93294b39fc16f7685668e70fa3b7f0c343f6953d1ea02",
+      "crop_box_xyxy": [
+        782,
+        270,
+        958,
+        423
+      ],
+      "width": 176,
+      "height": 153,
+      "source_pdf_pages": [
+        60
+      ],
+      "section_ids": [
+        "L-07"
+      ],
+      "sha256": "39da6a3117e2c8dc8785d9d34caf92c77ed873d1f8667f365463571a50794fea",
+      "operations": [
+        "source pixel crop",
+        "lossless PNG encoding"
+      ],
+      "verified_geographic_data": false,
+      "immutable": true
+    },
+    {
+      "id": "L07-services",
+      "path": "assets/demo-current/visuals/growth-services-thumbnail.png",
+      "parent_path": "assets/blueprint/ui-references/growth/bp-p060-01-evidence-next.jpg",
+      "parent_sha256": "be39256c8d2e0bbaeec93294b39fc16f7685668e70fa3b7f0c343f6953d1ea02",
+      "crop_box_xyxy": [
+        319,
+        446,
+        499,
+        601
+      ],
+      "width": 180,
+      "height": 155,
+      "source_pdf_pages": [
+        60
+      ],
+      "section_ids": [
+        "L-07"
+      ],
+      "sha256": "3dfe4c7fb1d1ff7298e4a0e41c3144c3037f38e70429503c0657d1f1bd08d6ba",
+      "operations": [
+        "source pixel crop",
+        "lossless PNG encoding"
+      ],
+      "verified_geographic_data": false,
+      "immutable": true
+    }
+  ]
+}

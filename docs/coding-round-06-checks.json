@@ -1,0 +1,3393 @@
+{
+  "status": "passed",
+  "base": "http://127.0.0.1:3001",
+  "dateLocal": "2026-10-20",
+  "checks": {
+    "copyLeaves": 109,
+    "pdfLeaves": 83,
+    "artworkLeaves": 26,
+    "sourceLinks": 12,
+    "previewDialogs": 6,
+    "ctaDestinations": 5,
+    "retainedRoutePreviews": 4,
+    "anchorTargets": 7
+  },
+  "cases": [
+    {
+      "width": 320,
+      "dpr": 1,
+      "status": "passed"
+    },
+    {
+      "width": 390,
+      "dpr": 1,
+      "status": "passed"
+    },
+    {
+      "width": 560,
+      "dpr": 1,
+      "status": "passed"
+    },
+    {
+      "width": 768,
+      "dpr": 1,
+      "status": "passed"
+    },
+    {
+      "width": 1000,
+      "dpr": 1,
+      "status": "passed"
+    },
+    {
+      "width": 1152,
+      "dpr": 1,
+      "status": "passed"
+    },
+    {
+      "width": 1440,
+      "dpr": 1,
+      "status": "passed"
+    },
+    {
+      "width": 320,
+      "dpr": 2,
+      "status": "passed"
+    },
+    {
+      "width": 390,
+      "dpr": 2,
+      "status": "passed"
+    },
+    {
+      "width": 560,
+      "dpr": 2,
+      "status": "passed"
+    },
+    {
+      "width": 768,
+      "dpr": 2,
+      "status": "passed"
+    },
+    {
+      "width": 1000,
+      "dpr": 2,
+      "status": "passed"
+    },
+    {
+      "width": 1152,
+      "dpr": 2,
+      "status": "passed"
+    },
+    {
+      "width": 1440,
+      "dpr": 2,
+      "status": "passed"
+    }
+  ],
+  "imageBudgets": [
+    {
+      "width": 320,
+      "dpr": 1,
+      "images": [
+        {
+          "id": "L01-then",
+          "src": "/assets/demo/visuals/then-map.png",
+          "nativeWidth": 737,
+          "nativeHeight": 412,
+          "cssWidth": 278,
+          "cssHeight": 155.40625,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L01-today",
+          "src": "/assets/demo/visuals/today-map.png",
+          "nativeWidth": 733,
+          "nativeHeight": 412,
+          "cssWidth": 278,
+          "cssHeight": 156.25,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L02-five-acre",
+          "src": "/assets/demo/visuals/five-acre-pattern.png",
+          "nativeWidth": 720,
+          "nativeHeight": 262,
+          "cssWidth": 278,
+          "cssHeight": 101.15625,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L02-moderate",
+          "src": "/assets/demo/visuals/moderate-pattern.png",
+          "nativeWidth": 723,
+          "nativeHeight": 262,
+          "cssWidth": 278,
+          "cssHeight": 100.734375,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L04-map",
+          "src": "/assets/demo/visuals/growth-services-map.png",
+          "nativeWidth": 1121,
+          "nativeHeight": 499,
+          "cssWidth": 280,
+          "cssHeight": 124.625,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-02",
+          "src": "/assets/demo/growth/p058-02.png",
+          "nativeWidth": 97,
+          "nativeHeight": 50,
+          "cssWidth": 97,
+          "cssHeight": 50,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-03",
+          "src": "/assets/demo/growth/p058-03.png",
+          "nativeWidth": 97,
+          "nativeHeight": 50,
+          "cssWidth": 97,
+          "cssHeight": 50,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-04",
+          "src": "/assets/demo/growth/p058-04.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 97,
+          "cssHeight": 49,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-05",
+          "src": "/assets/demo/growth/p058-05.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 97,
+          "cssHeight": 49,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-06",
+          "src": "/assets/demo/growth/p058-06.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 97,
+          "cssHeight": 49,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P059-01",
+          "src": "/assets/demo/growth/p059-01.png",
+          "nativeWidth": 270,
+          "nativeHeight": 337,
+          "cssWidth": 128,
+          "cssHeight": 159.75,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P059-02",
+          "src": "/assets/demo/growth/p059-02.png",
+          "nativeWidth": 268,
+          "nativeHeight": 337,
+          "cssWidth": 128,
+          "cssHeight": 160.953125,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-plan",
+          "src": "/assets/demo/documents/growth-plan-cover.png",
+          "nativeWidth": 180,
+          "nativeHeight": 153,
+          "cssWidth": 180,
+          "cssHeight": 153,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-landuse",
+          "src": "/assets/demo/visuals/growth-landuse-thumbnail.png",
+          "nativeWidth": 176,
+          "nativeHeight": 153,
+          "cssWidth": 176,
+          "cssHeight": 153,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-03",
+          "src": "/assets/demo/growth/p060-03.png",
+          "nativeWidth": 205,
+          "nativeHeight": 151,
+          "cssWidth": 205,
+          "cssHeight": 151,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-services",
+          "src": "/assets/demo/visuals/growth-services-thumbnail.png",
+          "nativeWidth": 180,
+          "nativeHeight": 155,
+          "cssWidth": 180,
+          "cssHeight": 155,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-05",
+          "src": "/assets/demo/growth/p060-05.png",
+          "nativeWidth": 169,
+          "nativeHeight": 152,
+          "cssWidth": 169,
+          "cssHeight": 152,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-06",
+          "src": "/assets/demo/growth/p060-06.png",
+          "nativeWidth": 189,
+          "nativeHeight": 152,
+          "cssWidth": 189,
+          "cssHeight": 152,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-07",
+          "src": "/assets/demo/growth/p060-07.png",
+          "nativeWidth": 641,
+          "nativeHeight": 208,
+          "cssWidth": 280,
+          "cssHeight": 90.84375,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "dpr": 1,
+      "images": [
+        {
+          "id": "L01-then",
+          "src": "/assets/demo/visuals/then-map.png",
+          "nativeWidth": 737,
+          "nativeHeight": 412,
+          "cssWidth": 348,
+          "cssHeight": 194.53125,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L01-today",
+          "src": "/assets/demo/visuals/today-map.png",
+          "nativeWidth": 733,
+          "nativeHeight": 412,
+          "cssWidth": 348,
+          "cssHeight": 195.59375,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L02-five-acre",
+          "src": "/assets/demo/visuals/five-acre-pattern.png",
+          "nativeWidth": 720,
+          "nativeHeight": 262,
+          "cssWidth": 348,
+          "cssHeight": 126.625,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L02-moderate",
+          "src": "/assets/demo/visuals/moderate-pattern.png",
+          "nativeWidth": 723,
+          "nativeHeight": 262,
+          "cssWidth": 348,
+          "cssHeight": 126.09375,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L04-map",
+          "src": "/assets/demo/visuals/growth-services-map.png",
+          "nativeWidth": 1121,
+          "nativeHeight": 499,
+          "cssWidth": 350,
+          "cssHeight": 155.796875,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-02",
+          "src": "/assets/demo/growth/p058-02.png",
+          "nativeWidth": 97,
+          "nativeHeight": 50,
+          "cssWidth": 97,
+          "cssHeight": 50,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-03",
+          "src": "/assets/demo/growth/p058-03.png",
+          "nativeWidth": 97,
+          "nativeHeight": 50,
+          "cssWidth": 97,
+          "cssHeight": 50,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-04",
+          "src": "/assets/demo/growth/p058-04.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 97,
+          "cssHeight": 49,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-05",
+          "src": "/assets/demo/growth/p058-05.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 97,
+          "cssHeight": 49,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-06",
+          "src": "/assets/demo/growth/p058-06.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 97,
+          "cssHeight": 49,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P059-01",
+          "src": "/assets/demo/growth/p059-01.png",
+          "nativeWidth": 270,
+          "nativeHeight": 337,
+          "cssWidth": 128,
+          "cssHeight": 159.75,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P059-02",
+          "src": "/assets/demo/growth/p059-02.png",
+          "nativeWidth": 268,
+          "nativeHeight": 337,
+          "cssWidth": 128,
+          "cssHeight": 160.953125,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-plan",
+          "src": "/assets/demo/documents/growth-plan-cover.png",
+          "nativeWidth": 180,
+          "nativeHeight": 153,
+          "cssWidth": 180,
+          "cssHeight": 153,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-landuse",
+          "src": "/assets/demo/visuals/growth-landuse-thumbnail.png",
+          "nativeWidth": 176,
+          "nativeHeight": 153,
+          "cssWidth": 176,
+          "cssHeight": 153,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-03",
+          "src": "/assets/demo/growth/p060-03.png",
+          "nativeWidth": 205,
+          "nativeHeight": 151,
+          "cssWidth": 205,
+          "cssHeight": 151,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-services",
+          "src": "/assets/demo/visuals/growth-services-thumbnail.png",
+          "nativeWidth": 180,
+          "nativeHeight": 155,
+          "cssWidth": 180,
+          "cssHeight": 155,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-05",
+          "src": "/assets/demo/growth/p060-05.png",
+          "nativeWidth": 169,
+          "nativeHeight": 152,
+          "cssWidth": 169,
+          "cssHeight": 152,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-06",
+          "src": "/assets/demo/growth/p060-06.png",
+          "nativeWidth": 189,
+          "nativeHeight": 152,
+          "cssWidth": 189,
+          "cssHeight": 152,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-07",
+          "src": "/assets/demo/growth/p060-07.png",
+          "nativeWidth": 641,
+          "nativeHeight": 208,
+          "cssWidth": 350,
+          "cssHeight": 113.5625,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        }
+      ]
+    },
+    {
+      "width": 560,
+      "dpr": 1,
+      "images": [
+        {
+          "id": "L01-then",
+          "src": "/assets/demo/visuals/then-map.png",
+          "nativeWidth": 737,
+          "nativeHeight": 412,
+          "cssWidth": 518,
+          "cssHeight": 289.5625,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L01-today",
+          "src": "/assets/demo/visuals/today-map.png",
+          "nativeWidth": 733,
+          "nativeHeight": 412,
+          "cssWidth": 518,
+          "cssHeight": 291.140625,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L02-five-acre",
+          "src": "/assets/demo/visuals/five-acre-pattern.png",
+          "nativeWidth": 720,
+          "nativeHeight": 262,
+          "cssWidth": 518,
+          "cssHeight": 188.484375,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L02-moderate",
+          "src": "/assets/demo/visuals/moderate-pattern.png",
+          "nativeWidth": 723,
+          "nativeHeight": 262,
+          "cssWidth": 518,
+          "cssHeight": 187.703125,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L04-map",
+          "src": "/assets/demo/visuals/growth-services-map.png",
+          "nativeWidth": 1121,
+          "nativeHeight": 499,
+          "cssWidth": 520,
+          "cssHeight": 231.46875,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-02",
+          "src": "/assets/demo/growth/p058-02.png",
+          "nativeWidth": 97,
+          "nativeHeight": 50,
+          "cssWidth": 97,
+          "cssHeight": 50,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-03",
+          "src": "/assets/demo/growth/p058-03.png",
+          "nativeWidth": 97,
+          "nativeHeight": 50,
+          "cssWidth": 97,
+          "cssHeight": 50,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-04",
+          "src": "/assets/demo/growth/p058-04.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 97,
+          "cssHeight": 49,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-05",
+          "src": "/assets/demo/growth/p058-05.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 97,
+          "cssHeight": 49,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-06",
+          "src": "/assets/demo/growth/p058-06.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 97,
+          "cssHeight": 49,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P059-01",
+          "src": "/assets/demo/growth/p059-01.png",
+          "nativeWidth": 270,
+          "nativeHeight": 337,
+          "cssWidth": 128,
+          "cssHeight": 159.75,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P059-02",
+          "src": "/assets/demo/growth/p059-02.png",
+          "nativeWidth": 268,
+          "nativeHeight": 337,
+          "cssWidth": 128,
+          "cssHeight": 160.953125,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-plan",
+          "src": "/assets/demo/documents/growth-plan-cover.png",
+          "nativeWidth": 180,
+          "nativeHeight": 153,
+          "cssWidth": 180,
+          "cssHeight": 153,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-landuse",
+          "src": "/assets/demo/visuals/growth-landuse-thumbnail.png",
+          "nativeWidth": 176,
+          "nativeHeight": 153,
+          "cssWidth": 176,
+          "cssHeight": 153,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-03",
+          "src": "/assets/demo/growth/p060-03.png",
+          "nativeWidth": 205,
+          "nativeHeight": 151,
+          "cssWidth": 205,
+          "cssHeight": 151,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-services",
+          "src": "/assets/demo/visuals/growth-services-thumbnail.png",
+          "nativeWidth": 180,
+          "nativeHeight": 155,
+          "cssWidth": 180,
+          "cssHeight": 155,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-05",
+          "src": "/assets/demo/growth/p060-05.png",
+          "nativeWidth": 169,
+          "nativeHeight": 152,
+          "cssWidth": 169,
+          "cssHeight": 152,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-06",
+          "src": "/assets/demo/growth/p060-06.png",
+          "nativeWidth": 189,
+          "nativeHeight": 152,
+          "cssWidth": 189,
+          "cssHeight": 152,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-07",
+          "src": "/assets/demo/growth/p060-07.png",
+          "nativeWidth": 641,
+          "nativeHeight": 208,
+          "cssWidth": 520,
+          "cssHeight": 168.734375,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "dpr": 1,
+      "images": [
+        {
+          "id": "L01-then",
+          "src": "/assets/demo/visuals/then-map.png",
+          "nativeWidth": 737,
+          "nativeHeight": 412,
+          "cssWidth": 342,
+          "cssHeight": 191.171875,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L01-today",
+          "src": "/assets/demo/visuals/today-map.png",
+          "nativeWidth": 733,
+          "nativeHeight": 412,
+          "cssWidth": 342,
+          "cssHeight": 192.21875,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L02-five-acre",
+          "src": "/assets/demo/visuals/five-acre-pattern.png",
+          "nativeWidth": 720,
+          "nativeHeight": 262,
+          "cssWidth": 342,
+          "cssHeight": 124.4375,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L02-moderate",
+          "src": "/assets/demo/visuals/moderate-pattern.png",
+          "nativeWidth": 723,
+          "nativeHeight": 262,
+          "cssWidth": 342,
+          "cssHeight": 123.921875,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L04-map",
+          "src": "/assets/demo/visuals/growth-services-map.png",
+          "nativeWidth": 1121,
+          "nativeHeight": 499,
+          "cssWidth": 704,
+          "cssHeight": 313.375,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-02",
+          "src": "/assets/demo/growth/p058-02.png",
+          "nativeWidth": 97,
+          "nativeHeight": 50,
+          "cssWidth": 89.59375,
+          "cssHeight": 46.171875,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-03",
+          "src": "/assets/demo/growth/p058-03.png",
+          "nativeWidth": 97,
+          "nativeHeight": 50,
+          "cssWidth": 89.59375,
+          "cssHeight": 46.171875,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-04",
+          "src": "/assets/demo/growth/p058-04.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 89.609375,
+          "cssHeight": 45.265625,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-05",
+          "src": "/assets/demo/growth/p058-05.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 89.59375,
+          "cssHeight": 45.25,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-06",
+          "src": "/assets/demo/growth/p058-06.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 89.59375,
+          "cssHeight": 45.25,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P059-01",
+          "src": "/assets/demo/growth/p059-01.png",
+          "nativeWidth": 270,
+          "nativeHeight": 337,
+          "cssWidth": 128,
+          "cssHeight": 159.75,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P059-02",
+          "src": "/assets/demo/growth/p059-02.png",
+          "nativeWidth": 268,
+          "nativeHeight": 337,
+          "cssWidth": 128,
+          "cssHeight": 160.953125,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-plan",
+          "src": "/assets/demo/documents/growth-plan-cover.png",
+          "nativeWidth": 180,
+          "nativeHeight": 153,
+          "cssWidth": 168.65625,
+          "cssHeight": 143.34375,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-landuse",
+          "src": "/assets/demo/visuals/growth-landuse-thumbnail.png",
+          "nativeWidth": 176,
+          "nativeHeight": 153,
+          "cssWidth": 168.671875,
+          "cssHeight": 146.625,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-03",
+          "src": "/assets/demo/growth/p060-03.png",
+          "nativeWidth": 205,
+          "nativeHeight": 151,
+          "cssWidth": 168.671875,
+          "cssHeight": 124.234375,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-services",
+          "src": "/assets/demo/visuals/growth-services-thumbnail.png",
+          "nativeWidth": 180,
+          "nativeHeight": 155,
+          "cssWidth": 168.65625,
+          "cssHeight": 145.21875,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-05",
+          "src": "/assets/demo/growth/p060-05.png",
+          "nativeWidth": 169,
+          "nativeHeight": 152,
+          "cssWidth": 168.671875,
+          "cssHeight": 151.703125,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-06",
+          "src": "/assets/demo/growth/p060-06.png",
+          "nativeWidth": 189,
+          "nativeHeight": 152,
+          "cssWidth": 168.671875,
+          "cssHeight": 135.640625,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-07",
+          "src": "/assets/demo/growth/p060-07.png",
+          "nativeWidth": 641,
+          "nativeHeight": 208,
+          "cssWidth": 320,
+          "cssHeight": 103.828125,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        }
+      ]
+    },
+    {
+      "width": 1000,
+      "dpr": 1,
+      "images": [
+        {
+          "id": "L01-then",
+          "src": "/assets/demo/visuals/then-map.png",
+          "nativeWidth": 737,
+          "nativeHeight": 412,
+          "cssWidth": 458,
+          "cssHeight": 256.03125,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L01-today",
+          "src": "/assets/demo/visuals/today-map.png",
+          "nativeWidth": 733,
+          "nativeHeight": 412,
+          "cssWidth": 458,
+          "cssHeight": 257.421875,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L02-five-acre",
+          "src": "/assets/demo/visuals/five-acre-pattern.png",
+          "nativeWidth": 720,
+          "nativeHeight": 262,
+          "cssWidth": 458,
+          "cssHeight": 166.65625,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L02-moderate",
+          "src": "/assets/demo/visuals/moderate-pattern.png",
+          "nativeWidth": 723,
+          "nativeHeight": 262,
+          "cssWidth": 458,
+          "cssHeight": 165.96875,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L04-map",
+          "src": "/assets/demo/visuals/growth-services-map.png",
+          "nativeWidth": 1121,
+          "nativeHeight": 499,
+          "cssWidth": 936,
+          "cssHeight": 416.640625,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-02",
+          "src": "/assets/demo/growth/p058-02.png",
+          "nativeWidth": 97,
+          "nativeHeight": 50,
+          "cssWidth": 97,
+          "cssHeight": 50,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-03",
+          "src": "/assets/demo/growth/p058-03.png",
+          "nativeWidth": 97,
+          "nativeHeight": 50,
+          "cssWidth": 97,
+          "cssHeight": 50,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-04",
+          "src": "/assets/demo/growth/p058-04.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 97,
+          "cssHeight": 49,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-05",
+          "src": "/assets/demo/growth/p058-05.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 97,
+          "cssHeight": 49,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-06",
+          "src": "/assets/demo/growth/p058-06.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 97,
+          "cssHeight": 49,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P059-01",
+          "src": "/assets/demo/growth/p059-01.png",
+          "nativeWidth": 270,
+          "nativeHeight": 337,
+          "cssWidth": 128,
+          "cssHeight": 159.75,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P059-02",
+          "src": "/assets/demo/growth/p059-02.png",
+          "nativeWidth": 268,
+          "nativeHeight": 337,
+          "cssWidth": 128,
+          "cssHeight": 160.953125,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-plan",
+          "src": "/assets/demo/documents/growth-plan-cover.png",
+          "nativeWidth": 180,
+          "nativeHeight": 153,
+          "cssWidth": 180,
+          "cssHeight": 153,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-landuse",
+          "src": "/assets/demo/visuals/growth-landuse-thumbnail.png",
+          "nativeWidth": 176,
+          "nativeHeight": 153,
+          "cssWidth": 176,
+          "cssHeight": 153,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-03",
+          "src": "/assets/demo/growth/p060-03.png",
+          "nativeWidth": 205,
+          "nativeHeight": 151,
+          "cssWidth": 205,
+          "cssHeight": 151,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-services",
+          "src": "/assets/demo/visuals/growth-services-thumbnail.png",
+          "nativeWidth": 180,
+          "nativeHeight": 155,
+          "cssWidth": 180,
+          "cssHeight": 155,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-05",
+          "src": "/assets/demo/growth/p060-05.png",
+          "nativeWidth": 169,
+          "nativeHeight": 152,
+          "cssWidth": 169,
+          "cssHeight": 152,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-06",
+          "src": "/assets/demo/growth/p060-06.png",
+          "nativeWidth": 189,
+          "nativeHeight": 152,
+          "cssWidth": 189,
+          "cssHeight": 152,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-07",
+          "src": "/assets/demo/growth/p060-07.png",
+          "nativeWidth": 641,
+          "nativeHeight": 208,
+          "cssWidth": 430.484375,
+          "cssHeight": 139.6875,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        }
+      ]
+    },
+    {
+      "width": 1152,
+      "dpr": 1,
+      "images": [
+        {
+          "id": "L01-then",
+          "src": "/assets/demo/visuals/then-map.png",
+          "nativeWidth": 737,
+          "nativeHeight": 412,
+          "cssWidth": 518,
+          "cssHeight": 289.5625,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L01-today",
+          "src": "/assets/demo/visuals/today-map.png",
+          "nativeWidth": 733,
+          "nativeHeight": 412,
+          "cssWidth": 518,
+          "cssHeight": 291.140625,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L02-five-acre",
+          "src": "/assets/demo/visuals/five-acre-pattern.png",
+          "nativeWidth": 720,
+          "nativeHeight": 262,
+          "cssWidth": 518,
+          "cssHeight": 188.484375,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L02-moderate",
+          "src": "/assets/demo/visuals/moderate-pattern.png",
+          "nativeWidth": 723,
+          "nativeHeight": 262,
+          "cssWidth": 518,
+          "cssHeight": 187.703125,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L04-map",
+          "src": "/assets/demo/visuals/growth-services-map.png",
+          "nativeWidth": 1121,
+          "nativeHeight": 499,
+          "cssWidth": 774,
+          "cssHeight": 344.53125,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-02",
+          "src": "/assets/demo/growth/p058-02.png",
+          "nativeWidth": 97,
+          "nativeHeight": 50,
+          "cssWidth": 97,
+          "cssHeight": 50,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-03",
+          "src": "/assets/demo/growth/p058-03.png",
+          "nativeWidth": 97,
+          "nativeHeight": 50,
+          "cssWidth": 97,
+          "cssHeight": 50,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-04",
+          "src": "/assets/demo/growth/p058-04.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 97,
+          "cssHeight": 49,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-05",
+          "src": "/assets/demo/growth/p058-05.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 97,
+          "cssHeight": 49,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-06",
+          "src": "/assets/demo/growth/p058-06.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 97,
+          "cssHeight": 49,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P059-01",
+          "src": "/assets/demo/growth/p059-01.png",
+          "nativeWidth": 270,
+          "nativeHeight": 337,
+          "cssWidth": 163.09375,
+          "cssHeight": 203.5625,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P059-02",
+          "src": "/assets/demo/growth/p059-02.png",
+          "nativeWidth": 268,
+          "nativeHeight": 337,
+          "cssWidth": 163.09375,
+          "cssHeight": 205.078125,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-plan",
+          "src": "/assets/demo/documents/growth-plan-cover.png",
+          "nativeWidth": 180,
+          "nativeHeight": 153,
+          "cssWidth": 180,
+          "cssHeight": 153,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-landuse",
+          "src": "/assets/demo/visuals/growth-landuse-thumbnail.png",
+          "nativeWidth": 176,
+          "nativeHeight": 153,
+          "cssWidth": 176,
+          "cssHeight": 153,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-03",
+          "src": "/assets/demo/growth/p060-03.png",
+          "nativeWidth": 205,
+          "nativeHeight": 151,
+          "cssWidth": 205,
+          "cssHeight": 151,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-services",
+          "src": "/assets/demo/visuals/growth-services-thumbnail.png",
+          "nativeWidth": 180,
+          "nativeHeight": 155,
+          "cssWidth": 180,
+          "cssHeight": 155,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-05",
+          "src": "/assets/demo/growth/p060-05.png",
+          "nativeWidth": 169,
+          "nativeHeight": 152,
+          "cssWidth": 169,
+          "cssHeight": 152,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-06",
+          "src": "/assets/demo/growth/p060-06.png",
+          "nativeWidth": 189,
+          "nativeHeight": 152,
+          "cssWidth": 189,
+          "cssHeight": 152,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-07",
+          "src": "/assets/demo/growth/p060-07.png",
+          "nativeWidth": 641,
+          "nativeHeight": 208,
+          "cssWidth": 487.625,
+          "cssHeight": 158.21875,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "dpr": 1,
+      "images": [
+        {
+          "id": "L01-then",
+          "src": "/assets/demo/visuals/then-map.png",
+          "nativeWidth": 737,
+          "nativeHeight": 412,
+          "cssWidth": 646,
+          "cssHeight": 361.125,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L01-today",
+          "src": "/assets/demo/visuals/today-map.png",
+          "nativeWidth": 733,
+          "nativeHeight": 412,
+          "cssWidth": 646,
+          "cssHeight": 363.09375,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L02-five-acre",
+          "src": "/assets/demo/visuals/five-acre-pattern.png",
+          "nativeWidth": 720,
+          "nativeHeight": 262,
+          "cssWidth": 646,
+          "cssHeight": 235.0625,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L02-moderate",
+          "src": "/assets/demo/visuals/moderate-pattern.png",
+          "nativeWidth": 723,
+          "nativeHeight": 262,
+          "cssWidth": 646,
+          "cssHeight": 234.09375,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L04-map",
+          "src": "/assets/demo/visuals/growth-services-map.png",
+          "nativeWidth": 1121,
+          "nativeHeight": 499,
+          "cssWidth": 966,
+          "cssHeight": 430,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-02",
+          "src": "/assets/demo/growth/p058-02.png",
+          "nativeWidth": 97,
+          "nativeHeight": 50,
+          "cssWidth": 97,
+          "cssHeight": 50,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-03",
+          "src": "/assets/demo/growth/p058-03.png",
+          "nativeWidth": 97,
+          "nativeHeight": 50,
+          "cssWidth": 97,
+          "cssHeight": 50,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-04",
+          "src": "/assets/demo/growth/p058-04.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 97,
+          "cssHeight": 49,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-05",
+          "src": "/assets/demo/growth/p058-05.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 97,
+          "cssHeight": 49,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-06",
+          "src": "/assets/demo/growth/p058-06.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 97,
+          "cssHeight": 49,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P059-01",
+          "src": "/assets/demo/growth/p059-01.png",
+          "nativeWidth": 270,
+          "nativeHeight": 337,
+          "cssWidth": 207.890625,
+          "cssHeight": 259.46875,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P059-02",
+          "src": "/assets/demo/growth/p059-02.png",
+          "nativeWidth": 268,
+          "nativeHeight": 337,
+          "cssWidth": 207.890625,
+          "cssHeight": 261.40625,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-plan",
+          "src": "/assets/demo/documents/growth-plan-cover.png",
+          "nativeWidth": 180,
+          "nativeHeight": 153,
+          "cssWidth": 180,
+          "cssHeight": 153,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-landuse",
+          "src": "/assets/demo/visuals/growth-landuse-thumbnail.png",
+          "nativeWidth": 176,
+          "nativeHeight": 153,
+          "cssWidth": 176,
+          "cssHeight": 153,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-03",
+          "src": "/assets/demo/growth/p060-03.png",
+          "nativeWidth": 205,
+          "nativeHeight": 151,
+          "cssWidth": 205,
+          "cssHeight": 151,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-services",
+          "src": "/assets/demo/visuals/growth-services-thumbnail.png",
+          "nativeWidth": 180,
+          "nativeHeight": 155,
+          "cssWidth": 180,
+          "cssHeight": 155,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-05",
+          "src": "/assets/demo/growth/p060-05.png",
+          "nativeWidth": 169,
+          "nativeHeight": 152,
+          "cssWidth": 169,
+          "cssHeight": 152,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-06",
+          "src": "/assets/demo/growth/p060-06.png",
+          "nativeWidth": 189,
+          "nativeHeight": 152,
+          "cssWidth": 189,
+          "cssHeight": 152,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-07",
+          "src": "/assets/demo/growth/p060-07.png",
+          "nativeWidth": 641,
+          "nativeHeight": 208,
+          "cssWidth": 609.53125,
+          "cssHeight": 197.78125,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "dpr": 2,
+      "images": [
+        {
+          "id": "L01-then",
+          "src": "/assets/demo/visuals/then-map.png",
+          "nativeWidth": 737,
+          "nativeHeight": 412,
+          "cssWidth": 278,
+          "cssHeight": 155.40625,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L01-today",
+          "src": "/assets/demo/visuals/today-map.png",
+          "nativeWidth": 733,
+          "nativeHeight": 412,
+          "cssWidth": 278,
+          "cssHeight": 156.25,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L02-five-acre",
+          "src": "/assets/demo/visuals/five-acre-pattern.png",
+          "nativeWidth": 720,
+          "nativeHeight": 262,
+          "cssWidth": 278,
+          "cssHeight": 101.15625,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L02-moderate",
+          "src": "/assets/demo/visuals/moderate-pattern.png",
+          "nativeWidth": 723,
+          "nativeHeight": 262,
+          "cssWidth": 278,
+          "cssHeight": 100.734375,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L04-map",
+          "src": "/assets/demo/visuals/growth-services-map.png",
+          "nativeWidth": 1121,
+          "nativeHeight": 499,
+          "cssWidth": 280,
+          "cssHeight": 124.625,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-02",
+          "src": "/assets/demo/growth/p058-02.png",
+          "nativeWidth": 97,
+          "nativeHeight": 50,
+          "cssWidth": 97,
+          "cssHeight": 50,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-03",
+          "src": "/assets/demo/growth/p058-03.png",
+          "nativeWidth": 97,
+          "nativeHeight": 50,
+          "cssWidth": 97,
+          "cssHeight": 50,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-04",
+          "src": "/assets/demo/growth/p058-04.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 97,
+          "cssHeight": 49,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-05",
+          "src": "/assets/demo/growth/p058-05.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 97,
+          "cssHeight": 49,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-06",
+          "src": "/assets/demo/growth/p058-06.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 97,
+          "cssHeight": 49,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P059-01",
+          "src": "/assets/demo/growth/p059-01.png",
+          "nativeWidth": 270,
+          "nativeHeight": 337,
+          "cssWidth": 128,
+          "cssHeight": 159.75,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P059-02",
+          "src": "/assets/demo/growth/p059-02.png",
+          "nativeWidth": 268,
+          "nativeHeight": 337,
+          "cssWidth": 128,
+          "cssHeight": 160.953125,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-plan",
+          "src": "/assets/demo/documents/growth-plan-cover.png",
+          "nativeWidth": 180,
+          "nativeHeight": 153,
+          "cssWidth": 180,
+          "cssHeight": 153,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-landuse",
+          "src": "/assets/demo/visuals/growth-landuse-thumbnail.png",
+          "nativeWidth": 176,
+          "nativeHeight": 153,
+          "cssWidth": 176,
+          "cssHeight": 153,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-03",
+          "src": "/assets/demo/growth/p060-03.png",
+          "nativeWidth": 205,
+          "nativeHeight": 151,
+          "cssWidth": 205,
+          "cssHeight": 151,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-services",
+          "src": "/assets/demo/visuals/growth-services-thumbnail.png",
+          "nativeWidth": 180,
+          "nativeHeight": 155,
+          "cssWidth": 180,
+          "cssHeight": 155,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-05",
+          "src": "/assets/demo/growth/p060-05.png",
+          "nativeWidth": 169,
+          "nativeHeight": 152,
+          "cssWidth": 169,
+          "cssHeight": 152,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-06",
+          "src": "/assets/demo/growth/p060-06.png",
+          "nativeWidth": 189,
+          "nativeHeight": 152,
+          "cssWidth": 189,
+          "cssHeight": 152,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-07",
+          "src": "/assets/demo/growth/p060-07.png",
+          "nativeWidth": 641,
+          "nativeHeight": 208,
+          "cssWidth": 280,
+          "cssHeight": 90.84375,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "dpr": 2,
+      "images": [
+        {
+          "id": "L01-then",
+          "src": "/assets/demo/visuals/then-map.png",
+          "nativeWidth": 737,
+          "nativeHeight": 412,
+          "cssWidth": 348,
+          "cssHeight": 194.53125,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L01-today",
+          "src": "/assets/demo/visuals/today-map.png",
+          "nativeWidth": 733,
+          "nativeHeight": 412,
+          "cssWidth": 348,
+          "cssHeight": 195.59375,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L02-five-acre",
+          "src": "/assets/demo/visuals/five-acre-pattern.png",
+          "nativeWidth": 720,
+          "nativeHeight": 262,
+          "cssWidth": 348,
+          "cssHeight": 126.625,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L02-moderate",
+          "src": "/assets/demo/visuals/moderate-pattern.png",
+          "nativeWidth": 723,
+          "nativeHeight": 262,
+          "cssWidth": 348,
+          "cssHeight": 126.09375,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L04-map",
+          "src": "/assets/demo/visuals/growth-services-map.png",
+          "nativeWidth": 1121,
+          "nativeHeight": 499,
+          "cssWidth": 350,
+          "cssHeight": 155.796875,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-02",
+          "src": "/assets/demo/growth/p058-02.png",
+          "nativeWidth": 97,
+          "nativeHeight": 50,
+          "cssWidth": 97,
+          "cssHeight": 50,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-03",
+          "src": "/assets/demo/growth/p058-03.png",
+          "nativeWidth": 97,
+          "nativeHeight": 50,
+          "cssWidth": 97,
+          "cssHeight": 50,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-04",
+          "src": "/assets/demo/growth/p058-04.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 97,
+          "cssHeight": 49,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-05",
+          "src": "/assets/demo/growth/p058-05.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 97,
+          "cssHeight": 49,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-06",
+          "src": "/assets/demo/growth/p058-06.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 97,
+          "cssHeight": 49,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P059-01",
+          "src": "/assets/demo/growth/p059-01.png",
+          "nativeWidth": 270,
+          "nativeHeight": 337,
+          "cssWidth": 128,
+          "cssHeight": 159.75,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P059-02",
+          "src": "/assets/demo/growth/p059-02.png",
+          "nativeWidth": 268,
+          "nativeHeight": 337,
+          "cssWidth": 128,
+          "cssHeight": 160.953125,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-plan",
+          "src": "/assets/demo/documents/growth-plan-cover.png",
+          "nativeWidth": 180,
+          "nativeHeight": 153,
+          "cssWidth": 180,
+          "cssHeight": 153,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-landuse",
+          "src": "/assets/demo/visuals/growth-landuse-thumbnail.png",
+          "nativeWidth": 176,
+          "nativeHeight": 153,
+          "cssWidth": 176,
+          "cssHeight": 153,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-03",
+          "src": "/assets/demo/growth/p060-03.png",
+          "nativeWidth": 205,
+          "nativeHeight": 151,
+          "cssWidth": 205,
+          "cssHeight": 151,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-services",
+          "src": "/assets/demo/visuals/growth-services-thumbnail.png",
+          "nativeWidth": 180,
+          "nativeHeight": 155,
+          "cssWidth": 180,
+          "cssHeight": 155,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-05",
+          "src": "/assets/demo/growth/p060-05.png",
+          "nativeWidth": 169,
+          "nativeHeight": 152,
+          "cssWidth": 169,
+          "cssHeight": 152,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-06",
+          "src": "/assets/demo/growth/p060-06.png",
+          "nativeWidth": 189,
+          "nativeHeight": 152,
+          "cssWidth": 189,
+          "cssHeight": 152,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-07",
+          "src": "/assets/demo/growth/p060-07.png",
+          "nativeWidth": 641,
+          "nativeHeight": 208,
+          "cssWidth": 350,
+          "cssHeight": 113.5625,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        }
+      ]
+    },
+    {
+      "width": 560,
+      "dpr": 2,
+      "images": [
+        {
+          "id": "L01-then",
+          "src": "/assets/demo/visuals/then-map.png",
+          "nativeWidth": 737,
+          "nativeHeight": 412,
+          "cssWidth": 518,
+          "cssHeight": 289.5625,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L01-today",
+          "src": "/assets/demo/visuals/today-map.png",
+          "nativeWidth": 733,
+          "nativeHeight": 412,
+          "cssWidth": 518,
+          "cssHeight": 291.140625,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L02-five-acre",
+          "src": "/assets/demo/visuals/five-acre-pattern.png",
+          "nativeWidth": 720,
+          "nativeHeight": 262,
+          "cssWidth": 518,
+          "cssHeight": 188.484375,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L02-moderate",
+          "src": "/assets/demo/visuals/moderate-pattern.png",
+          "nativeWidth": 723,
+          "nativeHeight": 262,
+          "cssWidth": 518,
+          "cssHeight": 187.703125,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L04-map",
+          "src": "/assets/demo/visuals/growth-services-map.png",
+          "nativeWidth": 1121,
+          "nativeHeight": 499,
+          "cssWidth": 520,
+          "cssHeight": 231.46875,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-02",
+          "src": "/assets/demo/growth/p058-02.png",
+          "nativeWidth": 97,
+          "nativeHeight": 50,
+          "cssWidth": 97,
+          "cssHeight": 50,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-03",
+          "src": "/assets/demo/growth/p058-03.png",
+          "nativeWidth": 97,
+          "nativeHeight": 50,
+          "cssWidth": 97,
+          "cssHeight": 50,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-04",
+          "src": "/assets/demo/growth/p058-04.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 97,
+          "cssHeight": 49,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-05",
+          "src": "/assets/demo/growth/p058-05.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 97,
+          "cssHeight": 49,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-06",
+          "src": "/assets/demo/growth/p058-06.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 97,
+          "cssHeight": 49,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P059-01",
+          "src": "/assets/demo/growth/p059-01.png",
+          "nativeWidth": 270,
+          "nativeHeight": 337,
+          "cssWidth": 128,
+          "cssHeight": 159.75,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P059-02",
+          "src": "/assets/demo/growth/p059-02.png",
+          "nativeWidth": 268,
+          "nativeHeight": 337,
+          "cssWidth": 128,
+          "cssHeight": 160.953125,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-plan",
+          "src": "/assets/demo/documents/growth-plan-cover.png",
+          "nativeWidth": 180,
+          "nativeHeight": 153,
+          "cssWidth": 180,
+          "cssHeight": 153,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-landuse",
+          "src": "/assets/demo/visuals/growth-landuse-thumbnail.png",
+          "nativeWidth": 176,
+          "nativeHeight": 153,
+          "cssWidth": 176,
+          "cssHeight": 153,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-03",
+          "src": "/assets/demo/growth/p060-03.png",
+          "nativeWidth": 205,
+          "nativeHeight": 151,
+          "cssWidth": 205,
+          "cssHeight": 151,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-services",
+          "src": "/assets/demo/visuals/growth-services-thumbnail.png",
+          "nativeWidth": 180,
+          "nativeHeight": 155,
+          "cssWidth": 180,
+          "cssHeight": 155,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-05",
+          "src": "/assets/demo/growth/p060-05.png",
+          "nativeWidth": 169,
+          "nativeHeight": 152,
+          "cssWidth": 169,
+          "cssHeight": 152,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-06",
+          "src": "/assets/demo/growth/p060-06.png",
+          "nativeWidth": 189,
+          "nativeHeight": 152,
+          "cssWidth": 189,
+          "cssHeight": 152,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-07",
+          "src": "/assets/demo/growth/p060-07.png",
+          "nativeWidth": 641,
+          "nativeHeight": 208,
+          "cssWidth": 520,
+          "cssHeight": 168.734375,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "dpr": 2,
+      "images": [
+        {
+          "id": "L01-then",
+          "src": "/assets/demo/visuals/then-map.png",
+          "nativeWidth": 737,
+          "nativeHeight": 412,
+          "cssWidth": 342,
+          "cssHeight": 191.171875,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L01-today",
+          "src": "/assets/demo/visuals/today-map.png",
+          "nativeWidth": 733,
+          "nativeHeight": 412,
+          "cssWidth": 342,
+          "cssHeight": 192.21875,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L02-five-acre",
+          "src": "/assets/demo/visuals/five-acre-pattern.png",
+          "nativeWidth": 720,
+          "nativeHeight": 262,
+          "cssWidth": 342,
+          "cssHeight": 124.4375,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L02-moderate",
+          "src": "/assets/demo/visuals/moderate-pattern.png",
+          "nativeWidth": 723,
+          "nativeHeight": 262,
+          "cssWidth": 342,
+          "cssHeight": 123.921875,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L04-map",
+          "src": "/assets/demo/visuals/growth-services-map.png",
+          "nativeWidth": 1121,
+          "nativeHeight": 499,
+          "cssWidth": 704,
+          "cssHeight": 313.375,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-02",
+          "src": "/assets/demo/growth/p058-02.png",
+          "nativeWidth": 97,
+          "nativeHeight": 50,
+          "cssWidth": 89.59375,
+          "cssHeight": 46.171875,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-03",
+          "src": "/assets/demo/growth/p058-03.png",
+          "nativeWidth": 97,
+          "nativeHeight": 50,
+          "cssWidth": 89.59375,
+          "cssHeight": 46.171875,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-04",
+          "src": "/assets/demo/growth/p058-04.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 89.609375,
+          "cssHeight": 45.265625,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-05",
+          "src": "/assets/demo/growth/p058-05.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 89.59375,
+          "cssHeight": 45.25,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-06",
+          "src": "/assets/demo/growth/p058-06.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 89.59375,
+          "cssHeight": 45.25,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P059-01",
+          "src": "/assets/demo/growth/p059-01.png",
+          "nativeWidth": 270,
+          "nativeHeight": 337,
+          "cssWidth": 128,
+          "cssHeight": 159.75,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P059-02",
+          "src": "/assets/demo/growth/p059-02.png",
+          "nativeWidth": 268,
+          "nativeHeight": 337,
+          "cssWidth": 128,
+          "cssHeight": 160.953125,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-plan",
+          "src": "/assets/demo/documents/growth-plan-cover.png",
+          "nativeWidth": 180,
+          "nativeHeight": 153,
+          "cssWidth": 168.65625,
+          "cssHeight": 143.34375,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-landuse",
+          "src": "/assets/demo/visuals/growth-landuse-thumbnail.png",
+          "nativeWidth": 176,
+          "nativeHeight": 153,
+          "cssWidth": 168.671875,
+          "cssHeight": 146.625,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-03",
+          "src": "/assets/demo/growth/p060-03.png",
+          "nativeWidth": 205,
+          "nativeHeight": 151,
+          "cssWidth": 168.671875,
+          "cssHeight": 124.234375,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-services",
+          "src": "/assets/demo/visuals/growth-services-thumbnail.png",
+          "nativeWidth": 180,
+          "nativeHeight": 155,
+          "cssWidth": 168.65625,
+          "cssHeight": 145.21875,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-05",
+          "src": "/assets/demo/growth/p060-05.png",
+          "nativeWidth": 169,
+          "nativeHeight": 152,
+          "cssWidth": 168.671875,
+          "cssHeight": 151.703125,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-06",
+          "src": "/assets/demo/growth/p060-06.png",
+          "nativeWidth": 189,
+          "nativeHeight": 152,
+          "cssWidth": 168.671875,
+          "cssHeight": 135.640625,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-07",
+          "src": "/assets/demo/growth/p060-07.png",
+          "nativeWidth": 641,
+          "nativeHeight": 208,
+          "cssWidth": 320,
+          "cssHeight": 103.828125,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        }
+      ]
+    },
+    {
+      "width": 1000,
+      "dpr": 2,
+      "images": [
+        {
+          "id": "L01-then",
+          "src": "/assets/demo/visuals/then-map.png",
+          "nativeWidth": 737,
+          "nativeHeight": 412,
+          "cssWidth": 458,
+          "cssHeight": 256.03125,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L01-today",
+          "src": "/assets/demo/visuals/today-map.png",
+          "nativeWidth": 733,
+          "nativeHeight": 412,
+          "cssWidth": 458,
+          "cssHeight": 257.421875,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L02-five-acre",
+          "src": "/assets/demo/visuals/five-acre-pattern.png",
+          "nativeWidth": 720,
+          "nativeHeight": 262,
+          "cssWidth": 458,
+          "cssHeight": 166.65625,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L02-moderate",
+          "src": "/assets/demo/visuals/moderate-pattern.png",
+          "nativeWidth": 723,
+          "nativeHeight": 262,
+          "cssWidth": 458,
+          "cssHeight": 165.96875,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L04-map",
+          "src": "/assets/demo/visuals/growth-services-map.png",
+          "nativeWidth": 1121,
+          "nativeHeight": 499,
+          "cssWidth": 936,
+          "cssHeight": 416.640625,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-02",
+          "src": "/assets/demo/growth/p058-02.png",
+          "nativeWidth": 97,
+          "nativeHeight": 50,
+          "cssWidth": 97,
+          "cssHeight": 50,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-03",
+          "src": "/assets/demo/growth/p058-03.png",
+          "nativeWidth": 97,
+          "nativeHeight": 50,
+          "cssWidth": 97,
+          "cssHeight": 50,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-04",
+          "src": "/assets/demo/growth/p058-04.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 97,
+          "cssHeight": 49,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-05",
+          "src": "/assets/demo/growth/p058-05.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 97,
+          "cssHeight": 49,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-06",
+          "src": "/assets/demo/growth/p058-06.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 97,
+          "cssHeight": 49,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P059-01",
+          "src": "/assets/demo/growth/p059-01.png",
+          "nativeWidth": 270,
+          "nativeHeight": 337,
+          "cssWidth": 128,
+          "cssHeight": 159.75,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P059-02",
+          "src": "/assets/demo/growth/p059-02.png",
+          "nativeWidth": 268,
+          "nativeHeight": 337,
+          "cssWidth": 128,
+          "cssHeight": 160.953125,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-plan",
+          "src": "/assets/demo/documents/growth-plan-cover.png",
+          "nativeWidth": 180,
+          "nativeHeight": 153,
+          "cssWidth": 180,
+          "cssHeight": 153,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-landuse",
+          "src": "/assets/demo/visuals/growth-landuse-thumbnail.png",
+          "nativeWidth": 176,
+          "nativeHeight": 153,
+          "cssWidth": 176,
+          "cssHeight": 153,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-03",
+          "src": "/assets/demo/growth/p060-03.png",
+          "nativeWidth": 205,
+          "nativeHeight": 151,
+          "cssWidth": 205,
+          "cssHeight": 151,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-services",
+          "src": "/assets/demo/visuals/growth-services-thumbnail.png",
+          "nativeWidth": 180,
+          "nativeHeight": 155,
+          "cssWidth": 180,
+          "cssHeight": 155,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-05",
+          "src": "/assets/demo/growth/p060-05.png",
+          "nativeWidth": 169,
+          "nativeHeight": 152,
+          "cssWidth": 169,
+          "cssHeight": 152,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-06",
+          "src": "/assets/demo/growth/p060-06.png",
+          "nativeWidth": 189,
+          "nativeHeight": 152,
+          "cssWidth": 189,
+          "cssHeight": 152,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-07",
+          "src": "/assets/demo/growth/p060-07.png",
+          "nativeWidth": 641,
+          "nativeHeight": 208,
+          "cssWidth": 430.484375,
+          "cssHeight": 139.6875,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        }
+      ]
+    },
+    {
+      "width": 1152,
+      "dpr": 2,
+      "images": [
+        {
+          "id": "L01-then",
+          "src": "/assets/demo/visuals/then-map.png",
+          "nativeWidth": 737,
+          "nativeHeight": 412,
+          "cssWidth": 518,
+          "cssHeight": 289.5625,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L01-today",
+          "src": "/assets/demo/visuals/today-map.png",
+          "nativeWidth": 733,
+          "nativeHeight": 412,
+          "cssWidth": 518,
+          "cssHeight": 291.140625,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L02-five-acre",
+          "src": "/assets/demo/visuals/five-acre-pattern.png",
+          "nativeWidth": 720,
+          "nativeHeight": 262,
+          "cssWidth": 518,
+          "cssHeight": 188.484375,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L02-moderate",
+          "src": "/assets/demo/visuals/moderate-pattern.png",
+          "nativeWidth": 723,
+          "nativeHeight": 262,
+          "cssWidth": 518,
+          "cssHeight": 187.703125,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L04-map",
+          "src": "/assets/demo/visuals/growth-services-map.png",
+          "nativeWidth": 1121,
+          "nativeHeight": 499,
+          "cssWidth": 774,
+          "cssHeight": 344.53125,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-02",
+          "src": "/assets/demo/growth/p058-02.png",
+          "nativeWidth": 97,
+          "nativeHeight": 50,
+          "cssWidth": 97,
+          "cssHeight": 50,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-03",
+          "src": "/assets/demo/growth/p058-03.png",
+          "nativeWidth": 97,
+          "nativeHeight": 50,
+          "cssWidth": 97,
+          "cssHeight": 50,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-04",
+          "src": "/assets/demo/growth/p058-04.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 97,
+          "cssHeight": 49,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-05",
+          "src": "/assets/demo/growth/p058-05.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 97,
+          "cssHeight": 49,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-06",
+          "src": "/assets/demo/growth/p058-06.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 97,
+          "cssHeight": 49,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P059-01",
+          "src": "/assets/demo/growth/p059-01.png",
+          "nativeWidth": 270,
+          "nativeHeight": 337,
+          "cssWidth": 163.09375,
+          "cssHeight": 203.5625,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P059-02",
+          "src": "/assets/demo/growth/p059-02.png",
+          "nativeWidth": 268,
+          "nativeHeight": 337,
+          "cssWidth": 163.09375,
+          "cssHeight": 205.078125,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-plan",
+          "src": "/assets/demo/documents/growth-plan-cover.png",
+          "nativeWidth": 180,
+          "nativeHeight": 153,
+          "cssWidth": 180,
+          "cssHeight": 153,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-landuse",
+          "src": "/assets/demo/visuals/growth-landuse-thumbnail.png",
+          "nativeWidth": 176,
+          "nativeHeight": 153,
+          "cssWidth": 176,
+          "cssHeight": 153,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-03",
+          "src": "/assets/demo/growth/p060-03.png",
+          "nativeWidth": 205,
+          "nativeHeight": 151,
+          "cssWidth": 205,
+          "cssHeight": 151,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-services",
+          "src": "/assets/demo/visuals/growth-services-thumbnail.png",
+          "nativeWidth": 180,
+          "nativeHeight": 155,
+          "cssWidth": 180,
+          "cssHeight": 155,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-05",
+          "src": "/assets/demo/growth/p060-05.png",
+          "nativeWidth": 169,
+          "nativeHeight": 152,
+          "cssWidth": 169,
+          "cssHeight": 152,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-06",
+          "src": "/assets/demo/growth/p060-06.png",
+          "nativeWidth": 189,
+          "nativeHeight": 152,
+          "cssWidth": 189,
+          "cssHeight": 152,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-07",
+          "src": "/assets/demo/growth/p060-07.png",
+          "nativeWidth": 641,
+          "nativeHeight": 208,
+          "cssWidth": 487.625,
+          "cssHeight": 158.21875,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "dpr": 2,
+      "images": [
+        {
+          "id": "L01-then",
+          "src": "/assets/demo/visuals/then-map.png",
+          "nativeWidth": 737,
+          "nativeHeight": 412,
+          "cssWidth": 646,
+          "cssHeight": 361.125,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L01-today",
+          "src": "/assets/demo/visuals/today-map.png",
+          "nativeWidth": 733,
+          "nativeHeight": 412,
+          "cssWidth": 646,
+          "cssHeight": 363.09375,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L02-five-acre",
+          "src": "/assets/demo/visuals/five-acre-pattern.png",
+          "nativeWidth": 720,
+          "nativeHeight": 262,
+          "cssWidth": 646,
+          "cssHeight": 235.0625,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L02-moderate",
+          "src": "/assets/demo/visuals/moderate-pattern.png",
+          "nativeWidth": 723,
+          "nativeHeight": 262,
+          "cssWidth": 646,
+          "cssHeight": 234.09375,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L04-map",
+          "src": "/assets/demo/visuals/growth-services-map.png",
+          "nativeWidth": 1121,
+          "nativeHeight": 499,
+          "cssWidth": 966,
+          "cssHeight": 430,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-02",
+          "src": "/assets/demo/growth/p058-02.png",
+          "nativeWidth": 97,
+          "nativeHeight": 50,
+          "cssWidth": 97,
+          "cssHeight": 50,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-03",
+          "src": "/assets/demo/growth/p058-03.png",
+          "nativeWidth": 97,
+          "nativeHeight": 50,
+          "cssWidth": 97,
+          "cssHeight": 50,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-04",
+          "src": "/assets/demo/growth/p058-04.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 97,
+          "cssHeight": 49,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-05",
+          "src": "/assets/demo/growth/p058-05.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 97,
+          "cssHeight": 49,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P058-06",
+          "src": "/assets/demo/growth/p058-06.png",
+          "nativeWidth": 97,
+          "nativeHeight": 49,
+          "cssWidth": 97,
+          "cssHeight": 49,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P059-01",
+          "src": "/assets/demo/growth/p059-01.png",
+          "nativeWidth": 270,
+          "nativeHeight": 337,
+          "cssWidth": 207.890625,
+          "cssHeight": 259.46875,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P059-02",
+          "src": "/assets/demo/growth/p059-02.png",
+          "nativeWidth": 268,
+          "nativeHeight": 337,
+          "cssWidth": 207.890625,
+          "cssHeight": 261.40625,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-plan",
+          "src": "/assets/demo/documents/growth-plan-cover.png",
+          "nativeWidth": 180,
+          "nativeHeight": 153,
+          "cssWidth": 180,
+          "cssHeight": 153,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-landuse",
+          "src": "/assets/demo/visuals/growth-landuse-thumbnail.png",
+          "nativeWidth": 176,
+          "nativeHeight": 153,
+          "cssWidth": 176,
+          "cssHeight": 153,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-03",
+          "src": "/assets/demo/growth/p060-03.png",
+          "nativeWidth": 205,
+          "nativeHeight": 151,
+          "cssWidth": 205,
+          "cssHeight": 151,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "L07-services",
+          "src": "/assets/demo/visuals/growth-services-thumbnail.png",
+          "nativeWidth": 180,
+          "nativeHeight": 155,
+          "cssWidth": 180,
+          "cssHeight": 155,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-05",
+          "src": "/assets/demo/growth/p060-05.png",
+          "nativeWidth": 169,
+          "nativeHeight": 152,
+          "cssWidth": 169,
+          "cssHeight": 152,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-06",
+          "src": "/assets/demo/growth/p060-06.png",
+          "nativeWidth": 189,
+          "nativeHeight": 152,
+          "cssWidth": 189,
+          "cssHeight": 152,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        },
+        {
+          "id": "P060-07",
+          "src": "/assets/demo/growth/p060-07.png",
+          "nativeWidth": 641,
+          "nativeHeight": 208,
+          "cssWidth": 609.53125,
+          "cssHeight": 197.78125,
+          "objectFit": "fill",
+          "filter": "none",
+          "complete": true
+        }
+      ]
+    }
+  ],
+  "servedHashes": [
+    {
+      "id": "bp-p008-01-official-boundary-map",
+      "sha256": "385ee9bcc364f7e51643d74417d5df93df0de8f9cbfb69ea8f50c998bd0653eb"
+    },
+    {
+      "id": "bp-p009-01-land-parcels-conservation-map",
+      "sha256": "07f897fdab75e2db857f7f93707508ebb0f305854f24171b29ebb76d63a2d3dc"
+    },
+    {
+      "id": "bp-p011-01-roads-traffic-map",
+      "sha256": "5fd2a1bb8bc9c62ec0b34815aaaef2b4e7c710c052b5ffb61ac4bf86847b8fe6"
+    },
+    {
+      "id": "P058-02",
+      "sha256": "72cd13c490cd70c3921e201ff15cf5db4b0a62ccee6b501330243eae5f7043cd"
+    },
+    {
+      "id": "P058-03",
+      "sha256": "51444f90588a86168a9d06f2bee40176eaa2357332350f9b2f9d1febe5e0a776"
+    },
+    {
+      "id": "P058-04",
+      "sha256": "989e11ce3f399e8d243dea02d37275dd3ad09b023ccbb74f6a8e80beac68991c"
+    },
+    {
+      "id": "P058-05",
+      "sha256": "5a14dd24dee22dd18bd710ad5e5e65f7a46763f916ce9f3a1d9662e172a6b929"
+    },
+    {
+      "id": "P058-06",
+      "sha256": "c588833546e67a1a523efa528d06b695971e8fe49d18c2a83eb006eccb47e3c3"
+    },
+    {
+      "id": "P059-01",
+      "sha256": "6b1d534721c01263d92a6223515f768773aefb0d1faf555c843b2566b4af84e7"
+    },
+    {
+      "id": "P059-02",
+      "sha256": "6fe35cedcb831c6bebd72fb692845817541ae2bbe196ca25b647bb50809e38d1"
+    },
+    {
+      "id": "P060-03",
+      "sha256": "be1651d83a671c2a489d6585231bde1ec33f7b681270e871389b4271999938bd"
+    },
+    {
+      "id": "P060-05",
+      "sha256": "fd8fb0ddfbd5064ce09681e25feb5639843f0157e66d75f33f5a858fe89e67ea"
+    },
+    {
+      "id": "P060-06",
+      "sha256": "352ef8227012c9ae838cce35c9ce581bfdb2172ced74888bf4e7eb3599fa53ff"
+    },
+    {
+      "id": "P060-07",
+      "sha256": "5b1dd7a654244025033034e935398a7f333c8bb8dd29641085f3be8e1c7bc658"
+    },
+    {
+      "id": "L01-then",
+      "sha256": "b4400ece10c84fe7c53d16b653cb39d8d9ecdeaea35a1e9d56c6860a02fa744b"
+    },
+    {
+      "id": "L01-today",
+      "sha256": "4be4ccc634d4db821f338de00b00a4b8274a9c45697512e2051df89979af869f"
+    },
+    {
+      "id": "L02-five-acre",
+      "sha256": "ebd657dac18f059b79f45114eb7fc72b5ad38dcd04b8e54a2f61fd02a3d7a376"
+    },
+    {
+      "id": "L02-moderate",
+      "sha256": "6a59551088f4098369c25f2159724ea0fe069267a66fdd7adf8655544e924529"
+    },
+    {
+      "id": "L04-map",
+      "sha256": "be3be8102cdfe14bcc075fa247fbb1cb780ddb3bbb93d53f33af0ed10f03ef47"
+    },
+    {
+      "id": "L07-landuse",
+      "sha256": "39da6a3117e2c8dc8785d9d34caf92c77ed873d1f8667f365463571a50794fea"
+    },
+    {
+      "id": "L07-services",
+      "sha256": "3dfe4c7fb1d1ff7298e4a0e41c3144c3037f38e70429503c0657d1f1bd08d6ba"
+    },
+    {
+      "id": "L07-plan",
+      "sha256": "cba5699d81d22fba7e6d97a33ba76d475fd6359fca30f339bcaf3fb901303864"
+    }
+  ],
+  "errors": [],
+  "failedResponses": [],
+  "writeRequests": [],
+  "externalRequests": [],
+  "benignNavigationCancellations": 175,
+  "commands": {
+    "lint": "passed",
+    "typecheck": "passed",
+    "build": "passed",
+    "static_export_routes": 9,
+    "windows_postbuild": "9 byte-identical segment files added"
+  },
+  "devValidation": {
+    "status": "passed",
+    "base": "http://127.0.0.1:3000",
+    "checks": {
+      "copyLeaves": 109,
+      "pdfLeaves": 83,
+      "artworkLeaves": 26,
+      "sourceLinks": 12,
+      "previewDialogs": 6,
+      "ctaDestinations": 5,
+      "retainedRoutePreviews": 4,
+      "anchorTargets": 7
+    },
+    "cases": [
+      {
+        "width": 320,
+        "dpr": 1,
+        "status": "passed"
+      },
+      {
+        "width": 390,
+        "dpr": 1,
+        "status": "passed"
+      },
+      {
+        "width": 560,
+        "dpr": 1,
+        "status": "passed"
+      },
+      {
+        "width": 768,
+        "dpr": 1,
+        "status": "passed"
+      },
+      {
+        "width": 1000,
+        "dpr": 1,
+        "status": "passed"
+      },
+      {
+        "width": 1152,
+        "dpr": 1,
+        "status": "passed"
+      },
+      {
+        "width": 1440,
+        "dpr": 1,
+        "status": "passed"
+      },
+      {
+        "width": 320,
+        "dpr": 2,
+        "status": "passed"
+      },
+      {
+        "width": 390,
+        "dpr": 2,
+        "status": "passed"
+      },
+      {
+        "width": 560,
+        "dpr": 2,
+        "status": "passed"
+      },
+      {
+        "width": 768,
+        "dpr": 2,
+        "status": "passed"
+      },
+      {
+        "width": 1000,
+        "dpr": 2,
+        "status": "passed"
+      },
+      {
+        "width": 1152,
+        "dpr": 2,
+        "status": "passed"
+      },
+      {
+        "width": 1440,
+        "dpr": 2,
+        "status": "passed"
+      }
+    ],
+    "servedHashes": [
+      {
+        "id": "bp-p008-01-official-boundary-map",
+        "sha256": "385ee9bcc364f7e51643d74417d5df93df0de8f9cbfb69ea8f50c998bd0653eb"
+      },
+      {
+        "id": "bp-p009-01-land-parcels-conservation-map",
+        "sha256": "07f897fdab75e2db857f7f93707508ebb0f305854f24171b29ebb76d63a2d3dc"
+      },
+      {
+        "id": "bp-p011-01-roads-traffic-map",
+        "sha256": "5fd2a1bb8bc9c62ec0b34815aaaef2b4e7c710c052b5ffb61ac4bf86847b8fe6"
+      },
+      {
+        "id": "P058-02",
+        "sha256": "72cd13c490cd70c3921e201ff15cf5db4b0a62ccee6b501330243eae5f7043cd"
+      },
+      {
+        "id": "P058-03",
+        "sha256": "51444f90588a86168a9d06f2bee40176eaa2357332350f9b2f9d1febe5e0a776"
+      },
+      {
+        "id": "P058-04",
+        "sha256": "989e11ce3f399e8d243dea02d37275dd3ad09b023ccbb74f6a8e80beac68991c"
+      },
+      {
+        "id": "P058-05",
+        "sha256": "5a14dd24dee22dd18bd710ad5e5e65f7a46763f916ce9f3a1d9662e172a6b929"
+      },
+      {
+        "id": "P058-06",
+        "sha256": "c588833546e67a1a523efa528d06b695971e8fe49d18c2a83eb006eccb47e3c3"
+      },
+      {
+        "id": "P059-01",
+        "sha256": "6b1d534721c01263d92a6223515f768773aefb0d1faf555c843b2566b4af84e7"
+      },
+      {
+        "id": "P059-02",
+        "sha256": "6fe35cedcb831c6bebd72fb692845817541ae2bbe196ca25b647bb50809e38d1"
+      },
+      {
+        "id": "P060-03",
+        "sha256": "be1651d83a671c2a489d6585231bde1ec33f7b681270e871389b4271999938bd"
+      },
+      {
+        "id": "P060-05",
+        "sha256": "fd8fb0ddfbd5064ce09681e25feb5639843f0157e66d75f33f5a858fe89e67ea"
+      },
+      {
+        "id": "P060-06",
+        "sha256": "352ef8227012c9ae838cce35c9ce581bfdb2172ced74888bf4e7eb3599fa53ff"
+      },
+      {
+        "id": "P060-07",
+        "sha256": "5b1dd7a654244025033034e935398a7f333c8bb8dd29641085f3be8e1c7bc658"
+      },
+      {
+        "id": "L01-then",
+        "sha256": "b4400ece10c84fe7c53d16b653cb39d8d9ecdeaea35a1e9d56c6860a02fa744b"
+      },
+      {
+        "id": "L01-today",
+        "sha256": "4be4ccc634d4db821f338de00b00a4b8274a9c45697512e2051df89979af869f"
+      },
+      {
+        "id": "L02-five-acre",
+        "sha256": "ebd657dac18f059b79f45114eb7fc72b5ad38dcd04b8e54a2f61fd02a3d7a376"
+      },
+      {
+        "id": "L02-moderate",
+        "sha256": "6a59551088f4098369c25f2159724ea0fe069267a66fdd7adf8655544e924529"
+      },
+      {
+        "id": "L04-map",
+        "sha256": "be3be8102cdfe14bcc075fa247fbb1cb780ddb3bbb93d53f33af0ed10f03ef47"
+      },
+      {
+        "id": "L07-landuse",
+        "sha256": "39da6a3117e2c8dc8785d9d34caf92c77ed873d1f8667f365463571a50794fea"
+      },
+      {
+        "id": "L07-services",
+        "sha256": "3dfe4c7fb1d1ff7298e4a0e41c3144c3037f38e70429503c0657d1f1bd08d6ba"
+      },
+      {
+        "id": "L07-plan",
+        "sha256": "cba5699d81d22fba7e6d97a33ba76d475fd6359fca30f339bcaf3fb901303864"
+      }
+    ],
+    "errors": [],
+    "failedResponses": []
+  },
+  "additionalChecks": {
+    "sectionOrder": "L-01 through L-08",
+    "exactTriggerFocusReturn": 6,
+    "status": "passed"
+  },
+  "finalExportHtmlSha256": "3b217d264ce4d9530b7611564e47a66ddccbf4553dbcb005a8bb1e530dc45175",
+  "limitations": [
+    "Population/housing counts remain unverified sample data; Then/Today illustrations are not verified historical GIS.",
+    "Density is conceptual, not a measured/engineered site plan.",
+    "Service map/drive times illustrative; no routing or verified locations.",
+    "Low-density policy map, three scenario illustrations, Master Assessment, selected quantitative timeline/map and card-level evidence originals/findings/dates not supplied or verified.",
+    "19/19 images at 1440 and 12/19 at 390 lack DPR 2 pixel budget; native pixels and baked overlays preserved; no optical-sharpness certification.",
+    "The Facts, The Proposal, Take Action and About remain labelled previews; round 7 not started."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "safer-communities-united",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Safer Communities United — Keystone–Odessa. First clickable demo.",
+  "engines": { "node": ">=20.9.0" },
+  "scripts": {
+    "assets:sync": "node scripts/sync-assets.mjs",
+    "predev": "npm run assets:sync",
+    "dev": "next dev --hostname 127.0.0.1",
+    "prebuild": "npm run assets:sync",
+    "build": "next build",
+    "postbuild": "node scripts/finalize-static-export.mjs",
+    "lint": "eslint src scripts next.config.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "16.4.2",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^3.3.0",
+    "lucide-react": "^0.577.0",
+    "radix-ui": "^1.4.3",
+    "@fontsource-variable/inter": "^5.2.8",
+    "@fontsource-variable/source-serif-4": "^5.2.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tailwindcss": "4.3.3",
+    "@tailwindcss/postcss": "4.3.3",
+    "eslint": "^10.13.0",
+    "eslint-config-next": "16.4.2"
+  }
+}
