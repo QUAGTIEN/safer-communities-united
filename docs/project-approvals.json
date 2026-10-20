@@ -21,7 +21,7 @@
     "provenance_of_screenshot_photos": "unverified-not-proven-ai",
     "current_demo_photos": "use-exact-visible-screenshot-pixel-crops; preserve-existing-overlays; no-hidden-content-recovery"
   },
-  "current_authorized_task": "complete-coding-round-8-The-Proposal-and-Comparison-and-update-authorized-GitHub-Pages-demo",
+  "current_authorized_task": "complete-coding-round-9-Take-Action-and-update-authorized-GitHub-Pages-demo",
   "current_task_downloads_or_replacements_performed": false,
   "website_implementation_authorized": true,
   "public_launch_or_data_collection_authorized": false,
@@ -56,7 +56,8 @@
     "water_display_review": "docs/coding-round-05-checks.json; DPR 2 limitations remain",
     "growth_display_review": "docs/coding-round-06-checks.json; DPR 2 limitations remain",
     "facts_display_review": "docs/coding-round-07-checks.json; DPR 2 limitations remain",
-    "proposal_display_review": "docs/coding-round-08-checks.json; DPR 2 limitations remain"
+    "proposal_display_review": "docs/coding-round-08-checks.json; DPR 2 limitations remain",
+    "action_display_review": "docs/coding-round-09-checks.json; DPR 2 limitations and unavailable full petition/laptop imagery remain"
   },
   "review_phase": {
     "status": "complete-by-user",
@@ -66,7 +67,7 @@
     "coding_plan": "docs/CODING_PLAN.md",
     "coding_round_count": 11
   },
-  "website_implementation_authorized_scope": "rounds 1–8 plus shared navigation/footer and public static Pages demo; round 9 not started",
+  "website_implementation_authorized_scope": "rounds 1–9 plus shared navigation/footer and public static Pages demo; round 10 not started",
   "coding_round_01": {
     "user_message_verbatim": "oke, hãy bắt đầu lượt code đầu tiên.",
     "status": "complete",
@@ -267,6 +268,42 @@
     "new_screenshot_fragments": {
       "visuals": 5,
       "documents": 1,
+      "pixel_preserving": true
+    }
+  },
+  "coding_round_09": {
+    "date_local": "2026-10-21",
+    "user_message_verbatim": "oke, hãy bắt đầu code",
+    "context": "User authorized execution after scope confirmation of round 9 Take Action.",
+    "status": "complete-with-disclosed-demo-source-and-image-limitations",
+    "page": "/take-action",
+    "report": "docs/CODING_ROUND_09.md",
+    "checks": "docs/coding-round-09-checks.json",
+    "sections": [
+      "A-01",
+      "A-02",
+      "A-03",
+      "A-04",
+      "A-05",
+      "A-06",
+      "A-07",
+      "A-08"
+    ],
+    "preview_sections": [
+      "A-03",
+      "A-04",
+      "A-05"
+    ],
+    "all_controls_disabled": true,
+    "supporter_and_petition_separate": true,
+    "submission_or_collection_enabled": false,
+    "other_routes": "Home/Issues/Roads/Water/Growth/Facts/Proposal retained; About remains labelled preview",
+    "next_round": 10,
+    "next_round_automatically_started": false,
+    "missing_sources": "Full unobscured petition/hero/story backgrounds, independent laptop/screen imagery, larger image sources, authenticated resident stories and publication permission. Launch/signature/privacy/delivery/service checks remain future scope.",
+    "new_screenshot_fragments": {
+      "visuals": 1,
+      "documents": 0,
       "pixel_preserving": true
     }
   }

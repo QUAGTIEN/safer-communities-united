@@ -1,6 +1,6 @@
 # Safer Communities United — Keystone–Odessa
 
-First Clickable Demo theo blueprint khách hàng. **Lượt 1–8 đã hoàn thành trong phạm vi demo.** Home H-01…H-06; Issues I-01…I-06; Roads R-01…R-08; Water W-01…W-09; Growth L-01…L-08; The Facts F-01/F-02; The Proposal P-01 intro preview và C-01…C-04. Take Action/About vẫn labelled previews; lượt 9 chưa bắt đầu. [Báo cáo lượt 8](docs/CODING_ROUND_08.md).
+First Clickable Demo theo blueprint khách hàng. **Lượt 1–9 đã hoàn thành trong phạm vi demo.** Home H-01…H-06; Issues I-01…I-06; Roads R-01…R-08; Water W-01…W-09; Growth L-01…L-08; The Facts F-01/F-02; The Proposal P-01/C-01…C-04; Take Action A-01…A-08 (ba workflow previews mở từ action cards). About còn labelled preview; lượt 10 chưa bắt đầu. [Báo cáo lượt 9](docs/CODING_ROUND_09.md).
 
 ## Link demo GitHub Pages
 
@@ -38,7 +38,7 @@ Build tạo static export tại `out/`; workflow Pages xuất bản static demo 
 - `src/components/layout/`: wordmark chữ, header/menu responsive, footer và container.
 - `src/components/ui/`: component nền tảng; `src/components/demo/`: labelled route/section previews và modal; `src/components/home/`: Home; `src/components/content/`: map figure và source links.
 - `src/content/site.ts`, `pages.ts`: nhãn, route, headings và placeholder destinations tách khỏi UI.
-- `scripts/sync-assets.mjs`: kiểm tra nguồn bằng SHA-256 rồi copy đúng byte 3 maps/79 photo crops/12 illustrative document-cover fragments/28 screenshot visual regions vào `public/assets/`; tạo `assets.generated.json` và `blueprint.generated.json` chứa bindings và 57 source sections.
+- `scripts/sync-assets.mjs`: kiểm tra nguồn bằng SHA-256 rồi copy đúng byte 3 maps/79 photo crops/12 illustrative document-cover fragments/29 screenshot visual regions vào `public/assets/`; tạo `assets.generated.json` và `blueprint.generated.json` chứa bindings và 57 source sections.
 - `src/content/home.ts`: copy Home tách khỏi presentation; `src/content/sources.ts`: URL chính xác từ source register. Home giữ plain-text methodology và caveat Water theo D-04.
 - `src/content/issues.ts`, `src/components/issues/`, `src/app/issues/issues.css`: sáu section Issues, anchor navigation, timeline và sơ đồ Connections bằng React. Ba source previews giữ trạng thái chưa xác minh; map screenshot từ `visual-fragments.json` bảo toàn pixel/legend.
 - `src/content/roads.ts`, `src/components/roads/`, `src/app/issues/roads-safety/roads.css`: tám section Roads, safety anchors, evidence cards và summary comparison. Hero thiếu ảnh dùng labelled preview; Safety finding/metadata chưa xác minh, không thêm crash counts/response-time data. Hai bìa và document thumbnails chỉ là screenshot illustrations, không thay tài liệu gốc.
@@ -46,6 +46,7 @@ Build tạo static export tại `out/`; workflow Pages xuất bản static demo 
 - `src/content/growth.ts`, `src/components/growth/`, `src/app/issues/growth-daily-life/growth.css`: tám section Growth, selected density, static services map và comparison/evidence. Sample counts/drive-time caveats giữ rõ; missing policy map/timeline/Master Assessment/datasets dùng labelled previews.
 - `src/content/facts.ts`, `src/components/facts/`, `src/app/the-facts/facts.css`: bốn issue groups, năm illustrative library rows, grouped supplied-source links và Evidence → Action. Metadata/purpose unverified giữ nhãn; search/filter/sort/pagination chỉ có demo preview, không fake result count.
 - `src/content/proposal.ts`, `src/components/proposal/`, `src/app/the-proposal/proposal.css`: bốn comparisons theo PDF 61–68, đúng Screenshot 110, What Remains diagram và campaign passage. Intro/full-detail documents chưa có dùng labelled previews; policy/source/illustration limits giữ rõ.
+- `src/content/action.ts`, `src/components/action/`, `src/app/take-action/action.css`: Take Action hero/cards, ba hash-addressable workflow previews, illustrative stories và toàn văn petition trước bốn fields. Supporter/petition độc lập; mọi controls disabled, upload/sign/share chỉ demo notices; optional email area chỉ static artwork example.
 - `assets/blueprint/`: archive bất biến; `assets/demo-current/`: crop tạm đã duyệt. Không sửa nguồn trong hai thư mục này khi chỉnh UI.
 
 ## Phạm vi và giới hạn
@@ -56,7 +57,7 @@ Giữ nguyên English copy đã chọn, sáu mục menu và Get Involved. Compar
 
 Header dùng sticky để luôn ở trên khi cuộn; menu mobile mở trong luồng bố cục, đẩy nội dung xuống. Dialog có focus trap, Escape và trả focus về nút mở. Có skip link và trạng thái trang hiện hành.
 
-Không có form nhận dữ liệu, API endpoint, Server Action, analytics, database, email/upload/signature services hoặc web storage. Metadata đặt noindex/nofollow. Chỉ xuất bản static demo GitHub Pages theo yêu cầu mới. Các preview không phải xác nhận đã ký/gửi/lưu thành công.
+Các field/checkbox/select/textarea của Take Action là native disabled controls trong preview, không có form nhận dữ liệu, API endpoint, Server Action, analytics, database, email/upload/signature services hoặc web storage. Metadata đặt noindex/nofollow. Chỉ xuất bản static demo GitHub Pages theo yêu cầu mới. Các preview không phải xác nhận đã ký/gửi/lưu thành công.
 
 Home dùng ảnh tạm đã chốt, ba bản đồ gốc xếp dọc full-width và liên kết mở file PNG đầy đủ. Bốn card ảnh còn giới hạn độ phân giải ở DPR 2; hero desktop cũng chưa đủ pixel cho DPR 2 ở mọi khung. Không nâng nét/AI/re-encode bản đồ. Community Plan card dùng đúng fragment screenshot và nhãn “Illustrative document preview”; không coi hình đó là official record. Xem số đo trong báo cáo lượt 2.
 

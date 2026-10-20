@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "purpose": "Preserved visible technical/landscape regions from selected Issues/Roads/Water/Growth/Facts/Comparison screenshots; illustrations, not verified GIS datasets; chart and historic inputs unverified.",
+  "purpose": "Preserved visible technical/landscape regions from selected Issues/Roads/Water/Growth/Facts/Comparison/Action screenshots; illustrations, not verified GIS datasets; chart and historic inputs unverified.",
   "visuals": [
     {
       "id": "I03-map",
@@ -758,6 +758,33 @@
         "C-04"
       ],
       "sha256": "8205963cc206434da9c5d4c8d280579678635f819c6857ff2fbabfa4fefdf001",
+      "operations": [
+        "source pixel crop",
+        "lossless PNG encoding"
+      ],
+      "immutable": true,
+      "verified_geographic_data": false
+    },
+    {
+      "id": "A06-landscape",
+      "path": "assets/demo-current/visuals/action-stories-landscape.png",
+      "parent_path": "assets/blueprint/ui-references/action/bp-p082-01-sample-stories.png",
+      "parent_sha256": "07fc55d402d092fc1a7fffec7ef4fda4d457b083d3d66df67392859a9bd7440c",
+      "crop_box_xyxy": [
+        0,
+        948,
+        1536,
+        1024
+      ],
+      "width": 1536,
+      "height": 76,
+      "source_pdf_pages": [
+        82
+      ],
+      "section_ids": [
+        "A-06"
+      ],
+      "sha256": "5852f4ec02276342d100c650e8ccc5cc96be42227aadee0bb846b33bb99870a4",
       "operations": [
         "source pixel crop",
         "lossless PNG encoding"

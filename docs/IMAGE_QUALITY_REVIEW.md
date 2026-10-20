@@ -1,5 +1,9 @@
 # Kiểm tra chất lượng ảnh demo
 
+## Cập nhật Take Action — lượt 9
+
+Đo chín image assets (tám trên main page và một trong story preview) ở bảy chiều rộng × DPR 1/2. Không phóng vượt native dimensions tại DPR 1. Tại 1440 px có 9/9 hình thiếu ngân sách DPR 2; tại 390 px có 7/9 hình thiếu. Không coi đủ pixel là chứng nhận optical sharpness. Hero/story chỉ giữ visible portions, petition background và independent laptop/screen imagery còn thiếu, dùng labelled previews. Original maps/PDF/archive bất biến. [Báo cáo](CODING_ROUND_09.md), [số đo](coding-round-09-checks.json).
+
 ## Cập nhật The Proposal & Comparison — lượt 8
 
 Đo 19 hình trên bảy chiều rộng × DPR 1/2. Không phóng vượt native pixels tại DPR 1; ở 1440 px có 19/19 hình thiếu ngân sách DPR 2, ở 390 px có 17/19 hình thiếu. Đây không phải chứng nhận optical sharpness. Partial heading landscapes chỉ giữ phần nhìn thấy; không dựng lại nền bị che. Map thumbnail/cover có nhãn minh họa; original maps/PDF/archive bất biến. [Báo cáo](CODING_ROUND_08.md), [số đo](coding-round-08-checks.json).

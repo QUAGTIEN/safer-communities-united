@@ -17,6 +17,8 @@ Theo chỉ dẫn mới nhất: “oke, tôi sẽ thay sau nhưng hiện tại b�
 
 ## Phạm vi “y chang”
 
+Lượt 9 thêm landscape strip `[0,948,1536,1024)` từ selected sample-stories image PDF 82, giữ exact pixels/provenance/hash. Tám photo crops cũ không sửa. Forms/laptop screen dùng HTML, không lấy nguyên screenshot thay UI hoặc dựng bù petition background. Tổng: 29 visual regions, 12 document/cover fragments, 79 photo crops. [Báo cáo và giới hạn](../../docs/CODING_ROUND_09.md).
+
 Lượt 8 bổ sung năm visual fragments và một illustrative cover từ PDF 63/65/67/68, có crop box/parent hash/pixel equality/own hash. Giữ đúng map thumbnail và bốn banner illustrations; không phục hồi background bị che. 13 photo crops cũ giữ nguyên file. Tổng sau lượt 8: 28 visual regions và 12 document/cover fragments, ngoài 79 photo crops ban đầu. [Báo cáo và giới hạn](../../docs/CODING_ROUND_08.md).
 
 Lượt 7 thêm ba document/cover fragments và một map thumbnail từ PDF 70/72, có parent/crop-box/pixel equality/hashes trong hai manifests. Tám photo crops cũ dùng nguyên file; partial backgrounds/CTA strip không được phục hồi hoặc upscale. Tổng dẫn xuất sau lượt 7: 23 visual regions, 11 document/cover fragments, ngoài 79 photo crops ban đầu. [Báo cáo và giới hạn](../../docs/CODING_ROUND_07.md).

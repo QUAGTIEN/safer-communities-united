@@ -6,6 +6,8 @@
 
 ## Kết quả
 
+Lượt coding 9 dùng tám photo crops cũ và một exact-pixel landscape strip mới từ PDF 82; [báo cáo Take Action](../docs/CODING_ROUND_09.md). Forms và laptop UI dựng bằng HTML; independent laptop/screen imagery và full petition background còn thiếu, dùng labelled previews. Không phục hồi phần bị che hoặc sửa original maps/PDF/archive.
+
 Lượt coding 8 dùng 13 photo crops cũ và sáu exact-pixel fragments mới: bốn banner illustrations, map thumbnail Screenshot 110 và illustrative crossed cover What Remains. [Báo cáo Proposal](../docs/CODING_ROUND_08.md); không vẽ lại minh họa, sửa bản đồ hoặc xác thực artwork thành official records.
 
 Lượt coding 7 dùng tám photo crops cũ và bốn exact-pixel fragments mới (ba illustrative document/cover, một map thumbnail), giữ provenance/hashes. [Báo cáo The Facts](../docs/CODING_ROUND_07.md). Các thumbnails không phải authenticated records/GIS; original archive/PDF/ba maps giữ nguyên.

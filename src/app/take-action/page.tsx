@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { FoundationPage } from "@/components/demo/foundation-page";
+import { ActionPageContent } from "@/components/action/action-page";
+import "./action.css";
 
 export const metadata: Metadata = { title: "Take Action" };
-export default function ActionPage() { return <FoundationPage path="/take-action" />; }
+export default function ActionPage() { return <ActionPageContent />; }

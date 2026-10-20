@@ -29,3 +29,5 @@ QA scripts/screenshots ở `tmp/github-pages-qa/`; [kết quả local](github-pa
 The Facts được bổ sung ở lượt 7; [báo cáo và kiểm tra](CODING_ROUND_07.md) ghi phạm vi mới và giới hạn.
 
 The Proposal & Comparison được bổ sung ở lượt 8; [báo cáo và kiểm tra](CODING_ROUND_08.md) ghi P-01/C-01…C-04, hai route previews còn lại và các giới hạn nguồn/ảnh.
+
+Take Action được bổ sung ở lượt 9; [báo cáo và kiểm tra](CODING_ROUND_09.md) ghi ba read-only workflow previews, petition toàn văn và About preview còn lại. Không bật dịch vụ hoặc thu thập dữ liệu.

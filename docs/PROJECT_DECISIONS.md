@@ -1,5 +1,14 @@
 # Quyết định hiện hành của dự án
 
+## Coding lượt 9 — Take Action
+
+> oke, hãy bắt đầu code
+
+Người dùng yêu cầu triển khai sau xác nhận phạm vi lượt 9. `/take-action` có A-01 hero, A-02 ba cards, A-06 illustrative sample stories, A-07 final CTA và A-08 toàn văn petition. A-03 Supporter Application, A-04 Story và A-05 Sharing là ba preview riêng mở từ cards/hash destinations. Stories nằm ngay sau three actions trên main journey; không thêm route. [Báo cáo](CODING_ROUND_09.md), [kiểm tra](coding-round-09-checks.json). About còn preview; lượt 10 chưa tự bắt đầu.
+
+Giữ approved petition September 24 version 3, associated policies/LDC Part 3.08.00, declaration/public-records warning/independent notice. Supporter consent/Privacy/return instructions nguyên văn; ba audience choices chưa chọn; supporter/petition độc lập. Tất cả field/checkbox/select/textarea disabled; không form submission, file acceptance, signature, storage, email/subscription hoặc sharing thật. Story Yes và optional email là static artwork examples có nhãn, không permission/opt-in được thu thập. Chín source images (tám photo crops cũ, một landscape fragment mới) giữ pixel; nền petition và independent laptop/screen assets còn thiếu. Maps/PDF/archive bất biến, DPR 2 còn giới hạn. Cập nhật static Pages demo theo quyền đã có; không Vercel changes hoặc production services.
+
+
 ## Coding lượt 8 — The Proposal & Comparison
 
 > hãy bắt đầu lượt code thứ 8 nhé.
