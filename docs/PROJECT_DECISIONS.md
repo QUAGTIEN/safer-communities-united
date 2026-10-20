@@ -1,5 +1,14 @@
 # Quyết định hiện hành của dự án
 
+## Link demo GitHub Pages
+
+> thôi, nếu vậy tôi tạo link bằng git trước được không
+
+Người dùng chọn dùng link GitHub trước trong khi Vercel còn cần chẩn đoán. Cấu hình xuất bản static demo tại `https://quagtien.github.io/safer-communities-united/` qua GitHub Actions từ nhánh main. Đây là ngoại lệ được yêu cầu cho giới hạn local-only trước đó, chỉ áp dụng hosting demo; không production campaign, backend hoặc data collection. Lượt 7 chưa bắt đầu. [Cấu hình và kiểm tra](GITHUB_PAGES.md).
+
+Base path chỉ bật trong workflow Pages; navigation/image URLs giữ repo subdirectory và source-image bytes không đổi. Pages settings đã được tạo với build_type workflow. Không chỉnh settings Vercel hoặc coi lỗi Vercel đã được sửa.
+
+
 ## Chỉnh sửa bổ sung — chuyển trang và footer demo
 
 > tôi muốn có 2 chỉnh sửa nhỏ, ở phần chuyển các section our community --> issue,...... tôi muốn có hiệu ứng để chuyển qua mượt hơn, phần footer bổ sung thêm thông tin, social và điều khoản copy right nhé ( tạm thời để là demo version )

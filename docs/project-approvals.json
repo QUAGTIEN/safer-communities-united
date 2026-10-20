@@ -21,7 +21,7 @@
     "provenance_of_screenshot_photos": "unverified-not-proven-ai",
     "current_demo_photos": "use-exact-visible-screenshot-pixel-crops; preserve-existing-overlays; no-hidden-content-recovery"
   },
-  "current_authorized_task": "navigation-motion-and-footer-demo-additions-after-round-6",
+  "current_authorized_task": "configure-and-publish-existing-static-demo-on-GitHub-Pages",
   "current_task_downloads_or_replacements_performed": false,
   "website_implementation_authorized": true,
   "public_launch_or_data_collection_authorized": false,
@@ -64,7 +64,7 @@
     "coding_plan": "docs/CODING_PLAN.md",
     "coding_round_count": 11
   },
-  "website_implementation_authorized_scope": "coding-rounds-1-through-6 plus user-requested shared navigation/footer edit; round 7 not started",
+  "website_implementation_authorized_scope": "rounds 1–6 plus shared navigation/footer and public GitHub Pages demo; round 7 not started",
   "coding_round_01": {
     "user_message_verbatim": "oke, hãy bắt đầu lượt code đầu tiên.",
     "status": "complete",
@@ -205,5 +205,21 @@
     "report": "docs/NAVIGATION_FOOTER_UPDATE.md",
     "next_coding_round_automatically_started": false,
     "checks": "docs/navigation-footer-checks.json"
+  },
+  "github_pages_demo_publication_authorized": true,
+  "data_collection_authorized": false,
+  "github_pages": {
+    "user_message_verbatim": "thôi, nếu vậy tôi tạo link bằng git trước được không",
+    "status": "configured-for-static-demo",
+    "url": "https://quagtien.github.io/safer-communities-united/",
+    "repository": "QUAGTIEN/safer-communities-united",
+    "branch": "main",
+    "build_type": "workflow",
+    "workflow": ".github/workflows/pages.yml",
+    "report": "docs/GITHUB_PAGES.md",
+    "checks": "docs/github-pages-checks.json",
+    "scope": "Public static demo only; no production campaign or data collection.",
+    "vercel_settings_changed": false,
+    "next_round_automatically_started": false
   }
 }

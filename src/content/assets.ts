@@ -2,10 +2,11 @@ import manifest from "./assets.generated.json";
 
 // URL bindings only. Immutable maps must use their direct public PNG URLs;
 // never pass them through a resizing/encoding pipeline or object-fit:cover.
-export const mapAssets = manifest.maps;
-export const demoPhotoAssets = manifest.photos;
-export const illustrativeDocumentAssets = manifest.illustrativeDocuments;
-export const screenshotVisualAssets = manifest.screenshotVisuals;
+const assetUrl = (publicPath: string) => `${process.env.NEXT_PUBLIC_BASE_PATH || ""}${publicPath}`;
+export const mapAssets = manifest.maps.map((asset) => ({ ...asset, publicPath: assetUrl(asset.publicPath) }));
+export const demoPhotoAssets = manifest.photos.map((asset) => ({ ...asset, publicPath: asset.publicPath ? assetUrl(asset.publicPath) : null }));
+export const illustrativeDocumentAssets = manifest.illustrativeDocuments.map((asset) => ({ ...asset, publicPath: assetUrl(asset.publicPath) }));
+export const screenshotVisualAssets = manifest.screenshotVisuals.map((asset) => ({ ...asset, publicPath: assetUrl(asset.publicPath) }));
 
 export function getMap(assetId: string) {
   const map = mapAssets.find((item) => item.id === assetId);

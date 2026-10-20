@@ -2,6 +2,12 @@
 
 First Clickable Demo theo blueprint khách hàng. **Lượt 1–6 (Foundation, Home, Issues, Roads, Water, Growth) đã hoàn thành trong phạm vi demo.** Home có H-01…H-06; Issues có I-01…I-06; Roads có R-01…R-08; Water có W-01…W-09; `/issues/growth-daily-life` có L-01…L-08. Bốn route còn lại vẫn có nhãn preview cho các lượt tiếp theo.
 
+## Link demo GitHub Pages
+
+https://quagtien.github.io/safer-communities-united/
+
+Push lên `main` chạy [workflow Pages](.github/workflows/pages.yml): Node 24 → npm ci → npm run build → publish out/. [Hướng dẫn và kiểm tra](docs/GITHUB_PAGES.md). Link chỉ cập nhật sau khi workflow thành công. Local vẫn chạy ở `/`; base path Pages chỉ bật trong workflow.
+
 ## Chạy local
 
 Node.js >= 20.9.0 và npm. Đã kiểm tra bằng Node 24.13.1, npm 11.8.0 trên Windows.
@@ -19,7 +25,7 @@ npm run lint
 npm run typecheck
 ```
 
-Build tạo static export tại `out/`; chưa publish. `predev` và `prebuild` tự đồng bộ asset và dữ liệu nguồn. Nếu chạy typecheck trước dev/build lần đầu, chạy `npm run assets:sync` trước. `package-lock.json` khóa phiên bản dependency; dùng npm cho dự án này.
+Build tạo static export tại `out/`; workflow Pages xuất bản static demo theo yêu cầu mới. `predev` và `prebuild` tự đồng bộ asset và dữ liệu nguồn. Nếu chạy typecheck trước dev/build lần đầu, chạy `npm run assets:sync` trước. `package-lock.json` khóa phiên bản dependency; dùng npm cho dự án này.
 
 `postbuild` chạy `scripts/finalize-static-export.mjs` để bổ sung đúng tên file segment RSC khi Next 16.4.2 export trên Windows (copy đúng byte, không sửa framework). Không bỏ bước này khi phục vụ `out/` bằng static server trên Windows.
 
@@ -48,7 +54,7 @@ Giữ nguyên English copy đã chọn, sáu mục menu và Get Involved. Compar
 
 Header dùng sticky để luôn ở trên khi cuộn; menu mobile mở trong luồng bố cục, đẩy nội dung xuống. Dialog có focus trap, Escape và trả focus về nút mở. Có skip link và trạng thái trang hiện hành.
 
-Không có form nhận dữ liệu, API endpoint, Server Action, analytics, database, email/upload/signature services hoặc web storage. Metadata đặt noindex/nofollow. Không public deployment. Các preview không phải xác nhận đã ký/gửi/lưu thành công.
+Không có form nhận dữ liệu, API endpoint, Server Action, analytics, database, email/upload/signature services hoặc web storage. Metadata đặt noindex/nofollow. Chỉ xuất bản static demo GitHub Pages theo yêu cầu mới. Các preview không phải xác nhận đã ký/gửi/lưu thành công.
 
 Home dùng ảnh tạm đã chốt, ba bản đồ gốc xếp dọc full-width và liên kết mở file PNG đầy đủ. Bốn card ảnh còn giới hạn độ phân giải ở DPR 2; hero desktop cũng chưa đủ pixel cho DPR 2 ở mọi khung. Không nâng nét/AI/re-encode bản đồ. Community Plan card dùng đúng fragment screenshot và nhãn “Illustrative document preview”; không coi hình đó là official record. Xem số đo trong báo cáo lượt 2.
 

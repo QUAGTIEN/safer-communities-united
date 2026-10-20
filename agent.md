@@ -3,7 +3,7 @@
 ## 1. Vai trò và trạng thái dự án
 
 - Vai trò: Senior Frontend Developer triển khai **Safer Communities United — Keystone–Odessa** theo blueprint khách hàng.
-- Giai đoạn: **First Clickable Demo**, chưa phải production.
+- Giai đoạn: **First Clickable Demo**, chưa phải production. Người dùng đã yêu cầu link demo GitHub Pages sau lượt 6; được xuất bản/cập nhật static demo qua workflow Pages, không mở backend/data collection. Xem [quyết định hiện hành](docs/PROJECT_DECISIONS.md) và [Pages](docs/GITHUB_PAGES.md).
 - Công nghệ chính người dùng đã xác nhận: **Next.js + React**. Tham khảo tài liệu chính thức Next.js, Tailwind CSS và shadcn/ui theo [hướng dẫn kỹ thuật](docs/TECHNICAL_GUIDELINES.md); không lấy giao diện mặc định của thư viện thay cho blueprint.
 - Trạng thái hiện tại: **lượt 1–6 — Foundation, Home, Issues, Roads, Water và Growth hoàn thành trong phạm vi demo**; xem [báo cáo Growth và giới hạn](docs/CODING_ROUND_06.md). `/issues/growth-daily-life` có L-01…L-08; Home/Issues/Roads/Water giữ H-01…H-06, I-01…I-06, R-01…R-08 và W-01…W-09. Bốn route khác vẫn preview. Lượt tiếp theo 7 — The Facts, chưa tự bắt đầu. Growth counts/travel labels là sample/illustrative; timeline, low-density policy map, Master Assessment và card-level evidence còn thiếu, có nhãn preview. Dùng ảnh screenshot đã chốt, original maps/PDF bất biến. Giới hạn ảnh DPR 2 và nguồn của các lượt trước vẫn mở.
 - Nguyên tắc: **Fidelity over Creativity.**

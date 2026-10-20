@@ -1,0 +1,531 @@
+{
+  "status": "passed",
+  "base": "http://127.0.0.1:3001/safer-communities-united",
+  "routes": [
+    {
+      "path": "/",
+      "status": 200,
+      "sections": 6
+    },
+    {
+      "path": "/issues/",
+      "status": 200,
+      "sections": 6
+    },
+    {
+      "path": "/issues/roads-safety/",
+      "status": 200,
+      "sections": 8
+    },
+    {
+      "path": "/issues/water-septic/",
+      "status": 200,
+      "sections": 9
+    },
+    {
+      "path": "/issues/growth-daily-life/",
+      "status": 200,
+      "sections": 8
+    },
+    {
+      "path": "/the-facts/",
+      "status": 200,
+      "sections": 0
+    },
+    {
+      "path": "/the-proposal/",
+      "status": 200,
+      "sections": 0
+    },
+    {
+      "path": "/take-action/",
+      "status": 200,
+      "sections": 0
+    },
+    {
+      "path": "/about/",
+      "status": 200,
+      "sections": 0
+    }
+  ],
+  "cases": [
+    {
+      "width": 320,
+      "status": "passed"
+    },
+    {
+      "width": 390,
+      "status": "passed"
+    },
+    {
+      "width": 768,
+      "status": "passed"
+    },
+    {
+      "width": 1440,
+      "status": "passed"
+    }
+  ],
+  "desktopMenuDestinations": 6,
+  "mobileMenu": true,
+  "issueAndComparisonLinks": true,
+  "hashes": [
+    {
+      "id": "bp-p008-01-official-boundary-map",
+      "sha256": "385ee9bcc364f7e51643d74417d5df93df0de8f9cbfb69ea8f50c998bd0653eb"
+    },
+    {
+      "id": "bp-p009-01-land-parcels-conservation-map",
+      "sha256": "07f897fdab75e2db857f7f93707508ebb0f305854f24171b29ebb76d63a2d3dc"
+    },
+    {
+      "id": "bp-p011-01-roads-traffic-map",
+      "sha256": "5fd2a1bb8bc9c62ec0b34815aaaef2b4e7c710c052b5ffb61ac4bf86847b8fe6"
+    },
+    {
+      "id": "P017-01",
+      "sha256": "863b1e72e8b3354b6cf1a7350f0482043183576ebed77dbd74760795017e0f72"
+    },
+    {
+      "id": "P017-02",
+      "sha256": "f8676a667c6e51097f1805a0996c722bd9c71c07c5a3f5fa60ee80d33cd9fd7c"
+    },
+    {
+      "id": "P017-03",
+      "sha256": "0995d66bc8dc01343e5fe0ed65895ff126644a1d077eeb041aa872681b0adb7e"
+    },
+    {
+      "id": "P017-04",
+      "sha256": "5c12b337defa09bda2dd71ffbced13cf7ff2900aa135adc45d5690a377c6caec"
+    },
+    {
+      "id": "P019-01",
+      "sha256": "56ba5728672705d8913a646c2607812d2aef6d2f492e7935475e163379eb9cc2"
+    },
+    {
+      "id": "P021-02",
+      "sha256": "4029ad21bea317c05d73d34527b0e40274bd16a6dd8860fe36eb21b9eae58680"
+    },
+    {
+      "id": "P021-03",
+      "sha256": "4095c8f59ecf312bdb26b1e558af351edbbd9c7407a5251fbd1f5d7561ac781d"
+    },
+    {
+      "id": "P021-04",
+      "sha256": "85d8922ca6d37bf58fcd1dbf24c10a43b501e5d1a51f53f87cf49af1dfcf720c"
+    },
+    {
+      "id": "P021-05",
+      "sha256": "afb1214592ca5f8eb04ceada9d015622020e4cbc2b3cc639131fa441adeeebac"
+    },
+    {
+      "id": "P021-06",
+      "sha256": "cc3bc8fec2fcece86904a0fa31aedca6c05487a908707d6ce94c07d668d9253e"
+    },
+    {
+      "id": "P021-07",
+      "sha256": "47146edade6223b85a854df99f6a1bbab43df7c986d3407e81e8fb77ae9d403a"
+    },
+    {
+      "id": "P025-02",
+      "sha256": "4975eba5f206936f9608f904d21e4951459f8867a9db4f82f8c1c290715b5a4e"
+    },
+    {
+      "id": "P025-03",
+      "sha256": "2b81b3584c27da037ac1085de353a8e110a0dc5d5510a43034aa745a773f5ee3"
+    },
+    {
+      "id": "P025-04",
+      "sha256": "88e099e003b6fb563c49ecd63101c8347c96c431917bebd97172518b7f3624e5"
+    },
+    {
+      "id": "P025-05",
+      "sha256": "e8459b6268adcc850380374f56941e6cb0aede833a765fc6e25eaa3a97173212"
+    },
+    {
+      "id": "P025-06",
+      "sha256": "176567e2f7ad49af2232e81b2b6ae062d9095e0b97d4cdf0fe901b35f1601db3"
+    },
+    {
+      "id": "P025-07",
+      "sha256": "fd0c579d55f83073299e0c87cbc8febc70fbc73691d4955c85ad946045696615"
+    },
+    {
+      "id": "P025-08",
+      "sha256": "9fc95cec7ccb6da2d45950f80fc5176d552627b7184274c19cbf8f6a0d02d428"
+    },
+    {
+      "id": "P027-02",
+      "sha256": "6c3e257512dc8555d965655927c76228173ea6e03317099816b1d88c6490c21b"
+    },
+    {
+      "id": "P027-03",
+      "sha256": "319062b8bc40159c589502b4aafafa8a269e38936b188507fd08bcc66e8a4c2b"
+    },
+    {
+      "id": "P027-04",
+      "sha256": "fdaacc9f347898d16ec43689568cabdf649af74d2297d5098a319884de434963"
+    },
+    {
+      "id": "P030-01",
+      "sha256": "0d6a4de2fc45679ce70c4b7cb9ee48950c6fb1898f0c68a6248a2e5814112cbd"
+    },
+    {
+      "id": "P031-01",
+      "sha256": "a29f0dc85504cba2af4c69facc915d14c3627ed15a5d58845889dd8e6d4924ff"
+    },
+    {
+      "id": "P032-01",
+      "sha256": "4b2edb901ba8fbba9ac211e85d6fce4ba25ef338c8fdb0de30707c84dc6d0db4"
+    },
+    {
+      "id": "P033-01",
+      "sha256": "ebb156e910f537ae97197a6f6d3a52534d88c11203ac6fd205115a6d94d410c8"
+    },
+    {
+      "id": "P039-01",
+      "sha256": "0c4c72addbc7213add5a74b61718f3af814cb82d48bbcfef1a528f0170c5eceb"
+    },
+    {
+      "id": "P039-02",
+      "sha256": "70b35c603c8f79a812f36311af4ef02f664964797ec710972e2ea67b1185d32b"
+    },
+    {
+      "id": "P041-01",
+      "sha256": "f2f6d3021f8d90f68758291546de85561661fd4bfac1e6a155e02237e506cdd7"
+    },
+    {
+      "id": "P041-02",
+      "sha256": "e8337ae9fc12c4ba01c495e1a94037fbdadf8f996da66779b1ecb9088334dc9b"
+    },
+    {
+      "id": "P049-01",
+      "sha256": "a13ab69a3a2dd5e98c76323ec2e84731874dc1e14fcc1eb3cedb4073724b8b0c"
+    },
+    {
+      "id": "P049-02",
+      "sha256": "50edd046202cf6d647507bd3be8e3eb75aa680b07a6cca4fa97ec95b8f7b6195"
+    },
+    {
+      "id": "P049-03",
+      "sha256": "b204efec04d9944192fbedf246a19a2e191f5ba5e96b4d5a1b85d7ab16764787"
+    },
+    {
+      "id": "P049-04",
+      "sha256": "fb8274486968cf3b2f5f93168f30fc538f2da91adab368c3127745d052e0628a"
+    },
+    {
+      "id": "P051-01",
+      "sha256": "1de74bafd63ae0e58e22e1900477e76ea4d6e9341a600eef233ca2485a839576"
+    },
+    {
+      "id": "P052-01",
+      "sha256": "58362771a69ee12e52d894c927a0caf9aca0d3b2cc081f621253f48322141b05"
+    },
+    {
+      "id": "P052-02",
+      "sha256": "d9df080034e0034aed02ab2e7edbc7f728059b07ee1477e7bcc42d28c287a798"
+    },
+    {
+      "id": "P053-01",
+      "sha256": "d9db3dbe5876e0da932f896532b17cdb26a70ddb4760cfe64ff1cc3b7db081ef"
+    },
+    {
+      "id": "P053-02",
+      "sha256": "7683a04e3622f61bdfd05501f4eb08bd75521b28045bf73218e49e1d311c655b"
+    },
+    {
+      "id": "P053-06",
+      "sha256": "f1c8a21244e71b8caf896a0b3c19ec24643d40ae0e997adbd61195d923522bcb"
+    },
+    {
+      "id": "P058-02",
+      "sha256": "72cd13c490cd70c3921e201ff15cf5db4b0a62ccee6b501330243eae5f7043cd"
+    },
+    {
+      "id": "P058-03",
+      "sha256": "51444f90588a86168a9d06f2bee40176eaa2357332350f9b2f9d1febe5e0a776"
+    },
+    {
+      "id": "P058-04",
+      "sha256": "989e11ce3f399e8d243dea02d37275dd3ad09b023ccbb74f6a8e80beac68991c"
+    },
+    {
+      "id": "P058-05",
+      "sha256": "5a14dd24dee22dd18bd710ad5e5e65f7a46763f916ce9f3a1d9662e172a6b929"
+    },
+    {
+      "id": "P058-06",
+      "sha256": "c588833546e67a1a523efa528d06b695971e8fe49d18c2a83eb006eccb47e3c3"
+    },
+    {
+      "id": "P059-01",
+      "sha256": "6b1d534721c01263d92a6223515f768773aefb0d1faf555c843b2566b4af84e7"
+    },
+    {
+      "id": "P059-02",
+      "sha256": "6fe35cedcb831c6bebd72fb692845817541ae2bbe196ca25b647bb50809e38d1"
+    },
+    {
+      "id": "P060-03",
+      "sha256": "be1651d83a671c2a489d6585231bde1ec33f7b681270e871389b4271999938bd"
+    },
+    {
+      "id": "P060-05",
+      "sha256": "fd8fb0ddfbd5064ce09681e25feb5639843f0157e66d75f33f5a858fe89e67ea"
+    },
+    {
+      "id": "P060-06",
+      "sha256": "352ef8227012c9ae838cce35c9ce581bfdb2172ced74888bf4e7eb3599fa53ff"
+    },
+    {
+      "id": "P060-07",
+      "sha256": "5b1dd7a654244025033034e935398a7f333c8bb8dd29641085f3be8e1c7bc658"
+    },
+    {
+      "id": "P063-01",
+      "sha256": "076fb97650b39563ca3fb60a762c78476b6b65fa7e30bb63f39c424d55b17233"
+    },
+    {
+      "id": "P063-02",
+      "sha256": "47278f3ca36a46ce88b0ff3ea64fcf6d74905fd8483aa4da7c8f567f312a0af2"
+    },
+    {
+      "id": "P063-03",
+      "sha256": "318400d663c1aeb1df1e7cc9e6ce958e302112d9c1918ee469a57d5a9f49bf29"
+    },
+    {
+      "id": "P065-01",
+      "sha256": "68c601a27ee3f1a5c109c492e01cfca3960df6856ef53305a10575ad38105a77"
+    },
+    {
+      "id": "P067-01",
+      "sha256": "f93131b5c4b3df54827a5bfc4b8bca737899b81cb78fbb99789fb0cd87c5dafd"
+    },
+    {
+      "id": "P067-02",
+      "sha256": "a2dab75c5f11990bf1352c6811472ae883443197055dc8dafda444c4fb1812e0"
+    },
+    {
+      "id": "P067-03",
+      "sha256": "d9c961367fd82074b56f9b5928b36a8138159bc82bad09361c60536e7d892170"
+    },
+    {
+      "id": "P067-04",
+      "sha256": "51f4a0f21db56edc75f7019a002e3f9c03a8534399b56b69c2d0e221f4b49353"
+    },
+    {
+      "id": "P067-05",
+      "sha256": "9d030bc10bcc1d4f48fd51938f302fbe2a9b969c47ac9d1ea69d4a3bd180a260"
+    },
+    {
+      "id": "P067-06",
+      "sha256": "6e98093e96bc863d279a59bbd1ec7d706f22792f2f1372c68b63de507f93dcd1"
+    },
+    {
+      "id": "P067-07",
+      "sha256": "987b86a54f78d3bcd132155349848cf5d14a780527fc47c802f0a190608ac417"
+    },
+    {
+      "id": "P067-08",
+      "sha256": "acfe6f0de14d7cc933675c3bd3eff307e72e2d53d6fe745641cc0897ac2e234d"
+    },
+    {
+      "id": "P068-01",
+      "sha256": "5051069270526b9d087c6d66a8644ae05466880bedfe3d0e3e22b08164527d35"
+    },
+    {
+      "id": "P070-01",
+      "sha256": "fed0a8743e6e53c62338956ed975815330237acb2dab6b4209876880a6365cb0"
+    },
+    {
+      "id": "P070-02",
+      "sha256": "0142eadb2e57302a6fe5470570661d006a52e86b5915cf5c28eb1fb302bdcb7e"
+    },
+    {
+      "id": "P070-03",
+      "sha256": "ac82f48c1007564a1ba46d2046bc043aece26b1a73905ddd04f62c2cabf970a8"
+    },
+    {
+      "id": "P070-04",
+      "sha256": "624ec272c87e7f16bce870b74e589f80a498886947edc78298faaef5f73dcb87"
+    },
+    {
+      "id": "P072-01",
+      "sha256": "a6fcf72a213edb97617056fa87754a371dfc7c1b29ca92cddf6964de669b459b"
+    },
+    {
+      "id": "P072-04",
+      "sha256": "16f42095fa4b458ddee2e683502a0053832728d7aca25da9620932eb416428c2"
+    },
+    {
+      "id": "P072-05",
+      "sha256": "80f1b2a35c698a2f2c1442b7dd24992587e88e6a5291a9b28249633deda62099"
+    },
+    {
+      "id": "P072-07",
+      "sha256": "9568c49ae8b4911951dd6ba562a5ee9bfe12738d7bed8a656f2f99e21ae6b553"
+    },
+    {
+      "id": "P074-01",
+      "sha256": "ca1af23c5d0b1265789afba561cc2c4d6995457aa674fdb7b66d9c11af812026"
+    },
+    {
+      "id": "P079-01",
+      "sha256": "144d5572adc7f068b5ea3c0845c70b4e16b19c45de2d05c987941abfad4990ee"
+    },
+    {
+      "id": "P079-02",
+      "sha256": "e7fe09bde50d5a0544bb1bc04d7e7545f78664dec6becbde235a636b1d52a55b"
+    },
+    {
+      "id": "P079-03",
+      "sha256": "18a25697182b5976cc21565e5d3ee0a46fdd136cff5dc0d496fbcfe0870bf719"
+    },
+    {
+      "id": "P080-01",
+      "sha256": "c030a2047cca735cb3be9d63ae24fdddac4738155ad507212aea59efc5eb15d5"
+    },
+    {
+      "id": "P082-01",
+      "sha256": "5ce6adf98e77732b05b8cb973fb2c600951a59470d6d1b455e8ad22fbc0de78c"
+    },
+    {
+      "id": "P082-02",
+      "sha256": "920830810471271db4f1c03eff13dfc1d51e304890f9b3bba582d09d586ddb07"
+    },
+    {
+      "id": "P082-03",
+      "sha256": "25f831d99411ba0584851f5dd6d7bfe8c5e6b972127ec9fd3700eccc194d91f1"
+    },
+    {
+      "id": "P017-05",
+      "sha256": "15cc673e963d40c27b4fdd4643d6ea964761d4729bb2578077e5fc0fef106776"
+    },
+    {
+      "id": "R07-record",
+      "sha256": "100d16b5f55a4c5bfb267750a2f0d4cfda3bbda4d7a83256a77cc9331d694cb6"
+    },
+    {
+      "id": "R07-policy",
+      "sha256": "e559ca0befcb190a91e7e7f5848488f52cb19a1e0e92dff92357c56086e5b2c8"
+    },
+    {
+      "id": "R08-community",
+      "sha256": "580814f8c06484dd220a135fd6d4fc84e6195395cb13d5cbe2cbf4d39bdc40c8"
+    },
+    {
+      "id": "R08-county",
+      "sha256": "5fb56006acbfe66530c1d3b87919b21cbb976f2e654df92f3f7f1e0b7a5df639"
+    },
+    {
+      "id": "W08-record",
+      "sha256": "8c730c17b8eda547d8147861843e238bceca96bf32cda43358c84bea105da024"
+    },
+    {
+      "id": "W08-policy",
+      "sha256": "451782a16f3b51bdd2e167a30df1f0c869c727bc70d45df9adcfd92d8cbe2c86"
+    },
+    {
+      "id": "L07-plan",
+      "sha256": "cba5699d81d22fba7e6d97a33ba76d475fd6359fca30f339bcaf3fb901303864"
+    },
+    {
+      "id": "I03-map",
+      "sha256": "b71bb0c7099ac0b788d939dfe7aa56bddc606b7e75a3b03989208f60567d39ae"
+    },
+    {
+      "id": "I04-map",
+      "sha256": "efcfd9f2bba101385d6a5616f82b92297c862cfc2c7890d987b1a8d6044ced12"
+    },
+    {
+      "id": "I05-map",
+      "sha256": "a977dc2ccc0ffa8613b617cbce969d40523633f0f4277cba7a00d35d285353d7"
+    },
+    {
+      "id": "R03-map",
+      "sha256": "80a8fd0adddbd102253ab56dabd64fe3c2deb4249c96e038ba02056458a99ebe"
+    },
+    {
+      "id": "R07-map",
+      "sha256": "65aeeabc31339c582831d9f109085e4873ac6005cbf5de331c30033a60b0c85f"
+    },
+    {
+      "id": "W01-landscape",
+      "sha256": "f0d40986ab572c0473b74ab535e481ec150a069b9d25ceb54a7b73bf49684e8e"
+    },
+    {
+      "id": "W01-septic",
+      "sha256": "ba87a6a9d0b92601ec93d3af5521f42edcbc9f986d4173a79b66e5941331c6ac"
+    },
+    {
+      "id": "W01-groundwater",
+      "sha256": "3af8175f43af1fccf0b0752d50f43c568544618706f2accef2d411d5ebd655a7"
+    },
+    {
+      "id": "W01-well",
+      "sha256": "512c0daf949935990df03b14d43dd3a10807937db82b2d03fe121b6226006a53"
+    },
+    {
+      "id": "W02-map",
+      "sha256": "78326d39a265cbdca793a0f7d6835abeac05dbc8b5e4302df287f4c1d95eaf79"
+    },
+    {
+      "id": "W03-map",
+      "sha256": "42293c841c1aa6c4e67e7735a2940dc4697f2e6ad77587f6e15bce46db9364a5"
+    },
+    {
+      "id": "W03-chart",
+      "sha256": "cca252065b969439766136f311a961c555608fd163455305ca6ba81d8d28b1ee"
+    },
+    {
+      "id": "W04-system",
+      "sha256": "e204c8363348325b721a527acc0394604ab25d85a01c8171e122eff8a0346bdb"
+    },
+    {
+      "id": "W04-cutaway",
+      "sha256": "3c254d25c73386cc97f8fbec68eaa005634fc5b325376977f37b69907045973a"
+    },
+    {
+      "id": "W08-map",
+      "sha256": "c492b06a1494f2f44a6c8c6d6585160e65ca67f3647bc99376b6b9534d24095f"
+    },
+    {
+      "id": "L01-then",
+      "sha256": "b4400ece10c84fe7c53d16b653cb39d8d9ecdeaea35a1e9d56c6860a02fa744b"
+    },
+    {
+      "id": "L01-today",
+      "sha256": "4be4ccc634d4db821f338de00b00a4b8274a9c45697512e2051df89979af869f"
+    },
+    {
+      "id": "L02-five-acre",
+      "sha256": "ebd657dac18f059b79f45114eb7fc72b5ad38dcd04b8e54a2f61fd02a3d7a376"
+    },
+    {
+      "id": "L02-moderate",
+      "sha256": "6a59551088f4098369c25f2159724ea0fe069267a66fdd7adf8655544e924529"
+    },
+    {
+      "id": "L04-map",
+      "sha256": "be3be8102cdfe14bcc075fa247fbb1cb780ddb3bbb93d53f33af0ed10f03ef47"
+    },
+    {
+      "id": "L07-landuse",
+      "sha256": "39da6a3117e2c8dc8785d9d34caf92c77ed873d1f8667f365463571a50794fea"
+    },
+    {
+      "id": "L07-services",
+      "sha256": "3dfe4c7fb1d1ff7298e4a0e41c3144c3037f38e70429503c0657d1f1bd08d6ba"
+    }
+  ],
+  "errors": [],
+  "httpErrors": [],
+  "outsidePrefix": [],
+  "writes": [],
+  "external": [],
+  "commands": {
+    "pagesBasePathBuild": "passed",
+    "typecheck": "passed"
+  }
+}
