@@ -21,7 +21,7 @@
     "provenance_of_screenshot_photos": "unverified-not-proven-ai",
     "current_demo_photos": "use-exact-visible-screenshot-pixel-crops; preserve-existing-overlays; no-hidden-content-recovery"
   },
-  "current_authorized_task": "complete-coding-round-9-Take-Action-and-update-authorized-GitHub-Pages-demo",
+  "current_authorized_task": "complete-coding-round-10-About-footer-previews-and-update-authorized-GitHub-Pages-demo",
   "current_task_downloads_or_replacements_performed": false,
   "website_implementation_authorized": true,
   "public_launch_or_data_collection_authorized": false,
@@ -306,5 +306,43 @@
       "documents": 0,
       "pixel_preserving": true
     }
+  },
+  "coding_round_10": {
+    "date_local": "2026-10-21",
+    "user_message_verbatim": "oke, hãy bắt đầu code",
+    "context": "User authorized execution after confirming round 10 About and footer destinations scope.",
+    "status": "complete-with-approved-copy-layout-and-destination-inputs-still-missing",
+    "page": "/about",
+    "sections": [
+      "B-01",
+      "B-02"
+    ],
+    "report": "docs/CODING_ROUND_10.md",
+    "checks": "docs/coding-round-10-checks.json",
+    "information_previews": [
+      "Updates",
+      "Contact",
+      "Sources & Methods",
+      "Accessibility",
+      "Edits",
+      "Privacy"
+    ],
+    "shared_footer_previews": [
+      "Facebook",
+      "Instagram",
+      "Email",
+      "Terms & Copyright",
+      "Privacy"
+    ],
+    "new_routes": false,
+    "new_images": false,
+    "organization_or_policy_copy_invented": false,
+    "contact_or_social_integration_enabled": false,
+    "submission_or_collection_enabled": false,
+    "technical_source_register_published_as_approved_methods": false,
+    "other_routes": "Home/Issues/Roads/Water/Growth/Facts/Proposal/Take Action content retained",
+    "next_round": 11,
+    "next_round_automatically_started": false,
+    "missing_sources": "Approved About public copy, section order and selected layout; approved copy and actual destinations/contacts for the six informational links; social profile URLs/email; approved legal/privacy/accessibility/edits content. Existing image/source limitations remain."
   }
 }

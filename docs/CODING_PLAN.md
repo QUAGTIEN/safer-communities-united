@@ -1,6 +1,6 @@
 # Kế hoạch các lượt coding — First Clickable Demo
 
-**Cập nhật:** lượt 1–9 đã hoàn thành trong phạm vi demo; xem [Take Action và giới hạn](CODING_ROUND_09.md) cùng các báo cáo lượt 1–8. Lượt 10–11 còn mở; tiếp theo About và footer destinations, chưa tự bắt đầu. Phần nhắc lại kế hoạch bên dưới là hồ sơ ở thời điểm trước coding.
+**Cập nhật:** lượt 1–10 đã hoàn thành trong phạm vi demo; xem [About/footer previews và phần thiếu](CODING_ROUND_10.md) cùng các báo cáo lượt 1–9. Lượt 11 còn mở: kiểm tra toàn demo và bàn giao, chưa tự bắt đầu. About vẫn thiếu approved copy/layout, không phải trang giới thiệu tổ chức đã hoàn thiện. Phần nhắc lại kế hoạch bên dưới là hồ sơ ở thời điểm trước coding.
 
 Người dùng xác nhận kết thúc kiểm duyệt: “oke, coi như đã kiểm duyệt xong , bây giờ bạn hãy nhắc lại kế hoạch các lượt coding nhé”. Bước này chốt lại kế hoạch, chưa khởi tạo hoặc code website.
 

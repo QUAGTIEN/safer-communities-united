@@ -31,3 +31,5 @@ The Facts được bổ sung ở lượt 7; [báo cáo và kiểm tra](CODING_RO
 The Proposal & Comparison được bổ sung ở lượt 8; [báo cáo và kiểm tra](CODING_ROUND_08.md) ghi P-01/C-01…C-04, hai route previews còn lại và các giới hạn nguồn/ảnh.
 
 Take Action được bổ sung ở lượt 9; [báo cáo và kiểm tra](CODING_ROUND_09.md) ghi ba read-only workflow previews, petition toàn văn và About preview còn lại. Không bật dịch vụ hoặc thu thập dữ liệu.
+
+About/footer destinations được cập nhật ở lượt 10; [báo cáo](CODING_ROUND_10.md) ghi B-01/B-02 labelled previews và các nguồn/copy còn thiếu. Giữ chín routes, Foundation footer và static-only demo; không bật contacts/social/policies thật. Xác nhận publication bằng workflow và live checks sau push, không suy từ build local.

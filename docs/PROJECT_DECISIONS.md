@@ -1,5 +1,14 @@
 # Quyết định hiện hành của dự án
 
+## Coding lượt 10 — About và footer destinations
+
+> oke, hãy bắt đầu code
+
+Người dùng yêu cầu triển khai sau xác nhận phạm vi lượt 10. B-01 `/about` là labelled preview, ghi rõ thiếu approved public copy và selected layout; B-02 có sáu informational previews Updates/Contact/Sources & Methods/Accessibility/Edits/Privacy, dùng chung với footer. Social Facebook/Instagram/Email và Terms & Copyright/Privacy cũng có missing-content notices riêng và nhãn Demo version. Hai Privacy buttons dùng cùng nội dung. Giữ footer groups/layout, chín routes, typography/palette/motion; không chọn ảnh About tự tạo. [Báo cáo](CODING_ROUND_10.md), [kiểm tra](coding-round-10-checks.json). Lượt 11 chưa tự bắt đầu.
+
+PDF 3/5/6 chỉ cung cấp chức năng About và các nhãn footer; notices là thông báo thiếu nội dung theo D-02, không phải copy tổ chức/chính sách đã duyệt. Không bịa bio, actual contacts, social URLs, privacy/legal promises, corrections process hoặc accessibility compliance. Không biến technical source register thành approved public Sources & Methods; không thêm dịch vụ/data collection. Content/ảnh của các lượt trước giữ nguyên; original PDF/archive/maps bất biến. Cập nhật static Pages demo theo quyền đã có; không Vercel changes.
+
+
 ## Coding lượt 9 — Take Action
 
 > oke, hãy bắt đầu code

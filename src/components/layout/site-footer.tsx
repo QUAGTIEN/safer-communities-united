@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Facebook, Instagram, Mail } from "lucide-react";
 import { footerDemo, mainNavigation, site } from "@/content/site";
-import { DemoPreview } from "@/components/demo/demo-preview";
+import { InformationPreview } from "@/components/demo/information-preview";
 import { Container } from "./container";
 import { Wordmark } from "./wordmark";
 
@@ -15,7 +15,7 @@ export function SiteFooter() {
           <p className="footer-location">{footerDemo.location}</p>
           <div className="footer-connect"><h2 className="footer-heading">Connect</h2>
             <div className="footer-social">{footerDemo.social.map((label) => { const Icon = socialIcons[label]; return (
-              <DemoPreview key={label} title={`${label} — Demo version`} textLink><Icon aria-hidden="true" /><span className="sr-only">{label} — Demo version</span></DemoPreview>
+              <InformationPreview key={label} destination={label} textLink><Icon aria-hidden="true" /><span className="sr-only">{label} — Demo version</span></InformationPreview>
             ); })}</div><p className="footer-demo-caption">Social links — demo previews.</p>
           </div>
         </div>
@@ -29,8 +29,8 @@ export function SiteFooter() {
           <h2 id="footer-involved" className="footer-heading">Get Involved</h2>
           <ul className="footer-list">
             <li><Link className="footer-link" href="/take-action">Take Action</Link></li>
-            <li><DemoPreview title="Updates" textLink>Updates</DemoPreview></li>
-            <li><DemoPreview title="Contact" textLink>Contact</DemoPreview></li>
+            <li><InformationPreview destination="Updates" textLink /></li>
+            <li><InformationPreview destination="Contact" textLink /></li>
           </ul>
         </nav>
         <nav aria-labelledby="footer-information">
@@ -38,7 +38,7 @@ export function SiteFooter() {
           <ul className="footer-list">
             <li><Link className="footer-link" href="/about">About</Link></li>
             {(["Sources & Methods", "Accessibility", "Edits", "Privacy"] as const).map((title) => <li key={title}>
-              <DemoPreview title={title} textLink>{title}</DemoPreview>
+              <InformationPreview destination={title} textLink />
             </li>)}
           </ul>
         </nav>
@@ -50,8 +50,8 @@ export function SiteFooter() {
       <Container className="footer-bottom">
         <p>{footerDemo.copyright}</p>
         <nav aria-label="Demo legal information">
-          <DemoPreview title="Terms & Copyright — Demo version" textLink>Terms &amp; Copyright</DemoPreview>
-          <DemoPreview title="Privacy — Demo version" textLink>Privacy</DemoPreview>
+          <InformationPreview destination="Terms & Copyright" textLink />
+          <InformationPreview destination="Privacy" textLink />
         </nav>
       </Container>
     </footer>

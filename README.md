@@ -1,6 +1,6 @@
 # Safer Communities United — Keystone–Odessa
 
-First Clickable Demo theo blueprint khách hàng. **Lượt 1–9 đã hoàn thành trong phạm vi demo.** Home H-01…H-06; Issues I-01…I-06; Roads R-01…R-08; Water W-01…W-09; Growth L-01…L-08; The Facts F-01/F-02; The Proposal P-01/C-01…C-04; Take Action A-01…A-08 (ba workflow previews mở từ action cards). About còn labelled preview; lượt 10 chưa bắt đầu. [Báo cáo lượt 9](docs/CODING_ROUND_09.md).
+First Clickable Demo theo blueprint khách hàng. **Lượt 1–10 đã hoàn thành trong phạm vi demo.** Home H-01…H-06; Issues I-01…I-06; Roads R-01…R-08; Water W-01…W-09; Growth L-01…L-08; The Facts F-01/F-02; The Proposal P-01/C-01…C-04; Take Action A-01…A-08. About B-01 vẫn labelled preview vì thiếu approved copy/layout; B-02 có sáu information previews dùng chung với footer. Social/email/legal copy còn thiếu. Lượt 11 chưa bắt đầu. [Báo cáo lượt 10](docs/CODING_ROUND_10.md).
 
 ## Link demo GitHub Pages
 
@@ -38,6 +38,7 @@ Build tạo static export tại `out/`; workflow Pages xuất bản static demo 
 - `src/components/layout/`: wordmark chữ, header/menu responsive, footer và container.
 - `src/components/ui/`: component nền tảng; `src/components/demo/`: labelled route/section previews và modal; `src/components/home/`: Home; `src/components/content/`: map figure và source links.
 - `src/content/site.ts`, `pages.ts`: nhãn, route, headings và placeholder destinations tách khỏi UI.
+- `src/content/information.ts`, `src/components/demo/information-preview.tsx`, `src/app/about/page.tsx`: B-01/B-02 missing-content previews; sáu nhãn PDF 5, social/email/Terms theo yêu cầu footer demo. Không coi notices là public organization/policy copy; không xuất technical source register thành Sources & Methods.
 - `scripts/sync-assets.mjs`: kiểm tra nguồn bằng SHA-256 rồi copy đúng byte 3 maps/79 photo crops/12 illustrative document-cover fragments/29 screenshot visual regions vào `public/assets/`; tạo `assets.generated.json` và `blueprint.generated.json` chứa bindings và 57 source sections.
 - `src/content/home.ts`: copy Home tách khỏi presentation; `src/content/sources.ts`: URL chính xác từ source register. Home giữ plain-text methodology và caveat Water theo D-04.
 - `src/content/issues.ts`, `src/components/issues/`, `src/app/issues/issues.css`: sáu section Issues, anchor navigation, timeline và sơ đồ Connections bằng React. Ba source previews giữ trạng thái chưa xác minh; map screenshot từ `visual-fragments.json` bảo toàn pixel/legend.
@@ -72,6 +73,7 @@ Home dùng ảnh tạm đã chốt, ba bản đồ gốc xếp dọc full-width 
 - [Báo cáo lượt 5 và giới hạn nguồn/ảnh](docs/CODING_ROUND_05.md), [kết quả kiểm tra Water](docs/coding-round-05-checks.json).
 - [Báo cáo lượt 6 và giới hạn nguồn/ảnh](docs/CODING_ROUND_06.md), [kết quả kiểm tra Growth](docs/coding-round-06-checks.json).
 - [Báo cáo lượt 7 và giới hạn nguồn/ảnh](docs/CODING_ROUND_07.md), [kết quả kiểm tra The Facts](docs/coding-round-07-checks.json).
+- [Báo cáo lượt 10: About và footer previews](docs/CODING_ROUND_10.md), [kết quả kiểm tra](docs/coding-round-10-checks.json).
 - [Chất lượng ảnh](docs/IMAGE_QUALITY_REVIEW.md), [cấu trúc blueprint](structure.md).
 - [Nguồn component/font và giấy phép](docs/THIRD_PARTY_NOTICES.md).
 

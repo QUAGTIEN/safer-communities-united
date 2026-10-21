@@ -2,7 +2,7 @@
 
 ## Trạng thái và tài liệu nguồn
 
-**Lượt 1–9 đã hoàn thành trong phạm vi demo.** Xem [lượt 9 và giới hạn](CODING_ROUND_09.md). Take Action có đầy đủ các hạng mục demo, form chỉ xem và petition toàn văn; About còn preview, lượt 10 chưa bắt đầu. Chỉ cập nhật static demo GitHub Pages theo quyền đã có; không backend/data collection.
+**Lượt 1–10 đã hoàn thành trong phạm vi demo.** Xem [lượt 10 và phần thiếu](CODING_ROUND_10.md). About B-01 vẫn labelled preview; sáu B-02 information destinations và social/Terms/Privacy mở thông báo thiếu nội dung cụ thể. Không tự thêm bio/contact/policy, routes hoặc accessibility compliance claims. Lượt 11 chưa bắt đầu. Chỉ cập nhật static demo GitHub Pages theo quyền đã có; không backend/data collection.
 
 Người dùng đã xác nhận kết thúc kiểm duyệt; [kế hoạch 11 lượt coding](CODING_PLAN.md) là thứ tự thực hiện hiện hành. Các trạng thái “chờ duyệt” trong phần ghi lịch sử lập hồ sơ dưới đây mô tả thời điểm tạo tài liệu, không mở lại phần đã duyệt. Dùng ảnh tạm theo quyết định mới nhất; tìm ảnh thay để sau, chất lượng vẫn phải kiểm tra khi render.
 
