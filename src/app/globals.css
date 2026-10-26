@@ -60,9 +60,13 @@
   .desktop-navigation { display: flex; align-items: center; gap: 1.78rem; margin-left: auto; }
   .header-link { position: relative; display: inline-flex; min-height: 2.75rem; align-items: center; padding: 0; border: 0; background: none; font: inherit; font-size: 0.9375rem; color: var(--charcoal); white-space: nowrap; }
   /* Current page: medium weight, no underline (p017 Home, p026 Issues, p048 Roads). */
-  /* Current page: medium weight + fixed burgundy underline (user decision 1A, D-025; was weight only). */
-  .header-link.is-active { font-weight: 500; text-decoration: underline; text-decoration-color: var(--burgundy); text-decoration-thickness: 2px; text-underline-offset: 6px; }
-  .header-link:hover { text-decoration: underline; text-decoration-color: var(--burgundy); text-decoration-thickness: 2px; text-underline-offset: 6px; }
+  /* Current page: medium weight + burgundy underline (1A, D-025). Hover grows an underline from the centre and the
+     current-page underline slides between items on navigation (D-028); both are 2 px, 6 px under the text. */
+  .header-link { transition: color 200ms ease, font-weight 200ms ease; }
+  .header-link.is-active { font-weight: 500; }
+  .header-link::after { position: absolute; left: 0; right: 0; bottom: 0.5625rem; height: 2px; background: var(--burgundy); content: ""; transform: scaleX(0); transition: transform 240ms cubic-bezier(0.2, 0.7, 0.2, 1); }
+  .header-link:not(.is-active):hover::after { transform: scaleX(1); }
+  .header-indicator { position: absolute; left: 0; right: 0; bottom: 0.5625rem; height: 2px; background: var(--burgundy); view-transition-name: nav-indicator; }
   .header-search { display: inline-flex; margin-left: 0.25rem; color: var(--charcoal); }
   .header-search svg { width: 1.25rem; height: 1.25rem; }
   .header-cta { display: inline-flex; height: 2.875rem; align-items: center; margin-left: 6.5rem; padding-inline: 1.3125rem; border-radius: 3px; background: var(--burgundy); color: var(--white); font-size: 0.9375rem; font-weight: 600; white-space: nowrap; }
@@ -100,11 +104,14 @@
 ::view-transition-group(.page-crossfade) { animation: none; }
 ::view-transition-old(.page-crossfade) { animation: page-fade-out 140ms ease-out both; }
 ::view-transition-new(.page-crossfade) { animation: page-fade-in 220ms ease-out both; }
+::view-transition-group(nav-indicator) { animation-duration: 380ms; animation-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1); }
+::view-transition-old(nav-indicator), ::view-transition-new(nav-indicator) { animation: none; height: 100%; }
 @keyframes page-fade-out { from { opacity: 1; } to { opacity: 0; } }
 @keyframes page-fade-in { from { opacity: 0; } to { opacity: 1; } }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   ::view-transition-group(*), ::view-transition-old(*), ::view-transition-new(*) { animation: none !important; }
+  .header-link, .header-link::after { transition: none; }
 }
 
 /* Footer below 1400 px — tablet layout (p087): brand row, links row, actions right-aligned. */

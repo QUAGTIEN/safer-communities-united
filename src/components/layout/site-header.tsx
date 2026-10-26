@@ -35,8 +35,12 @@ export function SiteHeader() {
         <nav aria-label={a11y.mainNavigation} className="desktop-navigation">
           {mainNavigation.map((item) => {
             const active = isActive(item, pathname);
+            // The active underline is a real element with a view-transition name, so on navigation it slides
+            // from the old menu item to the new one (D-028).
             return <NavLink key={item.label} item={item} current={active && pathname === item.activeFor}
-              className={cn("header-link", active && "is-active")} />;
+              className={cn("header-link", active && "is-active")}>
+              {item.label}{active && <span className="header-indicator" aria-hidden="true" />}
+            </NavLink>;
           })}
           <span className="header-search" aria-hidden="true"><Search strokeWidth={1.75} /></span>
         </nav>
