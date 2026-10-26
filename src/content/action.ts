@@ -225,3 +225,9 @@ export const petition = {
   sideLeft: img("action-petition-side-left"),
   sideRight: img("action-petition-side-right"),
 };
+
+// NOT blueprint copy: proposed wording awaiting approval (V-014, TXT:2264 “any new visible help or error wording
+// needs approval”). Shown only when the selected attachments exceed the 4 MB limit (D-022). Skipped by check:copy.
+export const pendingCopy = {
+  attachmentsTooLarge: "Choose files that total 4 MB or less.",
+};

@@ -9,7 +9,7 @@ import { pathToFileURL } from "node:url";
 
 // `*Alt` keys are image alternative text: written for screen readers, not quoted visible copy.
 const SKIP_KEYS = new Set(["href", "src", "id", "image", "anchor", "activeFor", "notice", "alt", "map", "mapAlt", "imageAlt", "photo", "photoAlt", "icon", "block", "blockAlt", "section", "sectionAlt", "strip", "target", "circles", "illustration", "arrow", "header", "pages", "sideLeft", "sideRight", "landscape"]);
-const SKIP_EXPORTS = new Set(["a11y", "routes", "proposalAnchor", "comparisonAnchor", "links", "planPage20", "comparisonLinks", "evidenceLinks"]);
+const SKIP_EXPORTS = new Set(["a11y", "pendingCopy", "routes", "proposalAnchor", "comparisonAnchor", "links", "planPage20", "comparisonLinks", "evidenceLinks"]);
 
 const normalise = (text) => text.replace(/\s+/g, " ").trim();
 

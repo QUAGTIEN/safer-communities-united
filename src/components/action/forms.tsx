@@ -1,30 +1,63 @@
 "use client";
 
-import { useEffect, useId, useRef, useState, type FormEvent, type ReactNode } from "react";
+import { useId, useRef, useState, type FormEvent, type ReactNode } from "react";
 import { ChevronDown } from "lucide-react";
-import { petition, story, supporter } from "@/content/action";
+import { pendingCopy, petition, story, supporter } from "@/content/action";
+import {
+  maxAttachmentBytes, petitionErrors, storyErrors, supporterErrors,
+  type FormName, type PetitionField, type PetitionValues, type SupporterField, type SupporterValues,
+} from "@/lib/forms";
 
-// First-version form behaviour in the disconnected private preview (docs/FORMS_SPEC.md §0):
-// real controls and client-side validation, but sending is SIMULATED with fictional timing —
-// nothing is emailed, stored or transmitted, and no recipient exists in this build (D-015, S7 adds the server).
-// Review aid: add `?simulate=failure` to the URL to see the recoverable-failure state once; "Try again" then succeeds.
+// Take Action forms (docs/FORMS_SPEC.md): validated here and again on the server, then POSTed to /api/forms/<form>.
+// The server simulates or emails (FORMS_MODE). Confirmation shows only when the server returns an email id;
+// on failure the entries stay and "Try again" resends the identical payload with the same Idempotency-Key.
+// Review aid: `?simulate=failure` in the URL fails the first attempt without contacting the server.
 
 type Phase = "idle" | "pending" | "success" | "failure";
 type Message = { title: string; message: string };
+type SendRequest = { fingerprint: string; body: () => BodyInit; json: boolean };
 
-function useSimulatedSend() {
+function useFormSend(form: FormName) {
   const [phase, setPhase] = useState<Phase>("idle");
-  const attempts = useRef(0);
-  const timer = useRef<ReturnType<typeof setTimeout>>(undefined);
-  useEffect(() => () => clearTimeout(timer.current), []);
-  const send = () => {
-    if (phase === "pending") return;
+  const busy = useRef(false);
+  const attempt = useRef<{ fingerprint: string; key: string } | null>(null);
+  const last = useRef<SendRequest | null>(null);
+  const forced = useRef(false);
+
+  const send = async (request: SendRequest) => {
+    if (busy.current) return;
+    busy.current = true;
+    last.current = request;
+    // Same entries → same key (the provider de-duplicates a retry); changed entries → a new submission.
+    if (attempt.current?.fingerprint !== request.fingerprint) attempt.current = { fingerprint: request.fingerprint, key: crypto.randomUUID() };
+    const key = attempt.current.key;
     setPhase("pending");
-    const forceFailure = new URLSearchParams(window.location.search).get("simulate") === "failure" && attempts.current === 0;
-    attempts.current += 1;
-    timer.current = setTimeout(() => setPhase(forceFailure ? "failure" : "success"), 1100);
+    let ok = false;
+    try {
+      if (!forced.current && new URLSearchParams(window.location.search).get("simulate") === "failure") {
+        forced.current = true;
+        await new Promise((resolve) => setTimeout(resolve, 900));
+      } else {
+        const response = await fetch(`/api/forms/${form}/`, {
+          method: "POST",
+          headers: { "Idempotency-Key": key, ...(request.json ? { "Content-Type": "application/json" } : {}) },
+          body: request.body(),
+        });
+        const result = (await response.json().catch(() => ({}))) as { ok?: boolean; id?: string };
+        ok = response.ok && result.ok === true && typeof result.id === "string";
+      }
+    } catch { ok = false; }
+    busy.current = false;
+    setPhase(ok ? "success" : "failure");
   };
-  return { phase, send, reset: () => setPhase("idle") };
+  return { phase, send, retry: () => { if (last.current) void send(last.current); } };
+}
+
+// Visually hidden trap field: people never fill it; the server drops submissions that do (no visible change).
+function Honeypot({ value, onChange }: { value: string; onChange: (value: string) => void }) {
+  return <div className="act-hp" aria-hidden="true">
+    <input type="text" name="website" tabIndex={-1} autoComplete="off" value={value} onChange={(e) => onChange(e.target.value)} />
+  </div>;
 }
 
 function focusFirstInvalid(form: HTMLFormElement | null) {
@@ -61,8 +94,6 @@ const without = <T extends object>(obj: T, key: keyof T): T => {
   delete next[key];
   return next;
 };
-const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-const validDate = (value: string) => value !== "" && !Number.isNaN(Date.parse(value));
 
 function Check({ name, label, checked, onChange, invalid, describedBy }: {
   name: string; label: ReactNode; checked: boolean; onChange: (next: boolean) => void; invalid?: boolean; describedBy?: string;
@@ -76,34 +107,18 @@ function Check({ name, label, checked, onChange, invalid, describedBy }: {
 
 /* ---------- Supporter Application (H3) ---------- */
 
-type SupporterValues = {
-  audience: boolean[]; participate: boolean[]; contact: boolean[];
-  fullName: string; street: string; city: string; zip: string; email: string; phone: string; signature: string; date: string;
-};
 const supporterBlank: SupporterValues = {
   audience: [false, false, false], participate: [false, false, false, false], contact: [false, false, false],
   fullName: "", street: "", city: "", zip: "", email: "", phone: "", signature: "", date: "",
 };
-type SupporterField = "fullName" | "email" | "phone" | "signature" | "date";
-
-function supporterErrors(v: SupporterValues): Partial<Record<SupporterField, string>> {
-  const e = supporter.errors;
-  const out: Partial<Record<SupporterField, string>> = {};
-  if (!v.fullName.trim()) out.fullName = e.name;
-  if (!emailPattern.test(v.email.trim())) out.email = e.email;
-  if ((v.contact[1] || v.contact[2]) && !v.phone.trim()) out.phone = e.phone;
-  if (!v.signature.trim()) out.signature = e.signature;
-  if (!validDate(v.date)) out.date = e.date;
-  return out;
-}
-
 export function SupporterForm({ onSwitchToPetition }: { onSwitchToPetition: () => void }) {
   const s = supporter;
   const uid = useId();
   const form = useRef<HTMLFormElement>(null);
   const [values, setValues] = useState(supporterBlank);
   const [errors, setErrors] = useState<Partial<Record<SupporterField, string>>>({});
-  const { phase, send } = useSimulatedSend();
+  const [trap, setTrap] = useState("");
+  const { phase, send, retry } = useFormSend("supporter");
   const set = <K extends keyof SupporterValues>(key: K, value: SupporterValues[K]) => {
     setValues((v) => ({ ...v, [key]: value }));
     if (key in errors) setErrors((e) => without(e, key as SupporterField));
@@ -118,7 +133,8 @@ export function SupporterForm({ onSwitchToPetition }: { onSwitchToPetition: () =
     const found = supporterErrors(values);
     setErrors(found);
     if (Object.keys(found).length) { focusFirstInvalid(form.current); return; }
-    send();
+    const payload = JSON.stringify({ ...values, website: trap });
+    void send({ fingerprint: payload, body: () => payload, json: true });
   };
   const err = (field: SupporterField) => errors[field];
   const errorId = (field: string) => `${uid}-${field}-error`;
@@ -189,13 +205,14 @@ export function SupporterForm({ onSwitchToPetition }: { onSwitchToPetition: () =
             <p>{s.privacy}</p>
             <p>{s.returnNote}</p>
           </div>
+          <Honeypot value={trap} onChange={setTrap} />
           <div className="act-sup-send">
             <button type="submit" className="act-button" disabled={phase === "pending"}>
               {phase === "pending" ? s.pending.button : s.send}
             </button>
           </div>
           <StatusPanel id={`${uid}-status`} phase={phase} pending={s.pending} success={s.success} failure={s.failure}
-            retry={s.failure.retry} onRetry={send} />
+            retry={s.failure.retry} onRetry={retry} />
         </form>
       </div>
     </div>
@@ -215,25 +232,36 @@ export function StorySection({ left }: { left: ReactNode }) {
   const [issue, setIssue] = useState("");
   const [text, setText] = useState("");
   const [publish, setPublish] = useState<"" | "yes" | "no">("");
-  const [chosen, setChosen] = useState<string[]>([]);
+  const [chosen, setChosen] = useState<File[]>([]);
   const [dragging, setDragging] = useState(false);
-  const [errors, setErrors] = useState<{ issue?: string; story?: string }>({});
-  const { phase, send } = useSimulatedSend();
+  const [trap, setTrap] = useState("");
+  const [errors, setErrors] = useState<{ issue?: string; story?: string; files?: string }>({});
+  const { phase, send, retry } = useFormSend("story");
   const summaryId = `${uid}-summary`;
   const summary = [
     errors.issue && { label: f.issue.label, message: errors.issue },
     errors.story && { label: f.story.label, message: errors.story },
+    errors.files && { label: f.upload.label, message: errors.files },
   ].filter(Boolean) as { label: string; message: string }[];
 
   const submit = (event: FormEvent) => {
     event.preventDefault();
     if (phase === "pending") return;
-    const found = { issue: issue ? undefined : story.errors.issue, story: text.trim() ? undefined : story.errors.story };
+    const values = { name, connection, issue, story: text, publish };
+    const tooLarge = chosen.reduce((sum, file) => sum + file.size, 0) > maxAttachmentBytes;
+    const found = { ...storyErrors(values), files: tooLarge ? pendingCopy.attachmentsTooLarge : undefined };
     setErrors(found);
-    if (found.issue || found.story) { focusFirstInvalid(form.current); return; }
-    send();
+    if (found.issue || found.story || found.files) { focusFirstInvalid(form.current); return; }
+    const fingerprint = JSON.stringify({ ...values, trap, files: chosen.map((file) => [file.name, file.size, file.lastModified]) });
+    void send({ fingerprint, json: false, body: () => {
+      const data = new FormData();
+      for (const [key, value] of Object.entries(values)) data.append(key, value);
+      data.append("website", trap);
+      for (const file of chosen) data.append("attachments", file);
+      return data;
+    } });
   };
-  const takeFiles = (list: FileList | null) => setChosen(list ? Array.from(list).map((file) => file.name) : []);
+  const takeFiles = (list: FileList | null) => { setChosen(list ? Array.from(list) : []); setErrors((v) => ({ ...v, files: undefined })); };
 
   return <>
   <div className="act-story-grid">
@@ -272,10 +300,11 @@ export function StorySection({ left }: { left: ReactNode }) {
       <div className={`act-dropzone${dragging ? " is-dragging" : ""}`}
         onDragOver={(e) => { e.preventDefault(); setDragging(true); }} onDragLeave={() => setDragging(false)}
         onDrop={(e) => { e.preventDefault(); setDragging(false); if (files.current) files.current.files = e.dataTransfer.files; takeFiles(e.dataTransfer.files); }}>
-        <input id={`${uid}-files`} ref={files} type="file" name="attachments" multiple onChange={(e) => takeFiles(e.target.files)} />
+        <input id={`${uid}-files`} ref={files} type="file" name="attachments" multiple onChange={(e) => takeFiles(e.target.files)}
+          aria-invalid={errors.files ? true : undefined} aria-describedby={errors.files ? summaryId : undefined} />
         <span className="act-dropzone-main">{f.upload.main}</span>
         <span className="act-dropzone-hint">{f.upload.hint}</span>
-        {chosen.length > 0 && <ul aria-label={f.upload.label}>{chosen.map((file, i) => <li key={`${file}-${i}`}>{file}</li>)}</ul>}
+        {chosen.length > 0 && <ul aria-label={f.upload.label}>{chosen.map((file, i) => <li key={`${file.name}-${i}`}>{file.name}</li>)}</ul>}
       </div>
     </div>
     <fieldset className="act-publish">
@@ -283,17 +312,16 @@ export function StorySection({ left }: { left: ReactNode }) {
       <label className="act-radio"><input type="radio" name="publish" value="yes" checked={publish === "yes"} onChange={() => setPublish("yes")} /><span>{f.publish.yes}</span></label>
       <label className="act-radio"><input type="radio" name="publish" value="no" checked={publish === "no"} onChange={() => setPublish("no")} /><span>{f.publish.no}</span></label>
     </fieldset>
+    <Honeypot value={trap} onChange={setTrap} />
     <button type="submit" className="act-button is-block" disabled={phase === "pending"}>{f.submit}</button>
   </form>
   </div>
   <ErrorSummary id={summaryId} heading={story.heading} items={summary} />
-  <StatusPanel id={`${uid}-status`} phase={phase} pending={story.pending} success={story.success} failure={story.failure} retry={story.failure.retry} onRetry={send} />
+  <StatusPanel id={`${uid}-status`} phase={phase} pending={story.pending} success={story.success} failure={story.failure} retry={story.failure.retry} onRetry={retry} />
   </>;
 }
 
 /* ---------- A6 Petition ---------- */
-
-type PetitionField = "name" | "community" | "signature" | "date" | "support" | "email";
 
 export function PetitionForm() {
   const p = petition;
@@ -302,8 +330,9 @@ export function PetitionForm() {
   const [values, setValues] = useState({ name: "", community: "", signature: "", date: "", email: "" });
   const [support, setSupport] = useState(false);
   const [updates, setUpdates] = useState(false);
+  const [trap, setTrap] = useState("");
   const [errors, setErrors] = useState<Partial<Record<PetitionField, string>>>({});
-  const { phase, send } = useSimulatedSend();
+  const { phase, send, retry } = useFormSend("petition");
   const summaryId = `${uid}-summary`;
   const clear = (field: PetitionField) => setErrors((e) => without(e, field));
   const setValue = (field: keyof typeof values, value: string) => { setValues((v) => ({ ...v, [field]: value })); clear(field); };
@@ -311,17 +340,12 @@ export function PetitionForm() {
   const submit = (event: FormEvent) => {
     event.preventDefault();
     if (phase === "pending") return;
-    const e = p.errors;
-    const found: Partial<Record<PetitionField, string>> = {};
-    if (!values.name.trim()) found.name = e.name;
-    if (!values.community.trim()) found.community = e.community;
-    if (!values.signature.trim()) found.signature = e.signature;
-    if (!validDate(values.date)) found.date = e.date;
-    if (!support) found.support = e.support;
-    if (updates && !emailPattern.test(values.email.trim())) found.email = e.email;
+    const all: PetitionValues = { ...values, support, updates };
+    const found = petitionErrors(all);
     setErrors(found);
     if (Object.keys(found).length) { focusFirstInvalid(form.current); return; }
-    send();
+    const payload = JSON.stringify({ ...all, email: updates ? all.email : "", website: trap });
+    void send({ fingerprint: payload, body: () => payload, json: true });
   };
   const order: { key: PetitionField; label: string }[] = [
     { key: "name", label: p.fields.name.label }, { key: "community", label: p.fields.community.label },
@@ -359,9 +383,10 @@ export function PetitionForm() {
     </label>
     {field("email", p.email, false, "email", { autoComplete: "email", inputMode: "email" })}
     <p className="act-pet-note">{p.separate}</p>
+    <Honeypot value={trap} onChange={setTrap} />
     <button type="submit" className="act-button" disabled={phase === "pending"}>{p.submit}</button>
     <ErrorSummary id={summaryId} heading={p.heading2} items={summary} />
     <StatusPanel id={`${uid}-status`} phase={phase} pending={p.pending} success={p.success} failure={p.failure}
-      retry={p.failure.retry} onRetry={send} />
+      retry={p.failure.retry} onRetry={retry} />
   </form>;
 }

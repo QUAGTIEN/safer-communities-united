@@ -17,7 +17,7 @@
 | S4 | Issues + Roads & Safety | ✅ D-017 |
 | S5 | Water, Growth, The Proposal (`/comparison`), The Facts (`/evidence`) | ✅ D-018 |
 | **S6** | **Take Action + 3 form ở chế độ mô phỏng** | ✅ D-019 ([reviews/S6](reviews/S6/README.md)) |
-| **S7** | Hạ tầng server (Vercel có mật khẩu, Resend) — cần người dùng cho phép riêng | Đang làm: đã bỏ static export, deploy Vercel (D-020); còn route handler, Resend, mật khẩu |
+| **S7** | Hạ tầng server (Vercel có mật khẩu, Resend) — cần người dùng cho phép riêng | Đang làm: bỏ static export + deploy Vercel (D-020); API 3 form xong ở chế độ simulate (D-022); còn gửi thử qua Resend |
 | S8 | Nghiệm thu (`docs/ACCEPTANCE_CHECKLIST.md`) | Chưa |
 
 ## 3. Tài liệu quan trọng
@@ -41,6 +41,7 @@
 - Script: `scripts/extract-assets.mjs` (ảnh tạm), `scripts/build-web-assets.mjs` (WebP, chạy trước dev/build), `scripts/check-copy.mjs`.
 - Lưu ý: các commit "round 7–10" trong git log là bản demo cũ; bản làm lại S1–S6 được commit ở D-020.
 - Form S6: nằm ở `src/components/action/forms.tsx`; thêm `?simulate=failure` vào URL để xem trạng thái lỗi gửi. `check:copy` đọc cả `docs/FORMS_SPEC.md`.
+- S7: API `src/app/api/forms/[form]/route.ts`, kiểm tra dùng chung `src/lib/forms.ts`. Biến môi trường xem `.env.example`; mặc định `FORMS_MODE=simulate` (không gửi). Bật gửi thật: đặt `FORMS_MODE=live`, `RESEND_API_KEY`, `FORMS_SENDER`, `FORMS_RECIPIENT` trên Vercel.
 - Ảnh S6 đã có trong `assets/extracted/action/` (12 ảnh: A1–A6).
 - Khi `npm run build` lúc server dev đang chạy: **không xóa `.next`** (làm hỏng server dev). Nếu hỏng: dừng server, `rm -rf .next`, chạy lại.
 - Form S6: chỉ mô phỏng, dữ liệu giả, không gửi email thật, không lưu dữ liệu; 4 trạng thái theo blueprint (FORMS_SPEC).

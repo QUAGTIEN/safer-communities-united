@@ -91,9 +91,9 @@ Cách đọc: `[x]` = đã xong, `[ ]` = chưa xong. Một lượt chỉ đượ
 | | Việc | Kết quả / căn cứ |
 |---|---|---|
 | [x] | Bỏ static export, tắt workflow GitHub Pages | D-015 (OQ-10), D-020 |
-| [ ] | Host có mật khẩu (Vercel) | D-015; đã deploy Vercel (D-020), chưa có mật khẩu |
-| [ ] | Route handler cho 3 form, Resend ở chế độ test, rate limit + honeypot | D-015 (OQ-11, OQ-15) |
-| [ ] | Gửi thử tới hộp thư test bằng dữ liệu giả | D-015 (OQ-16) |
+| [ ] | Host có mật khẩu (Vercel) | D-015; đã deploy Vercel (D-020); người dùng chưa cần mật khẩu (D-022) |
+| [x] | Route handler cho 3 form, Resend ở chế độ test, rate limit + honeypot | D-015 (OQ-11, OQ-15), D-022 — `src/app/api/forms/[form]/route.ts`, `FORMS_MODE=simulate|live`; đính kèm ≤ 4 MB, chưa quét malware |
+| [ ] | Gửi thử tới hộp thư test bằng dữ liệu giả | D-015 (OQ-16); chờ tài khoản Resend + biến môi trường trên Vercel |
 
 ## S8 — Nghiệm thu
 

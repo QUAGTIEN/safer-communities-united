@@ -44,6 +44,8 @@ Current build foundation: use reusable semantic components with editable content
 - **Chế độ chạy:** biến môi trường `FORMS_MODE=simulate|live`. `simulate` (mặc định) mô phỏng bốn trạng thái với dữ liệu giả, không gọi provider; `live` chỉ bật khi người dùng cho phép và các điều kiện ở [FORMS_SPEC](FORMS_SPEC.md) §0 đã xong.
 - **Không thêm:** database, CMS, auth, admin, analytics, lưu trữ trình duyệt dữ liệu cá nhân.
 
+**Đã làm (D-022):** `src/app/api/forms/[form]/route.ts` (POST supporter | story | petition) kiểm tra lại bằng `src/lib/forms.ts`, honeypot `website`, giới hạn 5 lần / 10 phút / form / địa chỉ (trong bộ nhớ từng instance, không lưu), giới hạn kích thước (JSON 64 KB, Story 4 MB file), `Idempotency-Key` bắt buộc và chuyển tiếp sang Resend. Chế độ `live` gửi thư văn bản thuần tới `FORMS_RECIPIENT`; chỉ trả thành công khi Resend trả `id`. Chưa quét malware.
+
 ## 4. Tổ chức code dự kiến
 
 ```text

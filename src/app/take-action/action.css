@@ -145,6 +145,7 @@
 .act-dropzone-main { font-size: 1rem; }
 .act-dropzone-hint { font-size: 0.875rem; color: #6b6860; }
 .act-dropzone ul { position: relative; z-index: 1; margin: 0.5rem 0 0; padding-left: 1.25rem; font-size: 0.875rem; pointer-events: none; }
+.act-hp { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
 .act-publish { margin: 1.25rem 0 0; padding: 0; border: 0; }
 .act-radio { display: inline-flex; align-items: center; gap: 0.625rem; margin: 0.75rem 2rem 0 0; font-size: 1rem; }
 .act-radio input { width: 1.25rem; height: 1.25rem; accent-color: var(--burgundy); }
