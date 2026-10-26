@@ -53,10 +53,10 @@
 .rd-card-title { margin: 0; font-family: var(--font-inter), sans-serif; font-size: 1.125rem; line-height: 1.5rem; font-weight: 700; letter-spacing: -0.01em; color: #9b2335; }
 .rd-gunn .rd-card.is-rule .rd-card-title { color: #c8241b; }
 .rd-gunn .rd-card.is-table .rd-card-title { color: #137f86; }
-.rd-gunn .rd-card.is-matters .rd-card-title { color: #b37a07; }
+.rd-gunn .rd-card.is-matters .rd-card-title { color: #8a5d00; } /* U-4: AA contrast */
 .rd-walking .rd-card.is-rule .rd-card-title { color: #c8241b; }
 .rd-walking .rd-card.is-table .rd-card-title { color: #0f6f7f; }
-.rd-walking .rd-card.is-matters .rd-card-title { color: #a26c06; }
+.rd-walking .rd-card.is-matters .rd-card-title { color: #8a5d00; } /* U-4: AA contrast */
 .rd-card-text { margin: 1rem 0 0; font-size: 1rem; line-height: 1.5rem; }
 .rd-card-text.is-indented { padding-left: 4.75rem; }
 .rd-gunn .rd-card-text, .rd-gunn .rd-card-lead { font-size: 1.25rem; line-height: 1.75rem; }
