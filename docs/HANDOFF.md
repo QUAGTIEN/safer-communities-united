@@ -17,7 +17,7 @@
 | S4 | Issues + Roads & Safety | ✅ D-017 |
 | S5 | Water, Growth, The Proposal (`/comparison`), The Facts (`/evidence`) | ✅ D-018 |
 | **S6** | **Take Action + 3 form ở chế độ mô phỏng** | ✅ D-019 ([reviews/S6](reviews/S6/README.md)) |
-| **S7** | Hạ tầng server (Vercel có mật khẩu, Resend) — cần người dùng cho phép riêng | Đang làm: bỏ static export + deploy Vercel (D-020); API 3 form xong ở chế độ simulate (D-022); còn gửi thử qua Resend |
+| **S7** | Hạ tầng server (Vercel có mật khẩu, Resend) — cần người dùng cho phép riêng | Đang làm: bỏ static export + deploy Vercel (D-020); API 3 form xong (D-022); đã gửi thật qua Resend tới hộp thư test và người dùng đã nhận; còn thử “Try again” trên site thật |
 | S8 | Nghiệm thu (`docs/ACCEPTANCE_CHECKLIST.md`) | Chưa |
 
 ## 3. Tài liệu quan trọng

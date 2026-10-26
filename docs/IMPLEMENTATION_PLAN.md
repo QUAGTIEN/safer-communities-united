@@ -93,7 +93,7 @@ Cách đọc: `[x]` = đã xong, `[ ]` = chưa xong. Một lượt chỉ đượ
 | [x] | Bỏ static export, tắt workflow GitHub Pages | D-015 (OQ-10), D-020 |
 | [ ] | Host có mật khẩu (Vercel) | D-015; đã deploy Vercel (D-020); người dùng chưa cần mật khẩu (D-022) |
 | [x] | Route handler cho 3 form, Resend ở chế độ test, rate limit + honeypot | D-015 (OQ-11, OQ-15), D-022 — `src/app/api/forms/[form]/route.ts`, `FORMS_MODE=simulate|live`; đính kèm ≤ 4 MB, chưa quét malware |
-| [ ] | Gửi thử tới hộp thư test bằng dữ liệu giả | D-015 (OQ-16); chờ tài khoản Resend + biến môi trường trên Vercel |
+| [ ] | Gửi thử tới hộp thư test bằng dữ liệu giả | D-015 (OQ-16). 26/10/2026: Supporter, Story (kèm file), Petition gửi thật qua Resend, người dùng xác nhận đã nhận; dữ liệu sai bị chặn 422. Sửa lỗi gửi lại cùng khóa (commit 1f25d78) — chưa thử lại trên site thật |
 
 ## S8 — Nghiệm thu
 
