@@ -15,7 +15,7 @@ Cách đọc: `[x]` = đã xong, `[ ]` = chưa xong. Một lượt chỉ đượ
 | [x] | S5 | Water → Growth → The Proposal/Comparison → The Facts | Xong 26/10/2026 | G4 — D-018 |
 | [x] | S6 | Take Action + 3 form ở chế độ mô phỏng | Xong 26/10/2026 | G4 — D-019 |
 | [ ] | S7 | Hạ tầng server, preview riêng tư | Đang làm — bỏ static export + push Vercel (D-020) | — |
-| [ ] | S8 | Nghiệm thu | Chưa bắt đầu | — |
+| [ ] | S8 | Nghiệm thu | Đã chạy 26/10/2026, chờ quyết định | V-015 |
 | — | Sau S8 | Bật gửi thật / công bố | Không phải lượt code | Cần OQ-09, OQ-13, OQ-14, OQ-19, OQ-31 |
 
 ## S1 — Tài liệu & đầu vào
