@@ -60,7 +60,8 @@
   .desktop-navigation { display: flex; align-items: center; gap: 1.78rem; margin-left: auto; }
   .header-link { position: relative; display: inline-flex; min-height: 2.75rem; align-items: center; padding: 0; border: 0; background: none; font: inherit; font-size: 0.9375rem; color: var(--charcoal); white-space: nowrap; }
   /* Current page: medium weight, no underline (p017 Home, p026 Issues, p048 Roads). */
-  .header-link.is-active { font-weight: 500; }
+  /* Current page: medium weight + fixed burgundy underline (user decision 1A, D-025; was weight only). */
+  .header-link.is-active { font-weight: 500; text-decoration: underline; text-decoration-color: var(--burgundy); text-decoration-thickness: 2px; text-underline-offset: 6px; }
   .header-link:hover { text-decoration: underline; text-decoration-color: var(--burgundy); text-decoration-thickness: 2px; text-underline-offset: 6px; }
   .header-search { display: inline-flex; margin-left: 0.25rem; color: var(--charcoal); }
   .header-search svg { width: 1.25rem; height: 1.25rem; }

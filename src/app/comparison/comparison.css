@@ -43,25 +43,25 @@
 .cp-r1-col { padding-bottom: 0.5rem; }
 .cp-r1-col.is-community { background: #f9f6f1; }
 .cp-r1-col.is-county { background: #e6f2fc; }
-.cp-r1-head { margin: 0; padding: 1rem 1.5rem; border-radius: 4px 4px 0 0; font-family: var(--font-inter), sans-serif; font-size: 2.375rem; line-height: 3rem; font-weight: 800; letter-spacing: -0.03em; color: var(--white); }
+.cp-r1-head { margin: 0; padding: 0.875rem 1.5rem; border-radius: 4px 4px 0 0; font-family: var(--font-inter), sans-serif; font-size: 1.75rem; line-height: 2.25rem; font-weight: 800; letter-spacing: -0.03em; color: var(--white); }
 .cp-r1-col.is-community .cp-r1-head { background: #8a6450; }
 .cp-r1-col.is-county .cp-r1-head { background: #0d4a96; }
 .cp-r1-col ul { margin: 0; padding: 0 1.5rem; list-style: none; }
-.cp-r1-col li { display: flex; gap: 1.75rem; padding-block: 1.75rem; }
+.cp-r1-col li { display: flex; gap: 1.5rem; padding-block: 1.375rem; }
 .cp-r1-col li + li { border-top: 1px solid #d9d2c6; }
 .cp-r1-col.is-county li + li { border-top-color: #b7d3ee; }
-.cp-r1-icon { display: flex; flex: none; width: 6.25rem; height: 6.25rem; align-items: center; justify-content: center; border-radius: 50%; }
-.cp-r1-icon svg { width: 3rem; height: 3rem; }
+.cp-r1-icon { display: flex; flex: none; width: 4.75rem; height: 4.75rem; align-items: center; justify-content: center; border-radius: 50%; }
+.cp-r1-icon svg { width: 2.25rem; height: 2.25rem; }
 .cp-r1-col.is-community .cp-r1-icon { background: #f0e4dc; color: #6e4b39; }
 .cp-r1-col.is-county .cp-r1-icon { background: #cfe5fa; color: #0d3c86; }
-.cp-r1-label { margin: 0; font-size: 1.125rem; font-weight: 700; letter-spacing: 0.01em; }
+.cp-r1-label { margin: 0; font-size: 0.9375rem; font-weight: 700; letter-spacing: 0.01em; }
 .cp-r1-col.is-community .cp-r1-label { color: #8a6450; }
 .cp-r1-col.is-county .cp-r1-label { color: #0d4a96; }
-.cp-r1-col h4 { margin: 0.25rem 0 0; font-family: var(--font-inter), sans-serif; font-size: 1.75rem; line-height: 2.125rem; font-weight: 800; letter-spacing: -0.03em; color: #0d3c86; }
-.cp-r1-col li p:last-child { margin: 0.375rem 0 0; font-size: 1.5rem; line-height: 2rem; color: #0d3c86; }
+.cp-r1-col h4 { margin: 0.25rem 0 0; font-family: var(--font-inter), sans-serif; font-size: 1.3125rem; line-height: 1.75rem; font-weight: 800; letter-spacing: -0.03em; color: #0d3c86; }
+.cp-r1-col li p:last-child { margin: 0.375rem 0 0; font-size: 1.1875rem; line-height: 1.75rem; color: #0d3c86; }
 .cp-r1-closing { display: flex; align-items: center; gap: 2.5rem; margin-top: 1.75rem; padding: 1.75rem 0 1.75rem; border-top: 2px solid #8a2433; border-bottom: 1px solid #ddd6cb; }
-.cp-r1-closing p { margin: 0; font-family: var(--font-merriweather), Georgia, serif; font-size: 2.375rem; line-height: 3.125rem; font-weight: 800; font-stretch: 87%; letter-spacing: -0.02em; text-transform: uppercase; }
-.cp-r1-note { margin: 1.75rem 0 0; font-size: 1.375rem; line-height: 2.125rem; text-align: center; }
+.cp-r1-closing p { margin: 0; font-family: var(--font-merriweather), Georgia, serif; font-size: 1.875rem; line-height: 2.5rem; font-weight: 800; font-stretch: 87%; letter-spacing: -0.02em; text-transform: uppercase; }
+.cp-r1-note { margin: 1.75rem 0 0; font-size: 1.125rem; line-height: 1.75rem; text-align: center; }
 .cp-r1 .cp-center { margin-top: 1.75rem; }
 
 /* W8 water. */
@@ -203,7 +203,9 @@
 
 /* Desktop fit tweaks after comparison with R1/W8/C1. (desktop only) */
 @media (min-width: 80rem) {
-.cp-r1 .cp-display { font-size: 2.875rem; line-height: 3.375rem; }
+/* 7A, D-025: R1 scaled to match W8/H1 (its source canvas is 1070 px, so 1:1 scaling made it ~1.4x larger). */
+.cp-r1 .cp-display { font-size: 2.5rem; line-height: 3rem; }
+.cp-r1 .cp-intro { font-size: 1.375rem; line-height: 2rem; }
 .cp-w8 .cp-title { font-size: 3rem; line-height: 3.5rem; }
 .cp-c1 .cp-title { font-size: 3.25rem; line-height: 3.75rem; }
 .cp-c1-keep li { gap: 1rem; font-size: 1.1875rem; line-height: 1.625rem; }

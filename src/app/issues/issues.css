@@ -160,7 +160,7 @@
 .iss-hub-icon { position: absolute; left: 6.875rem; display: flex; width: 4.375rem; height: 4.375rem; align-items: center; justify-content: center; border: 3px solid var(--white); border-radius: 50%; background: var(--white); color: #1a2b4d; transform: translateX(-100%); }
 .iss-hub-icon svg { width: 2.25rem; height: 2.25rem; }
 .iss-hub p { max-width: 16rem; margin: 0 0 0 1rem; font-family: var(--font-merriweather), Georgia, serif; font-size: 1.375rem; line-height: 1.6875rem; font-weight: 700; }
-.iss-hub-lines { position: relative; display: grid; grid-template-columns: repeat(3, 1fr); height: 2.375rem; margin-inline: 14.5%; border-top: 2px solid #8a2433; }
+.iss-hub-lines { position: relative; display: grid; grid-template-columns: repeat(3, 1fr); height: 2.375rem; margin: 0.5rem 14.5% 0; border-top: 2px solid #8a2433; } /* 3B, D-025: 8 px gap below the hub box */
 .iss-hub-lines::before { position: absolute; top: -2px; left: 0; right: 0; content: ""; }
 .iss-hub-lines span { display: flex; justify-content: center; font-size: 1.5rem; line-height: 2.25rem; font-weight: 700; color: #8a2433; }
 .iss-hub-lines span:first-child { justify-content: flex-start; margin-left: -0.375rem; }

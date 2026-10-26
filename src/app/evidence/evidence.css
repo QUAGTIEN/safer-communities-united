@@ -94,7 +94,7 @@
 .ev-action-title { margin: 1.25rem 0 0; font-size: 2.375rem; line-height: 2.875rem; font-weight: 700; letter-spacing: -0.02em; }
 .ev-action-text { margin: 0.75rem 0 0; font-size: 1.3125rem; line-height: 1.875rem; }
 .ev-action-row { display: flex; align-items: center; justify-content: flex-end; gap: 1.875rem; margin-top: 0.75rem; }
-.ev-action-strip { width: 19rem; height: auto; }
+.ev-action-strip { width: 19rem; height: 3.5rem; object-fit: cover; object-position: center; border-radius: 4px; }
 .ev-action-button { display: inline-flex; min-height: 3.625rem; align-items: center; padding: 0 1.5rem; border-radius: 2px; background: #7d2033; font-size: 1.3125rem; color: var(--white); }
 .ev-action-button:hover { text-decoration: underline; }
 
