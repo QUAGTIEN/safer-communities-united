@@ -93,7 +93,9 @@ export async function POST(request: NextRequest, ctx: RouteContext<"/api/forms/[
 
   const textBody = [...built.lines, "", "---", `Form: ${name}`, `Submitted (first attempt, UTC): ${submittedAt}`, `Reference: ${key}`].join("\n");
 
-  if (process.env.FORMS_MODE !== "live") {
+  // Tolerate stray quotes, spaces or capitals in the Vercel dashboard value.
+  const mode = (process.env.FORMS_MODE ?? "").replace(/["'\s]/g, "").toLowerCase();
+  if (mode !== "live") {
     await new Promise((resolve) => setTimeout(resolve, 900));
     return reply(200, { ok: true, id: `simulated-${key.slice(0, 8)}`, simulated: true });
   }
