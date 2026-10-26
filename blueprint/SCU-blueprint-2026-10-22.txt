@@ -1,0 +1,2418 @@
+﻿SCU blueprint review proposal
+Approved working copy references 22 October 2026
+This is a proposed revision of Official Blueprint SCU.docx for review before replacement of the master. It records the approved Home, Issues and Roads & Safety working-copy production build. It does not publish a website, authorize OneDrive copy-back or share material with another developer.
+Within those three built-page blocks, the supplied 22 October screenshots and visible-wording inventories replace older competing references. Original requirements remain unless specifically reconciled below. Later pages remain their existing unbuilt references, not completed or newly approved website pages.
+Reference evidence is supplied at 1536 px desktop, 768 px tablet and 390 px phone, all at 1 image pixel per CSS pixel. No final 1024 px or 320 px capture was supplied. Word scales images for reading; their exact original bytes, proportions and source-row ranges are preserved. Compare implementation against the original PNG files, not Word display size.
+The accompanying export contains artwork, fonts, layout source, visible wording and link records. It is not a complete runnable application: application logic, tests and content modules are not included. Source-code comments, hidden headings and metadata are not additional approval of website copy. General accessibility, navigation, form and verification requirements elsewhere in this blueprint remain in force.
+SCU design implementation and approval checklist
+Read this before building. Reproduce the approved content and selected visual direction faithfully. Build the Home page first and obtain explicit approval of its desktop and mobile versions before expanding to the other pages. This checklist governs the implementation sequence; the approved first-version form exceptions and other demo limits remain in force.
+1 Lock the copy and section references
+Use the current page-specific on-screen copy verbatim, including claims, qualifiers, labels, captions, source caveats, petition wording and consent text. Do not rewrite, shorten, soften, intensify or silently correct it. Remove only a clearly unnecessary decorative dash separator covered by the agreed cleanup; preserve meaningful punctuation, ranges, hyphenated words and place names. If removal could change meaning or its scope is unclear, flag it for approval. This instruction update makes no advocacy-copy edits.
+Before coding, create a section-by-section reference list: page and section, exact on-screen copy, selected image and matching source layout, asset hash, scope, intended behavior and unresolved conflicts. Use the explicitly selected version, including H1 Growth & Housing and the natural rural-lane density illustration. The latest selected section image governs its appearance; the approved navigation rules govern destinations. Do not let a generic footer or palette overwrite a selected reference. Flag a true conflict rather than invent a compromise.
+2 Separate design references from usable assets
+Classify each supplied image as a standalone map/illustration, a composite layout reference, or a production-ready asset. A screenshot containing text, navigation, buttons and photographs is a reference for editable components, not a complete website asset. Retain the original files and the intentional multi-panel previews. Use supplied map originals; keep conceptual and illustrative labels visible.
+Record where each photograph, logo or illustration comes from and whether a clean separate file exists. Do not assume that an image embedded in a composite has a usable full-resolution original. Flag any missing, blurry or inseparable asset. Obtain approval before cropping in a way that changes the selected composition, substituting artwork, generating a replacement or using a visible placeholder. Never invent a real local photograph or evidence.
+3 Approve the Home page pilot
+Implement the full Home page as editable HTML text and reusable components, with its approved sections, selected images, shared navigation and footer. Match the reference layout, hierarchy, proportions and spacing as closely as the available evidence permits. Small refinements, such as clearer typography or more space between sections, may be proposed while keeping the same overall design and wording. Show each proposed change separately and obtain approval before applying it. Do not use a full-page screenshot as the webpage or cover rasterized text with invisible controls.
+Present the desktop and mobile Home page, comparison screenshots, the implementation measurements, and the unresolved-item list. Ask for explicit approval of both layouts and the shared component system. Record the approved version and decisions. Do not build out the remaining pages merely because the Home page runs successfully; a working preview is not visual approval.
+Design specifications and measurements
+Use Part I, section 4, with each selected page reference. The section-specific approved image and matching source layout establish appearance; generic design guidance is subordinate. A written palette or Word font does not establish the exact measurements of every raster reference.
+Confirmed written design specifications
+Appearance precedence: reproduce each current selected section image and its matching approved source layout faithfully. Use that section’s approved colors, typography, spacing, imagery and footer treatment; a generic palette must not recolor it. The approved Home opening and O2 overview use their selected charcoal/burgundy treatment. Other selected sections retain their own approved appearance. Shared component behavior does not authorize a site-wide visual redesign. Flag a true unresolved conflict before implementing it.
+Typography: use the approved Inter body and Merriweather heading font files, their license notices and the weights and variable-font settings of the matching section source. Verify actual browser font loading and line wrapping; do not silently fall back. Word-document formatting is not a website font specification. Preserve any lettering baked into selected artwork.
+Navigation behavior and public-facing menu labels follow Part I, section 3. Use the current selected section reference for its header and footer appearance. Do not replace an approved white footer with a navy footer or add/rearrange visible footer groups solely to satisfy an older generic instruction. The approved navigation destinations remain in force; any genuinely missing destination uses the separately approved fallback. A changed visible treatment needs a preview and approval.
+Implementation measurements to confirm on the Home page pilot
+Record each specification with its source and status: explicit instruction, matching source-layout value, estimate from a reference, or approved pilot measurement. Record the source canvas separately from browser viewport, device scale and zoom. Do not present estimated dimensions as approved precision.
+Typography audit: heading family and fallback, loaded font files, weights, desktop/mobile sizes, line heights, letter spacing, text measure and wrapping for hero, section headings, cards, navigation, body, captions and buttons. Check the actual rendered font, including missing-font fallback and long menu labels.
+Layout audit: record desktop, phone and intermediate viewport sizes, content widths, gutters, columns, gaps, section spacing, header/footer dimensions and breakpoints. Only the selected Home opening has a separate phone reference; propose the remaining responsive layouts for approval. Preserve section order, complete copy, controls and readable maps with the approved section-specific crops. A static canvas width is not an approved CSS viewport.
+Component and image audit: exact palette use by role; button padding, height, width behavior, border, radius and focus/hover states; image aspect ratios, focal points, cropping, display size and resolution; map and illustration labels; and readable source links. Put measurements that cannot be recovered reliably into the approval list. Changes to artwork require separate approval, even when made to fit a component.
+Visual review and release gates
+4 Compare before requesting approval
+Choose and record fixed desktop and mobile viewport sizes for the pilot. Capture the page at those same sizes on each review, after fonts and images load. Compare each section against its selected reference using side-by-side or overlay views at a consistent scale. Identify unavoidable source-image versus browser-aspect-ratio differences. Do not declare a pixel-perfect match without a valid like-for-like comparison.
+Check hierarchy, alignment, text wrapping, spacing, color roles, buttons, image proportions and crops. Then inspect the entire mobile page for overflow, cramped type, broken columns, clipped images and a fixed header covering content. Also test an intermediate width. Keep an explicit mismatch list and resolve it or obtain approval; do not hide defects by changing the approved words or shrinking text until it fits.
+Compare rendered editable copy with the current selected on-screen copy, including qualifiers and labels. Exclude superseded instructions and internal notes. Test every route, return link and source destination, semantic headings, keyboard access, visible focus, grouped and labelled controls, error/status announcements, zoom/reflow, contrast and touch use. Decorative search/social icons stay inert. Any visible accessibility correction needs a before-and-after preview and approval.
+5 Expand only after approval
+After desktop and mobile Home approval, reuse component behavior while preserving each remaining section’s approved composition, colors, header/footer variant and exact copy. Repeat desktop, phone and intermediate-width visual, copy and navigation checks for each page. Reuse does not authorize a global restyle.
+Keep the first build a local click-through demo, with the approved first-version Supporter Application, A3 Share Your Story and A6 Petition form exceptions. Preserve the existing static-map, demo-label and no-data-collection requirements outside those approved form specifications. This document does not activate live collection, accounts, actual emails, deployment, publication or external submissions.
+Approval record and change notation
+Record each review item as approved, needs revision or awaiting decision, with the page/section, version, reference and user decision. An unanswered question is not approval. Required gates are: section-reference and missing-asset decisions; Home desktop and mobile approval; shared design-token approval; then remaining-page visual, copy and navigation approval.
+For this current-build-only copy, preserve the selected current text and images. Keep superseded wording and image history in the separate review backup. Show before-and-after images and obtain approval before applying any further visible change. New instructions are blue.
+Reference audit and decisions to confirm
+Use these specific observations when preparing the Home page pilot and section reference list. They identify implementation decisions; they do not approve a redesign or change the selected artwork. Section names below refer to the existing blueprint.
+Home page copy and visual alignment
+Approved Home opening: place “View the Issues →” and “View the Evidence →” as shown in the approved desktop and phone views. Keep the search and social icons visible but non-interactive, with no destination or live action in the demo. The approved views show the opening only; social icons and other lower-page content remain outside this excerpt.
+Approved Home header and opening only: use warm white #F7F4EE, charcoal #282A2B and burgundy #7A263A, with a white header and the original navy wordmark. Keep the red warning triangle, pale-red #FCEAEA panel and #E51C17 emphasis on “outdated community plan.” Use the user-provided Keystone Odessa sign photograph in full, without cropping or invented scenery. This approval does not restyle the maps, issue cards, footer or other pages.
+Source files and visual roles
+The original Home composite source was image33.png, 1536 × 1024 pixels, with logo, hero art, text and cards flattened together. It is preserved in the review backup and source-asset package, not selected in this clean document. Use approved standalone assets or faithful extractions where available. Request a missing source asset or approval before using a replacement. These source-image dimensions do not define a CSS viewport.
+The selected Home opening references are the separate approved desktop and phone views. The selected M4 reference contains the complete lower issue cards and footer, including the two approved local photographs. Use keystone-odessa-user-sign.png, the original wordmark and warning-triangle pixels as assets; build surrounding text and controls as editable HTML. The opening screenshots establish appearance, not completed interaction testing.
+Roads & Safety section 4 uses three distinct original map assets: the official Community Plan boundary, the wider-area map and the roads map. Identify them by the stable logical asset IDs home-official-boundary-map, home-wider-area-map and home-roads-map in the current asset manifest, tied to the final master hash. Word image-number filenames are serialization details and must not determine selection. Keep proportions, labels, legends and credits. The three campaign comparison panels are layout previews only and must not replace these original maps. Keep the approved vertically stacked map order.
+The map campaign panels use condensed sans display lettering, while selected page references use serif headlines. Preserve lettering baked into selected artwork. Do not infer a new site-wide typeface from it or replace the artwork to force all embedded text into the website font system.
+Already selected versions to retain
+Growth and density: use the approved G2 two-panel comparison, preserving the natural rural-lane artwork, the left-only “10 homes on 50 acres” label and its conceptual qualification. For Growth & Housing, use the approved H1 “Where is the plan for homes people can afford?” comparison with eight original symbols, no header photograph and no large row illustrations. Keep each selected layout, wording, result banner and comparison CTA; do not restore the superseded images.
+Action: use the selected A1 opening with the “After learning…” paragraph already removed. Do not reconstruct it from older material. Preserve each selected section’s header/footer appearance and wording; wire navigation according to the approved destination rules without adding unsupported footer groups.
+For each selected reference record its stable logical ID and full asset hash, document relationship and placement, exact copy location, image scope, matching source layout, usable separate artwork, crop and approval status. Regenerate document page references after the final save. A6 is one complete image shown in two complementary document crops; implement its full petition once. Do not select assets by an old Word image-number filename.
+WEBSITE BLUEPRINT
+SAFER COMMUNITIES UNITED — KEYSTONE–ODESSA
+SCU website blueprint | Current build only. Build and approve the Home page on desktop and mobile first; then expand the approved design to the remaining pages, preserving the exact copy, selected images and navigation. New instructions are blue.
+How to use this blueprint
+Use current page-specific on-screen copy with its selected image and matching source layout. Longer explanations and source notes support detail sections; do not squeeze them into the mockup or discard approved below-viewport passages. Internal editorial and implementation notes are not visitor copy. Each selected section controls appearance; approved navigation rules control destinations. Retain map originals and intentional multi-panel previews.
+ The density illustration uses the natural rural-lane version. The Action hero omits the removed “After learning…” paragraph. Keep supporter signup separate from petition signing, and use the complete approved petition including associated policies and Land Development Code Part 3.08.00.
+Growth & Housing: use the approved H1 comparison, “Where is the plan for homes people can afford?”, with eight original symbols and no header photograph.
+Build now: the full Home pilot as editable HTML and working click-through navigation, then obtain desktop and mobile visual approval before expanding. Maps, library filters and sharing remain within their approved static-preview limits. Implement the three approved email-only form specifications; keep unconnected previews truthful until separately authorized service activation.
+Approved first-version form exceptions: the Supporter Application, A3 Share Your Story form and A6 Petition form use selectable controls and typed entries. Each sends its complete approved fields to marinadiesch1@gmail.com through secure server-side email delivery; A3 also sends every accepted selected attachment. Keep the three forms, their declarations and consent choices separate. No dedicated register, database, durable outbox, review portal or automatic publication is included. Their detailed approved specifications below govern implementation.
+Keep test records separate. Finalize privacy, retention, provider, contact and access settings before enabling personal-data collection; obtain any required consent. All three form specifications below govern implementation. Public publishing, campaign email and County submissions require separate approval. Sample figures, library records and testimonials remain illustrative. Existing launch checks remain open; they do not prevent a private layout build.
+Creator checklist for this demo: link every main menu item and page CTA; keep the selected artwork and current copy; use ordinary source links when a supplied destination exists; use a labelled preview when content or a destination is not yet supplied. Do not invent records, source URLs, successful submissions or live results.
+Approved navigation fallbacks: when content or a destination has not been supplied, open a clearly labelled “Not available yet” notice. For illustrative sample cards, “Read the Story” shows only the supplied excerpt and retains its sample label; do not invent a full story. These are developer behavior instructions only. Any new visible notice or excerpt-view layout must be shown for approval before implementation.
+First-version scope precedence: the approved A3 and A6 email-only specifications supersede earlier instructions that keep those two forms non-editable or demo-only. The supporter exception remains in force. Sharing uses a static preview only. This blueprint update does not activate data collection, create accounts, configure credentials, send emails or deploy a site; the required provider, privacy, signature and launch checks still apply.
+Current build foundation: use reusable semantic components with editable content and separate image assets. The supplied HTML layouts are static visual references, not verified responsive application code; rebuild links, controls and server behavior explicitly. Use stable routes and the Roads & Safety map area. Choose a platform supporting the three approved email-only forms without adding a database, portal or durable outbox.
+Acceptance review: verify selected asset hashes and scope; exact visible copy; loaded fonts; desktop/phone/intermediate layouts; every control and return path; source destinations; keyboard, focus, contrast and reflow; and truthful form states. Test validation, duplicate clicks, provider rejection, ambiguous timeouts and attachment rejection using fictional data only within authorized testing. Public-source, factual and photo-rights checks gate publication. Static screenshots are not proof of working behavior.
+PART I — WEBSITE FOUNDATION
+1. WEBSITE GOALS
+The Safer Communities United website aims to:
+* Show residents that the current Community Plan is causing problems and consequences for the health, safety, environment, and welfare of Keystone–Odessa.
+* Clearly present the issues related to roads, water and septic, infrastructure, growth, housing, and access to essential services.
+* Demonstrate these issues through data, maps, public records, official documents, and the actual conditions of the community.
+* Show the connection between Community Plan rules → actual conditions → consequences for people and the environment.
+* Compare the Keystone–Odessa Community Plan with the Hillsborough County Comprehensive Plan to clearly show the differences in policies, planning tools, and the ability to address current issues.
+* Present the proposal to remove the current Community Plan and move to an appropriate countywide planning framework.
+* Gather community support after residents understand the issues, the evidence, the differences between the two planning frameworks, and the direction of the proposed change.
+Core Flow:
+Problem → Consequences → Evidence → Comparison → Solution → Action
+________________
+
+
+2. VISITOR JOURNEY
+01 — Recognize the Problems: Roads & Safety · Water & Septic · Infrastructure · Growth & Housing · Essential Services · Outdated Community Plan.
+02 — Understand the Consequences: Health · Safety · Environment · Welfare · Daily Life.
+03 — See the Evidence: Data · Maps · Public Records · Official Documents · Community Plan · County Policies · Historical Records.
+04 — Understand How the Community Plan Is Connected: Current Rules → Actual Conditions → Impacts and Consequences.
+05 — Compare the Two Planning Frameworks: Keystone–Odessa Community Plan ↔ Hillsborough County Comprehensive Plan, issue by issue.
+06 — Understand the Direction of Change: Show what the Community Plan is limiting, what tools the countywide planning framework provides, and how changing the planning framework could address current issues.
+07 — Take Action: Support · Share · Participate · Follow.
+________________
+
+
+3. WEBSITE STRUCTURE
+The website includes 7 main content groups:
+Home — introduces the major issues and leads residents into the story.
+Issues — roads & safety, water & septic, growth, infrastructure, housing, services, and the Community Plan.
+Evidence — data, maps, public records, and official documents.
+Comparison — the Community Plan and the Hillsborough County Comprehensive Plan.
+Proposed Change — explains the planning framework proposed to replace the current one.
+Action — gathers community support, sharing, and participation.
+About — Safer Communities United, sources, methods, and contact information.
+Main Navigation:
+
+
+Our Community | Issues | The Facts | The Proposal | Take Action | About
+Highlighted Button:
+
+
+Get Involved
+Navigation routing: Our Community opens the existing Home/community content; The Facts opens Evidence & Records; The Proposal opens the proposed-change content and includes access to the existing Community Plan vs. County Comprehensive Plan section; Take Action and the highlighted Get Involved button open Action. Issues and About retain their existing destinations.
+Comparison access: under The Proposal, retain a clearly labelled Compare the Two Plans link to the existing Community Plan vs. County Comprehensive Plan section anchor. Comparison remains part of the content structure, without a separate top-level menu item. Reuse the existing destination; no new URL is required.
+Implementation: use these exact public-facing menu labels consistently in desktop and mobile navigation and matching footer links. Internal blueprint page titles and content-group names can remain descriptive; they do not override the approved menu labels.
+Approved click destinations: the supporter CTA opens the application directly, with no choice screen; the petition stays separate. General “View the Community Plan” and “Learn About the Community Plan” buttons open the website’s explanation first. Explicit document/source links retain their cited destinations. The three map-comparison panels appear only in Roads & Safety section 4, not on Home. Keep visible labels and designs unchanged.
+________________
+
+
+4. DESIGN SYSTEM
+Overall Style
+The website should have a local-community style that is serious, modern, and evidence-based.
+The design should be clean, spacious, easy to read, and create a sense of trust.
+Prioritize large amounts of white space, limited text on each screen, real images, maps, data, and official records. Each section should focus on only one main message.
+Colors
+The following original palette describes the legacy references. It is not an override of a later explicitly approved selected image. Reproduce each section’s current selected appearance using its scoped source specification; do not apply these colors globally.
+Dark Navy — #17324D
+Legacy-reference navy: use only where the current selected section actually shows it. It does not replace approved charcoal headings, burgundy controls or white footers.
+Teal — #28736D
+Legacy-reference teal: retain where shown in selected artwork or controls; do not introduce it into a section merely because its topic concerns water or the environment.
+Coral Red — #C55245
+Legacy-reference coral: retain only in the approved section’s actual accents. Do not substitute it for approved burgundy buttons or other explicitly selected colors.
+Preserve the selected balance of accent colors; any change in emphasis requires visual approval.
+Cream White — #F7F4EE
+Use the selected reference’s background, including warm white where shown; do not recolor every section to a generic token.
+White — #FFFFFF
+Retain white surfaces where shown in the selected cards, headers, footers and reading areas.
+Light Gray — #D8DEE3
+Retain the actual divider, border and secondary-information treatment shown in the selected reference.
+Color principle: per-section selected appearance takes precedence. Reuse scoped tokens where they genuinely match; preserve approved distinctions and existing artwork colors.
+Typography and Content Hierarchy
+Headings: Merriweather — creates a serious, editorial feel that is also suitable for community-focused content.
+Body Text: Inter — clear, modern, and easy to read on both computers and phones.
+The typography system includes:
+* Main Heading: the most important message on the page.
+* Section Heading: opens a major content section.
+* Card Heading: the name of an issue or piece of evidence.
+* Small Label: used for groups such as ISSUES · DATA · PUBLIC RECORDS · COMPARISON.
+* Body Content: short, preferably 1–3 sentences for each block.
+Long paragraphs are reserved for detailed pages.
+Buttons and Links
+Buttons should be large, clear, and easy to recognize.
+Primary buttons use the color, size and treatment in their current selected section reference, including burgundy where approved. Keep the existing label and destination. Do not globally recolor buttons.
+Secondary buttons use the border, typography and treatment in their current selected section reference. Preserve labels and approved behavior.
+Content Link: text + arrow.
+Button names should clearly tell users what the next step is, for example:
+View the Issue →
+View the Evidence →
+View the Original Record →
+Compare the Two Plans →
+View the Proposal →
+Each area should have only one main action, avoiding multiple buttons competing with one another.
+Content Cards
+Use reusable card components with variants matching each selected layout. Do not force all approved cards into a single visual template.
+Issue Card — image + heading + key information + button to view details.
+Data Card — large number + short label + source.
+Evidence Card — document/map image + key finding + source.
+Comparison Card — Community Plan ↔ Countywide Planning Framework.
+Timeline Card — year + event + related document.
+Preserve each selected card’s typography, spacing, background, illustration and text. Generic card guidance does not authorize fewer cards, shortened copy or a different composition.
+Data, Maps, and Sources
+Data: display numbers in a large, easy-to-see format, with a short description.
+Maps: include a title, clear legend, and source; highlight only the data layers needed for the message being presented.
+Public Records: display an image or visual excerpt of the document, together with the date, agency, key content, and a link to the original document.
+Sources: place each source close to the fact it supports, but keep the presentation compact so it does not make the interface look cluttered.
+White Space and Layout
+Pages must be clean, spacious, and easy to scan.
+* One section focuses on one message.
+* Do not place too many cards on the same screen.
+* Do not use long paragraphs on overview pages.
+* Alternate appropriately between text, images, maps, data, and documents.
+* Keep the main content within a comfortable reading width. Avoid spreading text across the full width of the screen.
+* Clearly separate important sections with white space or a slight background change.
+Header
+The header should be simple, have a light background, and stay fixed while scrolling.
+
+
+Safer Communities United | Our Community | Issues | The Facts | The Proposal | Take Action | About
+On the right, include a highlighted action button:
+
+
+Get Involved
+On mobile: logo + menu button, keeping the interface compact and making sure it does not cover the content.
+Footer
+Footer appearance follows the current selected section reference. Preserve approved light or dark variants, layout, visible wording and icons; do not force a single background onto all selected references.
+Safer Communities United
+Putting the health, safety, and welfare of people first.
+The following legacy footer groups are reference context only. Include them only where present in the selected footer; do not add them to a different approved layout.
+
+
+Explore: Our Community · Issues · The Facts · The Proposal
+
+
+Get Involved: Take Action · Updates · Contact
+Information: About · Sources & Methods · Accessibility · Edits · Privacy
+Shared footer code may reuse semantics, route behavior and accessibility implementation while preserving each current selected footer’s visible appearance. The legacy footer list does not authorize extra groups, changed slogans or a different color on an approved reference. Missing linked content follows the approved fallback. A proposed unified footer is a new visible change and must be reviewed before application.
+________________
+
+
+5. VISUAL CHARACTERISTICS
+Overall Style: Real Documents · Evidence · Community.
+Photos: prioritize real photos of roads, intersections, traffic, lakes, wells, septic, drainage, housing, infrastructure, and essential services in Keystone–Odessa.
+Maps: use maps to show the Community Plan boundary, road network, septic, private wells, water-protection areas, lakes/wetlands, water/wastewater infrastructure, and monitoring points.
+Charts: prioritize large data figures, timelines, layered maps, connection diagrams, and visual comparisons.
+Public Records: present them in the format Document → Date → Key Content → Source, with the option to open the original document.
+Comparing the Two Maps
+Use the two maps that were provided:
+“The NIMBY Map” — shows the Community Plan boundary.
+“The Actual Map” — shows the actual road network and the wider area used by residents, commuters, school traffic, emergency services, and people traveling through the area.
+Use the stacked static map comparison in Roads & Safety section 4.
+________________
+
+
+6. GENERAL LAYOUT TEMPLATES
+Issue Page: Problem → Consequences → Actual Conditions → Data/Maps → Public Records → Community Plan → Comparison → Next Page.
+Evidence Page: Key Finding → Data → Maps → Public Records → Official Documents → Timeline → Sources.
+Comparison/Proposal Page: Community Plan ↔ Countywide Planning Framework → Policy Differences → Real-World Impacts → Proposed Change → Sources.
+Action Page: What Needs to Change → Why It Matters → Proposal → Support → Participate → Share.
+________________
+
+
+PART II — PAGE-BY-PAGE BLUEPRINT
+Current built pages
+Use these exact references for Home, Issues and Roads & Safety. All displayed website text below comes from the exported visible-text inventories. Bracketed scope notes and link descriptions are implementation documentation, not additional website copy. The symbol ↵ records a forced line break in the exported design. Text baked into artwork remains in its original image and must not be redrawn.
+Retained approval limits: the full map group appears in Roads & Safety only, not Home. Preserve original maps, labels, credits and illustrative qualifications. Preserve the approved form and navigation specifications elsewhere without activating services or treating unavailable destinations as live.
+Home current approved reference
+Source: approved working-copy production build, 22 October 2026. Visible wording and destinations: wording-and-links/home.md and links.csv. These are private-preview references, not proof of public deployment.
+Home Header
+Exact exported visible text
+Our Community
+Issues
+The Facts
+The Proposal
+Take Action
+About
+Get Involved
+At 768px (tablet):
+also shown: Menu
+not shown: Our Community
+not shown: Issues
+not shown: The Facts
+not shown: The Proposal
+not shown: Take Action
+not shown: About
+not shown: Get Involved
+At 390px (phone):
+also shown: Menu
+not shown: Our Community
+not shown: Issues
+not shown: The Facts
+not shown: The Proposal
+not shown: Take Action
+not shown: About
+not shown: Get Involved
+Links and controls
+(Safer Communities United: no visible text) → page /  |  all widths
+Our Community → page /  |  1536px
+Issues → page /issues  |  1536px
+The Facts → opens the "Not available yet" notice (page not built yet: /evidence)  |  1536px
+The Proposal → opens the "Not available yet" notice (page not built yet: /comparison#proposed-change)  |  1536px
+Take Action → opens the "Not available yet" notice (page not built yet: /take-action)  |  1536px
+About → opens the "Not available yet" notice (page not built yet: /about)  |  1536px
+(Search: no visible text) → opens the site search  |  1536px
+Get Involved → opens the "Not available yet" notice (page not built yet: /take-action)  |  1536px
+Menu → opens the phone menu  |  768px, 390px
+Home Header | desktop 1536 px | 1x
+  
+
+Original 1536 × 87 px. Source rows 0–87; original file preserved. screenshots/home/w1536-desktop/home_w1536-desktop_1x_01-header.png
+Home Opening
+Exact exported visible text
+A SAFER, STRONGER KEYSTONE–ODESSA
+Putting the health, safety, and welfare of people first.
+We envision a future where community growth protects people and places, supported by responsible planning, safer infrastructure, environmental stewardship, and decisions that reflect the needs of today’s residents and generations to come.
+The Keystone–Odessa community’s health, safety and welfare is endangered due to its outdated community plan.
+View the Issues →
+View the Evidence →
+Links and controls
+View the Issues → → page /issues  |  all widths
+View the Evidence → → opens the "Not available yet" notice (page not built yet: /evidence)  |  all widths
+Home Opening | desktop 1536 px | 1x
+  
+
+Original 1536 × 609 px. Source rows 0–609; original file preserved. screenshots/home/w1536-desktop/home_w1536-desktop_1x_02-hero.png
+Home Issue cards
+Exact exported visible text
+OUR KEY ISSUES
+Major problems under the current community plan
+Click on each issue below to learn more about how these problems impact our community and why change is needed.
+Gunn Highway, Keystone · AARoads (2016)
+Road setting only, not crash evidence
+Our roads ↵ are dangerous!
+Traffic, intersections, lighting, road safety and emergency access put residents, students and commuters at risk.
+Lake Rogers, Odessa · Florida Hikes
+Landscape only, not contamination evidence
+Our water ↵ is at risk!
+1,626 known septic systems, 1,210 likely septic, and 806 repair records. Septic systems and wells threaten groundwater, drinking water, health and the environment.
+Everyday needs ↵ are harder to access!
+Housing, commute time, healthcare, food, jobs and essential services are limited due to current restrictions.
+The Community Plan ↵ is holding our community back!
+Outdated rules adopted in 2001 continue to limit solutions for our roads, water, infrastructure, housing, and essential services.
+Links and controls
+(View Roads & Safety: no visible text) → page /issues/roads-safety  |  all widths
+(View Water & Septic: no visible text) → opens the "Not available yet" notice (page not built yet: /issues/water-septic)  |  all widths
+(View Growth & Daily Life: no visible text) → opens the "Not available yet" notice (page not built yet: /issues/growth-daily-life)  |  all widths
+(View the Community Plan: no visible text) → opens the "Not available yet" notice (page not built yet: /comparison#proposed-change)  |  all widths
+Home Issue cards | desktop 1536 px | 1x
+  
+
+Original 1536 × 541 px. Source rows 0–541; original file preserved. screenshots/home/w1536-desktop/home_w1536-desktop_1x_03-issue-cards.png
+Home Footer
+Exact exported visible text
+A safer, stronger Keystone–Odessa for today and future generations.
+Our Community
+Issues
+The Facts
+The Proposal
+Take Action
+About
+Subscribe for Updates
+Links and controls
+Our Community → page /  |  all widths
+Issues → page /issues  |  all widths
+The Facts → opens the "Not available yet" notice (page not built yet: /evidence)  |  all widths
+The Proposal → opens the "Not available yet" notice (page not built yet: /comparison#proposed-change)  |  all widths
+Take Action → opens the "Not available yet" notice (page not built yet: /take-action)  |  all widths
+About → opens the "Not available yet" notice (page not built yet: /about)  |  all widths
+Subscribe for Updates → opens the "Not available yet" notice (no destination yet: subscribe)  |  all widths
+Home Footer | desktop 1536 px | 1x
+  
+
+Original 1536 × 74 px. Source rows 0–74; original file preserved. screenshots/home/w1536-desktop/home_w1536-desktop_1x_04-footer.png
+Issues current approved reference
+Source: approved working-copy production build, 22 October 2026. Visible wording and destinations: wording-and-links/issues.md and links.csv. These are private-preview references, not proof of public deployment.
+Issues Header
+Exact exported visible text
+Our Community
+Issues
+The Facts
+The Proposal
+Take Action
+About
+Get Involved
+At 768px (tablet):
+also shown: Menu
+not shown: Our Community
+not shown: Issues
+not shown: The Facts
+not shown: The Proposal
+not shown: Take Action
+not shown: About
+not shown: Get Involved
+At 390px (phone):
+also shown: Menu
+not shown: Our Community
+not shown: Issues
+not shown: The Facts
+not shown: The Proposal
+not shown: Take Action
+not shown: About
+not shown: Get Involved
+Links and controls
+(Safer Communities United: no visible text) → page /  |  all widths
+Our Community → page /  |  1536px
+Issues → page /issues  |  1536px
+The Facts → opens the "Not available yet" notice (page not built yet: /evidence)  |  1536px
+The Proposal → opens the "Not available yet" notice (page not built yet: /comparison#proposed-change)  |  1536px
+Take Action → opens the "Not available yet" notice (page not built yet: /take-action)  |  1536px
+About → opens the "Not available yet" notice (page not built yet: /about)  |  1536px
+(Search: no visible text) → opens the site search  |  1536px
+Get Involved → opens the "Not available yet" notice (page not built yet: /take-action)  |  1536px
+Menu → opens the phone menu  |  768px, 390px
+Issues Header | desktop 1536 px | 1x
+  
+
+Original 1536 × 87 px. Source rows 0–87; original file preserved. screenshots/issues/w1536-desktop/issues_w1536-desktop_1x_01-header.png
+Issues Opening
+Exact exported visible text
+ISSUES
+Issues affecting Keystone–Odessa
+From roads and water to growth, housing, infrastructure and essential services, the current Community Plan creates real challenges for today’s residents. Explore each issue below to see how these problems affect our community and why change is needed.
+Links and controls
+None.
+Issues Opening | desktop 1536 px | 1x
+  
+
+Original 1536 × 232 px. Source rows 0–232; original file preserved. screenshots/issues/w1536-desktop/issues_w1536-desktop_1x_02-opening.png
+Issues Issue tabs
+Exact exported visible text
+Roads & Safety
+Water & Septic
+Growth & Daily Life
+Community Plan
+Links and controls
+Roads & Safety → jumps to #roads-safety on this page  |  all widths
+Water & Septic → jumps to #water-septic on this page  |  all widths
+Growth & Daily Life → jumps to #growth-daily-life on this page  |  all widths
+Community Plan → jumps to #community-plan on this page  |  all widths
+Issues Issue tabs | desktop 1536 px | 1x
+  
+
+Original 1536 × 96 px. Source rows 0–96; original file preserved. screenshots/issues/w1536-desktop/issues_w1536-desktop_1x_03-issue-tabs.png
+Issues Roads & Safety
+Exact exported visible text
+ROADS & SAFETY
+Roads must meet the safety needs of today’s community
+Gunn Highway, Keystone · April 20, 2016 · Photo: Alex Nitzman / AARoads
+Our road network serves residents, commuters, students, emergency responders, deliveries and essential services. Safe and reliable roads are critical for everyone in Keystone–Odessa.
+Gunn Highway
+A key corridor with specific restrictions under the current Community Plan.
+Street Lighting
+Limited by current rules, even where lighting could improve safety.
+Traffic & Intersections
+Growing traffic and safety concerns at key intersections.
+Walking & Biking
+Limited pedestrian and bicycle facilities along many roads.
+Emergency Access
+Road conditions can affect emergency response times.
+Explore Roads & Safety →
+Links and controls
+Explore Roads & Safety → → page /issues/roads-safety  |  all widths
+Issues Roads & Safety | desktop 1536 px | 1x
+  
+
+Original 1536 × 659 px. Source rows 0–659; original file preserved. screenshots/issues/w1536-desktop/issues_w1536-desktop_1x_04-roads-safety.png
+Issues Water & Septic
+Exact exported visible text
+WATER & SEPTIC
+WHAT ARE WE PROTECTING IF WE DON’T PUT CLEAN WATER FIRST?
+Private wells. Septic systems. Lakes. Wetlands. The water beneath our homes matters far more than a planning label. Protecting Keystone–Odessa should mean protecting the people who live here, not treating its Community Plan as untouchable.
+7,191
+source records
+ZIP 33556 inventory extract.
+3,087
+classified source rows
+Three septic classifications · ZIP 33556.
+806
+septic construction/repair records
+ZIP 33556 · Application dates: 1998–April 7, 2023.
+KEY WATER & SEPTIC ISSUES
+Septic Concentration
+Septic Repairs
+Private Wells
+Groundwater
+Wellfields, Lakes & Wetlands
+Water & Wastewater Infrastructure
+KEEP WHAT MAKES KEYSTONE–ODESSA SPECIAL. ↵ CHANGE THE PLAN THAT SHAPES ITS FUTURE.
+Our petition calls for removing the Keystone–Odessa Community Plan and relying on the County’s broader planning framework. Our priority: health, safety and welfare.
+Explore Water & Septic →
+Links and controls
+Explore Water & Septic → → opens the "Not available yet" notice (page not built yet: /issues/water-septic)  |  all widths
+Issues Water & Septic | desktop 1536 px | 1x
+  
+
+Original 1536 × 1392 px. Source rows 0–1392; original file preserved. screenshots/issues/w1536-desktop/issues_w1536-desktop_1x_05-water-septic.png
+Issues Growth & Daily Life
+Exact exported visible text
+EVERYDAY NEEDS, GROWTH & INFRASTRUCTURE
+YOU CHOSE RURAL LIVING. SHOULD THAT MEAN COMPROMISING ON SAFETY?
+A longer drive for groceries may be a choice you’re happy to make. But protecting rural character should never be an excuse to dismiss safe roads, essential services or responsible infrastructure. Loving Keystone–Odessa does not mean treating its Community Plan as untouchable.
+Illustration
+Schematic service pins, not verified locations.
+01
+THE QUESTION ISN’T HOW FAR YOU DRIVE. IT’S HOW SAFELY YOU GET THERE.
+Distance alone tells only part of the story. Road conditions, crossings, lighting and safe connections matter too.
+02
+ESSENTIAL SERVICES ARE MORE THAN SHOPPING CONVENIENCE.
+Healthcare, childcare and everyday necessities belong in the discussion about a community’s future. A rural setting does not make those needs disappear.
+03
+PROTECT THE COUNTRYSIDE. DON’T TREAT THE PLAN AS SACRED.
+A planning document is a policy choice. Supporting the landscape does not require supporting every restriction written into that document.
+We want the Keystone–Odessa Community Plan retired. Our priority is a planning framework that puts health, safety and welfare at the centre of decisions about our community.
+Explore Growth & Daily Life →
+Links and controls
+Explore Growth & Daily Life → → opens the "Not available yet" notice (page not built yet: /issues/growth-daily-life)  |  all widths
+Issues Growth & Daily Life | desktop 1536 px | 1x  |  view 1 of 2
+  
+
+Original 1536 × 1999 px. Source rows 0–1015; original file preserved. screenshots/issues/w1536-desktop/issues_w1536-desktop_1x_06-growth-daily-life.png
+Issues Growth & Daily Life | desktop 1536 px | 1x  |  view 2 of 2
+  
+
+Original 1536 × 1999 px. Source rows 1015–1999; original file preserved. screenshots/issues/w1536-desktop/issues_w1536-desktop_1x_06-growth-daily-life.png
+Issues Community Plan
+Exact exported visible text
+COMMUNITY PLAN
+The Community Plan was created for a ↵ Keystone–Odessa of more than two decades ago.
+The Keystone–Odessa Community Plan was adopted in 2001 and continues to place a specific policy layer over the area. ↵ During that time, the community’s population, traffic, infrastructure needs, development conditions, and everyday needs have changed.
+At 768px (tablet):
+also shown: The Community Plan was created for a Keystone–Odessa of more than two decades ago.
+also shown: The Keystone–Odessa Community Plan was adopted in 2001 and continues to place a specific policy layer over the area. During that time, the community’s population, traffic, infrastructure needs, development conditions, and everyday needs have changed.
+also shown: 2001
+also shown: COMMUNITY PLAN ADOPTED
+also shown: The Keystone–Odessa Community Plan was adopted.
+also shown: →
+also shown: TODAY
+also shown: MORE THAN TWO DECADES LATER
+also shown: The community’s population, traffic, infrastructure needs, development conditions, and everyday needs have changed.
+also shown: →
+also shown: 2026
+also shown: CURRENT STATUS
+also shown: According to a public report response, the BOCC had not requested the Planning Commission to complete a new update to the Keystone–Odessa Community Plan.
+also shown: AREAS AFFECTED BY THIS POLICY LAYER
+also shown: Roads & Transportation
+also shown: Rules related to road expansion, lighting, and transportation characteristics.
+also shown: Water & Wastewater
+also shown: Rules and exceptions related to water and wastewater infrastructure.
+also shown: Growth & Housing
+also shown: Specific requirements related to density, lot size, and development.
+also shown: Infrastructure & Services
+also shown: Rules that affect how the community can respond to infrastructure and service needs.
+also shown: Learn About the Community Plan →
+not shown: The Community Plan was created for a ↵ Keystone–Odessa of more than two decades ago.
+not shown: The Keystone–Odessa Community Plan was adopted in 2001 and continues to place a specific policy layer over the area. ↵ During that time, the community’s population, traffic, infrastructure needs, development conditions, and everyday needs have changed.
+At 390px (phone):
+also shown: The Community Plan was created for a Keystone–Odessa of more than two decades ago.
+also shown: The Keystone–Odessa Community Plan was adopted in 2001 and continues to place a specific policy layer over the area. During that time, the community’s population, traffic, infrastructure needs, development conditions, and everyday needs have changed.
+also shown: 2001
+also shown: COMMUNITY PLAN ADOPTED
+also shown: The Keystone–Odessa Community Plan was adopted.
+also shown: →
+also shown: TODAY
+also shown: MORE THAN TWO DECADES LATER
+also shown: The community’s population, traffic, infrastructure needs, development conditions, and everyday needs have changed.
+also shown: →
+also shown: 2026
+also shown: CURRENT STATUS
+also shown: According to a public report response, the BOCC had not requested the Planning Commission to complete a new update to the Keystone–Odessa Community Plan.
+also shown: AREAS AFFECTED BY THIS POLICY LAYER
+also shown: Roads & Transportation
+also shown: Rules related to road expansion, lighting, and transportation characteristics.
+also shown: Water & Wastewater
+also shown: Rules and exceptions related to water and wastewater infrastructure.
+also shown: Growth & Housing
+also shown: Specific requirements related to density, lot size, and development.
+also shown: Infrastructure & Services
+also shown: Rules that affect how the community can respond to infrastructure and service needs.
+also shown: Learn About the Community Plan →
+not shown: The Community Plan was created for a ↵ Keystone–Odessa of more than two decades ago.
+not shown: The Keystone–Odessa Community Plan was adopted in 2001 and continues to place a specific policy layer over the area. ↵ During that time, the community’s population, traffic, infrastructure needs, development conditions, and everyday needs have changed.
+Links and controls
+Learn About the Community Plan → → opens the "Not available yet" notice (page not built yet: /comparison#proposed-change)  |  768px, 390px
+Issues Community Plan | desktop 1536 px | 1x
+  
+
+Original 1536 × 1189 px. Source rows 0–1189; original file preserved. screenshots/issues/w1536-desktop/issues_w1536-desktop_1x_07-community-plan.png
+Issues Connected issues
+Exact exported visible text
+THE ISSUES ARE CONNECTED
+NO PLAN IS MORE IMPORTANT ↵ THAN THE PEOPLE IT SERVES.
+Your roads. Your water. Your daily life. The Keystone–Odessa Community Plan influences decisions
+across all three. A document with that much influence should earn its place by serving the community,
+not remain beyond question.
+ONE PLAN. DECISIONS
+THAT REACH INTO
+EVERYDAY LIFE.
+↓
+↓
+↓
+ROADS & SAFETY
+Road Rules
+WHAT GOOD IS RURAL CHARACTER WITHOUT SAFE WAYS TO GET AROUND?
+Lighting, crossings, road improvements and reliable access belong at the heart of planning for people.
+Traffic
+Lighting
+Ability to
+Improve Roads
+↓
+Safety
+Mobility
+Emergency
+Access
+WATER & SEPTIC
+Water & Wastewater Rules
+ARE WE PROTECTING OUR WATER—OR DEFENDING A SET OF RULES?
+Water and wastewater policies should be judged by how well they protect people and the environment.
+Septic
+Wells
+Groundwater
+Wellfield
+↓
+Health
+Water
+Resources
+Environment
+GROWTH & DAILY LIFE
+Land Use & Development Rules
+SHOULD PEOPLE HAVE TO FIT THE PLAN, OR SHOULD THE PLAN SERVE PEOPLE?
+Housing, infrastructure and access to essential services shape everyday life. Those needs deserve more than a rural label.
+Housing
+Infrastructure
+Service
+Locations
+Travel
+Distance
+↓
+Access
+Quality of Life
+Welfare
+↓
+THESE SHOULD BE THE PRIORITIES.
+We believe Keystone–Odessa needs a different planning approach.
+Sign the petition to retire the Community Plan and put health, safety and welfare
+at the centre of the County’s decisions.
+At 768px (tablet):
+also shown: NO PLAN IS MORE IMPORTANT THAN THE PEOPLE IT SERVES.
+not shown: NO PLAN IS MORE IMPORTANT ↵ THAN THE PEOPLE IT SERVES.
+At 390px (phone):
+also shown: NO PLAN IS MORE IMPORTANT THAN THE PEOPLE IT SERVES.
+not shown: NO PLAN IS MORE IMPORTANT ↵ THAN THE PEOPLE IT SERVES.
+Links and controls
+None.
+Issues Connected issues | desktop 1536 px | 1x
+  
+
+Original 1536 × 1281 px. Source rows 0–1281; original file preserved. screenshots/issues/w1536-desktop/issues_w1536-desktop_1x_08-connected-issues.png
+Issues Footer
+Exact exported visible text
+A safer, stronger Keystone–Odessa for today and future generations.
+Our Community
+Issues
+The Facts
+The Proposal
+Take Action
+About
+Subscribe for Updates
+Links and controls
+Our Community → page /  |  all widths
+Issues → page /issues  |  all widths
+The Facts → opens the "Not available yet" notice (page not built yet: /evidence)  |  all widths
+The Proposal → opens the "Not available yet" notice (page not built yet: /comparison#proposed-change)  |  all widths
+Take Action → opens the "Not available yet" notice (page not built yet: /take-action)  |  all widths
+About → opens the "Not available yet" notice (page not built yet: /about)  |  all widths
+Subscribe for Updates → opens the "Not available yet" notice (no destination yet: subscribe)  |  all widths
+Issues Footer | desktop 1536 px | 1x
+  
+
+Original 1536 × 74 px. Source rows 0–74; original file preserved. screenshots/issues/w1536-desktop/issues_w1536-desktop_1x_09-footer.png
+Roads and Safety current approved reference
+Source: approved working-copy production build, 22 October 2026. Visible wording and destinations: wording-and-links/roads-safety.md and links.csv. These are private-preview references, not proof of public deployment.
+Roads and Safety Header
+Exact exported visible text
+Our Community
+Issues
+The Facts
+The Proposal
+Take Action
+About
+Get Involved
+At 768px (tablet):
+also shown: Menu
+not shown: Our Community
+not shown: Issues
+not shown: The Facts
+not shown: The Proposal
+not shown: Take Action
+not shown: About
+not shown: Get Involved
+At 390px (phone):
+also shown: Menu
+not shown: Our Community
+not shown: Issues
+not shown: The Facts
+not shown: The Proposal
+not shown: Take Action
+not shown: About
+not shown: Get Involved
+Links and controls
+(Safer Communities United: no visible text) → page /  |  all widths
+Our Community → page /  |  1536px
+Issues → page /issues  |  1536px
+The Facts → opens the "Not available yet" notice (page not built yet: /evidence)  |  1536px
+The Proposal → opens the "Not available yet" notice (page not built yet: /comparison#proposed-change)  |  1536px
+Take Action → opens the "Not available yet" notice (page not built yet: /take-action)  |  1536px
+About → opens the "Not available yet" notice (page not built yet: /about)  |  1536px
+(Search: no visible text) → opens the site search  |  1536px
+Get Involved → opens the "Not available yet" notice (page not built yet: /take-action)  |  1536px
+Menu → opens the phone menu  |  768px, 390px
+Roads and Safety Header | desktop 1536 px | 1x
+  
+
+Original 1536 × 87 px. Source rows 0–87; original file preserved. screenshots/roads-safety/w1536-desktop/roads-safety_w1536-desktop_1x_01-header.png
+Roads and Safety 01 Street Lighting
+Exact exported visible text
+ISSUES › ROADS & SAFETY
+01 — STREET LIGHTING
+Street lighting should ↵ respond to public ↵ safety needs.
+Does someone have to get hurt first?
+The Community Plan takes a restrictive approach to street lighting and allows lighting when public safety is at risk.
+CURRENT COMMUNITY PLAN RULE
+The Community Plan takes a restrictive approach to street lighting and allows lighting when public safety is at risk.
+“Street lighting should not be
+required nor permitted unless
+public safety is at risk.”
+— Keystone–Odessa Community Plan
+View the Full Policy in the Community Plan →
+ACTUAL SAFETY NEEDS
+Adequate street lighting is important for:
+Visibility for drivers
+Intersections and high-risk areas
+Pedestrians and cyclists
+Night travel and daily commutes
+WHY IT MATTERS
+Limited street lighting can make it more difficult and dangerous to travel at night, increasing the risk of crashes and affecting the safety of residents, students, commuters and emergency responders.
+It directly impacts the health, safety and welfare of our community.
+FHWA explains that modern lighting can precisely target where light is needed while minimizing spill into the night sky and neighboring properties. Rural character should drive better design, not end the safety discussion.
+Source: Federal Highway Administration Lighting safety countermeasure. FHWA-SA-21-050, Applications and Considerations. Modern lighting control and reduced spill; general engineering guidance.
+Read FHWA guidance on lighting
+01 ↵ Street Lighting ↵ →
+02 ↵ Gunn Highway ↵ →
+03 ↵ Walking, Biking & Crossings ↵ →
+04 ↵ Emergency Access ↵ →
+At 390px (phone):
+also shown: Street lighting should respond to public safety needs.
+not shown: Street lighting should ↵ respond to public ↵ safety needs.
+Links and controls
+View the Full Policy in the Community Plan → → https://planhillsborough.org/wp-content/uploads/2025/12/LIVABLE-COMMUNITIES.pdf#page=24  |  all widths  |  checked Plan Hillsborough PDF: cited page checked in the downloaded file, 22 Oct 2026 (PDF page = printed page)
+Read FHWA guidance on lighting → https://highways.dot.gov/safety/proven-safety-countermeasures/lighting  |  all widths  |  checked FHWA public page, opened 19 Oct 2026
+01 ↵ Street Lighting ↵ → → jumps to #street-lighting on this page  |  all widths
+02 ↵ Gunn Highway ↵ → → jumps to #gunn-highway on this page  |  all widths
+03 ↵ Walking, Biking & Crossings ↵ → → jumps to #walking-biking-crossings on this page  |  all widths
+04 ↵ Emergency Access ↵ → → jumps to #emergency-access on this page  |  all widths
+Roads and Safety 01 Street Lighting | desktop 1536 px | 1x
+  
+
+Original 1536 × 1220 px. Source rows 0–1220; original file preserved. screenshots/roads-safety/w1536-desktop/roads-safety_w1536-desktop_1x_02-street-lighting.png
+Roads and Safety 02 Gunn Highway
+Exact exported visible text
+ISSUES › ROADS & SAFETY › GUNN HIGHWAY
+02 — GUNN HIGHWAY
+Expansion of Gunn Highway ↵ is restricted.
+The Community Plan identifies Gunn Highway as a road with restrictions on further expansion.
+COMMUNITY PLAN RULE
+Gunn Highway cannot be widened further.
+View the Community Plan Policy →
+COUNTY CONSTRAINED-ROAD TABLE
+The County’s constrained-road table also references the Community Plan for this section.
+View the County Table →
+WHY IT MATTERS
+Limits on expanding Gunn Highway affect traffic, safety and access for residents, commuters, students and emergency services.
+19,912 DAILY VEHICLE MOVEMENTS. TWO LANES.
+The County’s 2024 data put Gunn Highway from the Pasco County line to Van Dyke Road at 19,912 annual-average daily vehicle movements. Both daily and peak-direction service are rated E against a D standard. These figures demand a serious response.
+Source: County 2024 level-of-service traffic sections. County 2024 traffic layer. OBJECTID 582: Gunn Highway, Pasco County line to Van Dyke Road, AADT 19,912. OBJECTID 136: Van Dyke Road, Gunn Highway to Suncoast north ramp, AADT 17,500. Both have two lanes, daily and peak-direction LOS E, and standard D.
+Read the County’s 2024 traffic data
+01 ↵ Street Lighting
+02 ↵ Gunn Highway
+03 ↵ Walking, Biking & Crossings
+04 ↵ Emergency Access
+At 390px (phone):
+also shown: Expansion of Gunn Highway is restricted.
+also shown: View larger map
+not shown: Expansion of Gunn Highway ↵ is restricted.
+Links and controls
+View the Community Plan Policy → → https://planhillsborough.org/wp-content/uploads/2025/12/LIVABLE-COMMUNITIES.pdf#page=24  |  all widths  |  checked Plan Hillsborough PDF: cited page checked in the downloaded file, 22 Oct 2026 (PDF page = printed page)
+View the County Table → → https://planhillsborough.org/wp-content/uploads/2025/04/HC-Comp-Plan-1.pdf#page=250  |  all widths  |  checked Plan Hillsborough PDF: cited page checked in the downloaded file, 22 Oct 2026 (PDF page = printed page)
+Read the County’s 2024 traffic data → https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/LOS_Update_2024/FeatureServer/6/query?objectIds=582%2C136%2C53%2C108%2C479&outFields=%2A&returnGeometry=false&f=json  |  all widths  |  checked County 2024 traffic data, checked 20 Oct 2026
+01 ↵ Street Lighting → jumps to #street-lighting on this page  |  all widths
+02 ↵ Gunn Highway → jumps to #gunn-highway on this page  |  all widths
+03 ↵ Walking, Biking & Crossings → jumps to #walking-biking-crossings on this page  |  all widths
+04 ↵ Emergency Access → jumps to #emergency-access on this page  |  all widths
+View larger map → opens the larger map  |  390px
+Roads and Safety 02 Gunn Highway | desktop 1536 px | 1x
+  
+
+Original 1536 × 1308 px. Source rows 0–1308; original file preserved. screenshots/roads-safety/w1536-desktop/roads-safety_w1536-desktop_1x_03-gunn-highway.png
+Roads and Safety 03 Walking, Biking & Crossings
+Exact exported visible text
+ISSUES › ROADS & SAFETY › WALKING, BIKING & CROSSINGS
+03 — WALKING, BIKING & CROSSINGS
+Pedestrians and cyclists ↵ face safety risks.
+The safety of pedestrians, cyclists, and people crossing the road needs to be considered together with traffic, speed, crossings and the actual conditions on each corridor.
+COMMUNITY PLAN RULE
+Is “when possible” enough for safe, connected routes?
+The Plan directs the County to encourage pedestrian and equestrian trails along designated scenic corridors. Off-road trails and bikeways in preserved greenways are to be developed when possible, without a delivery timetable in these provisions.
+Policy summary · Livable Communities Element, p. 25
+View the Relevant Policy in the Community Plan →
+ACTUAL CONDITIONS
+Traffic and higher speeds
+Limited pedestrian and bicycle facilities
+Safety at intersections and crossings
+Continuous routes are limited
+WHY IT MATTERS
+Limited and unsafe conditions for pedestrians and cyclists increase the risk of crashes and affect the safety of residents, students, commuters and everyone who uses these roads.
+Safe walking and biking routes are essential for a safer, healthier and more connected community.
+SAFE WALKING SHOULD NOT BE AN EXCEPTION.
+County Mobility Objective 2.2 calls for protecting pedestrians, children, seniors and people with disabilities. FHWA recommends connected walking routes without gaps. A safe route matters whether you are going to school, visiting a neighbor or using a wheelchair.
+Sources: County Comprehensive Plan, Mobility Objective 2.2 and Policies 2.2.1–2.2.7, p. 127; FHWA Walkways, FHWA-SA-21-047, connected routes and accessibility.
+Read the County policy and full criteria
+Read FHWA guidance on walkways
+01 ↵ Street Lighting
+02 ↵ Gunn Highway
+03 ↵ Walking, Biking & Crossings
+04 ↵ Emergency Access
+At 390px (phone):
+also shown: Pedestrians and cyclists face safety risks.
+not shown: Pedestrians and cyclists ↵ face safety risks.
+Links and controls
+View the Relevant Policy in the Community Plan → → https://planhillsborough.org/wp-content/uploads/2025/12/LIVABLE-COMMUNITIES.pdf#page=25  |  all widths  |  checked Plan Hillsborough PDF: cited page checked in the downloaded file, 22 Oct 2026 (PDF page = printed page)
+Read the County policy and full criteria → https://planhillsborough.org/wp-content/uploads/2025/04/HC-Comp-Plan-1.pdf#page=127  |  all widths  |  checked Plan Hillsborough PDF: cited page checked in the downloaded file, 22 Oct 2026 (PDF page = printed page)
+Read FHWA guidance on walkways → https://highways.dot.gov/safety/proven-safety-countermeasures/walkways  |  all widths  |  checked FHWA public page, opened 19 Oct 2026
+01 ↵ Street Lighting → jumps to #street-lighting on this page  |  all widths
+02 ↵ Gunn Highway → jumps to #gunn-highway on this page  |  all widths
+03 ↵ Walking, Biking & Crossings → jumps to #walking-biking-crossings on this page  |  all widths
+04 ↵ Emergency Access → jumps to #emergency-access on this page  |  all widths
+Roads and Safety 03 Walking, Biking & Crossings | desktop 1536 px | 1x
+  
+
+Original 1536 × 1433 px. Source rows 0–1433; original file preserved. screenshots/roads-safety/w1536-desktop/roads-safety_w1536-desktop_1x_04-walking-biking-crossings.png
+Roads and Safety 04 Emergency Access
+Exact exported visible text
+ISSUES › ROADS & SAFETY › EMERGENCY ACCESS
+04 — EMERGENCY ACCESS
+Emergency access ↵ must be reliable.
+Emergency access should be judged by evidence, not by a fixed preference for road size. The Community Plan accepts that safety may require change, yet narrows the options for making it.
+WHAT THE PLAN SAYS
+Safety changes are allowed. The road options are constrained.
+The plan favors turn lanes, crossings and traffic controls instead of widening, and says Gunn Highway cannot be widened further.
+Summary: Community Plan, p. 24
+It also allows lighting when public safety is at risk and supports widening the Suncoast Parkway.
+View the Relevant Policy in the Community Plan →
+KEY FACTORS
+Emergency response time
+Intersections and road design
+Congestion and delays
+Road conditions
+Access during severe weather
+WHY IT MATTERS
+Reliable emergency access is essential for residents, students, commuters and the entire community. Delays can affect emergency response times and public safety.
+Road decisions should support faster, safer emergency access for the community.
+01 ↵ Street Lighting ↵ →
+02 ↵ Gunn Highway ↵ →
+03 ↵ Walking, Biking & Crossings ↵ →
+04 ↵ Emergency Access ↵ →
+At 390px (phone):
+also shown: Emergency access must be reliable.
+not shown: Emergency access ↵ must be reliable.
+Links and controls
+View the Relevant Policy in the Community Plan → → https://planhillsborough.org/wp-content/uploads/2025/12/LIVABLE-COMMUNITIES.pdf#page=24  |  all widths  |  checked Plan Hillsborough PDF: cited page checked in the downloaded file, 22 Oct 2026 (PDF page = printed page)
+01 ↵ Street Lighting ↵ → → jumps to #street-lighting on this page  |  all widths
+02 ↵ Gunn Highway ↵ → → jumps to #gunn-highway on this page  |  all widths
+03 ↵ Walking, Biking & Crossings ↵ → → jumps to #walking-biking-crossings on this page  |  all widths
+04 ↵ Emergency Access ↵ → → jumps to #emergency-access on this page  |  all widths
+Roads and Safety 04 Emergency Access | desktop 1536 px | 1x
+  
+
+Original 1536 × 1173 px. Source rows 0–1173; original file preserved. screenshots/roads-safety/w1536-desktop/roads-safety_w1536-desktop_1x_05-emergency-access.png
+Roads and Safety Three-map area
+Exact exported visible text
+SAFER COMMUNITIES UNITED
+EXPLORE THE AREA
+THE NIMBY MAP
+Source: Keystone-Odessa Community Plan
+View larger map
+VS
+WHAT THE NIMBY MAP ↵ DOESN’T SHOW YOU
+The land. The neighborhoods. The traffic.
+View larger map
+LOOK AT WHAT’S ALREADY HERE.
+Existing homes, divided lots and major roads are part of Keystone–Odessa today. The map shows an established residential community alongside its natural landscape.
+THE COMMUNITY PLAN ISN’T THE ↵ ONLY THING PROTECTING NATURE.
+Over one-third of the Keystone–Odessa Community Plan area is mapped conservation land, lakes, reservoirs or ponds.
+Public conservation lands and lakes are part of what makes this area special. Separate ownership and environmental protections also matter; removing the Community Plan would not automatically remove them.
+PROTECT THE LANDSCAPE. QUESTION THE PLAN.
+GIS measurement, 16 October 2026: 34.3% (8,025 of 23,387 acres); conservation land and mapped lakes/reservoirs/ponds clipped to the adopted Plan boundary, with overlaps counted once.
+Sources: Plan Hillsborough; FNAI (September 2026); acquired ELAPP; SWFWMD (2023).
+PROTECT
+NATURE.
+PROTECT PEOPLE.
+THOUSANDS OF HOMES.
+REAL INFRASTRUCTURE
+NEEDS.
+Conservation lands, lakes and water-resource protections already exist here.
+Our parcel analysis identified 4,542 improved single-family parcels. Nearly half were smaller than one acre. Infrastructure decisions must reflect the community already here.
+SCU analysis of the October 2, 2026 County GIS snapshot: 2,249 of 4,542 selected improved single-family parcels had reported acreage below one acre (49.5%). Parcels are not a count of occupied homes. Public holdings, wetlands and water-protection layers describe different protections; they are not all government-owned land.
+Parcel source and calculation inputs — County parcel GIS
+Official Community Plan boundary — County GIS
+unique tax folios assigned to the official boundary by an interior point; single-family classification, positive building value and at least one recorded building; full reported parcel acreage. The October 2 snapshot is dated, not a live count.
+MAJOR ROADS. EVERYONE’S SAFETY MATTERS.
+View larger map
+KEEP THE LANDSCAPE.
+Explore the evidence →
+Read the petition
+At 390px (phone):
+also shown: THE COMMUNITY PLAN ISN’T THE ONLY THING PROTECTING NATURE.
+not shown: THE COMMUNITY PLAN ISN’T THE ↵ ONLY THING PROTECTING NATURE.
+Links and controls
+View larger map → opens the larger map  |  1536px, 1536px, 1536px, 768px, 768px, 768px, 390px, 390px, 390px
+Parcel source and calculation inputs — County parcel GIS → https://maps.hillsboroughcounty.org/arcgis1a/rest/services/SDEMapServices/ParcelPublishing/FeatureServer/12  |  all widths
+Official Community Plan boundary — County GIS → https://maps.hillsboroughcounty.org/arcgisapp/rest/services/DSD_Viewer/Landuse_and_Planning/MapServer/2  |  all widths
+Explore the evidence → → opens the "Not available yet" notice (page not built yet: /evidence)  |  all widths
+Read the petition → opens the "Not available yet" notice (page not built yet: /take-action#petition)  |  all widths
+Roads and Safety Three-map area | desktop 1536 px | 1x  |  view 1 of 4
+  
+
+Original 1536 × 5648 px. Source rows 0–1373; original file preserved. screenshots/roads-safety/w1536-desktop/roads-safety_w1536-desktop_1x_06-map-area.png
+Roads and Safety Three-map area | desktop 1536 px | 1x  |  view 2 of 4
+  
+
+Original 1536 × 5648 px. Source rows 1373–2824; original file preserved. screenshots/roads-safety/w1536-desktop/roads-safety_w1536-desktop_1x_06-map-area.png
+Roads and Safety Three-map area | desktop 1536 px | 1x  |  view 3 of 4
+  
+
+Original 1536 × 5648 px. Source rows 2824–4235; original file preserved. screenshots/roads-safety/w1536-desktop/roads-safety_w1536-desktop_1x_06-map-area.png
+Roads and Safety Three-map area | desktop 1536 px | 1x  |  view 4 of 4
+  
+
+Original 1536 × 5648 px. Source rows 4235–5648; original file preserved. screenshots/roads-safety/w1536-desktop/roads-safety_w1536-desktop_1x_06-map-area.png
+Roads and Safety 06 Records & Evidence
+Exact exported visible text
+ISSUES › ROADS & SAFETY › RECORDS & EVIDENCE
+06 — RECORDS & EVIDENCE
+THE NUMBERS DEMAND ACTION
+Read the records. Review the policy. Ask the County to put people first.
+SAFETY DATA
+Crash · Severity
+Location · Time
+Crash records for Gunn Highway
+Fatal and serious-injury crashes have been recorded along Gunn Highway.
+Source: Hillsborough County fatal and serious-injury crash data (“Fatal Severe 2017_2021”). Verified period: 2020–2021. Road section: Pasco County line to South Mobley Road, including intersections.
+Hillsborough County Crash Data
+2020 – 2021
+View Original Document ↵ →
+TRAFFIC DATA
+Traffic Volume · Speed
+Turning Movements
+19,912 DAILY VEHICLE MOVEMENTS
+Gunn Highway: Pasco County line to Van Dyke Road.
+Hillsborough County AADT
+2024
+View Original Document ↵ →
+MAPS
+Road Network · Plan Boundary
+Corridors · Intersections
+Gunn Highway and the Community Plan area
+Map showing Gunn Highway and the section within/serving Keystone–Odessa.
+Hillsborough County GIS
+2024
+View Original Map ↵ →
+PUBLIC RECORDS
+Projects · Studies · Requests
+Agency Responses
+STUDY THE OPTIONS.
+Van Dyke: Gunn Highway to west of Suncoast Parkway was excluded from capacity-improvement analysis because of Comprehensive Plan constraints.
+Read the study fact sheet · packet page 13
+View Original Document ↵ →
+COMMUNITY PLAN
+Transportation · Road Configuration
+Lighting · Gunn Highway
+Restrictions on expansion for Gunn Highway
+The Community Plan identifies Gunn Highway as a road with restrictions on further expansion.
+Keystone–Odessa Community Plan
+View Original Document ↵ →
+DON’T RULE OUT SOLUTIONS BEFORE STUDYING THEM.
+Demand a full evaluation. Ask the County to reconsider the constraints.
+SUPPORT THE PETITION →
+Links and controls
+View Original Document ↵ → → https://www.arcgis.com/home/item.html?id=4617ca58d79b4f74b86876f5605815b1  |  all widths  |  checked County crash dataset page, opened in a browser 22 Oct 2026
+View Original Document ↵ → → https://services.arcgis.com/apTfC6SUmnNfnxuF/arcgis/rest/services/LOS_Update_2024/FeatureServer/6/query?objectIds=582%2C136%2C53%2C108%2C479&outFields=%2A&returnGeometry=false&f=json  |  all widths  |  checked County 2024 traffic data, checked 20 Oct 2026
+View Original Map ↵ → → opens the "Not available yet" notice (no destination yet: source)  |  all widths
+View Original Document ↵ → → https://planhillsborough.org/wp-content/uploads/2025/06/LRC-June-Draft-Agenda-Packet.pdf#page=13  |  all widths  |  checked Plan Hillsborough PDF: cited page checked in the downloaded file, 22 Oct 2026 (PDF page = printed page)
+View Original Document ↵ → → https://planhillsborough.org/wp-content/uploads/2025/12/LIVABLE-COMMUNITIES.pdf#page=24  |  all widths  |  checked Plan Hillsborough PDF: cited page checked in the downloaded file, 22 Oct 2026 (PDF page = printed page)
+SUPPORT THE PETITION → → opens the "Not available yet" notice (page not built yet: /take-action#petition)  |  all widths
+Roads and Safety 06 Records & Evidence | desktop 1536 px | 1x
+  
+
+Original 1536 × 1207 px. Source rows 0–1207; original file preserved. screenshots/roads-safety/w1536-desktop/roads-safety_w1536-desktop_1x_07-records-evidence.png
+Roads and Safety 07 Two planning frameworks
+Exact exported visible text
+07 — HOW DO THE COMMUNITY PLAN AND COMPREHENSIVE PLAN APPROACH THE ISSUE?
+Two planning frameworks. Two approaches to roads and safety.
+KEYSTONE–ODESSA COMMUNITY PLAN
+Rural road characteristics
+Should a rural appearance come before people’s daily needs? The plan prioritizes two-lane rural roads and limits changes that increase capacity or urbanize the area. (Community Plan, Transportation)
+Road configuration
+Why limit the options before assessing what people need? The plan identifies preferred road configurations, including two-lane rural sections, and the types of improvements considered appropriate for the area.
+Gunn Highway
+How much traffic is enough to reconsider the restrictions? Gunn Highway is identified as a road with restrictions on further expansion and included in the constrained-road tables. (Community Plan, related policies)
+Lighting
+Does someone have to get hurt first?
+The plan allows lighting when public safety is at risk.
+Identify the danger. Act before someone is injured.
+Transportation improvements
+Should a safety improvement have to pass a rural-character test? The plan allows intersection, cycling, walking and traffic-control improvements while requiring rural character to be maintained.
+HILLSBOROUGH COUNTY COMPREHENSIVE PLAN
+Transportation safety
+Includes countywide policies to improve transportation safety, reduce crashes, and address safety for all users, including drivers, pedestrians and cyclists. (Mobility Section)
+Mobility
+Supports a connected and functional multimodal network, including roadways, transit, bicycle and pedestrian facilities. (Mobility Section)
+Infrastructure needs
+Addresses transportation infrastructure needs based on current and future conditions, including roadway capacity, intersection improvements and system performance. (Mobility Section)
+Evaluation of conditions
+Uses data, level-of-service standards and network evaluation to identify needed improvements across the county. (Mobility Section)
+Planning tools
+Provides broader transportation planning tools, such as the Cost Feasible Plan, the Transportation Improvement Program (TIP) and coordination with the Long Range Transportation Plan (LRTP). (Mobility Section)
+This is a summary comparison. The detailed analysis of each policy, with side-by-side excerpts from both plans, is on the Comparison Page.
+Detailed Roads & Safety Comparison →
+A ROAD RESTRICTION IS NOT A PERMANENT ANSWER.
+County Mobility Policy 5.1.4 calls for the constrained-road list to be reevaluated before each long-range transportation plan update, balancing community preservation, safety and growing traffic congestion. Put Gunn Highway’s restriction back under serious public scrutiny.
+Source: County Comprehensive Plan One Water and Mobility. County compilation dated June 26, 2026. One Water 4.3.2–4.3.7: pp. 229–234. Mobility 5.1.2–5.1.4: p. 135. Constrained roads (Capital Improvements Section, Table 2): pp. 249–251.
+Read the County policy and full criteria
+Links and controls
+Detailed Roads & Safety Comparison → → opens the "Not available yet" notice (page not built yet: /comparison)  |  all widths
+Read the County policy and full criteria → https://planhillsborough.org/wp-content/uploads/2025/04/HC-Comp-Plan-1.pdf  |  all widths  |  checked Plan Hillsborough PDF: cited page checked in the downloaded file, 22 Oct 2026 (PDF page = printed page)
+Roads and Safety 07 Two planning frameworks | desktop 1536 px | 1x  |  view 1 of 2
+  
+
+Original 1536 × 1944 px. Source rows 0–972; original file preserved. screenshots/roads-safety/w1536-desktop/roads-safety_w1536-desktop_1x_08-plan-comparison.png
+Roads and Safety 07 Two planning frameworks | desktop 1536 px | 1x  |  view 2 of 2
+  
+
+Original 1536 × 1944 px. Source rows 972–1944; original file preserved. screenshots/roads-safety/w1536-desktop/roads-safety_w1536-desktop_1x_08-plan-comparison.png
+Roads and Safety Footer
+Exact exported visible text
+A safer, stronger Keystone–Odessa for today and future generations.
+Our Community
+Issues
+The Facts
+The Proposal
+Take Action
+About
+Subscribe for Updates
+Links and controls
+Our Community → page /  |  all widths
+Issues → page /issues  |  all widths
+The Facts → opens the "Not available yet" notice (page not built yet: /evidence)  |  all widths
+The Proposal → opens the "Not available yet" notice (page not built yet: /comparison#proposed-change)  |  all widths
+Take Action → opens the "Not available yet" notice (page not built yet: /take-action)  |  all widths
+About → opens the "Not available yet" notice (page not built yet: /about)  |  all widths
+Subscribe for Updates → opens the "Not available yet" notice (no destination yet: subscribe)  |  all widths
+Roads and Safety Footer | desktop 1536 px | 1x
+  
+
+Original 1536 × 74 px. Source rows 0–74; original file preserved. screenshots/roads-safety/w1536-desktop/roads-safety_w1536-desktop_1x_09-footer.png
+Retained implementation and verification requirements
+The following requirements from the previous blueprint remain implementation context, not added visible copy. References to selected images now mean the corresponding current screenshot above. No visual approval newly verifies factual claims or clears photography permissions.
+Use the user-provided Keystone Odessa welcome-sign photograph in full, without cropping or invented scenery, positioned as shown in the approved desktop and phone Home opening views. Keep the original wordmark and warning triangle. Use Merriweather headings and Inter body text, charcoal and warm white with burgundy accents, and the red warning panel. This is an approved Home header/opening exception, not a global palette change.
+Approved phone menu open state: keep the existing header and Menu toggle unchanged. Opening Menu reveals the selected white navigation panel in normal document flow below the header and moves existing page content down. Preserve this exact order: Our Community; Issues; The Facts; The Proposal; Compare the Two Plans (nested under The Proposal); Take Action; About; Get Involved. Use the already approved destinations and fallback. Menu toggles open/closed; Escape closes and returns focus to Menu; selecting a link closes before routing. Set aria-expanded and aria-controls on the toggle; keep normal keyboard Tab order and prevent hidden links receiving focus. This is a disclosure, not a modal overlay. The two continuous views show one open state; retain the existing closed reference. The supplied 320px menu-width check is not a test of the entire responsive page. Test browser reflow, focus and routes during implementation; no live site is activated.
+Approved M4 local photographs: use Gunn Highway, Keystone in the Roads card and Lake Rogers, Odessa in the Water card, exactly as shown below. Preserve the visible credits and context captions. These photos show local surroundings, not evidence of crashes or contamination. This photo approval does not verify the existing card figures or risk statements. Alex Nitzman / AARoads is credited for the Gunn Highway photograph, captured April 20, 2016. Florida Hikes is the source for Lake Rogers; its individual photographer and capture date remain unverified. Public reuse permission is still required.
+Approved O1 visual direction: Keep the four issue tabs, two-column layout, five topic icons, all existing main wording and Explore Roads & Safety CTA. Match the shown Merriweather/Inter typography, warm white, charcoal and burgundy styling. Use the shown Gunn Highway photograph with its April 20, 2016 date and Alex Nitzman / AARoads credit and source link. It supplies historical local context, not proof of current road conditions. Public reuse permission is required before publication. This approval applies only to the Roads & Safety issue overview section.
+Internal source note, not website copy: retained flwmi-hillsborough (6).xlsx, Sheet1 A5:G7195, is a ZIP 33556 extract. 3,087 = 1,626 Known Septic + 1,210 Likely Septic + 251 SWL Septic rows, without deduplication. The 806 exact EHDConst-Repair records have application dates through April 7, 2023. Unique properties/systems, Community Plan boundary membership and the inventory snapshot date remain unverified. These records are not confirmed failure counts.
+An evidence box may be added only after verifying the exact Community Plan restriction and a documented consequence. Keep this as an editorial note; do not display an unverified claim as public proof. Do not imply delayed emergency response, denied medical care or guaranteed outcomes from retiring the Plan.
+Implementation note: add one source link per column to the relevant documented restriction or decision after checking that the source directly supports it. Roads, water and growth links still need a source check; do not present the diagram as proof of harm.
+Approved O4 visual direction: Match the shown typography, colors and clearer text panels. Retain the three-column explanation, original picture strips and icons, all existing main wording, and the common health, safety and welfare conclusion. Preserve the existing explanation that this diagram connects policy topics and priorities rather than establishing that the Plan caused harm. This approval applies only to the Connected Issues section.
+Source: Livable Communities Element. Livable Communities compilation dated June 26, 2026. Effective dates: p. 3. County framework relationship: pp. 4–5. Keystone–Odessa: pp. 17–27. Transportation and lighting: p. 24.
+Source: County 2024 level-of-service traffic sections. County 2024 traffic layer. OBJECTID 582: Gunn Highway, Pasco County line to Van Dyke Road, AADT 19,912. OBJECTID 136: Van Dyke Road, Gunn Highway to Suncoast north ramp, AADT 17,500. Both have two lanes, daily and peak-direction LOS E, and standard D.
+O6 selected-image instruction: retain the visible introduction beginning “The safety of pedestrians, cyclists, and people crossing the road…” exactly as shown in the selected O6 image and matching source layout. Omit only the previously removed sentence: “The Community Plan includes content about pedestrian/equestrian crossings, traffic controls, trails and bikeways.” Preserve the selected left policy question and explanation.
+Sources: County Comprehensive Plan, Mobility Objective 2.2 and Policies 2.2.1–2.2.7, p. 127; FHWA Walkways, FHWA-SA-21-047, connected routes and accessibility.
+Policy source for the left panel: Livable Communities Element, page 25, https://planhillsborough.org/wp-content/uploads/2025/12/LIVABLE-COMMUNITIES.pdf . The existing “View the Relevant Policy in the Community Plan” link opens this source. The panel is a policy summary, not a direct quotation; it does not claim a blanket ban on walking/biking facilities or establish injury causation.
+Approved O9 visual direction: use the final combined design below. Keep the original headline, the approved evidence-led introduction and What the Plan Says panel. Preserve Key Factors, Why It Matters, original artwork and navigation. The policy box is a summary, not a direct quotation. Its source is the retained Community Plan, page 24; preserve the existing policy link. No new claim authenticates the emergency-vehicle artwork as a documented local incident.
+Roads & Safety section 4 contains the official boundary map, wider area map and roads map in their approved stacked order. Retain the selected three comparison panels here exactly once; do not repeat them on Home. The content and implementation notes below govern this Roads & Safety map group. Keep existing map links directed to this section rather than the removed Home section 2A.
+GIS measurement, 16 October 2026: 34.3% (8,025 of 23,387 acres); conservation land and mapped lakes/reservoirs/ponds clipped to the adopted Plan boundary, with overlaps counted once. Sources: Plan Hillsborough; FNAI (September 2026); acquired ELAPP; SWFWMD (2023).
+Place this comparison only in Roads & Safety section 4. On Home, Main Issues follows the existing homepage introduction directly. Keep the opening homepage design unchanged. Stack the three selected campaign map sections vertically, preserving their approved composition rather than making a side-by-side comparison or slider. For the first and roads sections, keep the original selected inset/crop appearance; only the land, water and lots section uses the complete original area map in its approved expanded composition.
+Demo: reproduce the selected map appearances, proportions, labels and credits exactly as displayed in each approved section. The first and roads campaign insets remain unchanged; do not substitute or duplicate the full standalone maps on the page. Retain those original files as supporting source/provenance. Existing separately approved full-size access may remain; this instruction does not add a new visible link or destination.
+Map precedence: the latest selected first and roads campaign references govern their visible inset/crop composition. Their standalone originals are supporting sources, not mandatory additional on-page images. Use the complete original area map for the approved land, water and lots assembly only. Preserve all map artwork; do not regenerate labels, numbers or geography. The detailed-map section adds conservation classifications, parcel-size analysis and traffic volumes to the official boundary map, which already depicts parcel lines and major roads. Approved land, water and lots assembly: use the complete original area map, followed by the retained campaign headings and explanatory wording. After “PROTECT THE LANDSCAPE. QUESTION THE PLAN.”, replace the shortened GIS note with the full “GIS measurement, 16 October 2026” explanation written above. Keep both slogan cards together, then place the existing conservation sentence, parcel-analysis passage, complete SCU source qualification, both parcel/boundary source links and the parcel-methodology note beneath them, in the exact order shown in the two continuous views below. Include each passage once. These views show one continuous section, not two website sections. This approval does not verify the figures or source claims. For the first and roads campaign panels, reproduce the original selected references and their visible wording. Do not add the extra paragraphs or visible links from the rejected expanded compositions; retained source explanations are supporting build context, not additional on-screen copy for those two panels.
+Retain source links only where shown in the selected composition or expressly approved. In the expanded land, water and lots section, include both displayed parcel/boundary links and the exact parcel-methodology note: unique tax folios assigned to the official boundary by an interior point; single-family classification, positive building value and at least one recorded building; full reported parcel acreage. The October 2 snapshot is dated, not a live count. Do not add the rejected extra visible source links or prose to the first or roads campaign panels.
+Keep the approved destinations for existing displayed controls, including “Explore the evidence” and “Read the petition”. Preserve approved roads/source routing only where an existing displayed control calls for it. Use descriptive alt text and keyboard-accessible links and controls. Accessibility text does not authorize adding visible paragraphs, map replacements or extra controls to the original first and roads compositions.
+Source: County Van Dyke study newsletter in June2025 LRC packet. County study newsletter in the June 2025 LRC agenda packet, PDF page 13. Van Dyke Road capacity-analysis exclusion and project scope.
+Documented reconciliations
+The former instruction to use the O2 overview’s white footer is superseded for the built Issues page by the exported shared navy footer. This does not restyle later pages.
+The original H2 stretch and original O3 desktop assembly are superseded by the current screenshots. H2 retains the original map, round number circles and illustrative labels. O3 retains the approved larger map and area cards below the map and timeline. Do not reconstruct either from a superseded composite.
+The original static-map-only wording is superseded only where the approved current page shows a larger-map control. Retain the original source artwork and existing viewer behavior. The current controls and destinations are recorded above; no new map tools are authorized.
+The Street Lighting quotation now reads “Street lighting should not be required nor permitted unless public safety is at risk.” The Community Plan source controls use the current exported destinations; the Gunn Highway County Table opens the cited constrained-road table.
+The five County rows cite “Mobility Section”, not “Mobility Element”. The Community Plan transportation citation is “Transportation”, not “Transportation Element”. The constrained-road source identifies Capital Improvements Section, Table 2, pages 249–251.
+The old “higher crash frequency” and 2020–2024 Safety Data instructions are superseded. Use the current “Crash records for Gunn Highway” heading, the exact neutral sentence and the source note bounded to 2020–2021 and the Pasco County line to South Mobley Road, including intersections. Do not restore the withdrawn counted-crash proposal.
+The O8 Community Plan illustration uses the exact supplied page-24 image. Its quotation is “Gunn Highway will be identified as a County roadway, which cannot be widened further due to social, economic, policy and environmental constraints.” Preserve the supplied paper, title, rule, highlight and footer pixels. The former Page 3-8 artwork is not current.
+The Public Records card says “Read the study fact sheet · packet page 13”. The additional Van Dyke passage remains excluded from the Records & Evidence layout; retained source context does not authorize displaying it.
+Current links and controls take precedence over earlier inert-search and unavailable-built-page notes for these three built pages only. Preserve unfinished-page notices and the previously approved menu behavior. A source-file literal or hidden heading is not new user approval.
+Approved responsive rules still apply between the supplied captures: Growth button uses 16 px side padding and centered text through 599 px; the plan-comparison badge has its own gap below 390 px; the Emergency Access callout stacks its symbol above the words below 390 px; the Gunn map viewer button appears below 600 px; the four Roads topic-card groups use two cards plus a full-width third from 1000 to 1132 px; arrows stay with their labels. The final export does not contain 320 px or 1024 px captures, so those widths are not visually reverified by this document.
+No requirement to obtain photo reuse permission, verify septic figures, retain illustrative qualifications, preserve keyboard access or separately approve visible changes is removed. Source and methodology notes are documentation, not permission to add visible claims.
+Existing approved menu open references
+The final export contains the closed menu only. The following existing approved open-menu references are retained unchanged from the master; they are not newly captured 22 October views. The disclosure behavior and keyboard requirements above remain in force.
+Current image - approved phone menu open state, view 1 of 2. Continue immediately to view 2.
+ home phone menu open 
+
+Current image - approved phone menu open state, view 2 of 2. Continues the first view without repetition.
+ home phone menu open 
+
+Responsive reference appendix
+Tablet 768 px and phone 390 px are exact exported views of the same approved production build. Each reference preserves its source file without resampling or stretching. Continuous crops are shown in order with no gaps or overlap. Full-page PNGs in the package establish the complete scroll and section sequence. Header and footer appearances are included with each page.
+Home 01 header | tablet 768 px | 1x
+  
+
+Original 768 × 77 px. Source rows 0–77; original file preserved. screenshots/home/w768-tablet/home_w768-tablet_1x_01-header.png
+Home 02 hero | tablet 768 px | 1x  |  view 1 of 2
+  
+
+Original 768 × 935 px. Source rows 0–485; original file preserved. screenshots/home/w768-tablet/home_w768-tablet_1x_02-hero.png
+Home 02 hero | tablet 768 px | 1x  |  view 2 of 2
+  
+
+Original 768 × 935 px. Source rows 485–935; original file preserved. screenshots/home/w768-tablet/home_w768-tablet_1x_02-hero.png
+Home 03 issue cards | tablet 768 px | 1x  |  view 1 of 2
+  
+
+Original 768 × 976 px. Source rows 0–494; original file preserved. screenshots/home/w768-tablet/home_w768-tablet_1x_03-issue-cards.png
+Home 03 issue cards | tablet 768 px | 1x  |  view 2 of 2
+  
+
+Original 768 × 976 px. Source rows 494–976; original file preserved. screenshots/home/w768-tablet/home_w768-tablet_1x_03-issue-cards.png
+Home 04 footer | tablet 768 px | 1x
+  
+
+Original 768 × 204 px. Source rows 0–204; original file preserved. screenshots/home/w768-tablet/home_w768-tablet_1x_04-footer.png
+Home 01 header | phone 390 px | 1x
+  
+
+Original 390 × 73 px. Source rows 0–73; original file preserved. screenshots/home/w390-phone/home_w390-phone_1x_01-header.png
+Home 02 hero | phone 390 px | 1x  |  view 1 of 2
+  
+
+Original 390 × 967 px. Source rows 0–479; original file preserved. screenshots/home/w390-phone/home_w390-phone_1x_02-hero.png
+Home 02 hero | phone 390 px | 1x  |  view 2 of 2
+  
+
+Original 390 × 967 px. Source rows 479–967; original file preserved. screenshots/home/w390-phone/home_w390-phone_1x_02-hero.png
+Home 03 issue cards | phone 390 px | 1x  |  view 1 of 2
+  
+
+Original 390 × 1682 px. Source rows 0–842; original file preserved. screenshots/home/w390-phone/home_w390-phone_1x_03-issue-cards.png
+Home 03 issue cards | phone 390 px | 1x  |  view 2 of 2
+  
+
+Original 390 × 1682 px. Source rows 842–1682; original file preserved. screenshots/home/w390-phone/home_w390-phone_1x_03-issue-cards.png
+Home 04 footer | phone 390 px | 1x
+  
+
+Original 390 × 332 px. Source rows 0–332; original file preserved. screenshots/home/w390-phone/home_w390-phone_1x_04-footer.png
+Issues 01 header | tablet 768 px | 1x
+  
+
+Original 768 × 77 px. Source rows 0–77; original file preserved. screenshots/issues/w768-tablet/issues_w768-tablet_1x_01-header.png
+Issues 02 opening | tablet 768 px | 1x
+  
+
+Original 768 × 273 px. Source rows 0–273; original file preserved. screenshots/issues/w768-tablet/issues_w768-tablet_1x_02-opening.png
+Issues 03 issue tabs | tablet 768 px | 1x
+  
+
+Original 768 × 156 px. Source rows 0–156; original file preserved. screenshots/issues/w768-tablet/issues_w768-tablet_1x_03-issue-tabs.png
+Issues 04 roads safety | tablet 768 px | 1x  |  view 1 of 2
+  
+
+Original 768 × 1139 px. Source rows 0–559; original file preserved. screenshots/issues/w768-tablet/issues_w768-tablet_1x_04-roads-safety.png
+Issues 04 roads safety | tablet 768 px | 1x  |  view 2 of 2
+  
+
+Original 768 × 1139 px. Source rows 559–1139; original file preserved. screenshots/issues/w768-tablet/issues_w768-tablet_1x_04-roads-safety.png
+Issues 05 water septic | tablet 768 px | 1x  |  view 1 of 3
+  
+
+Original 768 × 2105 px. Source rows 0–688; original file preserved. screenshots/issues/w768-tablet/issues_w768-tablet_1x_05-water-septic.png
+Issues 05 water septic | tablet 768 px | 1x  |  view 2 of 3
+  
+
+Original 768 × 2105 px. Source rows 688–1386; original file preserved. screenshots/issues/w768-tablet/issues_w768-tablet_1x_05-water-septic.png
+Issues 05 water septic | tablet 768 px | 1x  |  view 3 of 3
+  
+
+Original 768 × 2105 px. Source rows 1386–2105; original file preserved. screenshots/issues/w768-tablet/issues_w768-tablet_1x_05-water-septic.png
+Issues 06 growth daily life | tablet 768 px | 1x  |  view 1 of 3
+  
+
+Original 768 × 2312 px. Source rows 0–851; original file preserved. screenshots/issues/w768-tablet/issues_w768-tablet_1x_06-growth-daily-life.png
+Issues 06 growth daily life | tablet 768 px | 1x  |  view 2 of 3
+  
+
+Original 768 × 2312 px. Source rows 851–1512; original file preserved. screenshots/issues/w768-tablet/issues_w768-tablet_1x_06-growth-daily-life.png
+Issues 06 growth daily life | tablet 768 px | 1x  |  view 3 of 3
+  
+
+Original 768 × 2312 px. Source rows 1512–2312; original file preserved. screenshots/issues/w768-tablet/issues_w768-tablet_1x_06-growth-daily-life.png
+Issues 07 community plan | tablet 768 px | 1x  |  view 1 of 3
+  
+
+Original 768 × 2321 px. Source rows 0–854; original file preserved. screenshots/issues/w768-tablet/issues_w768-tablet_1x_07-community-plan.png
+Issues 07 community plan | tablet 768 px | 1x  |  view 2 of 3
+  
+
+Original 768 × 2321 px. Source rows 854–1536; original file preserved. screenshots/issues/w768-tablet/issues_w768-tablet_1x_07-community-plan.png
+Issues 07 community plan | tablet 768 px | 1x  |  view 3 of 3
+  
+
+Original 768 × 2321 px. Source rows 1536–2321; original file preserved. screenshots/issues/w768-tablet/issues_w768-tablet_1x_07-community-plan.png
+Issues 08 connected issues | tablet 768 px | 1x  |  view 1 of 3
+  
+
+Original 768 × 2177 px. Source rows 0–726; original file preserved. screenshots/issues/w768-tablet/issues_w768-tablet_1x_08-connected-issues.png
+Issues 08 connected issues | tablet 768 px | 1x  |  view 2 of 3
+  
+
+Original 768 × 2177 px. Source rows 726–1398; original file preserved. screenshots/issues/w768-tablet/issues_w768-tablet_1x_08-connected-issues.png
+Issues 08 connected issues | tablet 768 px | 1x  |  view 3 of 3
+  
+
+Original 768 × 2177 px. Source rows 1398–2177; original file preserved. screenshots/issues/w768-tablet/issues_w768-tablet_1x_08-connected-issues.png
+Issues 09 footer | tablet 768 px | 1x
+  
+
+Original 768 × 204 px. Source rows 0–204; original file preserved. screenshots/issues/w768-tablet/issues_w768-tablet_1x_09-footer.png
+Issues 01 header | phone 390 px | 1x
+  
+
+Original 390 × 73 px. Source rows 0–73; original file preserved. screenshots/issues/w390-phone/issues_w390-phone_1x_01-header.png
+Issues 02 opening | phone 390 px | 1x
+  
+
+Original 390 × 357 px. Source rows 0–357; original file preserved. screenshots/issues/w390-phone/issues_w390-phone_1x_02-opening.png
+Issues 03 issue tabs | phone 390 px | 1x
+  
+
+Original 390 × 280 px. Source rows 0–280; original file preserved. screenshots/issues/w390-phone/issues_w390-phone_1x_03-issue-tabs.png
+Issues 04 roads safety | phone 390 px | 1x  |  view 1 of 2
+  
+
+Original 390 × 1218 px. Source rows 0–577; original file preserved. screenshots/issues/w390-phone/issues_w390-phone_1x_04-roads-safety.png
+Issues 04 roads safety | phone 390 px | 1x  |  view 2 of 2
+  
+
+Original 390 × 1218 px. Source rows 577–1218; original file preserved. screenshots/issues/w390-phone/issues_w390-phone_1x_04-roads-safety.png
+Issues 05 water septic | phone 390 px | 1x  |  view 1 of 3
+  
+
+Original 390 × 2148 px. Source rows 0–722; original file preserved. screenshots/issues/w390-phone/issues_w390-phone_1x_05-water-septic.png
+Issues 05 water septic | phone 390 px | 1x  |  view 2 of 3
+  
+
+Original 390 × 2148 px. Source rows 722–1460; original file preserved. screenshots/issues/w390-phone/issues_w390-phone_1x_05-water-septic.png
+Issues 05 water septic | phone 390 px | 1x  |  view 3 of 3
+  
+
+Original 390 × 2148 px. Source rows 1460–2148; original file preserved. screenshots/issues/w390-phone/issues_w390-phone_1x_05-water-septic.png
+Issues 06 growth daily life | phone 390 px | 1x  |  view 1 of 3
+  
+
+Original 390 × 2380 px. Source rows 0–878; original file preserved. screenshots/issues/w390-phone/issues_w390-phone_1x_06-growth-daily-life.png
+Issues 06 growth daily life | phone 390 px | 1x  |  view 2 of 3
+  
+
+Original 390 × 2380 px. Source rows 878–1652; original file preserved. screenshots/issues/w390-phone/issues_w390-phone_1x_06-growth-daily-life.png
+Issues 06 growth daily life | phone 390 px | 1x  |  view 3 of 3
+  
+
+Original 390 × 2380 px. Source rows 1652–2380; original file preserved. screenshots/issues/w390-phone/issues_w390-phone_1x_06-growth-daily-life.png
+Issues 07 community plan | phone 390 px | 1x  |  view 1 of 3
+  
+
+Original 390 × 2687 px. Source rows 0–900; original file preserved. screenshots/issues/w390-phone/issues_w390-phone_1x_07-community-plan.png
+Issues 07 community plan | phone 390 px | 1x  |  view 2 of 3
+  
+
+Original 390 × 2687 px. Source rows 900–1788; original file preserved. screenshots/issues/w390-phone/issues_w390-phone_1x_07-community-plan.png
+Issues 07 community plan | phone 390 px | 1x  |  view 3 of 3
+  
+
+Original 390 × 2687 px. Source rows 1788–2687; original file preserved. screenshots/issues/w390-phone/issues_w390-phone_1x_07-community-plan.png
+Issues 08 connected issues | phone 390 px | 1x  |  view 1 of 4
+  
+
+Original 390 × 3092 px. Source rows 0–773; original file preserved. screenshots/issues/w390-phone/issues_w390-phone_1x_08-connected-issues.png
+Issues 08 connected issues | phone 390 px | 1x  |  view 2 of 4
+  
+
+Original 390 × 3092 px. Source rows 773–1522; original file preserved. screenshots/issues/w390-phone/issues_w390-phone_1x_08-connected-issues.png
+Issues 08 connected issues | phone 390 px | 1x  |  view 3 of 4
+  
+
+Original 390 × 3092 px. Source rows 1522–2333; original file preserved. screenshots/issues/w390-phone/issues_w390-phone_1x_08-connected-issues.png
+Issues 08 connected issues | phone 390 px | 1x  |  view 4 of 4
+  
+
+Original 390 × 3092 px. Source rows 2333–3092; original file preserved. screenshots/issues/w390-phone/issues_w390-phone_1x_08-connected-issues.png
+Issues 09 footer | phone 390 px | 1x
+  
+
+Original 390 × 332 px. Source rows 0–332; original file preserved. screenshots/issues/w390-phone/issues_w390-phone_1x_09-footer.png
+Roads and Safety 01 header | tablet 768 px | 1x
+  
+
+Original 768 × 77 px. Source rows 0–77; original file preserved. screenshots/roads-safety/w768-tablet/roads-safety_w768-tablet_1x_01-header.png
+Roads and Safety 02 street lighting | tablet 768 px | 1x  |  view 1 of 3
+  
+
+Original 768 × 2345 px. Source rows 0–800; original file preserved. screenshots/roads-safety/w768-tablet/roads-safety_w768-tablet_1x_02-street-lighting.png
+Roads and Safety 02 street lighting | tablet 768 px | 1x  |  view 2 of 3
+  
+
+Original 768 × 2345 px. Source rows 800–1515; original file preserved. screenshots/roads-safety/w768-tablet/roads-safety_w768-tablet_1x_02-street-lighting.png
+Roads and Safety 02 street lighting | tablet 768 px | 1x  |  view 3 of 3
+  
+
+Original 768 × 2345 px. Source rows 1515–2345; original file preserved. screenshots/roads-safety/w768-tablet/roads-safety_w768-tablet_1x_02-street-lighting.png
+Roads and Safety 03 gunn highway | tablet 768 px | 1x  |  view 1 of 3
+  
+
+Original 768 × 2298 px. Source rows 0–762; original file preserved. screenshots/roads-safety/w768-tablet/roads-safety_w768-tablet_1x_03-gunn-highway.png
+Roads and Safety 03 gunn highway | tablet 768 px | 1x  |  view 2 of 3
+  
+
+Original 768 × 2298 px. Source rows 762–1491; original file preserved. screenshots/roads-safety/w768-tablet/roads-safety_w768-tablet_1x_03-gunn-highway.png
+Roads and Safety 03 gunn highway | tablet 768 px | 1x  |  view 3 of 3
+  
+
+Original 768 × 2298 px. Source rows 1491–2298; original file preserved. screenshots/roads-safety/w768-tablet/roads-safety_w768-tablet_1x_03-gunn-highway.png
+Roads and Safety 04 walking biking crossings | tablet 768 px | 1x  |  view 1 of 3
+  
+
+Original 768 × 2378 px. Source rows 0–752; original file preserved. screenshots/roads-safety/w768-tablet/roads-safety_w768-tablet_1x_04-walking-biking-crossings.png
+Roads and Safety 04 walking biking crossings | tablet 768 px | 1x  |  view 2 of 3
+  
+
+Original 768 × 2378 px. Source rows 752–1585; original file preserved. screenshots/roads-safety/w768-tablet/roads-safety_w768-tablet_1x_04-walking-biking-crossings.png
+Roads and Safety 04 walking biking crossings | tablet 768 px | 1x  |  view 3 of 3
+  
+
+Original 768 × 2378 px. Source rows 1585–2378; original file preserved. screenshots/roads-safety/w768-tablet/roads-safety_w768-tablet_1x_04-walking-biking-crossings.png
+Roads and Safety 05 emergency access | tablet 768 px | 1x  |  view 1 of 3
+  
+
+Original 768 × 2206 px. Source rows 0–735; original file preserved. screenshots/roads-safety/w768-tablet/roads-safety_w768-tablet_1x_05-emergency-access.png
+Roads and Safety 05 emergency access | tablet 768 px | 1x  |  view 2 of 3
+  
+
+Original 768 × 2206 px. Source rows 735–1485; original file preserved. screenshots/roads-safety/w768-tablet/roads-safety_w768-tablet_1x_05-emergency-access.png
+Roads and Safety 05 emergency access | tablet 768 px | 1x  |  view 3 of 3
+  
+
+Original 768 × 2206 px. Source rows 1485–2206; original file preserved. screenshots/roads-safety/w768-tablet/roads-safety_w768-tablet_1x_05-emergency-access.png
+Roads and Safety 06 map area | tablet 768 px | 1x  |  view 1 of 5
+  
+
+Original 768 × 4408 px. Source rows 0–849; original file preserved. screenshots/roads-safety/w768-tablet/roads-safety_w768-tablet_1x_06-map-area.png
+Roads and Safety 06 map area | tablet 768 px | 1x  |  view 2 of 5
+  
+
+Original 768 × 4408 px. Source rows 849–1732; original file preserved. screenshots/roads-safety/w768-tablet/roads-safety_w768-tablet_1x_06-map-area.png
+Roads and Safety 06 map area | tablet 768 px | 1x  |  view 3 of 5
+  
+
+Original 768 × 4408 px. Source rows 1732–2652; original file preserved. screenshots/roads-safety/w768-tablet/roads-safety_w768-tablet_1x_06-map-area.png
+Roads and Safety 06 map area | tablet 768 px | 1x  |  view 4 of 5
+  
+
+Original 768 × 4408 px. Source rows 2652–3529; original file preserved. screenshots/roads-safety/w768-tablet/roads-safety_w768-tablet_1x_06-map-area.png
+Roads and Safety 06 map area | tablet 768 px | 1x  |  view 5 of 5
+  
+
+Original 768 × 4408 px. Source rows 3529–4408; original file preserved. screenshots/roads-safety/w768-tablet/roads-safety_w768-tablet_1x_06-map-area.png
+Roads and Safety 07 records evidence | tablet 768 px | 1x  |  view 1 of 3
+  
+
+Original 768 × 2736 px. Source rows 0–912; original file preserved. screenshots/roads-safety/w768-tablet/roads-safety_w768-tablet_1x_07-records-evidence.png
+Roads and Safety 07 records evidence | tablet 768 px | 1x  |  view 2 of 3
+  
+
+Original 768 × 2736 px. Source rows 912–1824; original file preserved. screenshots/roads-safety/w768-tablet/roads-safety_w768-tablet_1x_07-records-evidence.png
+Roads and Safety 07 records evidence | tablet 768 px | 1x  |  view 3 of 3
+  
+
+Original 768 × 2736 px. Source rows 1824–2736; original file preserved. screenshots/roads-safety/w768-tablet/roads-safety_w768-tablet_1x_07-records-evidence.png
+Roads and Safety 08 plan comparison | tablet 768 px | 1x  |  view 1 of 4
+  
+
+Original 768 × 2901 px. Source rows 0–725; original file preserved. screenshots/roads-safety/w768-tablet/roads-safety_w768-tablet_1x_08-plan-comparison.png
+Roads and Safety 08 plan comparison | tablet 768 px | 1x  |  view 2 of 4
+  
+
+Original 768 × 2901 px. Source rows 725–1473; original file preserved. screenshots/roads-safety/w768-tablet/roads-safety_w768-tablet_1x_08-plan-comparison.png
+Roads and Safety 08 plan comparison | tablet 768 px | 1x  |  view 3 of 4
+  
+
+Original 768 × 2901 px. Source rows 1473–2176; original file preserved. screenshots/roads-safety/w768-tablet/roads-safety_w768-tablet_1x_08-plan-comparison.png
+Roads and Safety 08 plan comparison | tablet 768 px | 1x  |  view 4 of 4
+  
+
+Original 768 × 2901 px. Source rows 2176–2901; original file preserved. screenshots/roads-safety/w768-tablet/roads-safety_w768-tablet_1x_08-plan-comparison.png
+Roads and Safety 09 footer | tablet 768 px | 1x
+  
+
+Original 768 × 204 px. Source rows 0–204; original file preserved. screenshots/roads-safety/w768-tablet/roads-safety_w768-tablet_1x_09-footer.png
+Roads and Safety 01 header | phone 390 px | 1x
+  
+
+Original 390 × 73 px. Source rows 0–73; original file preserved. screenshots/roads-safety/w390-phone/roads-safety_w390-phone_1x_01-header.png
+Roads and Safety 02 street lighting | phone 390 px | 1x  |  view 1 of 3
+  
+
+Original 390 × 2516 px. Source rows 0–793; original file preserved. screenshots/roads-safety/w390-phone/roads-safety_w390-phone_1x_02-street-lighting.png
+Roads and Safety 02 street lighting | phone 390 px | 1x  |  view 2 of 3
+  
+
+Original 390 × 2516 px. Source rows 793–1709; original file preserved. screenshots/roads-safety/w390-phone/roads-safety_w390-phone_1x_02-street-lighting.png
+Roads and Safety 02 street lighting | phone 390 px | 1x  |  view 3 of 3
+  
+
+Original 390 × 2516 px. Source rows 1709–2516; original file preserved. screenshots/roads-safety/w390-phone/roads-safety_w390-phone_1x_02-street-lighting.png
+Roads and Safety 03 gunn highway | phone 390 px | 1x  |  view 1 of 3
+  
+
+Original 390 × 2407 px. Source rows 0–817; original file preserved. screenshots/roads-safety/w390-phone/roads-safety_w390-phone_1x_03-gunn-highway.png
+Roads and Safety 03 gunn highway | phone 390 px | 1x  |  view 2 of 3
+  
+
+Original 390 × 2407 px. Source rows 817–1602; original file preserved. screenshots/roads-safety/w390-phone/roads-safety_w390-phone_1x_03-gunn-highway.png
+Roads and Safety 03 gunn highway | phone 390 px | 1x  |  view 3 of 3
+  
+
+Original 390 × 2407 px. Source rows 1602–2407; original file preserved. screenshots/roads-safety/w390-phone/roads-safety_w390-phone_1x_03-gunn-highway.png
+Roads and Safety 04 walking biking crossings | phone 390 px | 1x  |  view 1 of 4
+  
+
+Original 390 × 2808 px. Source rows 0–645; original file preserved. screenshots/roads-safety/w390-phone/roads-safety_w390-phone_1x_04-walking-biking-crossings.png
+Roads and Safety 04 walking biking crossings | phone 390 px | 1x  |  view 2 of 4
+  
+
+Original 390 × 2808 px. Source rows 645–1452; original file preserved. screenshots/roads-safety/w390-phone/roads-safety_w390-phone_1x_04-walking-biking-crossings.png
+Roads and Safety 04 walking biking crossings | phone 390 px | 1x  |  view 3 of 4
+  
+
+Original 390 × 2808 px. Source rows 1452–2106; original file preserved. screenshots/roads-safety/w390-phone/roads-safety_w390-phone_1x_04-walking-biking-crossings.png
+Roads and Safety 04 walking biking crossings | phone 390 px | 1x  |  view 4 of 4
+  
+
+Original 390 × 2808 px. Source rows 2106–2808; original file preserved. screenshots/roads-safety/w390-phone/roads-safety_w390-phone_1x_04-walking-biking-crossings.png
+Roads and Safety 05 emergency access | phone 390 px | 1x  |  view 1 of 3
+  
+
+Original 390 × 2563 px. Source rows 0–793; original file preserved. screenshots/roads-safety/w390-phone/roads-safety_w390-phone_1x_05-emergency-access.png
+Roads and Safety 05 emergency access | phone 390 px | 1x  |  view 2 of 3
+  
+
+Original 390 × 2563 px. Source rows 793–1666; original file preserved. screenshots/roads-safety/w390-phone/roads-safety_w390-phone_1x_05-emergency-access.png
+Roads and Safety 05 emergency access | phone 390 px | 1x  |  view 3 of 3
+  
+
+Original 390 × 2563 px. Source rows 1666–2563; original file preserved. screenshots/roads-safety/w390-phone/roads-safety_w390-phone_1x_05-emergency-access.png
+Roads and Safety 06 map area | phone 390 px | 1x  |  view 1 of 5
+  
+
+Original 390 × 4220 px. Source rows 0–844; original file preserved. screenshots/roads-safety/w390-phone/roads-safety_w390-phone_1x_06-map-area.png
+Roads and Safety 06 map area | phone 390 px | 1x  |  view 2 of 5
+  
+
+Original 390 × 4220 px. Source rows 844–1689; original file preserved. screenshots/roads-safety/w390-phone/roads-safety_w390-phone_1x_06-map-area.png
+Roads and Safety 06 map area | phone 390 px | 1x  |  view 3 of 5
+  
+
+Original 390 × 4220 px. Source rows 1689–2532; original file preserved. screenshots/roads-safety/w390-phone/roads-safety_w390-phone_1x_06-map-area.png
+Roads and Safety 06 map area | phone 390 px | 1x  |  view 4 of 5
+  
+
+Original 390 × 4220 px. Source rows 2532–3379; original file preserved. screenshots/roads-safety/w390-phone/roads-safety_w390-phone_1x_06-map-area.png
+Roads and Safety 06 map area | phone 390 px | 1x  |  view 5 of 5
+  
+
+Original 390 × 4220 px. Source rows 3379–4220; original file preserved. screenshots/roads-safety/w390-phone/roads-safety_w390-phone_1x_06-map-area.png
+Roads and Safety 07 records evidence | phone 390 px | 1x  |  view 1 of 5
+  
+
+Original 390 × 4187 px. Source rows 0–838; original file preserved. screenshots/roads-safety/w390-phone/roads-safety_w390-phone_1x_07-records-evidence.png
+Roads and Safety 07 records evidence | phone 390 px | 1x  |  view 2 of 5
+  
+
+Original 390 × 4187 px. Source rows 838–1726; original file preserved. screenshots/roads-safety/w390-phone/roads-safety_w390-phone_1x_07-records-evidence.png
+Roads and Safety 07 records evidence | phone 390 px | 1x  |  view 3 of 5
+  
+
+Original 390 × 4187 px. Source rows 1726–2456; original file preserved. screenshots/roads-safety/w390-phone/roads-safety_w390-phone_1x_07-records-evidence.png
+Roads and Safety 07 records evidence | phone 390 px | 1x  |  view 4 of 5
+  
+
+Original 390 × 4187 px. Source rows 2456–3274; original file preserved. screenshots/roads-safety/w390-phone/roads-safety_w390-phone_1x_07-records-evidence.png
+Roads and Safety 07 records evidence | phone 390 px | 1x  |  view 5 of 5
+  
+
+Original 390 × 4187 px. Source rows 3274–4187; original file preserved. screenshots/roads-safety/w390-phone/roads-safety_w390-phone_1x_07-records-evidence.png
+Roads and Safety 08 plan comparison | phone 390 px | 1x  |  view 1 of 5
+  
+
+Original 390 × 3928 px. Source rows 0–786; original file preserved. screenshots/roads-safety/w390-phone/roads-safety_w390-phone_1x_08-plan-comparison.png
+Roads and Safety 08 plan comparison | phone 390 px | 1x  |  view 2 of 5
+  
+
+Original 390 × 3928 px. Source rows 786–1565; original file preserved. screenshots/roads-safety/w390-phone/roads-safety_w390-phone_1x_08-plan-comparison.png
+Roads and Safety 08 plan comparison | phone 390 px | 1x  |  view 3 of 5
+  
+
+Original 390 × 3928 px. Source rows 1565–2353; original file preserved. screenshots/roads-safety/w390-phone/roads-safety_w390-phone_1x_08-plan-comparison.png
+Roads and Safety 08 plan comparison | phone 390 px | 1x  |  view 4 of 5
+  
+
+Original 390 × 3928 px. Source rows 2353–3143; original file preserved. screenshots/roads-safety/w390-phone/roads-safety_w390-phone_1x_08-plan-comparison.png
+Roads and Safety 08 plan comparison | phone 390 px | 1x  |  view 5 of 5
+  
+
+Original 390 × 3928 px. Source rows 3143–3928; original file preserved. screenshots/roads-safety/w390-phone/roads-safety_w390-phone_1x_08-plan-comparison.png
+Roads and Safety 09 footer | phone 390 px | 1x
+  
+
+Original 390 × 332 px. Source rows 0–332; original file preserved. screenshots/roads-safety/w390-phone/roads-safety_w390-phone_1x_09-footer.png
+Original later page references retained
+The following Water & Septic detail page and all subsequent original pages are retained unchanged. They remain their existing design and content references for future work, not screenshots of newly built pages. The 22 October built-page update does not extend to them.
+PAGE 04 — WATER & SEPTIC
+PAGE PURPOSE
+Current internal Water page purpose: use the approved W6 policy-responsibility wording. Assess the Community Plan against water-resource protection and distinguish the County’s specific water and wastewater connection restrictions. This adds no separate website text.
+Current internal source interpretation: preserve the approved Water screens and their source caveats. Treat the Community Plan’s water-protection goals separately from the County’s One Water policy exclusions. Do not imply that the Community Plan alone created every utility restriction.
+________________
+
+
+WATER & SEPTIC
+Label
+WATER & SEPTIC
+Heading
+Protect our water. Open the door to better solutions.
+Residents who rely on wells and septic systems deserve workable options. The Community Plan must be judged by how well it protects water resources, and the County’s restrictions on water and wastewater options in Keystone–Odessa deserve scrutiny.
+Visual
+Septic → Groundwater → Private Wells
+Use the approved full-frame Lake Keystone photograph and its source/date caption. Keep the separate Septic → Groundwater → Private Wells diagram below the hero. Do not add or imply a Community Plan boundary overlay.
+CTA
+View the Issue ↓
+Current on-screen copy for the selected image
+SEPTIC SYSTEMS — Wastewater is managed onsite through septic systems in many properties.
+GROUNDWATER — Septic systems and drinking-water wells share the same groundwater environment.
+PRIVATE WELLS — Groundwater supplies drinking water to many properties.
+When septic systems, private wells and groundwater are connected, water and wastewater planning becomes a health, safety and environmental issue.
+Selected image — Water & Septic hero
+Approved W6 visual direction: use the exact hero and policy-responsibility wording below. Specific water and wastewater connection restrictions are attributed to County policy; the Community Plan is assessed for water protection. Keep the separate Septic → Groundwater → Private Wells diagram, lower navigation and all other copy.
+Photo source: Noble Star Realty, https://noblestarrealty.com/lake-keystone-odessa-florida . Keep the visible source/date caption and MATRIX watermark. Capture date and photographer are unverified; public reuse permission is required. No Community Plan boundary is overlaid or implied. Named locality is source-supported, not independently georegistered.
+New image - approved W6 Water hero and Lake Keystone photograph. Current website reference.
+ Approved W6 Water hero and Lake Keystone photograph. Current website reference. 
+
+________________
+
+
+01 - SEPTIC CONCENTRATION
+THE SCALE OF SEPTIC IS NOT A SMALL ISSUE
+Thousands of records in Odessa are classified as septic-related.
+Use the data as the main focus at the beginning of the page:
+7,191 total records | 1,626 Known Septic | 1,210 Likely Septic | 251 Somewhat Likely Septic
+A total of 3,087 records are in the three septic classification groups in the Odessa ZIP 33556 dataset.
+Visual
+On the left are the large numbers. On the right is a map showing the distribution of septic records, with the Community Plan boundary overlaid.
+Final Message of the Section
+This is an actual condition that the Keystone–Odessa planning framework must be able to address.
+Approved Water menu labels (October 17, 2026): use 03 Connected System, 05 Lakes & Wetlands, and 06 Infrastructure consistently in the numbered Water menus. Change only these short menu labels. Preserve all other labels, numbers, icons, layouts, pictures, full section headings and website wording. The Water overview issue-card labels remain unchanged.
+Approved W3 visual direction: use the Septic Concentration layout below, with Merriweather headings, Inter body text, warm white, charcoal and burgundy. Preserve the approved map, figures, classification labels, main wording, icons, menu labels B, navigation and buttons. This is a design approval only.
+Internal data note, not website copy: the retained inventory extract supports 7,191 source rows for ZIP 33556 and the classification totals 1,626 Known Septic, 1,210 Likely Septic and 251 SWL Septic, summing to 3,087 rows. These are not verified unique properties or systems. Dataset snapshot date, duplicate handling, mapped point accuracy and Community Plan-boundary coverage remain to be verified. Do not imply that all ZIP records fall within the overlaid boundary or that classifications establish failures.
+New image - approved W3 Septic Concentration layout. Current website reference; design approval does not complete the separate data checks.
+ Approved W3 Septic Concentration layout with the existing map, figures and Water menu labels B. 
+
+________________
+
+
+02 - SEPTIC REPAIRS
+SEPTIC SYSTEMS HAVE NEEDED REPAIRS FOR MANY YEARS
+806 repair records show that this is an issue that has continued over time.
+The dataset contains 806 EHDConst–Repair records, including 738 Known Septic, 41 Likely Septic, and 27 Somewhat Likely Septic. Application dates range from 1998–2023.
+Visual
+Current website visual: use the approved R2 Septic Repairs image below, with the map retained and no annual chart. Match its Merriweather headings, Inter body text, warm-white background, charcoal text and burgundy accents for this section only. Retain the same map, figures, wording, Water menu labels B and footer. Set the policy sentence in the approved heavier weight shown in the image (font-weight 800 in the supplied HTML). This approval does not restyle other sections.
+Directly below the visual, place one large sentence:
+Planning policy must be able to respond to the actual conditions of today.
+This section does not need a long explanation of how septic works. The purpose is to show readers the scale + time + location.
+New image - approved R2 Septic Repairs with map and heavier policy sentence. Current website reference.
+ Approved R2 Septic Repairs section with retained map, no annual chart and heavier policy sentence. This section only. 
+
+________________
+
+
+03 - CONNECTED SYSTEM
+WHAT GOES INTO THE GROUND CAN REACH THE WATER WE RELY ON.
+Private wells draw from groundwater. When septic systems fail or wastewater is inadequately treated, contaminants can reach that water. Soil conditions, the number of systems and distance to wells matter.
+THE CONNECTION DOESN’T STOP AT YOUR PROPERTY LINE.
+Conceptual illustration; not a documented contamination event.
+WHAT GOOD IS PROTECTING A RURAL IMAGE IF WE DON’T PUT WATER PROTECTION FIRST?
+Keeping Keystone–Odessa beautiful should include serious scrutiny of the rules governing water and wastewater infrastructure. No planning document should be beyond question.
+PROTECT OUR WATER. RETHINK THE RULES.
+Our petition calls for retiring the Community Plan and changing the related restrictions, with health, safety and welfare at the centre of County decisions.
+Source: EPA — Septic Systems and Drinking Water
+Main Visual
+Demo: retain the selected connected-water conceptual cutaway. Do not build or add the interactive Water & Septic layer map now.
+
+
+This should be one of the strongest visual sections in Water & Septic: visitors need to be able to see that these issues exist together in the same area, instead of reading them as separate facts.
+Selected image — Connected Water
+For the first demo, retain the image and use static previews or simple page links only.
+Approved W1 visual direction: Match the shown typography and colors while preserving the approved artwork, complete conceptual cross-section, all existing main wording, section navigation and EPA source. Keep the visible disclaimer exactly: “Conceptual illustration; not a documented contamination event.” This approval applies only to the Connected Water System section.
+New image - approved W1 Connected Water System. Current website reference.
+ Approved W1 Connected Water System; exact reviewed standalone image. 
+
+________________
+
+
+06 - WATER & WASTEWATER OPTIONS
+OUR WATER. FEWER OPTIONS. WHY?
+
+
+This is the central section of Water & Septic.
+The County has water and sewer pathways for certain environmental problems, septic concerns and water-resource protection. Keystone–Odessa is expressly excluded from several of them. Why should our community accept fewer options for addressing these needs?
+THE EXCLUSIONS ARE WRITTEN INTO POLICY. One Water 4.3.7 excludes Keystone–Odessa from specified environmental, flood-prone septic and wellhead-area routes, plus the overriding-public-interest process. Read the criteria behind each route.
+Source: County Comprehensive Plan One Water and Mobility. County compilation dated June 26, 2026. One Water 4.3.2–4.3.7: pp. 229–234. Mobility 5.1.2–5.1.4: p. 135. Constrained roads: pp. 250–251.
+Read the County policy and full criteria
+Visual
+A very simple diagram:
+1. REAL CONDITIONS. REAL NEEDS.
+Private wells, septic systems and sensitive water resources make infrastructure choices important.
+2. THE COUNTY HAS TOOLS TO RESPOND.
+Specific policies allow consideration of connections for qualifying environmental and public-interest circumstances.
+3. KEYSTONE–ODESSA: EXPLICITLY LEFT OUT.
+Policy 4.3.7 excludes this area from several of those pathways.
+4. WHY DEFEND A RESTRICTION BEFORE CONSIDERING A SOLUTION?
+Preserving rural character should not put these policy choices beyond scrutiny.
+OUR COMMUNITY DESERVES MORE THAN A CLOSED DOOR.
+Sign our petition to retire the Community Plan and support the related County policy changes needed to reopen these options.
+Some connection routes remain available, including the documented public-health-hazard route.
+Read the exclusions — One Water 4.3.7
+Approved W2 visual direction: use the complete selected Water & Wastewater Options layout below. Place the existing “THE EXCLUSIONS ARE WRITTEN INTO POLICY.” passage, its complete source and “Read the County policy and full criteria” link immediately above the bottom menu, exactly as shown. Implement this passage once. Preserve the four numbered panels, all existing main wording, symbols, three circular pictures, navigation, buttons and approved Lake Rogers photograph. Existing policy and photo-source qualifications remain in force.
+Internal photo source note: Lake Rogers Conservation Park, Odessa; photograph from Florida Hikes, https://floridahikes.com/lake-rogers-park/ . The individual photographer and capture date are not verified. Public-use permission is required before publication. The photograph supplies local context; it is not evidence of water quality.
+Current image - approved complete W2 Water & Wastewater Options with the Lake Rogers photograph and existing policy-exclusions passage, source and link before the bottom menu.
+ Approved complete W2 Water and Wastewater Options with existing policy-exclusions passage before bottom menu. 
+
+
+
+________________
+
+
+LEFT OUT. BY CHOICE.
+The Community Plan places water protection as a top priority, but at the same time limits some tools that can be used to address water and wastewater issues.
+This is one of the strongest comparison points in our documents: the Community Plan identifies water protection as a very high priority, but it does not provide the same pathways for septic/wastewater response as the Countywide framework in areas related to wellhead/wellfield protection.
+LEFT OUT. BY CHOICE.
+In 2024, the County expanded rural water and sewer options. Commissioners deliberately excluded Keystone–Odessa from several of them.
+Planning staff supported consistent treatment and said safeguards addressed development concerns. Commissioners chose exclusion.
+HEALTH. SAFETY. WELFARE. WHY EXCLUDE US? One excluded utility review weighs public health, safety, welfare and public benefits. Keystone–Odessa deserves suitable options considered on their merits.
+Read the public-interest criteria and exclusion — Policies 4.3.5 and 4.3.7
+REVERSE THE EXCLUSIONS. OPEN THE OPTIONS.
+Source detail: April 8, 2024 staff report, p. 7; May 9 minutes, Book 576, pp. 39–40; One Water 4.3.5 and 4.3.7, pp. 233–234. The specified-route exclusions include a pre-existing wellhead carveout; not every exclusion originated in 2024. The separate health-hazard route remains.
+Read the May 9, 2024 Board minutes — Book 576, pages 39–40
+SUPPORT WENT BEYOND PLANNING STAFF. Water Resources staff supported the proposed rural reforms; Emergency Management said they aligned with mitigation goals. The Citizens Advisory Committee supported rural sewer options while preserving rural character.
+Source detail: HC/CPA 23-18 adoption packet. Planning staff rationale, pp. 5–7; EPC, pp. 21–23; Water Resources and Emergency Management, pp. 28–29; Citizens Advisory Committee, p. 53. These comments support the rural utility reforms, not SCU or retirement of the Community Plan.
+Read the 2024 staff report and agency comments
+Source: County Comprehensive Plan One Water and Mobility. County compilation dated June 26, 2026. One Water 4.3.2–4.3.7: pp. 229–234. Mobility 5.1.2–5.1.4: p. 135. Constrained roads: pp. 250–251.
+Read the County policy and full criteria
+Visual
+Split the screen into two sides:
+COMMUNITY PLAN GOAL
+Protect Water Resources
+VS
+ACTUAL TOOLS
+Limited Water/Wastewater Options
+Countywide Pathways Excluded
+At the bottom:
+Protecting water resources requires a planning framework that can respond to actual problems when they arise.
+OPEN THE DOOR TO PREVENTION. Protecting water should mean evaluating every suitable tool before a problem becomes a crisis.
+Source: County Comprehensive Plan One Water and Mobility. County compilation dated June 26, 2026. One Water 4.3.2–4.3.7: pp. 229–234. Mobility 5.1.2–5.1.4: p. 135. Constrained roads: pp. 250–251.
+Read the County policy and full criteria
+PROTECT RURAL CHARACTER. KEEP WATER OPTIONS OPEN. County policy says utility service cannot justify higher density or incompatible rezoning.
+Source: County Comprehensive Plan One Water and Mobility. County compilation dated June 26, 2026. One Water 4.3.2–4.3.7: pp. 229–234. Mobility 5.1.2–5.1.4: p. 135. Constrained roads: pp. 250–251.
+Read the County policy and full criteria
+
+
+Approved W4 visual direction: use the concise “Left out. By choice.” panel below with Merriweather headings, Inter body text, warm white, charcoal and burgundy, and the approved stronger contrast. Preserve its exact wording, original lake strip, three symbols, source line and two policy links. The exact on-screen copy listed after the images remains current; do not restore the earlier alternative supporting passages as website text.
+New image - approved W4 Core Conflict panel, “Left out. By choice.” Current website reference.
+ Approved W4 concise Core Conflict panel with exact existing copy, lake strip and three symbols. 
+
+Exact on-screen copy for the approved concise Core Conflict panel:
+LEFT OUT. BY CHOICE.
+In 2024, the County expanded rural water and sewer options. Commissioners excluded Keystone–Odessa from several of them.
+STAFF SUPPORTED CONSISTENCY
+Planning staff said safeguards addressed development concerns. Commissioners chose exclusion.
+Read the 2024 staff report →
+HEALTH. SAFETY. WELFARE.
+One excluded utility review weighs these public interests. Why exclude Keystone–Odessa?
+Read Policies 4.3.5 and 4.3.7 →
+REVERSE THE EXCLUSIONS. OPEN THE OPTIONS.
+Sources: HC/CPA 23-18 • May 9, 2024 Board minutes • One Water 4.3.5 and 4.3.7. Keep the longer supporting research and source qualifications above.
+________________
+
+
+08 - COMMUNITY PLAN VS COUNTY COMPREHENSIVE PLAN
+Two Approaches to the Same Issue
+KEYSTONE–ODESSA COMMUNITY PLAN
+	HILLSBOROUGH COUNTY COMPREHENSIVE PLAN
+	Relies heavily on private wells and septic
+	Has a broader water & wastewater framework
+	Limits some utility extensions
+	Has pathways for some environmental conditions
+	Does not have a specific equivalent safeguard for septic concentration
+	Has a pathway related to septic concentration under specified conditions
+	Some Countywide pathways are excluded
+	Has tools related to wellhead/wellfield protection
+	Water protection is a goal, but response options are more limited
+	Combines resource protection with infrastructure response
+	Visual
+Approved W5 visual direction: use the Water comparison summary below. Keep the large, bold two-column table with the approved burgundy and charcoal headers, Merriweather headings and Inter body text. Preserve the exact wording, all ten comparison symbols, original header picture crops, full-comparison link and Water menu labels. The separate full Water comparison section is unchanged.
+CTA
+View the Full Water & Wastewater Comparison →
+
+
+New image - approved W5 Water comparison summary layout. Current website reference.
+ Approved W5 Water comparison summary visual layout, existing main copy and source artwork preserved. 
+
+________________
+
+
+09 - EVIDENCE
+See the Data and Records Behind the Issue
+Do not turn this into a huge library. Only present the strongest sources as cards:
+Septic Data — FLWMI Odessa ZIP 33556
+Repair Records — EHDConst–Repair 1998–2023
+Water & Well Maps — Wells, groundwater and protection areas
+Public Records — Water/wastewater infrastructure and monitoring records
+Planning Policies — Community Plan + One Water + County Comprehensive Plan
+Each card includes:
+Short Finding → Source → Date → View Original Document
+________________
+
+
+10 - WHAT'S NEXT
+Water is part of a larger issue.
+The Community Plan rules also affect growth, infrastructure, housing, and access to everyday services.
+Next:
+Growth, Infrastructure & Daily Life →
+
+
+
+
+Approved W7 visual direction: use the Water Evidence and What’s Next layout below, with Merriweather headings, Inter body text and the approved colours. Preserve all five evidence cards, original picture strips and symbols, exact displayed copy, links and lower next-section panel. This is a design approval only. Figures, source dates and “latest available” labels still require verification before publication. Treat septic inventory values as source classification rows and construction/repair entries as administrative records; do not infer unique properties or confirmed failures. Confirm map scope and artwork provenance separately. These are internal verification instructions, not additional website copy.
+New image - approved W7 Water Evidence and What’s Next layout. Current website reference.
+ Approved W7 Water Evidence and What’s Next visual layout, existing main copy and source artwork preserved. 
+
+
+
+
+
+PAGE 05 — GROWTH, INFRASTRUCTURE & DAILY LIFE
+This is a very important page because it shows that the Community Plan does not only affect roads and water; the rules about density, land, and development also directly affect housing, distance to services, travel needs, and the ability of infrastructure to keep up with the community.
+The Master Assessment clearly identified this chain: a low-density pattern makes housing more spread out → services are farther away → greater dependence on cars → longer trips → more traffic pressure. 
+________________
+
+
+1. PAGE PURPOSE
+Growth, Infrastructure & Daily Life must answer one question:
+How are the rules created to keep Keystone–Odessa at a very low density affecting life today?
+Page Flow
+Community Has Changed → Growth Rules Remain Restrictive → Five-Acre/Low-Density Pattern → Spread-Out Housing → Services Farther Away → More Travel → More Pressure on Infrastructure → Community Plan vs County Plan → Health/Safety/Welfare
+________________
+
+
+2. HERO — THE CORE ISSUE
+Label
+GROWTH & DAILY LIFE
+Heading
+The community has changed. Planning needs to keep up.
+The Keystone–Odessa Community Plan maintains a very-low-density development pattern and limits where many commercial activities can be located and how large they can be. These rules affect housing, distance to services, travel needs, and the ability to provide infrastructure efficiently.
+Visual
+A split image/map:
+KEYSTONE–ODESSA WHEN THE COMMUNITY PLAN WAS CREATED ↔ KEYSTONE–ODESSA TODAY
+Show residential areas, subdivisions, roads, services, and development.
+The Master Assessment also specifically recommends the visual “Keystone then vs Keystone today” to show how population, development, traffic, and infrastructure have changed. 
+Editorial verification before launch: the population and housing counts in this legacy mockup are unverified sample data. Replace with verified, cited figures or omit them before publication.
+Fake data. Official data request pending. I will implement before publication.
+Approved G1 is a private placeholder only. Keep the exact red note and all ten displayed sample cells for this private design reference. The figures and conceptual then/today comparison must be replaced or resolved before publication. No official or proxy values have been introduced. The official data request was sent to Plan Hillsborough on October 18, 2026; its response is pending. The private sample figures remain unverified.
+New image - approved G1 private sample-data reference. PRIVATE PLACEHOLDER ONLY. Not a publication-ready demographic comparison.
+ Approved G1 private sample-data reference. PRIVATE PLACEHOLDER ONLY. Not a publication-ready demographic comparison. 
+
+________________
+
+
+3. THE COMMUNITY PLAN KEEPS DEVELOPMENT DENSITY VERY LOW
+Are we protecting nature, or protecting one way of building?
+The Plan favors a density of one home per five gross acres and discourages amendments to higher density.
+Policy summary: Keystone–Odessa Community Plan, Residential provisions. Source: Livable Communities Element, page 20, https://planhillsborough.org/wp-content/uploads/2025/12/LIVABLE-COMMUNITIES.pdf .
+Visual
+Visually compare the same amount of land:
+5-acre pattern ↔ Moderate low-density pattern
+Below, show:
+Five questions the five-acre preference should have to answer: Land use — Is this the best use of land? Housing choice — Which options should residents have? Infrastructure — What are the real service costs? Daily services — Can daily needs be closer to home? Travel choices — Can trips be shorter or less car-dependent?
+
+
+This should be one of the main visuals in Growth, Infrastructure & Daily Life.
+
+
+Visual
+Use the approved two-panel G2 illustration: the five-acre pattern on the left and the moderate low-density pattern on the right, comparing the same amount of land. Preserve the exact current on-screen copy, natural rural-lane artwork, left-only “10 homes on 50 acres” label and conceptual qualification. Do not add a third scenario card or an additional map to this selected comparison.
+
+
+Current on-screen copy for the selected image
+Left panel: FIVE ACRES. ONE HOME. | A density preference worth challenging. | ILLUSTRATIVE — 10 homes on 50 acres | OUR VIEW — Calling a pattern “rural” does not settle whether it serves today’s community. The five-acre preference deserves scrutiny, not automatic deference.
+Right panel: RURAL CHARACTER. MORE CHOICE. | Give alternatives a fair hearing. | Same amount of land | OUR VIEW — Protect rural character. Demand a fair test of alternatives. Conservation, infrastructure and residents’ needs should drive the decision.
+The label “10 homes on 50 acres” belongs only on the left. Retain the conceptual-illustration qualification.
+Selected image — Natural Rural Density Comparison
+Visual direction: give both examples comparable natural character and tree cover. Show narrow, unobtrusive rural lanes on the right while preserving the homes, lot comparison, and labels.
+Approved G2 visual direction: use the exact concise policy summary, advocacy headline, two OUR VIEW panels and five questions shown below. Preserve the original rural-lane illustrations, lot geometry, symbols and same-land comparison. “10 homes on 50 acres” stays only on the left and remains illustrative. “Favors” describes a policy preference; do not add an absolute ban on clustering or claim guaranteed conservation, affordability, traffic or infrastructure benefits. No global section renumbering is authorized.
+New image - approved G2 low-density comparison. Current website reference.
+ Approved G2 low-density comparison. Current website reference. 
+
+Conceptual illustration, not a measured or engineered site plan. Actual development yield depends on applicable rules and site conditions.
+Changes to permitted density would still require the applicable policy and zoning approvals.
+________________
+
+
+________________
+
+
+7. COMMUNITY PLAN VS COUNTY COMPREHENSIVE PLAN
+Two Approaches to Growth and Development
+KEYSTONE–ODESSA COMMUNITY PLAN
+	HILLSBOROUGH COUNTY COMPREHENSIVE PLAN
+	Emphasizes a very-low-density rural pattern
+	Plans land use through a countywide framework that considers growth, development, and infrastructure together
+	Policies of approximately 1 dwelling / 5 acres in the relevant areas
+	Provides additional land-use and development tools for evaluating how and where development can occur
+	Limits commercial development by location, scale, and rural character
+	Allows service and development needs to be evaluated together with land use and infrastructure
+	Limits the ability of the development pattern to adapt
+	Allows growth to be evaluated together with infrastructure and planning standards
+	This section is only a comparison summary. Detailed policy analysis is reserved for the Full Comparison Page.
+CTA
+View the Growth & Development Comparison →
+Approved G4 visual direction: use the Growth plan comparison below with Merriweather headings, Inter body text and the approved colours. Remove both outer illustration panels and their overlaid captions: “Keystone–Odessa Community Plan Area”, “Large lots, rural character, spread-out development”, “Hillsborough County (Countywide Context)” and “Broader land-use framework for growth and development”. Retain the complete central comparison table, including its column headings, all row wording and symbols, plus the headline, header, footer and detailed-comparison block. This is a summary comparison; the full policy analysis remains separate.
+New image - approved G4 Growth plan comparison layout. Current website reference.
+ Approved G4 Growth plan comparison visual layout, existing main copy and source artwork preserved. 
+
+________________
+
+
+8. EVIDENCE
+See the Evidence Behind the Issue
+Display the main groups of documents:
+Community Plan — Density, rural character, commercial policies
+Land-Use Maps — Residential pattern & development
+Housing Data — Lots, housing units & development
+Service Map — Grocery, healthcare, childcare & employment
+Travel Data — Distances, drive times & traffic
+Infrastructure Records — Roads, utilities, drainage & development
+Each card:
+Main Finding → Source → Date → View Document/Map
+Approved G5 visual direction: use the six-card Growth evidence layout below with Merriweather headings, Inter body text and the approved colours. Preserve all six categories, wording, artwork, symbols and link labels in the existing three-by-two arrangement. Retain the lower Outdated Community Plan transition, its wording and image. This visual approval does not authenticate the illustrated documents, maps or data; existing source-verification requirements still apply. Preserve the approved link destinations and current static-preview limits.
+New image - approved G5 Growth evidence layout. Current website reference.
+ Approved G5 Growth evidence visual layout, existing main copy and source artwork preserved. 
+
+________________
+
+
+9. END OF PAGE
+
+
+Roads & Safety, Water & Septic, and Growth, Infrastructure & Daily Life introduce the three major groups of consequences.
+On-screen continuation: Outdated Community Plan. Link: Learn About the Community Plan →. Destination: the existing Outdated Community Plan issue overview and Community Plan vs. County Comprehensive Plan comparison.
+PAGE 06 — COMMUNITY PLAN VS. COUNTY COMPREHENSIVE PLAN
+1. PAGE PURPOSE
+This page places the Keystone–Odessa Community Plan and the Hillsborough County Comprehensive Plan side by side so residents can clearly see:
+* What additional restrictions or requirements the Community Plan adds.
+* What policies and tools the Countywide framework already has for health, safety, infrastructure, environment, and development.
+* Removing the Community Plan layer would change the planning framework; it would not leave Keystone–Odessa without planning rules.
+* How these differences relate to the issues demonstrated on Pages 3–5.
+The current comparison sheet is also built according to this exact structure:
+Keystone–Odessa Plan → reason for change → source → County Plan → Countywide policies supporting health/safety/welfare → source.
+Page Flow
+Two Existing Frameworks → What the Community Plan Adds → Issue-by-Issue Comparison → What Tools the County Framework Has → What Changes if the Community Plan Is Removed → Lead to Proposed Change
+________________
+
+
+2. COMPARISON 01 — ROADS & SAFETY
+________________
+
+
+Current on-screen text — Roads & Safety Comparison
+SHOULD THE LOOK OF A ROAD MATTER MORE THAN THE SAFETY OF THE PEOPLE USING IT?
+We can value rural character and still question the restrictions that shape our roads.
+COMMUNITY PLAN
+	COUNTY FRAMEWORK
+	ROAD DESIGN
+	WHY LIMIT THE OPTIONS BEFORE ASSESSING THE NEED?
+The Community Plan prioritizes rural, two-lane road character and limits certain changes.
+	ASSESS SAFETY, MOBILITY AND LOCAL CONDITIONS.
+Countywide policies address road-user needs and context-sensitive design.
+	GUNN HIGHWAY
+	SHOULD A ROAD RESTRICTION BE BEYOND QUESTION?
+Gunn Highway is subject to expansion restrictions.
+	REASSESS THE RESTRICTIONS.
+County policy calls for reevaluating constrained roads before each long-range transportation plan update.
+	LIGHTING
+	DOES SOMEONE HAVE TO GET HURT FIRST?
+The Community Plan discourages street lighting and allows it when public safety is at risk.
+	LIGHTING CAN RESPECT ITS SURROUNDINGS.
+County policies address context-sensitive lighting and intersection visibility.
+	WALKING AND CROSSINGS
+	WHY SHOULD RURAL CHARACTER LIMIT THE DISCUSSION?
+The Community Plan permits specified improvements and supports trails while retaining rural road character.
+	MAKE PEOPLE’S NEEDS CENTRAL TO THE ASSESSMENT.
+County policies address crossing visibility, walking, cycling and safe routes to schools.
+	PROTECT THE CHARACTER OF THE AREA. QUESTION THE RULES THAT GOVERN ITS ROADS.
+Countywide policies already apply. Retiring the Community Plan and changing related restrictions would not automatically approve or fund road projects.
+View the Full Roads Comparison →
+Approved R1 visual direction: use the new Roads & Safety comparison below. Keep the photograph only at the top right, the two comparison columns, all eight original row symbols, the approved bold table text and all existing main copy. Do not place photographs in the comparison table. Match the shown Merriweather headings, Inter body text, colors, illustration, qualification and CTA. Retain the Gunn Highway photo caption “Gunn Highway · April 20, 2016” and “Photo: Alex Nitzman / AARoads” with its source link. Public photo reuse permission is still required before publication. This approval applies only to this Roads & Safety comparison.
+New image - approved Roads & Safety comparison with one top-right photograph, original table symbols and no table photographs. Current website reference.
+ Approved R1 Roads & Safety comparison. Photograph only in top-right hero; eight table symbols retained, no table photographs. 
+
+________________
+
+
+3. COMPARISON 02 — WATER & WASTEWATER
+From Infrastructure Limits to More Response Tools
+COMMUNITY PLAN
+* Emphasizes the protection of water resources.
+* Relies heavily on wells/septic.
+* Places specific limits on public water/wastewater.
+* Some Countywide response pathways do not apply in the same way within the boundary.
+COUNTY FRAMEWORK
+* Has a broader water/wastewater planning framework.
+* Has policies related to environmental conditions.
+* Has pathways related to septic concentration under specified conditions.
+* Has tools related to wellhead/wellfield protection.
+Central Visual
+SAME PROBLEM
+Septic · Groundwater · Wellfield
+↓
+COMMUNITY PLAN
+Fewer response pathways
+↔
+COUNTY FRAMEWORK
+Broader response toolbox
+CTA
+View the Full Water Comparison →
+
+
+Current on-screen copy for the selected image
+COMMUNITY PLAN
+Emphasizes water protection but has more limited infrastructure response options.
+Makes protection of water resources a priority, but does not contain the same requirement to consider soil conditions and permeability.
+Does not contain a comparable policy for aging or failing septic systems.
+Does not create a specific septic/wastewater response for wellhead or wellfield protection areas.
+Calls for stormwater management plans, but does not set the same technical standard for cumulative flooding and water quality.
+COUNTY FRAMEWORK
+Provides a broader planning framework and specific response tools.
+Requires development decisions to consider physical land and soil conditions, including permeability.
+Provides a pathway to respond when septic creates a documented environmental problem.
+Allows centralized service in certain Wellhead Resource Protection Areas and Tampa Bay Water Wellfield Mitigation Areas when conditions are met.
+Requires stormwater technical standards to address cumulative impacts on flooding and water quality.
+KEYSTONE–ODESSA LIMIT
+One Water Policy 4.3.7 excludes properties within the Keystone–Odessa Community Plan boundary from the wellhead/wellfield pathway described above.
+The County framework provides more specific tools to respond to current water, septic, groundwater, and stormwater conditions.
+View the Full Water Comparison →
+Approved W8 visual direction: use the full Water & Wastewater comparison below, with Merriweather headings, Inter body text, the large bold two-column table and the approved warm-white, charcoal and burgundy treatment. Preserve the original artwork, all eight comparison symbols, headings, policy rows, boundary-limit note and links. The County Framework subtitle reads “Provides a broader planning framework and specific response tools.” The closing sentence retains its separate wording “more specific tools”. No other wording changes are authorized by this approval.
+New image - approved W8 Full Water comparison layout. Current website reference.
+ Approved W8 Full Water comparison visual layout, existing main copy and source artwork preserved. 
+
+________________
+
+
+4. COMPARISON 03 — GROWTH & HOUSING
+Where is the plan for homes people can afford?
+COMMUNITY PLAN
+* Uses approximately one dwelling unit per five acres in the relevant areas.
+* Favors a low-density, scattered residential pattern.
+The residential section discourages higher-density amendments. Where is its explicit commitment to housing affordability?
+* The residential policies focus strongly on maintaining the area’s rural development pattern.
+COUNTY FRAMEWORK
+* Uses mapped land-use categories that establish maximum densities and intensities.
+* Rural density limits still apply, including the general one dwelling per five gross acres policy, with specified exceptions.
+* Has housing goals and policies related to housing choice and affordability.
+* Supports tools including infill, small lots, accessory homes, and different housing types, with adequate infrastructure.
+Result to Show
+Protecting rural character matters. So does whether people can afford a home. A community plan should address both.
+Approved H1 visual direction: use the new Growth & Housing comparison below. Keep its two large burgundy comparison tables, all eight original small symbols, the small footer illustration, exact comparison CTA and approved wording. Use Merriweather headings and Inter body text with the shown warm-white, charcoal and burgundy styling. Omit the large row illustrations and top-right header photograph. This approval applies only to Comparison 03 Growth & Housing; the separate density comparison and other sections remain as selected.
+CTA
+View the Full Growth & Housing Comparison →
+________________
+
+
+New image - approved H1 Growth & Housing comparison with original symbols and no header photograph. Current website reference.
+ New image - approved H1 Growth & Housing comparison with original symbols and no header photograph. Current website reference. 
+
+________________
+
+
+9. IF THE COMMUNITY PLAN IS REMOVED, WHAT REMAINS?
+This should be the most important visual in Community Plan vs. County Comprehensive Plan because it addresses a question residents are very likely to have:
+Keystone–Odessa will still be planned and managed.
+Visual
+REMOVE
+KEYSTONE–ODESSA COMMUNITY PLAN
+Area-specific policy layer
+↓
+REMAINS
+HILLSBOROUGH COUNTY COMPREHENSIVE PLAN
+LAND DEVELOPMENT CODE
+FUTURE LAND USE POLICIES
+MOBILITY & SAFETY POLICIES
+WATER & ENVIRONMENTAL POLICIES
+ZONING & DEVELOPMENT STANDARDS
+APPLICABLE HEALTH / ENGINEERING / ENVIRONMENTAL STANDARDS
+The project’s comparison material describes the central request in exactly this direction: remove the Community Plan as a separate policy layer and have decisions governed by the County Comprehensive Plan, Land Development Code, and current standards.
+Message to Highlight
+The proposed change is a change to the policy layer that applies to Keystone–Odessa. The Countywide planning framework continues to apply.
+RETIRE THE EXTRA PLAN. KEEP THE PROTECTIONS. Ask the County to retire the separate Community Plan, reconsider related restrictions and retain enforceable safeguards through the amendment process.
+Implementation: place the preceding existing campaign passage, followed by its source and policy link, below the C1 diagram and lower explanation panel and above the footer, exactly as shown in the complete selected reference. Retain the diagram and headline and include the passage only once.
+Source: Livable Communities Element. Livable Communities compilation dated June 26, 2026. Effective dates: p. 3. County framework relationship: pp. 4–5. Keystone–Odessa: pp. 17–27. Transportation and lighting: p. 24.
+Read the Community Plan
+Approved C1 visual direction: use the complete selected layout and real Lake Keystone-area aerial below. Keep all main wording and the policy-layer diagram. Place the existing “RETIRE THE EXTRA PLAN. KEEP THE PROTECTIONS.” passage, its complete source and “Read the Community Plan” link below the diagram and lower explanation panel, immediately above the footer, exactly as shown. Implement the passage once in this location and preserve its wording.
+Photo source: Coldwell Banker, 17924 Simms Road, https://www.coldwellbankerluxury.com/properties/46WJLX/17924-simms-road . Preserve the StellarMLS watermark and visible caption. November 19, 2025 is metadata, not an independently verified capture date. Photographer and public-use permission remain unverified. The scene provides local context, not a boundary map or guarantee of future land protection.
+Current image - approved complete C1 plan comparison with the real aerial and existing campaign passage above the footer.
+ Approved complete C1 comparison with existing campaign passage above footer. 
+
+________________
+
+
+
+
+PAGE 08 — EVIDENCE & RECORDS
+1. PAGE PURPOSE
+
+
+Evidence & Records is the evidence center of the entire website, bringing together the data, maps, public records, Community Plan, County policies, and official documents used throughout the issue and comparison sections.
+This page must help visitors:
+* Check the facts behind the issues presented on the website.
+* View the data, maps, and public records directly.
+* Understand what each source proves.
+* Go from a finding on the website to the original document.
+
+
+Evidence & Records does not analyze Roads, Water, or Growth again. Roads & Safety, Water & Septic, and Growth, Infrastructure & Daily Life already do that. Evidence & Records serves as the evidence hub.
+________________
+
+
+1. EXPLORE EVIDENCE BY ISSUE
+
+
+This should be the main navigation of Evidence & Records.
+Use 4 groups:
+ROADS & SAFETY
+Data: Crash · Severity · Traffic · Speed
+Maps: Road Network · Corridors · Intersections · Community Plan Boundary
+Records: Projects · Studies · Agency Responses
+Policies: Gunn Highway · Road Configuration · Lighting
+View Road Evidence →
+WATER & SEPTIC
+Data: Septic Classification · Repair Records
+Maps: Septic · Wells · Groundwater · Wellfield/Wellhead · Lakes & Wetlands
+Records: Water Infrastructure · Drainage · Monitoring
+Policies: Community Plan · One Water · Water/Wastewater Policies
+View Water Evidence →
+GROWTH, HOUSING & SERVICES
+Data: Housing · Lots · Development · Travel
+Maps: Land Use · Residential Pattern · Services · Infrastructure
+Records: Development & Infrastructure Records
+Policies: Density · Commercial Development · Future Land Use
+View Growth Evidence →
+COMMUNITY PLAN & COUNTY FRAMEWORK
+Documents: Community Plan · Comprehensive Plan · Land Development Code
+Policies: Roads · Water · Growth · Housing · Infrastructure · Environment
+Comparison: Policy → Practical Effect → County Framework → Source
+View Planning Documents →
+
+
+This structure directly matches Community Plan vs. County Comprehensive Plan, where evidence is organized by Roads, Water, Growth, Housing, Commercial Development, Infrastructure, Environment, and Rural Character.
+Approved navigation (October 17, 2026): on Evidence & Records, move the existing red active underline from Issues to The Facts. Preserve all menu labels, positions, colors, sizes and page content.
+Approved R3 Evidence visual: use the new four-card Evidence page below, with Merriweather headings and Inter body text. Retain The Facts as the active navigation item and preserve all main issue copy and button labels. Card 1 uses the Gunn Highway, Keystone photograph credited to Alex Nitzman / AARoads, April 20, 2016. Card 2 uses Lake Rogers, Odessa, credited to Florida Hikes, with photo date unverified. Card 3 uses the neutral planning symbol, labeled “Planning symbol · not a geographic map”. Card 4 uses the two-plan illustration, labeled “Illustration · not original document covers”. Preserve the displayed photo credits and source links. These references are approved for this private blueprint; public photo reuse rights still need clearance before publication. This approval is limited to the Evidence opening and its four cards.
+New image - approved R3 Evidence page with local road and lake photographs, neutral planning symbol and two-plan illustration. Current website reference.
+ New image - approved R3 Evidence page with local road and lake photographs, neutral planning symbol and two-plan illustration. Current website reference. 
+
+________________
+
+
+
+
+2. EVIDENCE LIBRARY
+This is the section for people who want to go deeper.
+Find All Data and Documents
+Demo: browse the selected source cards and supplied document links. Displayed subtitle: “Search and browse the full collection of data, maps, public records, planning documents, and studies related to Keystone–Odessa.”
+Static preview control labels only. Do not implement live filtering, search or sorting.
+Topic:
+Source Type:
+Agency
+Year
+Each Result:
+Document Name
+Document Type · Agency · Date
+The website uses this document to: [short description]
+View the Original Document →
+Demo: use a fixed list of available source cards; the upper part of Evidence & Records remains visual and easy to understand.
+Editorial verification before launch: the library result count and example record metadata are illustrative. Verify the real inventory and each source before publication; the mockup is not evidence of 124 actual results.
+For the first demo, retain the image and use static previews or simple page links only.
+Approved E1 visual direction: use the Evidence Library layout below with Merriweather headings, Inter body text and the approved colours. Preserve the five source cards, artwork and button labels. The “124 results”, pagination and example record metadata are demonstration content, not a verified inventory. Keep the existing editorial verification warning and static-preview limits for filter, search and sorting controls. This approval covers the visual layout only.
+Approved original-source link requirement: each Evidence Library card and its “View the Original Document” action must open the verified original public source. Do not store or serve document copies on this website. Do not expose private Drive files, email attachments or private download links. If the original public link is missing or unverified, flag it for the owner rather than inventing a URL or publishing a copy. This instruction does not authorize publishing source material or changing source-file permissions.
+New image - approved E1 Evidence Library layout. Current website reference.
+ Approved E1 Evidence Library visual layout, existing main copy and source artwork preserved. 
+
+________________
+
+
+
+
+________________
+
+
+PAGE 09 — ACTION: YOUR VOICE CAN CREATE CHANGE
+PAGE PURPOSE
+This is the final step in the website’s main journey. After visitors have:
+seen the problems → understood each issue → viewed the data, maps, and records → understood how the Community Plan affects the community → compared the two planning frameworks → understood the proposed direction for change,
+Action moves them toward specific actions.
+The page should create the feeling:
+“I understand the issue. What can I do now?”
+________________
+
+
+1. HERO — YOUR VOICE CAN HELP SHAPE THE FUTURE OF KEYSTONE–ODESSA
+Headline
+DEMAND CHANGE. RETIRE THE KEYSTONE–ODESSA COMMUNITY PLAN.
+Content
+Keystone–Odessa needs a planning framework that puts the health, safety, and welfare of residents first.
+Visual
+A community-focused image of Keystone–Odessa: residents, families, neighborhoods, or the local landscape.
+Avoid reusing “problem” visuals such as crashes, septic, or dangerous roads because Action focuses on community participation.
+
+
+Approved A1 visual direction: use the Take Action opening below with the family illustration beside the headline, Merriweather headings, Inter body text and the approved warm-white, charcoal and burgundy treatment. Preserve the exact headline, supporting sentence and Take Action link. The previously removed paragraph remains omitted. This approval covers the opening only; the following action options, supporter form and petition keep their existing approved specifications.
+New image - approved A1 Take Action opening layout. Current website reference.
+ Approved A1 Take Action opening visual layout, existing main copy and source artwork preserved. 
+
+________________
+
+
+2. THREE MAIN ACTIONS
+This is the central section of Action. Display it as 3 large blocks, with each block leading to one clear action.
+01 — ADD YOUR SUPPORT
+Support a safer and more appropriate planning framework for Keystone–Odessa.
+Residents can show their support for replacing the current Keystone–Odessa Community Plan policy layer with the Countywide planning framework, together with the necessary protections presented in the Proposal section.
+THE COUNTY CAN CHANGE COURSE. The 2024 minutes record the Board’s ability to include the area in the future. Ask commissioners to reopen that decision.
+Read the Board’s May 9, 2024 discussion — pages 39–40
+Additional record: In its September 23, 2026 response, Planning Commission staff reported that the Board had not requested work on a Keystone–Odessa update. This is a dated status response.
+Read the September 23, 2026 agency response
+Button
+Become a supporter and stay updated →
+When clicked, “Become a supporter and stay updated” opens the supporter application directly. “Read and sign the petition” remains a separate existing action; do not add an intermediate choice screen.
+This must be the most prominent CTA on the page.
+SUPPORTER APPLICATION — ONE COMBINED FORM
+Placement: Action → 01 — ADD YOUR SUPPORT. Offer two separate routes: “Become a supporter and stay updated” opens this combined application; “Read and sign the petition” opens the exact approved petition and its own signing process.
+The application below keeps the wording, options, fields, declarations and signature/date from all three supplied paper forms. Only the three audience choices are brought together. The form below is one continuous online form.
+First-version supporter form implementation
+Implement real selectable checkboxes for the three existing audience choices, allowing whichever choices apply. Start all choices unselected. Make the four participation choices and the Email / Text / Call choices selectable, preserving their exact paper wording. Do not add an “Other” choice or replace SIGNATURE with a consent checkbox.
+Implement typed entry controls for the existing paper information fields. Keep STREET ADDRESS optional. PHONE is optional unless Text or Call is selected; then require a phone number and use the approved conditional error below. Preserve all remaining fields, including SIGNATURE and DATE, with an explicit signature entry step and date control. Keep the paper wording, mission, Consent, Privacy and return instructions verbatim. This supporter application is not a petition signature or statutory voting membership.
+Keep the original mission, Consent, Privacy and return instructions visible, verbatim. Do not publish a supporter list or add a donation request. Public submission of any supporter list requires the separate permission promised on the paper forms.
+After the map comparison, add a “Become a supporter” link to this application. Keep “Read the petition” as a separate link. The opening homepage remains unchanged.
+These pages specify the form for the website. They do not activate a live form, collect information or publish the website.
+First-version Send behavior: send the completed supporter application, selected choices and entered paper fields to fixed server-side recipient marinadiesch1@gmail.com. Do not use mailto, browser credentials or a caller-supplied recipient. Show the approved confirmation only after the email provider accepts the complete message for sending; this is not inbox arrival, human review or membership acceptance. Preserve entries on failure or an uncertain result. No supporter register, export dashboard or petition record is included; the forms remain separate.
+Implementation boundary: the H3 supporter-form design and control states are approved, with the warm state 4 confirmation shown below replacing the earlier technical confirmation wording. Preserve all paper-form wording and the separate petition. Any further visible changes require approval. Delivery-provider setup, deployment, accounts and actual emails are not authorized by this document update.
+SAFER COMMUNITIES UNITED
+Supporter Application
+For Keystone-Odessa residents
+☐ I live in Keystone-Odessa.
+For people living in communities adjacent to Keystone
+☐ I live in a community adjacent to Keystone.
+For anyone who travels on Gunn Highway
+☐ I travel on Gunn Highway.
+Safer Communities United is a Florida nonprofit civic organization working to protect the health, safety, and welfare of the people of Keystone-Odessa. We educate the public and advocate for a lawful County process to retire the Keystone-Odessa Community Plan and apply the otherwise applicable policies of the Hillsborough County Comprehensive Plan.
+How I would like to participate
+☐ Receive news and campaign updates
+☐ Volunteer at community outreach events
+☐ Help collect petition signatures
+☐ Learn about formal membership if offered
+Your information
+FULL NAME
+____________________________________________________
+STREET ADDRESS optional
+____________________________________________________
+CITY
+____________________________________________________
+ZIP CODE
+____________________________________________________
+EMAIL
+____________________________________________________
+PHONE optional
+____________________________________________________
+PREFERRED CONTACT
+☐ Email     ☐ Text     ☐ Call
+Consent
+By signing, I ask to join the Safer Communities United supporter network and authorize the organization to contact me about its civic and educational activities. I understand that this form does not create statutory voting membership. Any formal membership will be governed by the corporation's articles, bylaws, and board-approved rules.
+SIGNATURE                                      DATE
+________________________________   _________________
+Privacy: We will use this information only for organizational communications and will not sell it. We will request separate permission before publicly submitting a supporter list. This is not a donation request.
+Return this form to the organizer who provided it.
+Approved supporter form design and control states
+Approved H3 form, state 1. The full form below is the approved blank initial state, with no prefilled entries, options or consent selected and no demo notice. Preserve the paper wording, options, consent, signature, privacy text and separate petition route. The selected feedback states follow. This approval is limited to the supporter form. All three existing supporter categories are optional. Start each category unchecked and permit submission with none selected; do not add a category-selection validation error. Keep the exact existing category wording. Use a typed full name for the existing supporter signature field; do not require drawing with a mouse or finger. Keep the existing visible label and consent unchanged. Before collecting real signatures, review the signing and recordkeeping process; this choice is not a guarantee of legal effect or evidentiary weight.
+ Approved H3 blank initial state with no preselected choices or demo notice. 
+
+Approved supporter feedback states
+Keep the exact approved required-field, sending, warm confirmation and recoverable-failure messages shown below. The old confirmation wording has been removed from this clean edition.
+ Approved H3 RequiredField current-only source panel; no old comparison content. 
+
+ Approved H3 Sending current-only source panel; no old comparison content. 
+
+4. Approved warm confirmation
+ Approved H3 WarmConfirmation current-only source panel; no old comparison content. 
+
+ Approved H3 Failure current-only source panel; no old comparison content. 
+
+State 4 heading: “Thank you for adding your support!” Message: “Your application has been submitted. We’re happy to have you with us as we work toward a safer community.”
+Show this confirmation only after the server receives acceptance from the configured email service to send the completed application to marinadiesch1@gmail.com. This confirms submission for sending, not guaranteed inbox arrival, human review or membership acceptance. Do not show success merely after a click or an unconfirmed request. No supporter database or private register is created in the first version.
+Other approved states: button “Send application”; required-name error “Enter your full name.”; in-progress button “Sending…” and message “Sending your application…”. Disable Send while that request is in progress.
+Recoverable failure: “We couldn’t confirm the send.” “Your entries are still here. Please try again.” Button: “Try again”. Keep entries available for correction or retry.
+All options and consent start unselected. All personal-information, signature and date entries start blank. Keep SIGNATURE and DATE as explicit entries. The approved initial-state reference removes the demo notice; this visual change does not activate delivery or authorize live collection.
+Use the approved H3 layout, Merriweather headings, Inter body text and its warm-white, charcoal and burgundy form styling. Preserve every original audience choice, participation choice, information label, mission, Consent, Privacy and return instruction. Supporter signup and petition signing remain separate.
+Approved supporter inline validation: preserve the blank initial form and existing feedback states. Keep “Enter your full name.” Add “Enter a valid email address.” below EMAIL, “Type your full name to sign.” below SIGNATURE, and “Enter a valid date.” below DATE, only when the corresponding required field needs attention. If Text or Call is selected with an empty phone field, show “Add a phone number or change your contact preference.” below PHONE. Otherwise PHONE remains optional. Preserve all entered values and selections, focus the first invalid field, and associate each displayed error with its field. Do not add a date range, a name word-count rule, a signature-matching rule, a new error summary, a consent checkbox or an optional-field requirement. All three supporter categories stay optional. In the disconnected private preview, simulate these states with fictional data; this approval does not activate email or collection.
+Current image - approved supporter required-field errors. Show only errors applicable to the current entries.
+ h3 required field errors 
+
+Current image - approved conditional phone error. Text is selected solely to illustrate this error; the initial form keeps all choices unselected.
+ h3 conditional phone error 
+
+Current on-screen copy for the selected image
+THREE WAYS TO TAKE ACTION
+THE COUNTY CAN CHANGE COURSE.
+The 2024 minutes record the Board’s ability to include Keystone–Odessa in the future. Ask commissioners to reopen the decision.
+Read the May 9, 2024 minutes →
+RETIRE THE EXTRA PLAN. KEEP THE PROTECTIONS.
+Ask the County to retire the separate Community Plan, reconsider related restrictions and retain enforceable safeguards.
+Become a supporter and stay updated →
+Read and sign the petition →
+SHARE YOUR STORY
+Tell us about roads, water and daily life in Keystone–Odessa.
+SHARE MY STORY →
+SHARE INFORMATION WITH THE COMMUNITY
+Help more residents understand the issues affecting Keystone–Odessa.
+Facebook • Email • Copy Link
+SHARE INFORMATION →
+Retain the image. The approved supporter, A3 story and A6 petition email-only specifications apply; sharing uses a static preview.
+Approved A2 visual direction: use the three action cards below with larger, clearer panels, Merriweather headings, Inter body text and the approved warm-white, charcoal and burgundy treatment. Preserve the original illustrations, numbered badges, symbols, exact wording and all links. Keep “Become a supporter and stay updated” and “Read and sign the petition” as separate actions, following their existing approved destinations. This is a visual-layout approval; the approved supporter, A3 story and A6 petition email-only specifications apply; sharing uses a static preview only.
+New image - approved A2 Three action cards layout. Current website reference.
+ Approved A2 Three action cards visual layout, existing main copy and source artwork preserved. 
+
+________________
+
+
+02 — SHARE YOUR STORY
+Show the community how planning policies affect real life.
+Anyone affected by the Keystone–Odessa Community Plan is welcome to share their experience.
+Roads & Safety • Water & Septic • Traffic • Housing • Infrastructure • Essential Services • Other Community Issues
+Button
+SHARE MY STORY →
+Click → open the approved interactive Share Your Story form. Its invitation includes everyone affected by the Community Plan; no account or residence-only restriction is added.
+Suggested Form
+Name
+Your Connection to the Area (optional)
+Related Issue
+Your Story
+Upload Photo/Document
+Allow the story to be published publicly: Yes / No
+Submit Story
+Approved A3 form: make the displayed controls interactive and deliver the complete story, actual supplied form values, publication choice and every accepted selected attachment to marinadiesch1@gmail.com through a secure server-side email endpoint. Keep the recipient fixed server-side; do not use mailto, browser-held credentials, a notification-only message or a file portal.
+Keep publication choices initially unselected. No or unanswered means private; Yes permits consideration for publication and never triggers automatic publication. Submission does not add the person to the supporter register or mailing list. Keep personal experiences separate from official Evidence & Records.
+This section collects the real-life experiences of anyone affected by the Community Plan. Evidence & Records remains the place for official evidence; keep these content types separate.
+Validate inputs and files, enforce abuse and size controls, privately scan uploads, and use encrypted transport. Reject unsafe or unaccepted attachments without silently dropping them. Keep processing temporary; no dedicated story database, object store, durable outbox or administrative review portal is approved. Provider and mailbox retention must be disclosed accurately.
+Report success only after the provider accepts the complete email with every accepted attachment. Acceptance is not a guarantee of inbox delivery, reading or publication. Preserve the current-page data and identical retry key/payload after an uncertain result; use only the chosen provider’s supported retry window, with no promise of durable recovery.
+The approved full form is the selected page image. No provider, account, credentials, deployment or actual submission is created by this blueprint update. Approved A3 feedback for the disconnected private preview: simulate the four selected states with fictional text only. Confirmation: “Thank you for sharing your story!” and “Your experience helps bring community concerns into focus.” Pending: button “Sending…” and message “Sending your story…”. Validation heading: “Please check these fields.” Related Issue: “Choose a related issue.” Your Story: “Enter your story.” Show only applicable errors. Failure: “We couldn’t confirm the send.” and “Your entries are still here. Please try again.” Button: “Try again”. Keep current-page entries on recoverable failure. These states do not imply real email delivery, publication or enrollment. Live email acceptance and security requirements above remain prerequisites, not actions enabled by this preview approval.
+Attachment controls must validate and privately scan files before emailing every accepted selected attachment with the full story. No silent omission, public file URLs or substitute review link. Preserve all displayed fields and optional connection wording. Start publication Yes / No choices unselected. Resolve upload limits, service providers, privacy disclosure, costs and testing before live collection; any new visible help or error wording needs approval. The Related Issue dropdown has these seven approved choices, in this order: Roads & Safety; Water & Septic; Traffic; Housing; Infrastructure; Essential Services; Other Community Issues. Preserve the approved closed-field appearance.
+New image - approved A3 finished inclusive story form. Current website reference.
+ Approved A3 finished inclusive story form. Current website reference. 
+
+Current image - approved A3 confirmation open state. This is an interaction-state reference, not an additional page section.
+ Approved A3 confirmation open-state reference. 
+
+Current image - approved A3 pending open state. This is an interaction-state reference, not an additional page section.
+ Approved A3 pending open-state reference. 
+
+Current image - approved A3 validation open state. This is an interaction-state reference, not an additional page section.
+ Approved A3 validation open-state reference. 
+
+Current image - approved A3 recoverable failure open state. This is an interaction-state reference, not an additional page section.
+ Approved A3 recoverable failure open-state reference. 
+
+________________
+
+
+03 — SHARE INFORMATION WITH THE COMMUNITY
+Help everyone affected by the Keystone–Odessa Community Plan understand the issues.
+Facebook • Email • Copy Link
+Button
+SHARE INFORMATION →
+Approved A4 interaction: clicking “SHARE INFORMATION →” opens the selected sharing panel over the unchanged page. Match the approved panel title, helper sentence, three choice labels, colours, spacing, dimmed backdrop and × close control. Closing returns to the underlying page. Facebook, Email and Copy Link remain display-only choices in the current private preview: do not open an external share destination, compose or send email, or write to the clipboard. This approval settles the open-state appearance and does not enable actual sharing.
+A short sentence can be included:
+The more fully the community has access to information, the more people can participate in decisions that affect the future of Keystone–Odessa.
+Approved A4 visual direction: use the Share Information with the Community layout below with Merriweather headings, Inter body text and the approved warm-white, charcoal and burgundy treatment. Preserve all wording, sharing choices, symbols and the original device illustration. This approval covers the visual layout only. Keep the existing static-preview instructions; this preview does not submit, upload or send anything.
+Approved A4 wording: “Help everyone affected by the Keystone–Odessa Community Plan understand the issues.” The small sharing panel reads “Help everyone affected learn about the issues and get involved.” Only these two sentences change from the previous approved A4 image. All choices and artwork remain unchanged.
+New image - approved A4 inclusive sharing invitation. Current website reference.
+ Approved A4 inclusive sharing invitation. Current website reference. 
+
+Current image - approved A4 static sharing choices open state. This is an interaction-state reference, not an additional page section.
+ Approved A4 static sharing choices open-state reference. 
+
+________________
+
+
+3. COMMUNITY STORIES — VOICES FROM KEYSTONE–ODESSA
+Demo: retain the selected story-card design with a visible “Illustrative sample stories” label. Do not present sample quotations as authenticated submissions.
+Heading
+STORIES FROM THE COMMUNITY
+Subheading
+Real-life experiences show how planning issues affect the daily lives of Keystone–Odessa residents.
+Display about 3 featured stories as cards:
+ROAD SAFETY
+Short excerpt from the story
+Name or “Keystone–Odessa Resident”
+Read the Story →
+WATER & SEPTIC
+Short excerpt from the story
+Name or “Odessa Resident”
+Read the Story →
+EVERYDAY ACCESS
+Short excerpt from the story
+Name or “Keystone Resident”
+Read the Story →
+At the End of the Section
+VIEW ALL STORIES →. In the private preview, when the full collection is not supplied, open the approved “Not available yet” notice shown after the story states. Use this same notice for other unresolved preview destinations. Preserve the small panel, exact text, dimmed page and × close control; closing returns to the underlying page. Do not invent missing content or redirect to an unrelated destination.
+Editorial verification before launch: these resident quotations and dates are sample testimonial cards, not authenticated submissions. Replace with real stories only after publication permission and approval.
+Approved A5 visual direction: use the Community Stories layout below with Merriweather headings, Inter body text and the approved colours. Preserve the existing pictures, excerpts, labels, dates, symbols and links. Keep “Illustrative sample stories” prominently visible. These are sample testimonial cards, not authenticated submissions. Replace them with genuine stories only after publication permission and approval, following the existing verification requirements. This approval covers the visual design only. Clicking each “Read the Story” opens the corresponding approved sample-excerpt panel shown after the closed view. Preserve the “Illustrative sample stories” label, exact supplied excerpt, attribution and date in each panel; do not invent a full story or present it as authenticated. The × close control returns to the unchanged page.
+New image - approved A5 Community Stories layout. Current website reference.
+ Approved A5 Community Stories visual layout, existing main copy and source artwork preserved. 
+
+Current image - approved A5 sample story Road Safety open state. This is an interaction-state reference, not an additional page section.
+ Approved A5 sample story Road Safety open-state reference. 
+
+Current image - approved A5 sample story Water & Septic open state. This is an interaction-state reference, not an additional page section.
+ Approved A5 sample story Water & Septic open-state reference. 
+
+Current image - approved A5 sample story Everyday Access open state. This is an interaction-state reference, not an additional page section.
+ Approved A5 sample story Everyday Access open-state reference. 
+
+Current image - approved unavailable-destination notice open state. This is an interaction-state reference, not an additional page section.
+ Approved unavailable-destination notice open-state reference. 
+
+________________
+
+
+4. FINAL CTA — TOGETHER TOWARD A SAFER KEYSTONE–ODESSA
+This is the final CTA of the entire website journey.
+Headline
+PUT THE HEALTH, SAFETY, AND WELFARE OF RESIDENTS FIRST.
+A short paragraph reconnecting to the Home page message:
+PUT PEOPLE FIRST. RETIRE THE KEYSTONE–ODESSA COMMUNITY PLAN. Read the evidence, read the petition and add your name to the request for the County to initiate the amendment process. Make the community’s demand impossible to ignore.
+Implementation: place the existing “PUT PEOPLE FIRST. RETIRE THE KEYSTONE–ODESSA COMMUNITY PLAN.” headline and its complete introductory passage immediately above the original landscape-backed petition section, exactly as shown in the complete selected A6 reference. Implement that introduction and the petition once. Present the complete paper wording before the fields. Use the approved typed-full-name petition signature method. Signing and recordkeeping review, privacy, provider and County-delivery checks still gate live collection.
+Primary CTA
+READ AND SIGN THE PETITION →
+Residents, property owners, workers and community supporters can read the full petition and add their support through its own signing process. Signing does not join the supporter network or create statutory voting membership.
+Petition Form 
+SIGN THIS PETITION →
+Petition flow
+Design status: the finished A6 visual and exact Petition_Larger_Text.pdf, September 24 version 3 wording are approved. Preserve the request to remove associated policies and repeal implementing Land Development Code provisions, including Part 3.08.00. This document specifies the build; it does not activate a signature service.
+First version: use real controls for the approved petition fields and explicit support choice, then securely send the completed petition to marinadiesch1@gmail.com through a server-side transactional email provider. Remove the displayed draft/demo/launch notices as shown in the finished visual. Keep the public-records statement unchanged in normal charcoal text. Do not create dedicated petition storage, a register or a durable outbox in this version.
+1  Read the petition
+Keep “Become a supporter and stay updated” and “Read and sign the petition” as separate routes. The supporter application and its existing consent stay unchanged. Petition signing must not enroll someone in that network.
+Show the chosen paper petition in full as selectable, readable text above the fields on desktop and mobile. Preserve its title, recipient, wording, requested actions, signing declaration and independent-civic-petition notice. A summary or download link does not replace the full text.
+SAFER COMMUNITIES UNITED
+Retire the Keystone Odessa Community Plan
+Retire the separate local plan and rely on the Hillsborough County Comprehensive Plan.
+TO THE HILLSBOROUGH COUNTY BOARD OF COUNTY COMMISSIONERS
+We, the undersigned residents, property owners, workers, and community supporters, respectfully request that Hillsborough County initiate a Comprehensive Plan amendment and complete all legally required analysis, notice, and public hearings to retire the Keystone-Odessa Community Plan as a separate community-specific plan. Our goal is for Keystone-Odessa to rely on the otherwise applicable Hillsborough County Comprehensive Plan as its governing planning framework, while all applicable zoning, environmental, infrastructure, and safety protections remain enforceable.
+Why we are asking
+We are concerned that the existing plan contains outdated, unclear, or conflicting provisions; restricts some transportation changes without requiring current safety evidence; and omits measurable protections for emergency access, disability access, safe school travel, private wells and septic systems, and flood resilience. Any replacement policy should protect the rural character and natural resources of Keystone-Odessa while placing the health, safety, and welfare of the people first.
+What the County should do
+• Remove the Keystone-Odessa Community Plan and its associated policies from the Hillsborough County Comprehensive Plan. Repeal implementing Land Development Code provisions, including Part 3.08.00 (Keystone-Odessa Rural Development Standards), through the required public amendment processes. Retain otherwise applicable County protections.
+• Rely on the Hillsborough County Comprehensive Plan as the principal planning framework for Keystone-Odessa.
+• Use current data on crashes, traffic, emergency response, evacuation, flooding, wells, septic systems, accessibility, housing, and environmental conditions.
+• Hold open public meetings and allow all affected residents to participate before making a decision.
+By signing, I support the request above. I understand that this petition may be submitted to public agencies and that my printed name, community or ZIP code, signature, and date may become public records.
+Independent civic petition - not sponsored by Hillsborough County. Please sign only once.
+Recipient verified in both papers: Hillsborough County Board of County Commissioners. Both papers invite residents, property owners, workers and community supporters, and say “Please sign only once.” They do not state an age, voter-registration or residency-only rule. Confirm any additional eligibility or submission requirements before adding them.
+2  Add your details and choose
+Use the paper’s four fields: Printed name; Community or ZIP; Signature; Date. Use the approved typed-full-name signature step. Check accessibility and recipient requirements before live collection; signing and recordkeeping review remains required. Do not add a required email, street address, phone number or comment field without a defined need and approval.
+Required, initially unticked: ☐ I support the petition above. Keep the paper’s declaration directly beside the signing controls, visible before submission:
+By signing, I support the request above. I understand that this petition may be submitted to public agencies and that my printed name, community or ZIP code, signature, and date may become public records.
+Footer from both papers: Independent civic petition - not sponsored by Hillsborough County. Please sign only once.
+Privacy and confirmation
+3  Keep email updates optional
+Approved separate optional choice, requiring working unsubscribe controls: ☐ Email me campaign updates. I can unsubscribe. Start unticked. Keep the email field visible from the initial state, matching the approved image. Email is optional unless the updates choice is selected; require a valid email only when selected, and use it only for that choice. Leaving updates unticked must not prevent petition signing. Do not automatically subscribe signers or import supporter-network consent.
+4  Explain data use before signing
+The paper already warns that printed name, community or ZIP, signature and date may become public records. Keep that warning prominent. Do not promise confidentiality or anonymity. Do not publish signers’ contact details or treat petition consent as permission to display their names on the website.
+Complete this privacy notice before launch: “Your submission is managed by [approved organization/contact]. We collect [approved fields] to record your support and [approved submission purpose]. We may provide [exact fields] to [named recipient/public agencies], where they may become public records. [Approved explanation of optional email use, access, retention and correction/withdrawal requests]. Contact: [working contact].” These brackets are decisions to fill in, not approved promises.
+5  Submit and confirm the actual result
+Button: SIGN THIS PETITION →. Validate the approved fields, explicit support and signature step server-side. Send all entered petition fields, support choice, separate optional-update data, exact petition/consent version, timestamp and correlation reference to fixed recipient marinadiesch1@gmail.com. Keep credentials server-side; use HTTPS, authenticated sender configuration, request-size/rate limits and abuse controls. Do not use mailto or accept a caller-supplied recipient.
+Confirm acceptance only after the provider returns a valid successful response with an email identifier for the complete message. This does not establish inbox delivery, County receipt, identity verification or permanent storage. A correlation reference is not a database lookup or recovery guarantee. Keep any user-facing state wording within its separately approved scope.
+On failure or uncertain outcome, preserve the current-page fields and immutable payload, timestamp, reference and idempotency key. Retry only within the chosen provider’s supported window; do not silently regenerate a key or promise durable duplicate prevention/recovery. Provider and mailbox retention must be disclosed accurately.
+Before enabling signatures
+Before enabling signatures: review the typed-full-name signing and recordkeeping process, and resolve the County delivery process, privacy notice, responsible contact, provider/sender setup and any optional update service; obtain any required setup authorization. Test field mapping, consent, failures, ambiguous retries, duplicate controls, mobile layout and keyboard access with fictional data. This independent civic petition is not an official election/ballot petition or proof of legal sufficiency.
+Approved wording shown in full before the fields. Launch checks remain required. Approved A6 feedback in the disconnected private preview is simulated with fictional text only, using the four selected panels after the complete petition views. Confirmation: “Thank you for adding your voice!” and “Together, we can put the community’s health, safety and welfare first.” Pending: “Sending…” and “Sending your petition response…”. Validation heading: “Please check these fields.” Messages: “Enter your printed name.”; “Enter your community or ZIP code.”; “Type your full name to sign.”; “Enter a valid date.”; “Select this checkbox to sign.”; and, only when updates are selected, “Enter a valid email address if you choose updates.” Show only applicable errors. Failure: “We couldn’t confirm the send.” and “Your entries are still here. Please try again.” Button: “Try again”. Retain current-page entries for retry. Email remains visible and optional unless updates are selected. This preview wording does not establish legal sufficiency, County receipt, actual email delivery or subscription; the approved signature method is typed full name, while signing and recordkeeping review and the existing live-launch checks remain in force.
+Approved A6 complete visual: place the existing “PUT PEOPLE FIRST” introduction above the intact original landscape-backed petition section, as shown in the two continuous views below. Preserve the complete paper wording, four fields, signing declaration, separate optional email-update choice and public-records notice. Keep supporter membership and petition signing separate. Optional updates remain initially unchecked and must not silently subscribe or enroll anyone. No actual backend, provider account, email or deployment is created by this blueprint change.
+Current image - approved complete A6 petition with the existing introduction above it, view 1 of 2. Continue immediately to view 2; this is one continuous website section.
+ Approved complete A6 petition and introduction, continuous view 1 of 2. 
+
+Current image - approved complete A6 petition, view 2 of 2. Continues the first view without repetition; together the two views show the complete image exactly once.
+ Approved complete A6 petition and introduction, continuous view 2 of 2. 
+
+Current image - approved A6 confirmation open state. This is an interaction-state reference, not an additional page section.
+ Approved A6 confirmation open-state reference. 
+
+Current image - approved A6 pending open state. This is an interaction-state reference, not an additional page section.
+ Approved A6 pending open-state reference. 
+
+Current image - approved A6 validation open state. This is an interaction-state reference, not an additional page section.
+ Approved A6 validation open-state reference. 
+
+Current image - approved A6 recoverable failure open state. This is an interaction-state reference, not an additional page section.
+ Approved A6 recoverable failure open-state reference. 
+
+________________
+
+
+
+
+SAFER COMMUNITIES UNITED  •  BLUEPRINT   |

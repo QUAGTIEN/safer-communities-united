@@ -1,0 +1,2533 @@
+{
+  "assets": {
+    "shared-wordmark-navy": {
+      "file": "assets/extracted/shared/shared-wordmark-navy.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "shared",
+      "use": "Header wordmark (all pages)",
+      "source": "blueprint/references/p017-obj42-1536x87.png",
+      "sourceSha256": "ca3adf4ec57751ab483498e313b2b13739bc7bf58116f5b84b0861e9f35fbfd3",
+      "rect": [
+        81,
+        18,
+        229,
+        52
+      ],
+      "scale": 3,
+      "processing": "ink coverage -> alpha, lanczos3 x3, edge levels 0.25-0.75, colour rgb(5,19,55)",
+      "size": [
+        687,
+        156
+      ],
+      "sha256": "b9170ad41e654a7daa46efd112944d77a87af3ae3ab85e67f235f521b9d61d41"
+    },
+    "shared-wordmark-white": {
+      "file": "assets/extracted/shared/shared-wordmark-white.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "shared",
+      "use": "Footer F1 wordmark (same shape as header, recoloured white; footer source p023 is smaller at 180 x 39)",
+      "source": "blueprint/references/p017-obj42-1536x87.png",
+      "sourceSha256": "ca3adf4ec57751ab483498e313b2b13739bc7bf58116f5b84b0861e9f35fbfd3",
+      "rect": [
+        81,
+        18,
+        229,
+        52
+      ],
+      "scale": 3,
+      "processing": "ink coverage -> alpha, lanczos3 x3, edge levels 0.25-0.75, colour rgb(255,255,255)",
+      "size": [
+        687,
+        156
+      ],
+      "sha256": "2f749d16dc56c9f6420937e1c3850c1f9d8fd4d74e766e935ccd1edf894e7e5d"
+    },
+    "home-welcome-sign": {
+      "file": "assets/extracted/home/home-welcome-sign.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "home",
+      "use": "Home opening photo (keystone-odessa-user-sign); full frame as in reference",
+      "source": "blueprint/references/p019-obj48-1536x609.png",
+      "sourceSha256": "c2ca6b9e1cffd8f092e992fbdc3bf4b9bb94f4737c0ebf4ac895119d0c245a02",
+      "rect": [
+        838,
+        50,
+        516,
+        387
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        1032,
+        774
+      ],
+      "sha256": "6ea1a495d541e4a1345a6531f7587c58805e397dd935eef38bc4cb006990849f"
+    },
+    "home-warning-triangle": {
+      "file": "assets/extracted/home/home-warning-triangle.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "home",
+      "use": "Home warning panel icon; keeps the panel's #FCEAEA background around the triangle",
+      "source": "blueprint/references/p019-obj48-1536x609.png",
+      "sourceSha256": "c2ca6b9e1cffd8f092e992fbdc3bf4b9bb94f4737c0ebf4ac895119d0c245a02",
+      "rect": [
+        97,
+        389,
+        69,
+        62
+      ],
+      "scale": 3,
+      "processing": "lanczos3 x3, unsharp sigma 1.2",
+      "size": [
+        207,
+        186
+      ],
+      "sha256": "7385ca6a8dc7700e14dc1faa1d4b8f7b8558f13d43c369e635e17cf879f2fe4f"
+    },
+    "home-card-roads": {
+      "file": "assets/extracted/home/home-card-roads.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "home",
+      "use": "Home card 1 photo (Gunn Highway, Keystone - AARoads 2016)",
+      "source": "blueprint/references/p021-obj53-1536x541.png",
+      "sourceSha256": "1077837ff4a5e22cb699910645fe50540e594016fe0c9dc887ab27ee1d314357",
+      "rect": [
+        43,
+        195,
+        355,
+        115
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        710,
+        230
+      ],
+      "sha256": "52b1476e99a403aae62f173c51e4c97f95438ebb60b8597abe9d23d290d85cf7",
+      "limitation": "Icon circle is baked into the bottom-left corner of the photo"
+    },
+    "home-card-water": {
+      "file": "assets/extracted/home/home-card-water.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "home",
+      "use": "Home card 2 photo (Lake Rogers, Odessa - Florida Hikes)",
+      "source": "blueprint/references/p021-obj53-1536x541.png",
+      "sourceSha256": "1077837ff4a5e22cb699910645fe50540e594016fe0c9dc887ab27ee1d314357",
+      "rect": [
+        413,
+        195,
+        350,
+        115
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        700,
+        230
+      ],
+      "sha256": "7fe40d9c5e131bc8bfee33a4653939b9836368dabbf483bbdba78b4707358513",
+      "limitation": "Icon circle is baked into the bottom-left corner of the photo"
+    },
+    "home-card-everyday-needs": {
+      "file": "assets/extracted/home/home-card-everyday-needs.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "home",
+      "use": "Home card 3 image",
+      "source": "blueprint/references/p021-obj53-1536x541.png",
+      "sourceSha256": "1077837ff4a5e22cb699910645fe50540e594016fe0c9dc887ab27ee1d314357",
+      "rect": [
+        779,
+        163,
+        331,
+        146
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        662,
+        292
+      ],
+      "sha256": "5581022bbef7ed9f8c6f5c319cf0ef89302c21a43fb17f02707b7e392a6f1e05",
+      "limitation": "Icon circle is baked into the bottom-left corner; top corners include the card's rounded-corner background"
+    },
+    "home-card-community-plan": {
+      "file": "assets/extracted/home/home-card-community-plan.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "home",
+      "use": "Home card 4 image (artwork lettering kept)",
+      "source": "blueprint/references/p021-obj53-1536x541.png",
+      "sourceSha256": "1077837ff4a5e22cb699910645fe50540e594016fe0c9dc887ab27ee1d314357",
+      "rect": [
+        1128,
+        163,
+        364,
+        146
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        728,
+        292
+      ],
+      "sha256": "7a14cf913d65193f06b29a6c296b120c1ab8b065dd02f0f0b9c58c5bd27091d3",
+      "limitation": "Icon circle is baked into the bottom-left corner; top corners include the card's rounded-corner background"
+    },
+    "issues-roads-gunn-highway": {
+      "file": "assets/extracted/issues/issues-roads-gunn-highway.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "issues",
+      "use": "Issues Roads & Safety photo (Gunn Highway, Keystone - Alex Nitzman / AARoads, April 20, 2016)",
+      "source": "blueprint/references/p032-obj80-1536x659.png",
+      "sourceSha256": "4c06579d7ac6a8ae2de2d134e30ae9b155b552f3a7b03d6184ed82a08a054424",
+      "rect": [
+        81,
+        167,
+        894,
+        276
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        1788,
+        552
+      ],
+      "sha256": "6dcaa543b825d1e1ec7464e6d05fff4f710b343f256a342bbd4e71280d4bf0d5"
+    },
+    "issues-water-septic-map": {
+      "file": "assets/extracted/issues/issues-water-septic-map.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "issues",
+      "use": "Issues Water & Septic map illustration (legend and labels baked in)",
+      "source": "blueprint/references/p034-obj85-1536x1392.png",
+      "sourceSha256": "924e7940a60ea24e81a9694251f5d90756a57e253bcb2472a31ae24b3a2aa4d4",
+      "rect": [
+        81,
+        548,
+        862,
+        555
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        1724,
+        1110
+      ],
+      "sha256": "48ed0ecc44ddae5dd9c3c91254d73243301b63bc1ab258d11454203fb7b6a0a8"
+    },
+    "issues-water-thumb-septic-concentration": {
+      "file": "assets/extracted/issues/issues-water-thumb-septic-concentration.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "issues",
+      "use": "Issues Key Water & Septic Issues thumbnail: Septic Concentration",
+      "source": "blueprint/references/p034-obj85-1536x1392.png",
+      "sourceSha256": "924e7940a60ea24e81a9694251f5d90756a57e253bcb2472a31ae24b3a2aa4d4",
+      "rect": [
+        976,
+        588,
+        227,
+        85
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        454,
+        170
+      ],
+      "sha256": "4b096123e5cb5a5f7a2cfd36532f11a35eae58ef659fdd391136a2af2aa0d618",
+      "limitation": "Icon circle baked into the image"
+    },
+    "issues-water-thumb-septic-repairs": {
+      "file": "assets/extracted/issues/issues-water-thumb-septic-repairs.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "issues",
+      "use": "Issues thumbnail: Septic Repairs",
+      "source": "blueprint/references/p034-obj85-1536x1392.png",
+      "sourceSha256": "924e7940a60ea24e81a9694251f5d90756a57e253bcb2472a31ae24b3a2aa4d4",
+      "rect": [
+        1228,
+        588,
+        227,
+        85
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        454,
+        170
+      ],
+      "sha256": "229239693ad7d05eaf7dc6285ba452def154fb7dae11f688837f6dd2b4a7b94f",
+      "limitation": "Icon circle baked into the image"
+    },
+    "issues-water-thumb-private-wells": {
+      "file": "assets/extracted/issues/issues-water-thumb-private-wells.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "issues",
+      "use": "Issues thumbnail: Private Wells",
+      "source": "blueprint/references/p034-obj85-1536x1392.png",
+      "sourceSha256": "924e7940a60ea24e81a9694251f5d90756a57e253bcb2472a31ae24b3a2aa4d4",
+      "rect": [
+        976,
+        767,
+        227,
+        85
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        454,
+        170
+      ],
+      "sha256": "3cc264e934fd340215d8fa542a22fb0577e2f44e57927a056c1a16a7aa658afc",
+      "limitation": "Icon circle baked into the image"
+    },
+    "issues-water-thumb-groundwater": {
+      "file": "assets/extracted/issues/issues-water-thumb-groundwater.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "issues",
+      "use": "Issues thumbnail: Groundwater",
+      "source": "blueprint/references/p034-obj85-1536x1392.png",
+      "sourceSha256": "924e7940a60ea24e81a9694251f5d90756a57e253bcb2472a31ae24b3a2aa4d4",
+      "rect": [
+        1228,
+        767,
+        227,
+        85
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        454,
+        170
+      ],
+      "sha256": "a7609b103d1ec94576c7f8cf20ebdc920a31ef8eb405f8c78c79eba954f5257b",
+      "limitation": "Icon circle baked into the image"
+    },
+    "issues-water-thumb-wellfields": {
+      "file": "assets/extracted/issues/issues-water-thumb-wellfields.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "issues",
+      "use": "Issues thumbnail: Wellfields, Lakes & Wetlands",
+      "source": "blueprint/references/p034-obj85-1536x1392.png",
+      "sourceSha256": "924e7940a60ea24e81a9694251f5d90756a57e253bcb2472a31ae24b3a2aa4d4",
+      "rect": [
+        976,
+        947,
+        227,
+        85
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        454,
+        170
+      ],
+      "sha256": "1876160bee184e07d8b2b6ebd3f7b05ef64edf64320228ad15d61ded7f40c157",
+      "limitation": "Icon circle baked into the image"
+    },
+    "issues-water-thumb-infrastructure": {
+      "file": "assets/extracted/issues/issues-water-thumb-infrastructure.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "issues",
+      "use": "Issues thumbnail: Water & Wastewater Infrastructure",
+      "source": "blueprint/references/p034-obj85-1536x1392.png",
+      "sourceSha256": "924e7940a60ea24e81a9694251f5d90756a57e253bcb2472a31ae24b3a2aa4d4",
+      "rect": [
+        1228,
+        947,
+        227,
+        85
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        454,
+        170
+      ],
+      "sha256": "8b52d6c5d1bf020e0f74c5f959a3c5388aea7f5aa9b47eebf3ac8ef14b6908e5",
+      "limitation": "Icon circle baked into the image"
+    },
+    "issues-growth-services-map": {
+      "file": "assets/extracted/issues/issues-growth-services-map.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "issues",
+      "use": "Issues Growth illustration map with schematic service pins (caption: Illustration)",
+      "source": "blueprint/references/p036-obj90-1536x1999.png",
+      "sourceSha256": "1915e1944d84e954648348594d8502df1231b1cf083b795d824f35f7739782cf",
+      "rect": [
+        67,
+        454,
+        733,
+        739
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        1466,
+        1478
+      ],
+      "sha256": "1ba0bd82a84bf593c62fcd03bce50cc8bfca65336f2eb858c8f3d81e70a9d898"
+    },
+    "issues-plan-map": {
+      "file": "assets/extracted/issues/issues-plan-map.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "issues",
+      "use": "Issues Community Plan area map illustration",
+      "source": "blueprint/references/p040-obj99-1536x1189.png",
+      "sourceSha256": "9f4080670f2f19303a718804a56dd18ff50db6f9c9048c75f9e9e2dc9fed4db4",
+      "rect": [
+        46,
+        282,
+        714,
+        518
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        1428,
+        1036
+      ],
+      "sha256": "18b2772bc92534be1baf9fc340d1bdef1b9fbb906e1bae8d2b65e8d8efee48c6"
+    },
+    "issues-plan-2001": {
+      "file": "assets/extracted/issues/issues-plan-2001.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "issues",
+      "use": "Issues Community Plan timeline card 2001 photo",
+      "source": "blueprint/references/p040-obj99-1536x1189.png",
+      "sourceSha256": "9f4080670f2f19303a718804a56dd18ff50db6f9c9048c75f9e9e2dc9fed4db4",
+      "rect": [
+        792,
+        552,
+        201,
+        98
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        402,
+        196
+      ],
+      "sha256": "1a4ff149c4eadbb7b97d19d42f7ec45afdcefb871a946fed7372fdc3d345de86"
+    },
+    "issues-plan-today": {
+      "file": "assets/extracted/issues/issues-plan-today.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "issues",
+      "use": "Issues timeline card TODAY photo",
+      "source": "blueprint/references/p040-obj99-1536x1189.png",
+      "sourceSha256": "9f4080670f2f19303a718804a56dd18ff50db6f9c9048c75f9e9e2dc9fed4db4",
+      "rect": [
+        1040,
+        578,
+        201,
+        72
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        402,
+        144
+      ],
+      "sha256": "1a481844e2bee6f226f05172d3d262ab2f1bb43ff171706a8a3afe7a95869c8f"
+    },
+    "issues-plan-2026": {
+      "file": "assets/extracted/issues/issues-plan-2026.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "issues",
+      "use": "Issues timeline card 2026 photo",
+      "source": "blueprint/references/p040-obj99-1536x1189.png",
+      "sourceSha256": "9f4080670f2f19303a718804a56dd18ff50db6f9c9048c75f9e9e2dc9fed4db4",
+      "rect": [
+        1288,
+        599,
+        201,
+        51
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        402,
+        102
+      ],
+      "sha256": "255e065262b2bf6739ba013b22b896d3f2970d95772486ca813a0e295afba7c3"
+    },
+    "issues-plan-area-roads": {
+      "file": "assets/extracted/issues/issues-plan-area-roads.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "issues",
+      "use": "Issues Areas affected card photo: Roads & Transportation",
+      "source": "blueprint/references/p040-obj99-1536x1189.png",
+      "sourceSha256": "9f4080670f2f19303a718804a56dd18ff50db6f9c9048c75f9e9e2dc9fed4db4",
+      "rect": [
+        46,
+        1064,
+        200,
+        75
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        400,
+        150
+      ],
+      "sha256": "4ba12ea368cc3f3a58c8d109585166ee4f95f698e0539890f68419807479a1d8"
+    },
+    "issues-plan-area-water": {
+      "file": "assets/extracted/issues/issues-plan-area-water.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "issues",
+      "use": "Issues Areas affected card photo: Water & Wastewater",
+      "source": "blueprint/references/p040-obj99-1536x1189.png",
+      "sourceSha256": "9f4080670f2f19303a718804a56dd18ff50db6f9c9048c75f9e9e2dc9fed4db4",
+      "rect": [
+        260,
+        1064,
+        200,
+        75
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        400,
+        150
+      ],
+      "sha256": "3946dd64e904ed712b274f72d4afbcd8daae176ed145b2d880cdecd713a23f52"
+    },
+    "issues-plan-area-growth": {
+      "file": "assets/extracted/issues/issues-plan-area-growth.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "issues",
+      "use": "Issues Areas affected card photo: Growth & Housing",
+      "source": "blueprint/references/p040-obj99-1536x1189.png",
+      "sourceSha256": "9f4080670f2f19303a718804a56dd18ff50db6f9c9048c75f9e9e2dc9fed4db4",
+      "rect": [
+        474,
+        1064,
+        200,
+        75
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        400,
+        150
+      ],
+      "sha256": "61c81c711ea05ec434f6d3bf2e7a7701da4009552a9128a20318f04434a71b0c"
+    },
+    "issues-plan-area-infrastructure": {
+      "file": "assets/extracted/issues/issues-plan-area-infrastructure.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "issues",
+      "use": "Issues Areas affected card photo: Infrastructure & Services",
+      "source": "blueprint/references/p040-obj99-1536x1189.png",
+      "sourceSha256": "9f4080670f2f19303a718804a56dd18ff50db6f9c9048c75f9e9e2dc9fed4db4",
+      "rect": [
+        688,
+        1064,
+        200,
+        75
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        400,
+        150
+      ],
+      "sha256": "0e68c43d3fa9b8eb2a1fc8e4fe997433bffbee98508627ff9324bd401eb688a9"
+    },
+    "issues-connected-roads": {
+      "file": "assets/extracted/issues/issues-connected-roads.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "issues",
+      "use": "Issues Connected column header photo: Roads & Safety",
+      "source": "blueprint/references/p043-obj106-1536x1281.png",
+      "sourceSha256": "4d5aa085f8257a13e318fa91d03440308ae81a913d83c016c56399acf2432943",
+      "rect": [
+        81,
+        432,
+        445,
+        60
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        890,
+        120
+      ],
+      "sha256": "c585bad70ba654fb170a0b3e59ec26bd4f68ed91e28c597ba146f92e19f48879"
+    },
+    "issues-connected-water": {
+      "file": "assets/extracted/issues/issues-connected-water.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "issues",
+      "use": "Issues Connected column header photo: Water & Septic",
+      "source": "blueprint/references/p043-obj106-1536x1281.png",
+      "sourceSha256": "4d5aa085f8257a13e318fa91d03440308ae81a913d83c016c56399acf2432943",
+      "rect": [
+        545,
+        432,
+        445,
+        60
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        890,
+        120
+      ],
+      "sha256": "f0f50cdc5364db9705e7e3831465328d4d07443ad2f31b2f21b2f49e2dfb8110"
+    },
+    "issues-connected-growth": {
+      "file": "assets/extracted/issues/issues-connected-growth.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "issues",
+      "use": "Issues Connected column header photo: Growth & Daily Life",
+      "source": "blueprint/references/p043-obj106-1536x1281.png",
+      "sourceSha256": "4d5aa085f8257a13e318fa91d03440308ae81a913d83c016c56399acf2432943",
+      "rect": [
+        1010,
+        432,
+        445,
+        60
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        890,
+        120
+      ],
+      "sha256": "5b4c488fc88ae638d5d2e3e10b398975c3828ea78afa24201b0fb77253b1de86"
+    },
+    "issues-connected-side-left": {
+      "file": "assets/extracted/issues/issues-connected-side-left.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "issues",
+      "use": "Issues Connected section: visible left edge of the background aerial",
+      "source": "blueprint/references/p043-obj106-1536x1281.png",
+      "sourceSha256": "4d5aa085f8257a13e318fa91d03440308ae81a913d83c016c56399acf2432943",
+      "rect": [
+        0,
+        304,
+        60,
+        715
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        120,
+        1430
+      ],
+      "sha256": "dafaf7338b6db9ef3e23b73290dce5e7b600b76180eb211897ffe51e426114f1",
+      "limitation": "Only the visible edge strip exists; the rest of the background is hidden behind the content"
+    },
+    "issues-connected-side-right": {
+      "file": "assets/extracted/issues/issues-connected-side-right.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "issues",
+      "use": "Issues Connected section: visible right edge of the background aerial",
+      "source": "blueprint/references/p043-obj106-1536x1281.png",
+      "sourceSha256": "4d5aa085f8257a13e318fa91d03440308ae81a913d83c016c56399acf2432943",
+      "rect": [
+        1477,
+        303,
+        59,
+        716
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        118,
+        1432
+      ],
+      "sha256": "62165250c081a991051a18f672b3a4f419ddee2db8f3ffd14f8cc36b89125c85",
+      "limitation": "Only the visible edge strip exists; the rest of the background is hidden behind the content"
+    },
+    "roads-street-lighting": {
+      "file": "assets/extracted/roads/roads-street-lighting.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "roads",
+      "use": "Roads 01 Street Lighting hero image (artwork, not a real event)",
+      "source": "blueprint/references/p051-obj125-1536x1220.png",
+      "sourceSha256": "b4b4dca75f1b61dc2c391096571f8a0594a482df546b69877cecbadb506a3893",
+      "rect": [
+        677,
+        25,
+        778,
+        400
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        1556,
+        800
+      ],
+      "sha256": "50a7bba7f0c069bc5565142ab0a49a9dc5129d2a4c2014ab085d9df7b755278e"
+    },
+    "roads-gunn-photo": {
+      "file": "assets/extracted/roads/roads-gunn-photo.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "roads",
+      "use": "Roads 02 Gunn Highway photo",
+      "source": "blueprint/references/p054-obj132-1536x1308.png",
+      "sourceSha256": "52672e64a645e5d5dab3dbcabbec4846756d811927599ec0b27d43d0a51be0f2",
+      "rect": [
+        81,
+        351,
+        754,
+        264
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        1508,
+        528
+      ],
+      "sha256": "50c76dcf36b46da88766af2c17d6aef75ac0b8133d255bda4d59821d79a83f08"
+    },
+    "roads-gunn-map": {
+      "file": "assets/extracted/roads/roads-gunn-map.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "roads",
+      "use": "Roads 02 Gunn Highway map illustration (labels and legend baked in)",
+      "source": "blueprint/references/p054-obj132-1536x1308.png",
+      "sourceSha256": "52672e64a645e5d5dab3dbcabbec4846756d811927599ec0b27d43d0a51be0f2",
+      "rect": [
+        857,
+        85,
+        598,
+        519
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        1196,
+        1038
+      ],
+      "sha256": "09545941d1a1d44c50edc2a6fd4814d8437d1a8c7ba304962b4a60e982714861"
+    },
+    "roads-walking": {
+      "file": "assets/extracted/roads/roads-walking.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "roads",
+      "use": "Roads 03 Walking, Biking & Crossings image",
+      "source": "blueprint/references/p057-obj139-1536x1433.png",
+      "sourceSha256": "ff4e50659b759f6fe80283022ff918130ed08f13e914deaa0a418a6f856d7259",
+      "rect": [
+        679,
+        83,
+        775,
+        384
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        1550,
+        768
+      ],
+      "sha256": "5e6331d2ff292eee481ccfd864dcc9015c935d6beeebb678a5ef5a4333f1f6a1",
+      "limitation": "The 'Illustration' label is baked into the bottom-right corner"
+    },
+    "roads-emergency": {
+      "file": "assets/extracted/roads/roads-emergency.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "roads",
+      "use": "Roads 04 Emergency Access image (artwork, not a real event)",
+      "source": "blueprint/references/p059-obj144-1536x1173.png",
+      "sourceSha256": "f6f9dadd44861ffa38811ff682f28c13cd3a3ebec5feccea532aaab00cdee28e",
+      "rect": [
+        644,
+        49,
+        811,
+        371
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        1622,
+        742
+      ],
+      "sha256": "1ca2f87f1e30c8f007ff6ee9dd67b60622fb8df4942f36aeab909652c1154315"
+    },
+    "roads-records-safety": {
+      "file": "assets/extracted/roads/roads-records-safety.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "roads",
+      "use": "Roads 06 Records card image: Safety Data",
+      "source": "blueprint/references/p068-obj164-1536x1207.png",
+      "sourceSha256": "a0ff7c5536c1ff2cb8845768908c8f8adcad0bb1b1905007c2187f8c6ae20e2a",
+      "rect": [
+        55,
+        405,
+        259,
+        214
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        518,
+        428
+      ],
+      "sha256": "c7aa441298816bf5dcf497c45d2efbada51a677252c2cde52af139693d73458b"
+    },
+    "roads-records-traffic": {
+      "file": "assets/extracted/roads/roads-records-traffic.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "roads",
+      "use": "Roads 06 Records card image: Traffic Data",
+      "source": "blueprint/references/p068-obj164-1536x1207.png",
+      "sourceSha256": "a0ff7c5536c1ff2cb8845768908c8f8adcad0bb1b1905007c2187f8c6ae20e2a",
+      "rect": [
+        347,
+        405,
+        258,
+        215
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        516,
+        430
+      ],
+      "sha256": "f74e8b396c74b7d4477494a64c3ca5c9b93d250771094d87eb63893dc981fdb2"
+    },
+    "roads-records-maps": {
+      "file": "assets/extracted/roads/roads-records-maps.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "roads",
+      "use": "Roads 06 Records card image: Maps",
+      "source": "blueprint/references/p068-obj164-1536x1207.png",
+      "sourceSha256": "a0ff7c5536c1ff2cb8845768908c8f8adcad0bb1b1905007c2187f8c6ae20e2a",
+      "rect": [
+        638,
+        408,
+        259,
+        233
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        518,
+        466
+      ],
+      "sha256": "7a49d8aef684ccaac62de39b7773c19ef968e3e5477a714650db6bf0e5a52ed4"
+    },
+    "roads-records-public": {
+      "file": "assets/extracted/roads/roads-records-public.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "roads",
+      "use": "Roads 06 Records card image: Public Records (illustration, not original document covers)",
+      "source": "blueprint/references/p068-obj164-1536x1207.png",
+      "sourceSha256": "a0ff7c5536c1ff2cb8845768908c8f8adcad0bb1b1905007c2187f8c6ae20e2a",
+      "rect": [
+        930,
+        408,
+        257,
+        217
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        514,
+        434
+      ],
+      "sha256": "92fbe65dbcd47856194293df460e4ccbf20315943c441566ee2552eccec9494a"
+    },
+    "roads-records-plan": {
+      "file": "assets/extracted/roads/roads-records-plan.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "roads",
+      "use": "Roads 06 Records card image: Community Plan page-24 excerpt",
+      "source": "blueprint/references/p068-obj164-1536x1207.png",
+      "sourceSha256": "a0ff7c5536c1ff2cb8845768908c8f8adcad0bb1b1905007c2187f8c6ae20e2a",
+      "rect": [
+        1221,
+        407,
+        259,
+        242
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        518,
+        484
+      ],
+      "sha256": "2383b36da45ab9a54288f25af932dff6ff8c4a7d974e05521304c8fb13476425"
+    },
+    "roads-map-heading-tree": {
+      "file": "assets/extracted/roads/roads-map-heading-tree.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "roads",
+      "use": "Roads map area: tree illustration beside 'THE NIMBY MAP' heading",
+      "source": "blueprint/references/p062-obj151-556x2044.png",
+      "sourceSha256": "7eeb8aa62a1fd9efe74c6f0007c7298d69d596e2ca8f7cbd01dc6f91014fe4c6",
+      "rect": [
+        264,
+        36,
+        49,
+        52
+      ],
+      "scale": 4,
+      "processing": "lanczos3 x4, unsharp sigma 0.9",
+      "size": [
+        196,
+        208
+      ],
+      "sha256": "7b6bb0c3bd353bed692e5db10a5c1e1da8fa55506e4ae49e8a13d455ac2c9475",
+      "limitation": "Source is the downscaled map-area reference (556 px wide instead of 1536): very low detail"
+    },
+    "roads-map-protect-nature-icon": {
+      "file": "assets/extracted/roads/roads-map-protect-nature-icon.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "roads",
+      "use": "Roads map area: trees icon beside 'PROTECT NATURE. PROTECT PEOPLE.'",
+      "source": "blueprint/references/p062-obj151-556x2044.png",
+      "sourceSha256": "7eeb8aa62a1fd9efe74c6f0007c7298d69d596e2ca8f7cbd01dc6f91014fe4c6",
+      "rect": [
+        85,
+        1283,
+        33,
+        31
+      ],
+      "scale": 4,
+      "processing": "lanczos3 x4, unsharp sigma 1.2",
+      "size": [
+        132,
+        124
+      ],
+      "sha256": "f50993b92254cc97bebd33cbb8e2b65e7714a93f3824d97928af626e9e531b19",
+      "limitation": "Downscaled source: very low detail; a vector redraw would be sharper"
+    },
+    "roads-map-homes-icon": {
+      "file": "assets/extracted/roads/roads-map-homes-icon.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "roads",
+      "use": "Roads map area: homes icon beside 'THOUSANDS OF HOMES...'",
+      "source": "blueprint/references/p062-obj151-556x2044.png",
+      "sourceSha256": "7eeb8aa62a1fd9efe74c6f0007c7298d69d596e2ca8f7cbd01dc6f91014fe4c6",
+      "rect": [
+        332,
+        1288,
+        34,
+        19
+      ],
+      "scale": 4,
+      "processing": "lanczos3 x4, unsharp sigma 1.2",
+      "size": [
+        136,
+        76
+      ],
+      "sha256": "aa989f04cac64d7814a549c2cab69a9e5083f92ce0001de77210ebc630d26d2d",
+      "limitation": "Downscaled source: very low detail; a vector redraw would be sharper"
+    },
+    "roads-map-forest-band": {
+      "file": "assets/extracted/roads/roads-map-forest-band.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "roads",
+      "use": "Roads map area closing band background (forest) behind 'KEEP THE LANDSCAPE.'",
+      "source": "blueprint/references/p062-obj151-556x2044.png",
+      "sourceSha256": "7eeb8aa62a1fd9efe74c6f0007c7298d69d596e2ca8f7cbd01dc6f91014fe4c6",
+      "rect": [
+        0,
+        1908,
+        556,
+        136
+      ],
+      "scale": 4,
+      "processing": "lanczos3 x4, unsharp sigma 0.9",
+      "size": [
+        2224,
+        544
+      ],
+      "sha256": "5e10bd83c323c47ea240613cbb6e66faf5b71868b50bc3973916881319595087",
+      "limitation": "Downscaled source; heading, button and link are baked into the image and cannot be separated"
+    },
+    "water-hero-lake-keystone": {
+      "file": "assets/extracted/water/water-hero-lake-keystone.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "water",
+      "use": "Water W6 hero: Lake Keystone, Odessa (Source: Noble Star Realty; MATRIX watermark kept)",
+      "source": "blueprint/references/p189-obj454-1336x939.png",
+      "sourceSha256": "e64750a82ecb0a8a85da3d2aa8ed5d83662aa2aa6166c7959be0895dbd435c2f",
+      "rect": [
+        704,
+        72,
+        632,
+        420
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        1264,
+        840
+      ],
+      "sha256": "33c321349be4756bd9fe915fb08b29495a29e1c22d3a5df73128eca39c50c31f"
+    },
+    "water-circle-septic": {
+      "file": "assets/extracted/water/water-circle-septic.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "water",
+      "use": "Water W6 circle illustration: Septic Systems",
+      "source": "blueprint/references/p189-obj454-1336x939.png",
+      "sourceSha256": "e64750a82ecb0a8a85da3d2aa8ed5d83662aa2aa6166c7959be0895dbd435c2f",
+      "rect": [
+        65,
+        536,
+        129,
+        129
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        258,
+        258
+      ],
+      "sha256": "0afbf73020a686e52de2ae355966e80f27ad6c77ce15e5f82b2065f8cacd979a",
+      "limitation": "Square crop including page background; display as a circle"
+    },
+    "water-circle-groundwater": {
+      "file": "assets/extracted/water/water-circle-groundwater.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "water",
+      "use": "Water W6 circle illustration: Groundwater",
+      "source": "blueprint/references/p189-obj454-1336x939.png",
+      "sourceSha256": "e64750a82ecb0a8a85da3d2aa8ed5d83662aa2aa6166c7959be0895dbd435c2f",
+      "rect": [
+        485,
+        536,
+        129,
+        129
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        258,
+        258
+      ],
+      "sha256": "88d7064c3f2b8eef10994b3ced8eceebe4a822061a31f7f0f59f82daeabe0cbf",
+      "limitation": "Square crop including page background; display as a circle"
+    },
+    "water-circle-wells": {
+      "file": "assets/extracted/water/water-circle-wells.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "water",
+      "use": "Water W6 circle illustration: Private Wells",
+      "source": "blueprint/references/p189-obj454-1336x939.png",
+      "sourceSha256": "e64750a82ecb0a8a85da3d2aa8ed5d83662aa2aa6166c7959be0895dbd435c2f",
+      "rect": [
+        906,
+        536,
+        130,
+        130
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        260,
+        260
+      ],
+      "sha256": "bf9362cf64e08e56a627fb405f3134865140f1fb63785c01e67ab15c70de3d33",
+      "limitation": "Square crop including page background; display as a circle"
+    },
+    "water-septic-map": {
+      "file": "assets/extracted/water/water-septic-map.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "water",
+      "use": "Water W3 septic records map (legend and labels baked in; provenance to confirm)",
+      "source": "blueprint/references/p191-obj459-1402x1013.png",
+      "sourceSha256": "91b6237c5922602cc53a058a6528419851b8d07f0494c1ebc5af1405157bf687",
+      "rect": [
+        606,
+        117,
+        733,
+        464
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        1466,
+        928
+      ],
+      "sha256": "27d80397e7b4eba61aedbb6705278685609b100fbb3baa06d86c1c54eb963567"
+    },
+    "water-repairs-map": {
+      "file": "assets/extracted/water/water-repairs-map.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "water",
+      "use": "Water R2 septic repair records map (legend and labels baked in)",
+      "source": "blueprint/references/p192-obj462-1476x922.png",
+      "sourceSha256": "c38b4a3eb2a500c5370194e8947400fb2d566d5627cb0fb6e37540567740aad8",
+      "rect": [
+        929,
+        131,
+        475,
+        372
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        950,
+        744
+      ],
+      "sha256": "bbbb0c2eb170c0c7a899d0468d17ade7727f7aec80e06570aec2f7f3fecd6d61"
+    },
+    "water-connected-3d": {
+      "file": "assets/extracted/water/water-connected-3d.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "water",
+      "use": "Water W1 conceptual 3D block illustration (labels baked in)",
+      "source": "blueprint/references/p195-obj470-1341x1218.png",
+      "sourceSha256": "d32be78a9e332fac90e6ff559d3726359b94562d3f9e976086c3188f3e4dc6bc",
+      "rect": [
+        513,
+        121,
+        804,
+        281
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        1608,
+        562
+      ],
+      "sha256": "6e9a1d6930b9fc4a07449cd8b19eec40d5c1b80d00c8fdc06625d4b5765dde51"
+    },
+    "water-connected-cross-section": {
+      "file": "assets/extracted/water/water-connected-cross-section.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "water",
+      "use": "Water W1 conceptual cross-section illustration (labels baked in)",
+      "source": "blueprint/references/p195-obj470-1341x1218.png",
+      "sourceSha256": "d32be78a9e332fac90e6ff559d3726359b94562d3f9e976086c3188f3e4dc6bc",
+      "rect": [
+        0,
+        504,
+        1341,
+        252
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        2682,
+        504
+      ],
+      "sha256": "8ba718859fa8800bf516109729f2a9230b5643ddde242ac593061d741cf8c122"
+    },
+    "water-options-circle-1": {
+      "file": "assets/extracted/water/water-options-circle-1.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "water",
+      "use": "Water W2 step 1 circle photo (left)",
+      "source": "blueprint/references/p198-obj479-1448x1556.png",
+      "sourceSha256": "32ee51fce60bc5fd95d8c9afbc457bc2a3cb6c757115e441a92b656d68577549",
+      "rect": [
+        699,
+        169,
+        135,
+        133
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        270,
+        266
+      ],
+      "sha256": "9b30a25b9380cb22059939618f0800ea9b5e7d1d6aacf1307fc3f0012d4768ca",
+      "limitation": "Square crop including card background; display as a circle"
+    },
+    "water-options-circle-2": {
+      "file": "assets/extracted/water/water-options-circle-2.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "water",
+      "use": "Water W2 step 1 circle photo (middle)",
+      "source": "blueprint/references/p198-obj479-1448x1556.png",
+      "sourceSha256": "32ee51fce60bc5fd95d8c9afbc457bc2a3cb6c757115e441a92b656d68577549",
+      "rect": [
+        946,
+        169,
+        135,
+        133
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        270,
+        266
+      ],
+      "sha256": "bc8349fc0a2ea753301f1266d94dff0d129618b30a572c32c8d1a340eff963ce",
+      "limitation": "Square crop including card background; display as a circle"
+    },
+    "water-options-circle-3": {
+      "file": "assets/extracted/water/water-options-circle-3.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "water",
+      "use": "Water W2 step 1 circle photo (right)",
+      "source": "blueprint/references/p198-obj479-1448x1556.png",
+      "sourceSha256": "32ee51fce60bc5fd95d8c9afbc457bc2a3cb6c757115e441a92b656d68577549",
+      "rect": [
+        1193,
+        169,
+        135,
+        133
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        270,
+        266
+      ],
+      "sha256": "e232b12760fd131a522288d68d73565b480fd50f6a180bf1af8d071eb33f3480",
+      "limitation": "Square crop including card background; display as a circle"
+    },
+    "water-options-lake": {
+      "file": "assets/extracted/water/water-options-lake.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "water",
+      "use": "Water W2 lake photo under the intro (right edge fades into the page)",
+      "source": "blueprint/references/p198-obj479-1448x1556.png",
+      "sourceSha256": "32ee51fce60bc5fd95d8c9afbc457bc2a3cb6c757115e441a92b656d68577549",
+      "rect": [
+        0,
+        586,
+        618,
+        284
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        1236,
+        568
+      ],
+      "sha256": "455d58d9cc4445ad23b6b3dceb13d07a2bd955ee2885a16364b767dcc0e95c13"
+    },
+    "water-leftout-strip": {
+      "file": "assets/extracted/water/water-leftout-strip.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "water",
+      "use": "Water W4 lake/reeds strip under 'LEFT OUT. BY CHOICE.' (fades into page background)",
+      "source": "blueprint/references/p202-obj494-1536x1056.png",
+      "sourceSha256": "e3b69b0fd2558b4bcbd4714065725ea09df82ac45e6ef3434eceeadbd1e33357",
+      "rect": [
+        0,
+        174,
+        1536,
+        103
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        3072,
+        206
+      ],
+      "sha256": "b26b9e286ec77b6a40982808884a0b1cdf6d8f29f9029a1d3b47fab4a0cc3e3b"
+    },
+    "water-leftout-document-icon": {
+      "file": "assets/extracted/water/water-leftout-document-icon.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "water",
+      "use": "Water W4 document circle icon (illustrated)",
+      "source": "blueprint/references/p202-obj494-1536x1056.png",
+      "sourceSha256": "e3b69b0fd2558b4bcbd4714065725ea09df82ac45e6ef3434eceeadbd1e33357",
+      "rect": [
+        55,
+        424,
+        129,
+        131
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        258,
+        262
+      ],
+      "sha256": "d2421b93fb9353a0c181be29dcc9404583b44c7f91e592c28312f66acaafe812"
+    },
+    "water-leftout-shield-icon": {
+      "file": "assets/extracted/water/water-leftout-shield-icon.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "water",
+      "use": "Water W4 shield circle icon (illustrated)",
+      "source": "blueprint/references/p202-obj494-1536x1056.png",
+      "sourceSha256": "e3b69b0fd2558b4bcbd4714065725ea09df82ac45e6ef3434eceeadbd1e33357",
+      "rect": [
+        804,
+        425,
+        132,
+        131
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        264,
+        262
+      ],
+      "sha256": "4294e3c9c71a57e48334494ce2af04443df94f1298a7b244a9958eb5d735c010"
+    },
+    "water-leftout-drop-icon": {
+      "file": "assets/extracted/water/water-leftout-drop-icon.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "water",
+      "use": "Water W4 water-drop icon on the dark band (dark background kept)",
+      "source": "blueprint/references/p202-obj494-1536x1056.png",
+      "sourceSha256": "e3b69b0fd2558b4bcbd4714065725ea09df82ac45e6ef3434eceeadbd1e33357",
+      "rect": [
+        316,
+        819,
+        140,
+        132
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        280,
+        264
+      ],
+      "sha256": "d3567791eda6d009d208a268c0713bf77a3ba4c5b49e5169b727c4ebd3f23784"
+    },
+    "water-compare-community": {
+      "file": "assets/extracted/water/water-compare-community.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "water",
+      "use": "Water W5 Community Plan column header photo (burgundy tint baked in)",
+      "source": "blueprint/references/p204-obj499-1476x1049.png",
+      "sourceSha256": "9d14f929d79a574574675b271eee5d79c60cdb3470609ffbebbf7719bb249524",
+      "rect": [
+        531,
+        379,
+        200,
+        104
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        400,
+        208
+      ],
+      "sha256": "a243914275605623c8e9a0f8a4a3d590e0bfc1d9bfa98ca187d88d4da6922b66"
+    },
+    "water-compare-county": {
+      "file": "assets/extracted/water/water-compare-county.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "water",
+      "use": "Water W5 County Comprehensive Plan column header photo",
+      "source": "blueprint/references/p204-obj499-1476x1049.png",
+      "sourceSha256": "9d14f929d79a574574675b271eee5d79c60cdb3470609ffbebbf7719bb249524",
+      "rect": [
+        1232,
+        379,
+        200,
+        104
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        400,
+        208
+      ],
+      "sha256": "dd8564b4c59589c48e024e318e6f35cd6c519e5bd98379170ebfac8276f1e408"
+    },
+    "water-evidence-septic": {
+      "file": "assets/extracted/water/water-evidence-septic.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "water",
+      "use": "Water W7 evidence card image: Septic Data",
+      "source": "blueprint/references/p207-obj506-1476x1116.png",
+      "sourceSha256": "6f4ec1e96b020f8e06cb6006d9d7e966daff771a2cb663cb99cad6d0f5c8a746",
+      "rect": [
+        41,
+        282,
+        265,
+        104
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        530,
+        208
+      ],
+      "sha256": "70885fd3a87b12aeafc7ff9dfa57232a3e95323b7c1d35f38f0dcfe6b1e12274"
+    },
+    "water-evidence-repair": {
+      "file": "assets/extracted/water/water-evidence-repair.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "water",
+      "use": "Water W7 evidence card image: Repair Records",
+      "source": "blueprint/references/p207-obj506-1476x1116.png",
+      "sourceSha256": "6f4ec1e96b020f8e06cb6006d9d7e966daff771a2cb663cb99cad6d0f5c8a746",
+      "rect": [
+        323,
+        282,
+        265,
+        104
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        530,
+        208
+      ],
+      "sha256": "8fa47b7c303bb7612c62dd8d68e82bb07fce8ff9aff5297ba1a1f2d90afc4ec0"
+    },
+    "water-evidence-maps": {
+      "file": "assets/extracted/water/water-evidence-maps.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "water",
+      "use": "Water W7 evidence card image: Water & Well Maps",
+      "source": "blueprint/references/p207-obj506-1476x1116.png",
+      "sourceSha256": "6f4ec1e96b020f8e06cb6006d9d7e966daff771a2cb663cb99cad6d0f5c8a746",
+      "rect": [
+        605,
+        282,
+        265,
+        104
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        530,
+        208
+      ],
+      "sha256": "e6f6e236eea0d3239b1bb7a380a07867d2ea2c9183abb417b305994c57193157"
+    },
+    "water-evidence-public": {
+      "file": "assets/extracted/water/water-evidence-public.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "water",
+      "use": "Water W7 evidence card image: Public Records",
+      "source": "blueprint/references/p207-obj506-1476x1116.png",
+      "sourceSha256": "6f4ec1e96b020f8e06cb6006d9d7e966daff771a2cb663cb99cad6d0f5c8a746",
+      "rect": [
+        887,
+        282,
+        265,
+        104
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        530,
+        208
+      ],
+      "sha256": "86185c055d3f91853f746896a32a2b3422ae06a0a91240e58161afbd47cf0f96"
+    },
+    "water-evidence-policies": {
+      "file": "assets/extracted/water/water-evidence-policies.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "water",
+      "use": "Water W7 evidence card image: Planning Policies",
+      "source": "blueprint/references/p207-obj506-1476x1116.png",
+      "sourceSha256": "6f4ec1e96b020f8e06cb6006d9d7e966daff771a2cb663cb99cad6d0f5c8a746",
+      "rect": [
+        1169,
+        282,
+        265,
+        104
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        530,
+        208
+      ],
+      "sha256": "cc839c7724810331e3f8b6faa4f574ef2f837957d4de2f4a572dc23e993fc711"
+    },
+    "water-next-road": {
+      "file": "assets/extracted/water/water-next-road.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "water",
+      "use": "Water W7 'What's next' road photo (bottom edge of the reference; may be cut off)",
+      "source": "blueprint/references/p207-obj506-1476x1116.png",
+      "sourceSha256": "6f4ec1e96b020f8e06cb6006d9d7e966daff771a2cb663cb99cad6d0f5c8a746",
+      "rect": [
+        792,
+        848,
+        684,
+        268
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        1368,
+        536
+      ],
+      "sha256": "d02066d3657558e3e9a12015193f3d20f2084224cff5fb04f0af50d23cff5d1d"
+    },
+    "growth-then": {
+      "file": "assets/extracted/growth/growth-then.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "growth",
+      "use": "Growth G1 aerial: Keystone-Odessa when the Community Plan was created (title box and legend baked in)",
+      "source": "blueprint/references/p209-obj511-1476x1219.png",
+      "sourceSha256": "c3f802589e5590f7e111c87c330328431e3b6efe4f702fba50dd9856d98598d0",
+      "rect": [
+        0,
+        460,
+        736,
+        412
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        1472,
+        824
+      ],
+      "sha256": "571f4c9921243fefd8ac7b51a51022328a758cb846ca617b6da770757a10b275",
+      "limitation": "Private placeholder (fake data, TXT:1767); the centre arrow circle overlaps the right edge"
+    },
+    "growth-today": {
+      "file": "assets/extracted/growth/growth-today.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "growth",
+      "use": "Growth G1 aerial: Keystone-Odessa today 2026 (title box and legend baked in)",
+      "source": "blueprint/references/p209-obj511-1476x1219.png",
+      "sourceSha256": "c3f802589e5590f7e111c87c330328431e3b6efe4f702fba50dd9856d98598d0",
+      "rect": [
+        742,
+        460,
+        734,
+        412
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        1468,
+        824
+      ],
+      "sha256": "3fd8b14adb8968927d25183fb34ffe4a4c7dfbcd0a300f20397c3678152831d3",
+      "limitation": "Private placeholder (fake data, TXT:1767); the centre arrow circle overlaps the left edge"
+    },
+    "growth-density-five-acre": {
+      "file": "assets/extracted/growth/growth-density-five-acre.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "growth",
+      "use": "Growth G2 aerial: five acres, one home (conceptual illustration)",
+      "source": "blueprint/references/p212-obj518-1536x1428.png",
+      "sourceSha256": "9270c99c3cb0cef2d1cca2343b5d812a2b36ebbe9c57fb47d3ef7a26ef4441ec",
+      "rect": [
+        42,
+        554,
+        720,
+        261
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        1440,
+        522
+      ],
+      "sha256": "a9274e080e4ff81b488c1582f598b1940c2f20de39f5e8e3a942b8f043b3a957"
+    },
+    "growth-density-moderate": {
+      "file": "assets/extracted/growth/growth-density-moderate.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "growth",
+      "use": "Growth G2 aerial: natural rural-lane moderate density (conceptual illustration)",
+      "source": "blueprint/references/p212-obj518-1536x1428.png",
+      "sourceSha256": "9270c99c3cb0cef2d1cca2343b5d812a2b36ebbe9c57fb47d3ef7a26ef4441ec",
+      "rect": [
+        774,
+        554,
+        720,
+        261
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        1440,
+        522
+      ],
+      "sha256": "9b66e12de14a2b7356d27b561d5219ac2dd3a5d968acbeb5265dccda87604621"
+    },
+    "growth-evidence-plan": {
+      "file": "assets/extracted/growth/growth-evidence-plan.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "growth",
+      "use": "Growth G5 evidence card image: Community Plan",
+      "source": "blueprint/references/p217-obj530-1476x1220.png",
+      "sourceSha256": "7408852d547b56275336f3084b75c05abcea991491d7edce7a8fdd5c4dbec08b",
+      "rect": [
+        310,
+        352,
+        179,
+        145
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        358,
+        290
+      ],
+      "sha256": "9764d014890637f861e46ab5bc8c864e76426a81595ba00b8774637e20ccdf94"
+    },
+    "growth-evidence-landuse": {
+      "file": "assets/extracted/growth/growth-evidence-landuse.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "growth",
+      "use": "Growth G5 evidence card image: Land-Use Maps",
+      "source": "blueprint/references/p217-obj530-1476x1220.png",
+      "sourceSha256": "7408852d547b56275336f3084b75c05abcea991491d7edce7a8fdd5c4dbec08b",
+      "rect": [
+        788,
+        353,
+        179,
+        143
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        358,
+        286
+      ],
+      "sha256": "4e3b355248f5d2526b4d342739b582a47ffe933969bd9a794da0725dcabb9836"
+    },
+    "growth-evidence-housing": {
+      "file": "assets/extracted/growth/growth-evidence-housing.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "growth",
+      "use": "Growth G5 evidence card image: Housing Data",
+      "source": "blueprint/references/p217-obj530-1476x1220.png",
+      "sourceSha256": "7408852d547b56275336f3084b75c05abcea991491d7edce7a8fdd5c4dbec08b",
+      "rect": [
+        1266,
+        359,
+        179,
+        131
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        358,
+        262
+      ],
+      "sha256": "ab5daad6587741f04610a3d869e45a1c5f8a54b8f5b83a3b205f53964e7094bd"
+    },
+    "growth-evidence-service": {
+      "file": "assets/extracted/growth/growth-evidence-service.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "growth",
+      "use": "Growth G5 evidence card image: Service Map",
+      "source": "blueprint/references/p217-obj530-1476x1220.png",
+      "sourceSha256": "7408852d547b56275336f3084b75c05abcea991491d7edce7a8fdd5c4dbec08b",
+      "rect": [
+        310,
+        595,
+        179,
+        142
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        358,
+        284
+      ],
+      "sha256": "4df7434c3c4690263dccddc6b01f2d11d6201d9343faf6add76e37fd48fc7384"
+    },
+    "growth-evidence-travel": {
+      "file": "assets/extracted/growth/growth-evidence-travel.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "growth",
+      "use": "Growth G5 evidence card image: Travel Data",
+      "source": "blueprint/references/p217-obj530-1476x1220.png",
+      "sourceSha256": "7408852d547b56275336f3084b75c05abcea991491d7edce7a8fdd5c4dbec08b",
+      "rect": [
+        788,
+        593,
+        179,
+        147
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        358,
+        294
+      ],
+      "sha256": "3bb39422876a1e53d691eae793e6fbbde60752a8e5ebf9971f8a59beecd5426e"
+    },
+    "growth-evidence-infrastructure": {
+      "file": "assets/extracted/growth/growth-evidence-infrastructure.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "growth",
+      "use": "Growth G5 evidence card image: Infrastructure Records",
+      "source": "blueprint/references/p217-obj530-1476x1220.png",
+      "sourceSha256": "7408852d547b56275336f3084b75c05abcea991491d7edce7a8fdd5c4dbec08b",
+      "rect": [
+        1266,
+        595,
+        179,
+        143
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        358,
+        286
+      ],
+      "sha256": "828199bee8686c2f87b906be553dd0aa4b27ba78d719f0d238354eac74f2b5b3"
+    },
+    "growth-next-aerial": {
+      "file": "assets/extracted/growth/growth-next-aerial.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "growth",
+      "use": "Growth G5 'Outdated Community Plan' aerial",
+      "source": "blueprint/references/p217-obj530-1476x1220.png",
+      "sourceSha256": "7408852d547b56275336f3084b75c05abcea991491d7edce7a8fdd5c4dbec08b",
+      "rect": [
+        793,
+        830,
+        642,
+        209
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        1284,
+        418
+      ],
+      "sha256": "c988bf17bd8422b202f218b51e1b35b316c93ac76f36b4752e17221a0cdca267"
+    },
+    "comparison-h1-community-dwelling": {
+      "file": "assets/extracted/comparison/comparison-h1-community-dwelling.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "comparison",
+      "use": "Comparison H1 original symbol: one dwelling unit per five acres (one of the eight original symbols, TXT:57)",
+      "source": "blueprint/references/p226-obj551-2047x1383.png",
+      "sourceSha256": "e6b9b2ced774c8bb154184f190e48e1fa0b87f5a02627da8cc38a61bd2a11602",
+      "rect": [
+        125,
+        391,
+        101,
+        101
+      ],
+      "scale": 3,
+      "processing": "lanczos3 x3, unsharp sigma 1.2",
+      "size": [
+        303,
+        303
+      ],
+      "sha256": "9e383c213e2f8f47b39452114bc724eae4f606014a1355c1404f44c0f47ec250"
+    },
+    "comparison-h1-community-low-density": {
+      "file": "assets/extracted/comparison/comparison-h1-community-low-density.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "comparison",
+      "use": "Comparison H1 original symbol: low-density, scattered residential pattern (one of the eight original symbols, TXT:57)",
+      "source": "blueprint/references/p226-obj551-2047x1383.png",
+      "sourceSha256": "e6b9b2ced774c8bb154184f190e48e1fa0b87f5a02627da8cc38a61bd2a11602",
+      "rect": [
+        125,
+        592,
+        101,
+        101
+      ],
+      "scale": 3,
+      "processing": "lanczos3 x3, unsharp sigma 1.2",
+      "size": [
+        303,
+        303
+      ],
+      "sha256": "b545fab2967d6bc234f4478c04a54127c39cabea8b107c7145e9772c48b21090"
+    },
+    "comparison-h1-community-amendments": {
+      "file": "assets/extracted/comparison/comparison-h1-community-amendments.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "comparison",
+      "use": "Comparison H1 original symbol: discourages higher-density amendments (one of the eight original symbols, TXT:57)",
+      "source": "blueprint/references/p226-obj551-2047x1383.png",
+      "sourceSha256": "e6b9b2ced774c8bb154184f190e48e1fa0b87f5a02627da8cc38a61bd2a11602",
+      "rect": [
+        125,
+        792,
+        101,
+        101
+      ],
+      "scale": 3,
+      "processing": "lanczos3 x3, unsharp sigma 1.2",
+      "size": [
+        303,
+        303
+      ],
+      "sha256": "5e93b08cfceda4fa4c757e950174ab150eacd496cb8e9c45104a6e4dc74c237d"
+    },
+    "comparison-h1-community-rural": {
+      "file": "assets/extracted/comparison/comparison-h1-community-rural.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "comparison",
+      "use": "Comparison H1 original symbol: rural development pattern (one of the eight original symbols, TXT:57)",
+      "source": "blueprint/references/p226-obj551-2047x1383.png",
+      "sourceSha256": "e6b9b2ced774c8bb154184f190e48e1fa0b87f5a02627da8cc38a61bd2a11602",
+      "rect": [
+        125,
+        995,
+        101,
+        101
+      ],
+      "scale": 3,
+      "processing": "lanczos3 x3, unsharp sigma 1.2",
+      "size": [
+        303,
+        303
+      ],
+      "sha256": "942af9ef33ce942829d315c4c4d6d96e1648b30d229a2e6f5bb5e3b8e66b54cc"
+    },
+    "comparison-h1-county-mapped": {
+      "file": "assets/extracted/comparison/comparison-h1-county-mapped.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "comparison",
+      "use": "Comparison H1 original symbol: mapped land-use categories (one of the eight original symbols, TXT:57)",
+      "source": "blueprint/references/p226-obj551-2047x1383.png",
+      "sourceSha256": "e6b9b2ced774c8bb154184f190e48e1fa0b87f5a02627da8cc38a61bd2a11602",
+      "rect": [
+        1079,
+        391,
+        101,
+        101
+      ],
+      "scale": 3,
+      "processing": "lanczos3 x3, unsharp sigma 1.2",
+      "size": [
+        303,
+        303
+      ],
+      "sha256": "fd6a5da0cce62ea4373f7dd20ed9d7a34976ac97b2496c1d74826e47df5ba722"
+    },
+    "comparison-h1-county-rural-limits": {
+      "file": "assets/extracted/comparison/comparison-h1-county-rural-limits.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "comparison",
+      "use": "Comparison H1 original symbol: rural density limits still apply (one of the eight original symbols, TXT:57)",
+      "source": "blueprint/references/p226-obj551-2047x1383.png",
+      "sourceSha256": "e6b9b2ced774c8bb154184f190e48e1fa0b87f5a02627da8cc38a61bd2a11602",
+      "rect": [
+        1079,
+        592,
+        101,
+        101
+      ],
+      "scale": 3,
+      "processing": "lanczos3 x3, unsharp sigma 1.2",
+      "size": [
+        303,
+        303
+      ],
+      "sha256": "90977eb9313dde79f2a9f30f9e997de368ab4a386e56370c3ef846ad2762971b"
+    },
+    "comparison-h1-county-housing-goals": {
+      "file": "assets/extracted/comparison/comparison-h1-county-housing-goals.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "comparison",
+      "use": "Comparison H1 original symbol: housing choice and affordability (one of the eight original symbols, TXT:57)",
+      "source": "blueprint/references/p226-obj551-2047x1383.png",
+      "sourceSha256": "e6b9b2ced774c8bb154184f190e48e1fa0b87f5a02627da8cc38a61bd2a11602",
+      "rect": [
+        1079,
+        792,
+        101,
+        101
+      ],
+      "scale": 3,
+      "processing": "lanczos3 x3, unsharp sigma 1.2",
+      "size": [
+        303,
+        303
+      ],
+      "sha256": "ed4ab879e16f97a8fa1ccdb6886be75dda5906048b4a848988a00858c0d935c3"
+    },
+    "comparison-h1-county-tools": {
+      "file": "assets/extracted/comparison/comparison-h1-county-tools.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "comparison",
+      "use": "Comparison H1 original symbol: infill, small lots, accessory homes (one of the eight original symbols, TXT:57)",
+      "source": "blueprint/references/p226-obj551-2047x1383.png",
+      "sourceSha256": "e6b9b2ced774c8bb154184f190e48e1fa0b87f5a02627da8cc38a61bd2a11602",
+      "rect": [
+        1079,
+        995,
+        101,
+        101
+      ],
+      "scale": 3,
+      "processing": "lanczos3 x3, unsharp sigma 1.2",
+      "size": [
+        303,
+        303
+      ],
+      "sha256": "0724a042f3181477f133e703e71fb1f720cac0a1064e69873117aff82c711519"
+    },
+    "comparison-h1-illustration": {
+      "file": "assets/extracted/comparison/comparison-h1-illustration.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "comparison",
+      "use": "Comparison H1 small illustration beside the closing statement",
+      "source": "blueprint/references/p226-obj551-2047x1383.png",
+      "sourceSha256": "e6b9b2ced774c8bb154184f190e48e1fa0b87f5a02627da8cc38a61bd2a11602",
+      "rect": [
+        89,
+        1242,
+        242,
+        64
+      ],
+      "scale": 3,
+      "processing": "lanczos3 x3, unsharp sigma 0.9",
+      "size": [
+        726,
+        192
+      ],
+      "sha256": "8e6682758423e7bf820a16845218bf15d5621ee0ec32ad382c97522ea5cff8ad"
+    },
+    "comparison-r1-gunn": {
+      "file": "assets/extracted/comparison/comparison-r1-gunn.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "comparison",
+      "use": "Comparison R1 header photo: Gunn Highway, April 20, 2016 (Alex Nitzman / AARoads)",
+      "source": "blueprint/references/p220-obj537-1070x1490.png",
+      "sourceSha256": "05504d24bcd4c0b4586774b313efb871796176a404871bf7b09c72f3781caecf",
+      "rect": [
+        792,
+        93,
+        225,
+        149
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        450,
+        298
+      ],
+      "sha256": "59b2f2187631fd0d3b242965e0db5eb91acbccaa4227144a173432dbc6084fff"
+    },
+    "comparison-r1-illustration": {
+      "file": "assets/extracted/comparison/comparison-r1-illustration.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "comparison",
+      "use": "Comparison R1 small roadside illustration beside the closing statement",
+      "source": "blueprint/references/p220-obj537-1070x1490.png",
+      "sourceSha256": "05504d24bcd4c0b4586774b313efb871796176a404871bf7b09c72f3781caecf",
+      "rect": [
+        53,
+        1131,
+        171,
+        52
+      ],
+      "scale": 3,
+      "processing": "lanczos3 x3, unsharp sigma 0.9",
+      "size": [
+        513,
+        156
+      ],
+      "sha256": "aeaca0c2c5b8ff2ac16a6ee6844c92f46e59e7a0578cd75465ef66befd7d19ac"
+    },
+    "comparison-w8-header": {
+      "file": "assets/extracted/comparison/comparison-w8-header.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "comparison",
+      "use": "Comparison W8 header photo: water tank by the lake",
+      "source": "blueprint/references/p224-obj546-1536x1260.png",
+      "sourceSha256": "c364acc612104f9c82b608373d27770f4092d3532524b43594dcea9321d59422",
+      "rect": [
+        805,
+        76,
+        731,
+        219
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        1462,
+        438
+      ],
+      "sha256": "a496ff91e23d51925886857e80f7623ab3efd1cceff37a47b24dfa66e301a51a"
+    },
+    "comparison-w8-illustration": {
+      "file": "assets/extracted/comparison/comparison-w8-illustration.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "comparison",
+      "use": "Comparison W8 small lake illustration beside the closing statement",
+      "source": "blueprint/references/p224-obj546-1536x1260.png",
+      "sourceSha256": "c364acc612104f9c82b608373d27770f4092d3532524b43594dcea9321d59422",
+      "rect": [
+        48,
+        1011,
+        232,
+        79
+      ],
+      "scale": 3,
+      "processing": "lanczos3 x3, unsharp sigma 0.9",
+      "size": [
+        696,
+        237
+      ],
+      "sha256": "625f967b2252c99cd1fd83b96c25a8ea205b6c57e2dceef301fabcb1cd09385e"
+    },
+    "comparison-c1-aerial": {
+      "file": "assets/extracted/comparison/comparison-c1-aerial.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "comparison",
+      "use": "Comparison C1 aerial: Lake Keystone area, Odessa (Coldwell Banker; StellarMLS watermark kept if present)",
+      "source": "blueprint/references/p228-obj557-1476x1632.png",
+      "sourceSha256": "ce66de0a1c0104a7f274cacf827c24637ebf6c817cabde3cbc71fff7a7f8a33b",
+      "rect": [
+        806,
+        111,
+        626,
+        212
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        1252,
+        424
+      ],
+      "sha256": "a8f93e1e6b035e61e799b155197cf23bf03d4116dfddd11d9a6ee9ed97fed1d4"
+    },
+    "comparison-c1-remove": {
+      "file": "assets/extracted/comparison/comparison-c1-remove.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "comparison",
+      "use": "Comparison C1 REMOVE illustration: crossed-out Community Plan (Area-specific policy layer)",
+      "source": "blueprint/references/p228-obj557-1476x1632.png",
+      "sourceSha256": "ce66de0a1c0104a7f274cacf827c24637ebf6c817cabde3cbc71fff7a7f8a33b",
+      "rect": [
+        62,
+        477,
+        335,
+        335
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        670,
+        670
+      ],
+      "sha256": "1158a054c4543114af8148917b7e6972e768872e71a06486d02c7a0ab7d26da6"
+    },
+    "comparison-c1-arrow": {
+      "file": "assets/extracted/comparison/comparison-c1-arrow.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "comparison",
+      "use": "Comparison C1 brown arrow between REMOVE and REMAINS",
+      "source": "blueprint/references/p228-obj557-1476x1632.png",
+      "sourceSha256": "ce66de0a1c0104a7f274cacf827c24637ebf6c817cabde3cbc71fff7a7f8a33b",
+      "rect": [
+        434,
+        620,
+        64,
+        66
+      ],
+      "scale": 3,
+      "processing": "lanczos3 x3, unsharp sigma 1.2",
+      "size": [
+        192,
+        198
+      ],
+      "sha256": "f17fdc683db736b1cb12691b79fdedecfd35d224fa7d0b6b027204a3d071dfa7"
+    },
+    "comparison-c1-illustration": {
+      "file": "assets/extracted/comparison/comparison-c1-illustration.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "comparison",
+      "use": "Comparison C1 small trees illustration beside the closing statement",
+      "source": "blueprint/references/p228-obj557-1476x1632.png",
+      "sourceSha256": "ce66de0a1c0104a7f274cacf827c24637ebf6c817cabde3cbc71fff7a7f8a33b",
+      "rect": [
+        66,
+        1000,
+        188,
+        58
+      ],
+      "scale": 3,
+      "processing": "lanczos3 x3, unsharp sigma 0.9",
+      "size": [
+        564,
+        174
+      ],
+      "sha256": "5cefd685a2edbded79dadbd2bd597a426d18aba889f61df3cba6ca79b33b9d55"
+    },
+    "evidence-r3-roads": {
+      "file": "assets/extracted/evidence/evidence-r3-roads.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "evidence",
+      "use": "Evidence R3 card image: Gunn Highway, Keystone (Alex Nitzman / AARoads)",
+      "source": "blueprint/references/p231-obj564-1536x1256.png",
+      "sourceSha256": "b6e45e3152029832a93a74440577d0f79f65b6029477c59cda6f67aa21b3a059",
+      "rect": [
+        40,
+        323,
+        346,
+        167
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        692,
+        334
+      ],
+      "sha256": "c9922567294298bd9484d60e583eb6f4170b47ffb78965fb3d3fb497d7853f1b"
+    },
+    "evidence-r3-water": {
+      "file": "assets/extracted/evidence/evidence-r3-water.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "evidence",
+      "use": "Evidence R3 card image: Lake Rogers, Odessa (Florida Hikes)",
+      "source": "blueprint/references/p231-obj564-1536x1256.png",
+      "sourceSha256": "b6e45e3152029832a93a74440577d0f79f65b6029477c59cda6f67aa21b3a059",
+      "rect": [
+        410,
+        323,
+        346,
+        167
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        692,
+        334
+      ],
+      "sha256": "3c459c019dbc74f6c8c5809f1b2800051cf993dbf0075ea339599850d58262a6"
+    },
+    "evidence-r3-growth": {
+      "file": "assets/extracted/evidence/evidence-r3-growth.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "evidence",
+      "use": "Evidence R3 card image: planning symbol, not a geographic map",
+      "source": "blueprint/references/p231-obj564-1536x1256.png",
+      "sourceSha256": "b6e45e3152029832a93a74440577d0f79f65b6029477c59cda6f67aa21b3a059",
+      "rect": [
+        780,
+        323,
+        346,
+        167
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        692,
+        334
+      ],
+      "sha256": "ee53569d26c91e87d43a44c6b03955355afaceea81cdd4076f7b743c66a444d5"
+    },
+    "evidence-r3-plans": {
+      "file": "assets/extracted/evidence/evidence-r3-plans.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "evidence",
+      "use": "Evidence R3 card image: illustration, not original document covers",
+      "source": "blueprint/references/p231-obj564-1536x1256.png",
+      "sourceSha256": "b6e45e3152029832a93a74440577d0f79f65b6029477c59cda6f67aa21b3a059",
+      "rect": [
+        1150,
+        323,
+        346,
+        167
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        692,
+        334
+      ],
+      "sha256": "d923e6998f01dd974302fb2a4afbebbdbfa8be7dc7b395ba69baba328fd8b77c"
+    },
+    "evidence-e1-header": {
+      "file": "assets/extracted/evidence/evidence-e1-header.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "evidence",
+      "use": "Evidence E1 library header image (soft trees)",
+      "source": "blueprint/references/p234-obj571-1476x1791.png",
+      "sourceSha256": "1b795aa20b3c5f34b0b3e0e206139b5c9c52d2e58083696ddf768c40f69a230f",
+      "rect": [
+        979,
+        42,
+        455,
+        108
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        910,
+        216
+      ],
+      "sha256": "e26bf16931f6acabf05a84c8500a84c3340fa7bfaf9eabda16b8e72dcd84ff7a"
+    },
+    "evidence-e1-thumb-livable": {
+      "file": "assets/extracted/evidence/evidence-e1-thumb-livable.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "evidence",
+      "use": "Evidence E1 library thumbnail: Livable Communities Element (illustration, not the original cover)",
+      "source": "blueprint/references/p234-obj571-1476x1791.png",
+      "sourceSha256": "1b795aa20b3c5f34b0b3e0e206139b5c9c52d2e58083696ddf768c40f69a230f",
+      "rect": [
+        65,
+        450,
+        200,
+        102
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        400,
+        204
+      ],
+      "sha256": "bf66be47b85ab8bf66a0d9b3e1210e31f7f59e4b0ea47a252ea3739e17fb332f"
+    },
+    "evidence-e1-thumb-public-records": {
+      "file": "assets/extracted/evidence/evidence-e1-thumb-public-records.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "evidence",
+      "use": "Evidence E1 library thumbnail: Response to Public Records Request (illustration, not the original cover)",
+      "source": "blueprint/references/p234-obj571-1476x1791.png",
+      "sourceSha256": "1b795aa20b3c5f34b0b3e0e206139b5c9c52d2e58083696ddf768c40f69a230f",
+      "rect": [
+        65,
+        663,
+        200,
+        94
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        400,
+        188
+      ],
+      "sha256": "0e5df393deb24bbf198fcf0cdd387bc80f80bc0176beda5fe3c43c44f3c4165e"
+    },
+    "evidence-e1-thumb-water": {
+      "file": "assets/extracted/evidence/evidence-e1-thumb-water.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "evidence",
+      "use": "Evidence E1 library thumbnail: Water Infrastructure Records (illustration, not the original cover)",
+      "source": "blueprint/references/p234-obj571-1476x1791.png",
+      "sourceSha256": "1b795aa20b3c5f34b0b3e0e206139b5c9c52d2e58083696ddf768c40f69a230f",
+      "rect": [
+        65,
+        863,
+        200,
+        86
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        400,
+        172
+      ],
+      "sha256": "c38f0834ea1a85d3e6ad8d79cfada648268a607a23bd48a9337506145f3dc0d8"
+    },
+    "evidence-e1-thumb-septic-repair": {
+      "file": "assets/extracted/evidence/evidence-e1-thumb-septic-repair.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "evidence",
+      "use": "Evidence E1 library thumbnail: Septic System Repair Records (illustration, not the original cover)",
+      "source": "blueprint/references/p234-obj571-1476x1791.png",
+      "sourceSha256": "1b795aa20b3c5f34b0b3e0e206139b5c9c52d2e58083696ddf768c40f69a230f",
+      "rect": [
+        65,
+        1060,
+        200,
+        82
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        400,
+        164
+      ],
+      "sha256": "66e1df65cdd14d5caec7ddf97acbe31837e95a7359b69ae145ba1ed6852f2014"
+    },
+    "evidence-e1-thumb-septic-classification": {
+      "file": "assets/extracted/evidence/evidence-e1-thumb-septic-classification.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "evidence",
+      "use": "Evidence E1 library thumbnail: Septic Classification Data (illustration, not the original cover)",
+      "source": "blueprint/references/p234-obj571-1476x1791.png",
+      "sourceSha256": "1b795aa20b3c5f34b0b3e0e206139b5c9c52d2e58083696ddf768c40f69a230f",
+      "rect": [
+        65,
+        1255,
+        200,
+        82
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        400,
+        164
+      ],
+      "sha256": "58e3450cac7be33fc66aa53898cf94ab332ee92debe07d39f4e701c7519b84c7"
+    },
+    "evidence-e1-action-strip": {
+      "file": "assets/extracted/evidence/evidence-e1-action-strip.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "evidence",
+      "use": "Evidence E1 From Evidence to Action image strip",
+      "source": "blueprint/references/p234-obj571-1476x1791.png",
+      "sourceSha256": "1b795aa20b3c5f34b0b3e0e206139b5c9c52d2e58083696ddf768c40f69a230f",
+      "rect": [
+        914,
+        1676,
+        293,
+        43
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        586,
+        86
+      ],
+      "sha256": "20596ea399ef74e8a998f693f18f97b12f38e94439f3a2a2b243ca0ee4ac4f1c"
+    },
+    "action-hero-family": {
+      "file": "assets/extracted/action/action-hero-family.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "action",
+      "use": "Take Action A1 hero: family looking toward the lake (illustrative photo)",
+      "source": "blueprint/references/p237-obj578-2046x698.png",
+      "sourceSha256": "83e72cc26e040456ae49b6bce0cd3ef3817b286f5a867d37d1c00943da1f370a",
+      "rect": [
+        1215,
+        91,
+        746,
+        530
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        1492,
+        1060
+      ],
+      "sha256": "701dedf03ee6ed699bd83abcd13f36369dce33f94873c5147bf3e78ee911fc25"
+    },
+    "action-card-01": {
+      "file": "assets/extracted/action/action-card-01.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "action",
+      "use": "Take Action A2 card 01 image (COMMUNITY SUPPORT clipboard; lettering baked in)",
+      "source": "blueprint/references/p246-obj606-2046x1502.png",
+      "sourceSha256": "c584a586b712062523720cf72e661f55cbf5faf8842b1cd45e48ba292261eaae",
+      "rect": [
+        86,
+        456,
+        598,
+        293
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        1196,
+        586
+      ],
+      "sha256": "2daa7a505b7ba6df4c0e8fba3279c0855523a66ca52617b2ca5b6058fea774be",
+      "limitation": "Number badge 01 is baked into the top-left of the image"
+    },
+    "action-card-02": {
+      "file": "assets/extracted/action/action-card-02.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "action",
+      "use": "Take Action A2 card 02 image (writing in a notebook)",
+      "source": "blueprint/references/p246-obj606-2046x1502.png",
+      "sourceSha256": "c584a586b712062523720cf72e661f55cbf5faf8842b1cd45e48ba292261eaae",
+      "rect": [
+        726,
+        456,
+        597,
+        296
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        1194,
+        592
+      ],
+      "sha256": "d9ced60e9c1c305f7ddbf7940c6270ac1601951335d18e684d4714bbfa5fcdda",
+      "limitation": "Number badge 02 is baked into the top-left of the image"
+    },
+    "action-card-03": {
+      "file": "assets/extracted/action/action-card-03.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "action",
+      "use": "Take Action A2 card 03 image (document binders; lettering baked in)",
+      "source": "blueprint/references/p246-obj606-2046x1502.png",
+      "sourceSha256": "c584a586b712062523720cf72e661f55cbf5faf8842b1cd45e48ba292261eaae",
+      "rect": [
+        1365,
+        456,
+        597,
+        289
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        1194,
+        578
+      ],
+      "sha256": "43741e230fc3f790163efb2c62564ed7677106bd5bb6d3fa8ce200b59cc90490",
+      "limitation": "Number badge 03 is baked into the top-left of the image"
+    },
+    "action-story-mailbox": {
+      "file": "assets/extracted/action/action-story-mailbox.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "action",
+      "use": "Take Action A3 mailbox photo '33556'",
+      "source": "blueprint/references/p248-obj611-2046x1348.png",
+      "sourceSha256": "1498c93167f3d4d2c377c89f79c7f2994cc2e36f962b9b85fa1fcaab80a29a5f",
+      "rect": [
+        797,
+        821,
+        341,
+        345
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        682,
+        690
+      ],
+      "sha256": "e9013fb44b0bfaafd6d8042d6e2cf818c8ab56d94f76899ab0624e585090216e"
+    },
+    "action-share-laptop": {
+      "file": "assets/extracted/action/action-share-laptop.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "action",
+      "use": "Take Action A4 sharing illustration (laptop, share panel, icons; lettering kept as artwork)",
+      "source": "blueprint/references/p254-obj628-2047x1073.png",
+      "sourceSha256": "3b45fd555436085fcd6e6e99393c5330aa782d995d9b7493e3841272a60c941f",
+      "rect": [
+        1045,
+        86,
+        853,
+        896
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        1706,
+        1792
+      ],
+      "sha256": "08aeccaa19523ecb8596d30c0eacee083fccdb520d98e35b729eb7d4a5fcd21f"
+    },
+    "action-stories-road": {
+      "file": "assets/extracted/action/action-stories-road.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "action",
+      "use": "Take Action A5 sample story image: Road Safety (illustrative)",
+      "source": "blueprint/references/p258-obj638-2046x1600.png",
+      "sourceSha256": "f843f0d18bf9a234223a70909dfb43409ec9ff4b075f044e9f0768710f63db7b",
+      "rect": [
+        86,
+        445,
+        598,
+        243
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        1196,
+        486
+      ],
+      "sha256": "33fc7f823ef11a001aedb0d9d74bdbe35ca4b77bfe00aaa31d237da79d047472"
+    },
+    "action-stories-water": {
+      "file": "assets/extracted/action/action-stories-water.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "action",
+      "use": "Take Action A5 sample story image: Water & Septic (illustrative)",
+      "source": "blueprint/references/p258-obj638-2046x1600.png",
+      "sourceSha256": "f843f0d18bf9a234223a70909dfb43409ec9ff4b075f044e9f0768710f63db7b",
+      "rect": [
+        726,
+        445,
+        597,
+        254
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        1194,
+        508
+      ],
+      "sha256": "0646669743e64c03573f2ba39e434ef708bcc584461519b18cef20e89678b4cc"
+    },
+    "action-stories-access": {
+      "file": "assets/extracted/action/action-stories-access.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "action",
+      "use": "Take Action A5 sample story image: Everyday Access (illustrative)",
+      "source": "blueprint/references/p258-obj638-2046x1600.png",
+      "sourceSha256": "f843f0d18bf9a234223a70909dfb43409ec9ff4b075f044e9f0768710f63db7b",
+      "rect": [
+        1365,
+        445,
+        597,
+        242
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        1194,
+        484
+      ],
+      "sha256": "35a150891bb5cad5f4aa6ec204ef4633308d830daffcd4f35b98eb74bb6013b5"
+    },
+    "action-stories-landscape": {
+      "file": "assets/extracted/action/action-stories-landscape.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "action",
+      "use": "Take Action A5 landscape band under the stories",
+      "source": "blueprint/references/p258-obj638-2046x1600.png",
+      "sourceSha256": "f843f0d18bf9a234223a70909dfb43409ec9ff4b075f044e9f0768710f63db7b",
+      "rect": [
+        85,
+        1447,
+        1876,
+        86
+      ],
+      "scale": 2,
+      "processing": "lanczos3 x2, unsharp sigma 0.9",
+      "size": [
+        3752,
+        172
+      ],
+      "sha256": "ad4a4e4e633fe3fc636d5deb2fd43919a80016c7381b1110163c0eb554028567"
+    },
+    "action-petition-side-left": {
+      "file": "assets/extracted/action/action-petition-side-left.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "action",
+      "use": "Take Action A6 petition section: visible left edge of the landscape background",
+      "source": "blueprint/references/p267-obj662-793x2046.png",
+      "sourceSha256": "e0637c36b7ea1e71a2a3fb79293249853467455393928abca3ce2aa277d133f5",
+      "rect": [
+        0,
+        242,
+        47,
+        198
+      ],
+      "scale": 4,
+      "processing": "lanczos3 x4, unsharp sigma 0.9",
+      "size": [
+        188,
+        792
+      ],
+      "sha256": "3e7ca92710820f49247757517fc7f887652bed35ca96259e07dcbf16dda9f443",
+      "limitation": "Downscaled source (793 px wide); only the visible edge strip exists"
+    },
+    "action-petition-side-right": {
+      "file": "assets/extracted/action/action-petition-side-right.png",
+      "status": "temporary - extracted from blueprint PDF (D-007)",
+      "page": "action",
+      "use": "Take Action A6 petition section: visible right edge of the landscape background",
+      "source": "blueprint/references/p267-obj662-793x2046.png",
+      "sourceSha256": "e0637c36b7ea1e71a2a3fb79293249853467455393928abca3ce2aa277d133f5",
+      "rect": [
+        746,
+        245,
+        47,
+        195
+      ],
+      "scale": 4,
+      "processing": "lanczos3 x4, unsharp sigma 0.9",
+      "size": [
+        188,
+        780
+      ],
+      "sha256": "85608c293182f01e2f9fd718ff5b840d81c2846b8297eddaf59e90b77f7bcae1",
+      "limitation": "Downscaled source (793 px wide); only the visible edge strip exists"
+    }
+  }
+}

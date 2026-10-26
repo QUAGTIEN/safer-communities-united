@@ -2,38 +2,43 @@
   "name": "safer-communities-united",
   "version": "0.1.0",
   "private": true,
-  "description": "Safer Communities United — Keystone–Odessa. First clickable demo.",
-  "engines": { "node": ">=20.9.0" },
+  "description": "Safer Communities United — Keystone–Odessa. First version (in progress).",
+  "engines": {
+    "node": ">=20.9.0"
+  },
   "scripts": {
-    "assets:sync": "node scripts/sync-assets.mjs",
-    "predev": "npm run assets:sync",
     "dev": "next dev --hostname 127.0.0.1",
-    "prebuild": "npm run assets:sync",
+    "predev": "node scripts/build-web-assets.mjs",
     "build": "next build",
-    "postbuild": "node scripts/finalize-static-export.mjs",
+    "prebuild": "node scripts/build-web-assets.mjs && npm run check:copy",
     "lint": "eslint src scripts next.config.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "check:copy": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/check-copy.mjs",
+    "assets:extract": "node scripts/extract-assets.mjs",
+    "assets:web": "node scripts/build-web-assets.mjs"
   },
   "dependencies": {
-    "next": "16.4.2",
-    "react": "19.3.1",
-    "react-dom": "19.3.1",
+    "@fontsource-variable/inter": "^5.2.8",
+    "@fontsource-variable/merriweather": "^5.3.0",
+    "@fontsource/anton": "^5.3.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "tailwind-merge": "^3.3.0",
     "lucide-react": "^0.577.0",
+    "next": "16.4.2",
     "radix-ui": "^1.4.3",
-    "@fontsource-variable/inter": "^5.2.8",
-    "@fontsource-variable/source-serif-4": "^5.2.8"
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "tailwind-merge": "^3.3.0"
   },
   "devDependencies": {
-    "typescript": "^5.9.3",
+    "@tailwindcss/postcss": "4.3.3",
     "@types/node": "^24.0.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
-    "tailwindcss": "4.3.3",
-    "@tailwindcss/postcss": "4.3.3",
     "eslint": "^10.13.0",
-    "eslint-config-next": "16.4.2"
+    "eslint-config-next": "16.4.2",
+    "sharp": "^0.35.5",
+    "tailwindcss": "4.3.3",
+    "typescript": "^5.9.3"
   }
 }

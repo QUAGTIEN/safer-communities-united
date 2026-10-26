@@ -3,16 +3,18 @@ import localFont from "next/font/local";
 import { SiteHeader } from "@/components/layout/site-header";
 import { SiteFooter } from "@/components/layout/site-footer";
 import { PageTransition } from "@/components/layout/page-transition";
-import { site } from "@/content/site";
+import { NotAvailableProvider } from "@/components/layout/not-available";
+import { a11y, site } from "@/content/site";
 import "./globals.css";
 
+// Approved font files (TXT:22, D-015): Inter body, Merriweather headings, both OFL 1.1 via Fontsource.
 const inter = localFont({
   src: "../../node_modules/@fontsource-variable/inter/files/inter-latin-wght-normal.woff2",
   variable: "--font-inter", weight: "100 900", display: "swap",
 });
-const sourceSerif = localFont({
-  src: "../../node_modules/@fontsource-variable/source-serif-4/files/source-serif-4-latin-wght-normal.woff2",
-  variable: "--font-source-serif", weight: "200 900", display: "swap",
+const merriweather = localFont({
+  src: "../../node_modules/@fontsource-variable/merriweather/files/merriweather-latin-standard-normal.woff2",
+  variable: "--font-merriweather", weight: "300 900", display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -25,12 +27,14 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" data-scroll-behavior="smooth" className={`${inter.variable} ${sourceSerif.variable}`}>
+    <html lang="en" data-scroll-behavior="smooth" className={`${inter.variable} ${merriweather.variable}`}>
       <body className="flex min-h-dvh flex-col">
-        <a href="#main-content" className="skip-link">Skip to content</a>
-        <SiteHeader />
-        <main id="main-content" tabIndex={-1} className="flex-1 outline-none"><PageTransition>{children}</PageTransition></main>
-        <SiteFooter />
+        <NotAvailableProvider>
+          <a href="#main-content" className="skip-link">{a11y.skipLink}</a>
+          <SiteHeader />
+          <main id="main-content" tabIndex={-1} className="flex-1 outline-none"><PageTransition>{children}</PageTransition></main>
+          <SiteFooter />
+        </NotAvailableProvider>
       </body>
     </html>
   );

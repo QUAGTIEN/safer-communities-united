@@ -1,85 +1,70 @@
-// Selected Home copy: PDF 7–12, 16; Water data caveat: PDF 20 (D-04).
-// Editorial labels, superseded paragraphs and future ((...)) scope are omitted.
-const heroTitleLines = ["Putting the", "health, safety, and", "welfare of people first."] as const;
+// Home (Our Community) copy — verbatim from the 22 October 2026 Home inventory
+// (docs/sections/home.md: TXT:279-289 opening, TXT:294-315 issue cards). Checked by `npm run check:copy`.
+// Card titles keep the inventory's forced desktop line break (↵) as two strings.
+import type { AssetId } from "@/lib/assets";
 
-export const home = {
-  hero: {
-    sourceSection: "H-01",
-    eyebrow: "A SAFER, STRONGER KEYSTONE–ODESSA",
-    title: heroTitleLines.join(" "),
-    titleLines: heroTitleLines,
-    message: "We envision a future where community growth protects people and places—supported by responsible planning, safer infrastructure, environmental stewardship, and decisions that reflect the needs of today’s residents and generations to come.",
-    problem: "The Keystone–Odessa community’s health, safety and welfare is endangered due to its outdated community plan.",
-    photoSlot: "P017-01",
-    alt: "Illustrative community landscape from the blueprint, showing a tree-lined road, homes, a lake and a Keystone–Odessa sign.",
+export const opening = {
+  eyebrow: "A SAFER, STRONGER KEYSTONE–ODESSA",
+  title: "Putting the health, safety, and welfare of people first.",
+  vision: "We envision a future where community growth protects people and places, supported by responsible planning, safer infrastructure, environmental stewardship, and decisions that reflect the needs of today’s residents and generations to come.",
+  alert: {
+    lead: "The Keystone–Odessa community’s health, safety and welfare is endangered due to its",
+    emphasis: "outdated community plan.",
   },
-  boundary: {
-    sourceSection: "H-02",
-    title: "THE NIMBY MAP",
-    source: "Source: Keystone–Odessa Community Plan",
-    sourceLink: "View the official map — Figure 3, page 17",
-    sourceId: "SRC-01",
-    caption: "Figure 3 – Keystone-Odessa Community Plan Boundary Map",
-    mapId: "bp-p008-01-official-boundary-map",
-    alt: "Figure 3 — Keystone–Odessa Community Plan Boundary Map, including the adopted boundary, parcel lines, road labels and the complete original figure caption.",
-  },
-  area: {
-    sourceSection: "H-03",
-    title: "WHAT THE NIMBY MAP DOESN’T SHOW YOU",
-    subtitle: "The land. The neighborhoods. The traffic.",
-    detail: "Added detail: land protections, parcel sizes and traffic volumes.",
-    mapId: "bp-p009-01-land-parcels-conservation-map",
-    alt: "Keystone–Odessa area map showing the Community Plan boundary, conservation land, lakes and open water, residential parcels, wellhead protection hatching and the complete original legend and parcel statistics.",
-    existingTitle: "LOOK AT WHAT’S ALREADY HERE.",
-    existingText: "Existing homes, divided lots and major roads are part of Keystone–Odessa today. The map shows an established residential community alongside its natural landscape.",
-    protectionTitle: "THE COMMUNITY PLAN ISN’T THE ONLY THING PROTECTING NATURE.",
-    protectionLead: "Over one-third of the Keystone–Odessa Community Plan area is mapped conservation land, lakes, reservoirs or ponds.",
-    protectionText: "Public conservation lands and lakes are part of what makes this area special. Separate ownership and environmental protections also matter; removing the Community Plan would not automatically remove them.",
-    measurement: "GIS measurement, 16 October 2026: 34.3% (8,025 of 23,387 acres); conservation land and mapped lakes/reservoirs/ponds clipped to the adopted Plan boundary, with overlaps counted once.",
-    sources: [
-      { id: "SRC-02", label: "Plan Hillsborough" },
-      { id: "SRC-03", label: "FNAI (September 2026)" },
-      { id: "SRC-04", label: "acquired ELAPP" },
-      { id: "SRC-05", label: "SWFWMD (2023)" },
-    ],
-    landscapeTitle: "PROTECT THE LANDSCAPE. QUESTION THE PLAN.",
-    natureTitle: "PROTECT NATURE. PROTECT PEOPLE.",
-    natureText: "Conservation lands, lakes and water-resource protections already exist here.",
-  },
-  parcels: {
-    sourceSection: "H-04",
-    title: "THOUSANDS OF HOMES. REAL INFRASTRUCTURE NEEDS.",
-    text: "Our parcel analysis identified 4,542 improved single-family parcels. Nearly half were smaller than one acre. Infrastructure decisions must reflect the community already here.",
-    note: "SCU analysis of the October 2, 2026 County GIS snapshot: 2,249 of 4,542 selected improved single-family parcels had reported acreage below one acre (49.5%). Parcels are not a count of occupied homes. Public holdings, wetlands and water-protection layers describe different protections; they are not all government-owned land.",
-    methodology: "unique tax folios assigned to the official boundary by an interior point; single-family classification, positive building value and at least one recorded building; full reported parcel acreage. The October 2 snapshot is dated, not a live count.",
-    sources: [
-      { id: "SRC-06", label: "Parcel source and calculation inputs — County parcel GIS" },
-      { id: "SRC-07", label: "Official Community Plan boundary — County GIS" },
-    ],
-  },
-  roads: {
-    sourceSection: "H-05",
-    title: "MAJOR ROADS. EVERYONE’S SAFETY MATTERS.",
-    mapId: "bp-p011-01-roads-traffic-map",
-    alt: "Keystone–Odessa roads and traffic map with Community Plan boundary, major roads, expressways, local roads, evacuation routes, A–Z and AA traffic section markers, the complete 2024 traffic table and LOS legend.",
-    text: "One Gunn Highway section carries nearly 20,000 vehicle movements a day. People living here and traveling through deserve better options.",
-    note: "2024 annual-average daily traffic: 19,912 on Gunn Highway, Pasco County line to Van Dyke Road. This measures vehicle movements, not unique people or injuries. SCU map compiled from County road and traffic data.",
-    trafficSource: { id: "SRC-08", label: "Read the County’s 2024 traffic data" },
-    continuation: "Continue to Roads & Safety: see why the Van Dyke study excluded Gunn Highway to west of Suncoast Parkway from capacity-improvement analysis because of Comprehensive Plan constraints.",
-    studySource: { id: "SRC-09", label: "Read the Van Dyke study scope — page 13" },
-    transitionTitle: "KEEP THE LANDSCAPE.",
-  },
-  issues: {
-    sourceSection: "H-06",
-    eyebrow: "OUR KEY ISSUES",
-    title: "Major problems under the current community plan.",
-    intro: "Click on each issue below to learn more about how these problems impact our community and why change is needed.",
-    waterScope: "Data scope: 7,191 administrative records for ZIP 33556, not a count of systems within the Community Plan boundary. 806 construction/repair records, 1998–2023, are not failure counts. The method behind the 3,087 figure remains unverified.",
-    cards: [
-      { id: "roads", photoSlot: "P017-02", title: "Our roads are dangerous!", text: "Traffic, intersections, lighting, road safety and emergency access put residents, students and commuters at risk.", href: "/issues/roads-safety", cta: "View Roads & Safety", alt: "Illustrative traffic on a tree-lined road with a pedestrian crossing sign, from the blueprint." },
-      { id: "water", photoSlot: "P017-03", title: "Our water is at risk!", text: "1,626 known septic systems, 1,210 likely septic, and 806 repair records. Septic systems and wells threaten groundwater, drinking water, health and the environment.", href: "/issues/water-septic", cta: "View Water & Septic", alt: "Illustrative lake scene with water lilies and a caution sign, from the blueprint; not a verified water-quality finding." },
-      { id: "growth", photoSlot: "P017-04", title: "Everyday needs are harder to access!", text: "Housing, commute time, healthcare, food, jobs and essential services are limited due to current restrictions.", href: "/issues/growth-daily-life", cta: "View Growth & Daily Life", alt: "Illustrative housing and a residential street from the blueprint." },
-      { id: "plan", photoSlot: "P017-05", title: "The Community Plan is holding our community back!", text: "Outdated rules adopted in 2001 continue to limit solutions for our roads, water, infrastructure, housing, and essential services.", timeline: "Created in 2001 · Still shaping Keystone–Odessa today", href: "/issues#outdated-community-plan", cta: "View the Community Plan", alt: "Illustrative Community Plan document and timeline from the selected Home screenshot; not an official document preview." },
-    ],
-  },
+  primary: { label: "View the Issues →", href: "/issues" },
+  secondary: { label: "View the Evidence →", href: "/evidence" },
 } as const;
+
+export type IssueCard = {
+  id: "roads" | "water" | "needs" | "plan";
+  image: AssetId;
+  caption?: readonly [string, string];
+  title: readonly [string, string];
+  text: string;
+  href: string;
+  linkName: string;
+};
+
+export const issueSection = {
+  eyebrow: "OUR KEY ISSUES",
+  title: "Major problems under the current community plan",
+  intro: "Click on each issue below to learn more about how these problems impact our community and why change is needed.",
+} as const;
+
+export const issueCards: readonly IssueCard[] = [
+  {
+    id: "roads",
+    image: "home-card-roads",
+    caption: ["Gunn Highway, Keystone · AARoads (2016)", "Road setting only, not crash evidence"],
+    title: ["Our roads", "are dangerous!"],
+    text: "Traffic, intersections, lighting, road safety and emergency access put residents, students and commuters at risk.",
+    href: "/issues/roads-safety",
+    linkName: "View Roads & Safety",
+  },
+  {
+    id: "water",
+    image: "home-card-water",
+    caption: ["Lake Rogers, Odessa · Florida Hikes", "Landscape only, not contamination evidence"],
+    title: ["Our water", "is at risk!"],
+    text: "1,626 known septic systems, 1,210 likely septic, and 806 repair records. Septic systems and wells threaten groundwater, drinking water, health and the environment.",
+    href: "/issues/water-septic",
+    linkName: "View Water & Septic",
+  },
+  {
+    id: "needs",
+    image: "home-card-everyday-needs",
+    title: ["Everyday needs", "are harder to access!"],
+    text: "Housing, commute time, healthcare, food, jobs and essential services are limited due to current restrictions.",
+    href: "/issues/growth-daily-life",
+    linkName: "View Growth & Daily Life",
+  },
+  {
+    id: "plan",
+    image: "home-card-community-plan",
+    title: ["The Community Plan", "is holding our community back!"],
+    text: "Outdated rules adopted in 2001 continue to limit solutions for our roads, water, infrastructure, housing, and essential services.",
+    // "View the Community Plan" opens the website's explanation first (TXT:115, D-008).
+    href: "/issues#community-plan",
+    linkName: "View the Community Plan",
+  },
+];

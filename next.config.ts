@@ -1,9 +1,7 @@
 import type { NextConfig } from "next";
 
+// Server build for Vercel (S7, D-020): no static export, so the forms can gain server route handlers.
 const nextConfig: NextConfig = {
-  output: "export",
-  // Empty for local/Vercel; GitHub Pages builds under the repository subpath.
-  basePath: process.env.NEXT_PUBLIC_BASE_PATH || "",
   trailingSlash: true,
   images: { unoptimized: true },
   devIndicators: false,

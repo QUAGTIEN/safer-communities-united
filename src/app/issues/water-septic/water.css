@@ -1,150 +1,328 @@
-.water-page { background: var(--cream); }
-.water-hero { padding-top: 2rem; }
-.water-breadcrumb { display: flex; align-items: center; gap: 0.5rem; font-size: 0.8125rem; line-height: 1.6; }
-.water-breadcrumb a { text-decoration: underline; text-underline-offset: 0.2rem; }
-.water-hero-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 2rem; align-items: center; margin-top: 2rem; }
-.water-hero h1 { margin-top: 0.75rem; font-size: clamp(2.25rem, 4vw, 3.875rem); line-height: 1.12; letter-spacing: -0.035em; font-weight: 700; }
-.water-lead { max-width: 78rem; margin-top: 1rem; font-size: 1rem; line-height: 1.75; }
-.water-hero .water-cta, .water-next-grid .water-cta { margin-top: 1.75rem; }
-.water-image { display: block; width: 100%; height: auto; margin-inline: auto; }
-.water-caption { margin-top: 0.5rem; font-size: 0.75rem; line-height: 1.6; text-align: center; }
-.water-hero-connections { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.5rem; margin-top: 2rem; }
-.water-hero-connections li { display: flex; align-items: center; gap: 1.25rem; min-width: 0; }
-.water-hero-connections .water-image { width: 6rem; flex-shrink: 0; }
-.water-hero-connections h2 { font-family: var(--font-inter), sans-serif; font-size: 0.875rem; font-weight: 700; line-height: 1.5; }
-.water-hero-connections p { margin-top: 0.5rem; font-size: 0.8125rem; line-height: 1.7; }
-.water-statement { margin-top: 1.75rem; padding: 1.25rem 1.5rem; border-left: 3px solid var(--teal); background: var(--white); font-family: var(--font-source-serif), Georgia, serif; font-size: clamp(1.25rem, 2vw, 1.875rem); font-weight: 650; line-height: 1.5; }
-.water-topic-nav { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 0.75rem; margin-top: 1.75rem; }
-.water-topic-nav a { display: flex; align-items: center; gap: 0.625rem; min-height: 4rem; padding: 0.75rem; border: 1px solid var(--gray); background: var(--white); border-radius: var(--radius); font-size: 0.75rem; font-weight: 600; line-height: 1.5; }
-.water-topic-nav a:hover { border-color: var(--teal); color: var(--teal); }
-.water-topic-nav a > svg:first-child { width: 1.25rem; height: 1.25rem; color: var(--teal); flex-shrink: 0; }
-.water-topic-nav a > span { flex: 1; }
-.water-topic-nav a > svg:last-child { flex-shrink: 0; }
-.water-section { padding-block: 4rem; border-bottom: 1px solid var(--gray); }
-.water-white { background: var(--white); }
-.water-heading { max-width: 47ch; margin-top: 0.75rem; font-size: clamp(2rem, 3.2vw, 3rem); font-weight: 700; line-height: 1.16; letter-spacing: -0.03em; }
-.water-data-grid { display: grid; grid-template-columns: 1fr 1.3fr; gap: 2rem; align-items: start; }
-.water-figure { min-width: 0; }
-.water-figure figcaption { padding: 0.875rem 1rem; background: var(--white); border: 1px solid var(--gray); font-size: 0.8125rem; line-height: 1.7; text-align: center; }
-.water-source-link { display: inline-flex; align-items: center; gap: 0.5rem; min-height: 2.75rem; padding-block: 0.5rem; color: var(--teal); font-size: 0.8125rem; line-height: 1.6; text-decoration: underline; text-underline-offset: 0.2rem; }
-.water-source-link > svg { flex-shrink: 0; }
-.water-source-row { display: flex; align-items: center; flex-wrap: wrap; gap: 0.5rem 1.5rem; margin-top: 1rem; }
-.water-numbers { display: grid; grid-template-columns: 0.8fr 1.2fr; gap: 1.5rem; margin-top: 1.5rem; padding: 1.5rem; border: 1px solid var(--gray); background: var(--white); border-radius: var(--radius); }
-.water-total { display: flex; flex-direction: column; }
-.water-total dd { order: -1; color: var(--navy); font-family: var(--font-source-serif), Georgia, serif; font-size: clamp(2rem, 3.2vw, 3rem); font-weight: 700; line-height: 1.2; }
-.water-total dt { margin-top: 0.5rem; font-size: 0.875rem; line-height: 1.6; }
-.water-groups { display: grid; gap: 0.75rem; }
-.water-groups > div { display: flex; gap: 0.875rem; align-items: baseline; }
-.water-groups dd { order: -1; min-width: 3.5rem; font-family: var(--font-source-serif), Georgia, serif; font-size: 1.375rem; font-weight: 700; color: var(--teal); }
-.water-groups > div:last-child dd { color: var(--coral); }
-.water-groups dt { font-size: 0.8125rem; line-height: 1.6; }
-.water-detail { margin-top: 1rem; font-size: 0.9375rem; line-height: 1.8; }
-.water-scope { margin-top: 1.25rem; padding-left: 1rem; border-left: 2px solid var(--teal); font-size: 0.8125rem; line-height: 1.8; }
-.water-date-range { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-block: 1.5rem 1rem; padding: 0.875rem 1rem; background: var(--cream); font-weight: 600; }
-.water-connected-grid { display: grid; grid-template-columns: 0.8fr 1.2fr; gap: 2rem; align-items: start; }
-.water-connected-grid .water-heading { font-size: clamp(1.875rem, 3vw, 2.75rem); }
-#groundwater { margin-top: 1.75rem; }
-.water-reading { max-width: 74rem; margin-top: 2rem; font-size: 1rem; line-height: 1.8; }
-.water-reading h3 { margin-bottom: 1rem; font-size: clamp(1.5rem, 2.4vw, 2.25rem); font-weight: 700; line-height: 1.3; }
-.water-petition-band { display: flex; justify-content: space-between; align-items: center; gap: 2rem; padding: 1.75rem; margin-top: 1.75rem; background: var(--navy); color: var(--white); }
-.water-petition-band h3 { font-size: 1.5rem; font-weight: 700; line-height: 1.4; }
-.water-petition-band p { max-width: 58rem; margin-top: 0.75rem; font-size: 0.9375rem; line-height: 1.8; }
-.water-options-grid { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 2rem; align-items: start; }
-.water-options-grid > div > .water-image { margin-top: 1.5rem; }
-.water-options-steps { display: grid; gap: 1.5rem; }
-.water-options-steps li { position: relative; padding: 1.5rem; border: 1px solid var(--gray); border-radius: var(--radius); background: var(--cream); }
-.water-step-heading { display: flex; align-items: start; gap: 1rem; }
-.water-step-heading > span { display: grid; flex-shrink: 0; place-items: center; width: 2rem; height: 2rem; border-radius: 50%; background: var(--teal); color: var(--white); font-weight: 700; }
-.water-step-heading h3 { font-family: var(--font-inter), sans-serif; font-size: 0.9375rem; font-weight: 700; line-height: 1.5; }
-.water-options-steps li > p { margin-top: 1rem; font-size: 0.9375rem; line-height: 1.75; }
-.water-step-arrow { display: block; position: absolute; left: calc(50% - 0.75rem); bottom: -1.5rem; height: 1.5rem; color: var(--teal); }
-.water-option-photos { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin-top: 1rem; }
-.water-option-photos .water-image { width: min(100%, 6rem); }
-.water-options-closing { margin-top: 2rem; }
-.water-options-closing h3 { font-size: 1.75rem; font-weight: 700; line-height: 1.4; }
-.water-options-closing > p { margin-top: 1rem; font-size: 0.9375rem; line-height: 1.8; }
-.water-research { padding: 1.5rem; border: 1px solid var(--gray); background: var(--white); font-size: 0.875rem; line-height: 1.8; }
-.water-research > p + p { margin-top: 1rem; }
-.water-source-note { margin-top: 1rem; font-size: 0.8125rem; line-height: 1.8; }
-.water-conflict-panel { margin-top: 2rem; }
-.water-conflict-panel > h2 { padding: 1.75rem; background: var(--navy); color: var(--white); font-size: clamp(2.5rem, 5vw, 4.5rem); line-height: 1.1; font-weight: 700; text-align: center; letter-spacing: -0.025em; }
-.water-conflict-intro { margin-top: 1.5rem; font-family: var(--font-source-serif), Georgia, serif; font-size: clamp(1.5rem, 2.4vw, 2.25rem); line-height: 1.4; font-weight: 650; }
-.water-conflict-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 1.5rem; }
-.water-conflict-cards article { padding: 1.5rem; background: var(--white); border: 1px solid var(--gray); border-top: 3px solid var(--teal); border-radius: var(--radius); }
-.water-conflict-cards article:last-child { border-top-color: var(--coral); }
-.water-conflict-cards h3 { display: flex; align-items: start; gap: 1rem; font-size: 1.75rem; font-weight: 700; line-height: 1.25; }
-.water-conflict-cards h3 > svg { width: 2rem; height: 2rem; flex-shrink: 0; color: var(--teal); }
-.water-conflict-cards article:last-child h3 > svg { color: var(--coral); }
-.water-conflict-cards p { margin-top: 1rem; font-size: 1.0625rem; line-height: 1.75; }
-.water-conflict-closing { margin-top: 1.5rem; padding: 1.5rem; background: var(--navy); color: var(--white); text-align: center; font-family: var(--font-source-serif), Georgia, serif; font-size: clamp(1.75rem, 3vw, 2.75rem); font-weight: 700; line-height: 1.3; }
-.water-comparison-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 1.5rem; }
-.water-comparison-panel { min-width: 0; border: 1px solid var(--gray); border-radius: var(--radius); overflow: hidden; }
-.water-comparison-heading { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 1rem; padding: 1.25rem; background: var(--coral); color: var(--white); }
-.water-county-panel .water-comparison-heading { background: var(--teal); }
-.water-comparison-heading h3 { font-size: 1.25rem; font-weight: 700; line-height: 1.4; }
-.water-comparison-heading .water-image { width: 8rem; }
-.water-comparison-panel ul { padding: 0.5rem 1.25rem; }
-.water-comparison-panel li { display: flex; gap: 1rem; align-items: start; padding-block: 1.125rem; border-bottom: 1px solid var(--gray); font-size: 0.9375rem; line-height: 1.75; }
-.water-comparison-panel li:last-child { border-bottom: 0; }
-.water-comparison-panel li svg { width: 1.25rem; height: 1.25rem; flex-shrink: 0; margin-top: 0.25rem; color: var(--coral); }
-.water-county-panel li svg { color: var(--teal); }
-.water-comparison-panel > .water-source-link { margin: 0.5rem 1.25rem 1.25rem; }
-.water-comparison-action { margin-top: 1.5rem; text-align: center; }
-.water-evidence-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 1rem; margin-top: 1.5rem; }
-.water-evidence-card { display: flex; flex-direction: column; align-items: start; min-width: 0; padding: 1rem; border: 1px solid var(--gray); border-radius: var(--radius); background: var(--white); }
-.water-evidence-card h3 { margin-top: 1rem; font-size: 1.25rem; font-weight: 700; line-height: 1.35; }
-.water-card-subtitle { margin-top: 0.5rem; font-size: 0.8125rem; line-height: 1.7; }
-.water-demo-label { margin-top: 1rem; padding-left: 0.75rem; border-left: 2px solid var(--teal); font-size: 0.75rem; line-height: 1.7; }
-.water-card-finding { margin-block: 1rem; font-size: 0.875rem; line-height: 1.75; }
-.water-evidence-card dl { width: 100%; margin-top: auto; border-top: 1px solid var(--gray); padding-top: 1rem; font-size: 0.75rem; line-height: 1.8; }
-.water-evidence-card dl > div + div { margin-top: 0.75rem; }
-.water-evidence-card dt { font-weight: 600; }
-.water-evidence-card > button { margin-top: 1rem; padding-inline: 0.75rem; font-size: 0.75rem; }
-.water-policy-sources { margin-top: 0.75rem; }
-.water-next-grid { display: grid; grid-template-columns: 1fr 1.1fr; gap: 2rem; align-items: center; }
-@media (max-width: 74.999rem) {
-  .water-topic-nav { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-  .water-evidence-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-  .water-hero-connections li { flex-direction: column; align-items: start; gap: 0.75rem; }
-  .water-numbers { grid-template-columns: 1fr; gap: 1rem; }
-  .water-comparison-heading { grid-template-columns: 1fr; }
-  .water-comparison-heading .water-image { width: 8rem; margin-inline: 0; }
+/* Water & Septic (S5). Estimates from the approved desktop images W6 p189 (1336 px canvas), W3 p191 (1402),
+   R2 p192 (1476), W1 p195 (1341), W2 p198 (1448), W4 p202 (1536), W5 p204 (1476), W7 p207 (1476),
+   scaled to a 1536 px viewport. No tablet/phone reference exists: those layouts are proposals (TXT:27). */
+
+.ws-page { background: var(--cream); color: var(--charcoal); }
+.ws-wrap { width: min(100% - 8rem, 87rem); margin-inline: auto; }
+.ws-wrap.is-wide { width: min(100% - 4rem, 92rem); }
+.ws-section { padding-block: 1.5rem 2rem; scroll-margin-top: 0; }
+.ws-break { display: inline; }
+.ws-crumbs { display: flex; flex-wrap: wrap; gap: 0.875rem; margin: 0; font-size: 0.8125rem; line-height: 1.25rem; font-weight: 600; letter-spacing: 0.02em; }
+.ws-crumbs a:hover { text-decoration: underline; }
+.ws-kicker { display: flex; align-items: center; gap: 1rem; margin-top: 1rem; }
+.ws-kicker p { display: flex; flex-direction: column; margin: 0; }
+.ws-kicker-icon { display: flex; flex: none; width: 4.25rem; height: 4.25rem; align-items: center; justify-content: center; border-radius: 50%; color: var(--white); }
+.ws-kicker-icon svg { width: 2rem; height: 2rem; }
+.ws-kicker-icon.is-teal { background: #0e6f80; }
+.ws-kicker-icon.is-red { background: #b8301e; }
+.ws-kicker-icon.is-gray { background: #6e7075; }
+.ws-kicker-label { font-size: 1.125rem; line-height: 1.5rem; letter-spacing: 0.02em; color: #8a2433; }
+.ws-kicker-text { font-size: 1.375rem; line-height: 1.75rem; font-weight: 700; letter-spacing: -0.01em; color: #8a2433; }
+#septic-concentration .ws-kicker-text, #septic-repairs .ws-kicker-text { color: var(--charcoal); }
+#septic-repairs .ws-kicker-text { font-weight: 400; }
+.ws-title { margin: 1.5rem 0 0; font-size: 3.5rem; line-height: 3.75rem; font-weight: 700; letter-spacing: -0.035em; }
+.ws-title.is-wide { max-width: 50rem; }
+.ws-title.is-small { margin-top: 0.75rem; font-size: 2.5rem; line-height: 3rem; }
+.ws-display { margin: 1.5rem 0 0; font-family: var(--font-merriweather), Georgia, serif; font-size: 3.25rem; line-height: 3.5rem; font-weight: 800; font-stretch: 87%; letter-spacing: -0.02em; text-transform: uppercase; }
+.ws-display.is-medium { font-size: 2.625rem; line-height: 2.875rem; }
+.ws-display.is-large { font-size: 3.875rem; line-height: 4rem; }
+.ws-display.is-small { font-size: 1.875rem; line-height: 2.25rem; }
+.ws-intro { margin: 1.25rem 0 0; font-size: 1.375rem; line-height: 2rem; }
+.ws-intro.is-small { font-size: 1.25rem; line-height: 1.875rem; }
+.ws-intro.is-measure { max-width: 76rem; }
+.ws-button { display: inline-flex; min-height: 3.125rem; align-items: center; gap: 0.5rem; padding: 0 1.5rem; border-radius: 3px; background: #8a2433; font-size: 1.1875rem; font-weight: 700; color: var(--white); }
+.ws-button:hover { text-decoration: underline; text-underline-offset: 4px; }
+.ws-two { display: grid; grid-template-columns: minmax(0, 37.5rem) minmax(0, 46rem); --unused: 0; justify-content: space-between; gap: 2rem; align-items: start; }
+.ws-two.is-repairs { grid-template-columns: minmax(0, 52rem) minmax(0, 33.5rem); }
+.ws-two.is-connected { grid-template-columns: minmax(0, 30rem) minmax(0, 55rem); }
+.ws-map { display: block; width: 100%; height: auto; margin-top: 2.25rem; border-radius: 6px; }
+.ws-map.is-small { margin-top: 4.5rem; }
+.ws-message { margin: 1.5rem 0 0; padding: 1.5rem 2rem; border-left: 5px solid #8a2433; border-radius: 4px; background: #ede6dc; font-family: var(--font-merriweather), Georgia, serif; font-size: 1.875rem; line-height: 2.375rem; font-weight: 700; letter-spacing: -0.02em; }
+.ws-message.is-red { border-left-color: #e02d22; background: #f8ece9; font-weight: 800; }
+
+/* Numbered menus. */
+.ws-menu { margin-top: 1rem; }
+.ws-menu ul { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.75rem 1.5rem; margin: 0; padding: 0; list-style: none; }
+.ws-menu.is-issues ul { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.75rem; }
+.ws-menu-link { display: flex; width: 100%; min-height: 5.25rem; align-items: center; gap: 1.125rem; padding: 0.75rem 1.5rem 0.75rem 1.125rem; border: 1px solid #e4dfd6; border-radius: 4px; background: var(--white); font: inherit; color: var(--charcoal); text-align: left; }
+.ws-menu-link.is-current { border-color: #b8737b; background: #f1e1e1; }
+.ws-menu-icon { display: flex; flex: none; width: 3.375rem; height: 3.375rem; align-items: center; justify-content: center; border-radius: 50%; color: var(--white); }
+.ws-menu-icon svg { width: 1.625rem; height: 1.625rem; }
+.ws-menu-icon.is-database, .ws-menu-icon.is-waves { background: #0e6f80; }
+.ws-menu-icon.is-wrench { background: #c12a1f; }
+.ws-menu-icon.is-droplet { background: #0b2a5b; }
+.ws-menu-icon.is-sprout { background: #12592f; }
+.ws-menu-icon.is-cog { background: #6e7075; }
+.ws-menu-icon.is-issue-01 { background: #e02d22; }
+.ws-menu-icon.is-issue-02 { background: #0e6f80; }
+.ws-menu-icon.is-issue-03 { background: #0e6f80; }
+.ws-menu-icon.is-issue-04 { background: #e02d22; }
+.ws-menu-text { display: flex; flex: 1; flex-direction: column; font-size: 1.125rem; line-height: 1.5rem; }
+.ws-menu-text.is-serif > span:last-child { font-family: var(--font-merriweather), Georgia, serif; }
+.ws-menu-number { font-weight: 700; color: #8a2433; }
+.ws-menu-arrow { flex: none; width: 1.5rem; height: 1.5rem; color: #8a2433; }
+.ws-menu-link:hover .ws-menu-text > span:last-child { text-decoration: underline; text-underline-offset: 3px; }
+#connected-system .ws-menu ul, #water-wastewater-options .ws-menu ul, #community-plan-vs-county .ws-menu ul { grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 0.625rem; }
+#connected-system .ws-menu-link, #water-wastewater-options .ws-menu-link, #community-plan-vs-county .ws-menu-link { min-height: 4.375rem; gap: 0.625rem; padding: 0.5rem 0.75rem; }
+#connected-system .ws-menu-icon, #water-wastewater-options .ws-menu-icon, #community-plan-vs-county .ws-menu-icon { width: 2.75rem; height: 2.75rem; }
+#connected-system .ws-menu-text, #water-wastewater-options .ws-menu-text, #community-plan-vs-county .ws-menu-text { font-size: 0.8125rem; line-height: 1.25rem; white-space: nowrap; }
+
+/* W6 hero. */
+.ws-hero { padding-top: 0; }
+.ws-hero-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 46.75rem); gap: 2.5rem; }
+.ws-hero-copy { padding: 1.5rem 0 0 max(4rem, (100vw - 87rem) / 2); }
+.ws-kicker.is-hero { gap: 1.25rem; margin-top: 1.25rem; }
+.ws-hero-label { font-size: 1.5rem; font-weight: 700; color: #8a2433; }
+.ws-hero-title { margin: 1.75rem 0 0; font-size: 3.0625rem; line-height: 3.375rem; font-weight: 700; letter-spacing: -0.03em; }
+.ws-hero-intro { max-width: 36rem; margin: 1.5rem 0 0; font-size: 1.25rem; line-height: 1.75rem; }
+.ws-hero .ws-button { margin-top: 1.5rem; }
+.ws-hero-figure { margin: 0; }
+.ws-hero-figure img { display: block; width: 100%; height: auto; }
+.ws-hero-figure figcaption { margin: 0.75rem 0 0 0.625rem; font-size: 0.875rem; color: #555; }
+.ws-steps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.5rem; margin: 1.5rem 0 0; padding: 0; list-style: none; }
+.ws-steps li { position: relative; display: flex; align-items: center; gap: 1.25rem; }
+.ws-steps-arrow { position: absolute; left: -1.625rem; width: 1.75rem; height: 1.75rem; color: #8a2433; }
+.ws-step-circle { flex: none; width: 8.75rem; height: 8.75rem; border-radius: 50%; object-fit: cover; }
+.ws-step-title { margin: 0; font-family: var(--font-inter), sans-serif; font-size: 1.25rem; line-height: 1.5rem; font-weight: 700; }
+.ws-steps p { margin: 0.5rem 0 0; font-size: 1.0625rem; line-height: 1.375rem; color: #333; }
+.ws-hero-message { margin: 1rem 0 0; padding: 1.25rem 2rem; border-radius: 4px; background: #ede6dc; font-family: var(--font-merriweather), Georgia, serif; font-size: 1.625rem; line-height: 2.125rem; font-weight: 700; text-align: center; }
+.ws-hero .ws-menu-link { min-height: 5.375rem; }
+
+/* W3 stat card. */
+.ws-stat-card { display: grid; grid-template-columns: auto 1fr; margin-top: 1.5rem; padding: 1.75rem 1.5rem 1.25rem; border: 1px solid #e4dfd6; border-radius: 6px; background: var(--white); }
+.ws-stat-main { padding-right: 1.75rem; border-right: 1px solid #e4dfd6; }
+.ws-stat-main p { margin: 0; font-size: 1.125rem; line-height: 1.5rem; }
+.ws-stat-total { font-family: var(--font-merriweather), Georgia, serif; font-size: 3.75rem !important; line-height: 4.25rem !important; font-weight: 700; letter-spacing: -0.04em; }
+.ws-stat-groups { display: grid; gap: 0.75rem; margin: 0; padding: 0 0 0 2.25rem; list-style: none; }
+.ws-stat-groups li { display: grid; grid-template-columns: 4.5rem max-content; align-items: baseline; gap: 1rem; font-size: 1rem; }
+.ws-stat-groups strong { font-size: 1.875rem; text-align: right; }
+.ws-stat-groups .is-known strong { color: #16707c; }
+.ws-stat-groups .is-likely strong { color: #b78c18; }
+.ws-stat-groups .is-somewhat strong { color: #b33b26; }
+.ws-stat-summary { grid-column: 1 / -1; margin: 1.5rem 0 0; padding-top: 1.25rem; border-top: 1px solid #e4dfd6; font-size: 1.125rem; line-height: 1.75rem; }
+.ws-stat-summary strong { font-size: 1.625rem; }
+
+/* R2 stats row. */
+.ws-repair-stats { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; margin: 2rem 0 0; padding-block: 1.5rem; border-top: 1px solid #ddd6cb; border-bottom: 1px solid #ddd6cb; }
+.ws-repair-stats > div { padding-inline: 1.5rem; }
+.ws-repair-stats > div:first-child { padding-left: 0; }
+.ws-repair-stats > div + div { border-left: 1px solid #ddd6cb; }
+.ws-repair-stats dd { margin: 0; font-family: var(--font-merriweather), Georgia, serif; font-size: 3.25rem; line-height: 3.75rem; font-weight: 700; letter-spacing: -0.04em; }
+.ws-repair-stats .is-total dd { color: #c4281c; }
+.ws-repair-stats dt { margin-top: 0.75rem; font-size: 1.1875rem; line-height: 1.5rem; }
+
+/* W1 connected system. */
+.ws-connected .ws-display { font-size: 3rem; line-height: 3.5rem; }
+.ws-block { display: block; width: 100%; height: auto; border-radius: 6px; }
+.ws-banner { margin: 1.25rem 0 0; padding: 1.25rem 1.5rem; border-left: 3px solid #8a2433; border-radius: 4px; background: #ede6dc; font-family: var(--font-merriweather), Georgia, serif; font-size: 1.75rem; line-height: 2.25rem; font-weight: 800; font-stretch: 87%; text-align: center; }
+.ws-cross { margin: 1.75rem 0 0; }
+.ws-cross img { display: block; width: 100%; height: auto; }
+.ws-cross figcaption { margin-top: 1rem; font-size: 0.9375rem; text-align: center; color: #333; }
+.ws-callout { display: flex; align-items: center; gap: 2rem; margin-top: 1.5rem; padding: 1.25rem 2rem; border-radius: 6px; background: #ede6dc; }
+.ws-callout-icon { display: flex; flex: none; width: 4.75rem; height: 4.75rem; align-items: center; justify-content: center; border-radius: 50%; background: #0e6f80; color: var(--white); }
+.ws-callout-icon svg { width: 2.25rem; height: 2.25rem; }
+.ws-callout h3 { margin: 0; font-size: 2.25rem; line-height: 2.75rem; font-weight: 800; font-stretch: 87%; letter-spacing: -0.02em; }
+.ws-callout p { margin: 0.5rem 0 0; font-size: 1.25rem; line-height: 1.875rem; }
+.ws-source { margin: 1.25rem 0 0; font-size: 0.875rem; line-height: 1.25rem; }
+.ws-source a { color: #8a2433; text-decoration: underline; }
+
+/* W2 options. */
+.ws-options { padding-bottom: 2rem; }
+.ws-options-grid { display: grid; grid-template-columns: minmax(0, 44%) minmax(0, 1fr); gap: 0.25rem; }
+.ws-options-text { padding: 0.75rem 1.5rem 0 max(4rem, (100vw - 87rem) / 2); }
+.ws-options .ws-display.is-large { margin-top: 1.75rem; }
+.ws-options-photo { display: block; width: 100%; height: 24rem; margin-top: 1.5rem; object-fit: cover;
+  -webkit-mask-image: linear-gradient(to right, #000 80%, transparent); mask-image: linear-gradient(to right, #000 80%, transparent); }
+.ws-flow { display: grid; gap: 2.25rem; margin: 1.5rem max(4rem, (100vw - 87rem) / 2) 0 1rem; padding: 0; list-style: none; }
+.ws-flow-step { position: relative; display: flex; align-items: center; gap: 1.5rem; padding: 1.5rem 1.75rem; border: 1px solid #e4dfd6; border-radius: 6px; background: var(--white); }
+.ws-flow-step + .ws-flow-step::before { position: absolute; top: -2rem; left: 50%; content: "↓"; font-size: 1.625rem; font-weight: 700; color: #8a2433; transform: translateX(-50%); }
+.ws-flow-step.is-1 { align-items: flex-start; }
+.ws-flow-number { display: flex; flex: none; width: 2.75rem; height: 2.75rem; align-items: center; justify-content: center; border-radius: 50%; background: #8a2433; font-size: 1.5rem; font-weight: 700; color: var(--white); }
+.ws-flow-icon { display: flex; flex: none; width: 5.75rem; height: 5.75rem; align-items: center; justify-content: center; border-radius: 50%; font-size: 3rem; font-weight: 800; color: var(--white); }
+.ws-flow-icon svg { width: 2.75rem; height: 2.75rem; }
+.ws-flow-step.is-2 .ws-flow-icon { background: #147a6a; }
+.ws-flow-step.is-3 .ws-flow-icon { background: #e0201b; }
+.ws-flow-step.is-4 .ws-flow-icon { background: #f39a11; }
+.ws-flow-body { flex: 1; }
+.ws-flow-body h3 { margin: 0; font-family: var(--font-inter), sans-serif; font-size: 1.3125rem; line-height: 1.75rem; font-weight: 800; letter-spacing: -0.02em; }
+.ws-flow-body p { margin: 0.5rem 0 0; font-size: 1.1875rem; line-height: 1.75rem; }
+.ws-flow-body.is-first { text-align: center; }
+.ws-flow-body.is-first h3 { padding-top: 0.375rem; text-align: left; }
+.ws-flow-circles { display: flex; justify-content: space-around; margin-top: 1.25rem; }
+.ws-flow-circles img { width: 8.75rem; height: 8.75rem; border-radius: 50%; object-fit: cover; }
+.ws-door { margin-top: 0; padding-block: 1.5rem 1.75rem; background: var(--white); }
+.ws-door .ws-display { margin-top: 0; }
+.ws-door p { margin: 0.75rem 0 0; font-size: 1.25rem; line-height: 1.75rem; }
+.ws-door-row { display: flex; align-items: center; gap: 1.5rem; margin-top: 1.5rem; }
+.ws-door-note { flex: 1; margin: 0 !important; padding-left: 1.5rem; border-left: 1px solid #ddd; font-size: 1.0625rem !important; }
+.ws-door-exclusions { display: flex; flex-direction: column; align-items: center; gap: 0.5rem; font-size: 0.875rem; }
+.ws-policy { padding-block: 2.5rem 3rem; }
+.ws-policy .ws-display { margin-top: 0; }
+.ws-policy-text { margin: 1.5rem 0 0; font-size: 1.5625rem; line-height: 2.25rem; }
+.ws-policy-source { margin: 1.25rem 0 0; font-size: 1.375rem; line-height: 2rem; color: #333; }
+.ws-policy-link { display: inline-block; margin-top: 1.25rem; font-size: 1.5rem; color: #8a2433; }
+.ws-policy-link:hover { text-decoration: underline; }
+
+/* W4 core conflict. */
+.ws-conflict { padding-top: 0; }
+.ws-conflict-title { margin: 0; padding: 2.75rem 1rem 2.25rem; background: #262524; font-size: 5.5rem; line-height: 6rem; font-weight: 800; font-stretch: 87%; letter-spacing: -0.03em; text-align: center; color: var(--white); }
+.ws-conflict-strip { display: block; width: 100%; height: 6.25rem; object-fit: cover; }
+.ws-conflict-intro { margin: 1.25rem 0 0; font-family: var(--font-merriweather), Georgia, serif; font-size: 2.625rem; line-height: 3rem; font-weight: 700; letter-spacing: -0.02em; }
+.ws-conflict-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; margin-top: 1.25rem; }
+.ws-conflict-card { padding: 1.25rem 1.5rem 1.5rem; border: 1px solid #e4dfd6; border-radius: 8px; background: var(--white); }
+.ws-conflict-head { display: flex; align-items: center; gap: 1.5rem; }
+.ws-conflict-icon { flex: none; width: 8.125rem; height: 8.125rem; object-fit: contain; }
+.ws-conflict-head h3 { flex: 1; margin: 0; padding: 1rem 1.5rem; border-radius: 4px; background: #8a2433; font-size: 2.125rem; line-height: 2.5rem; font-weight: 700; letter-spacing: -0.01em; color: var(--white); }
+.ws-conflict-card p { margin: 1.5rem 0 0 0.25rem; font-size: 1.75rem; line-height: 2.625rem; font-weight: 600; letter-spacing: -0.02em; }
+.ws-conflict-link { display: inline-block; margin: 1rem 0 0 0.25rem; padding: 0; border: 0; background: none; font: inherit; font-size: 1.625rem; font-weight: 600; color: #8a2433; text-decoration: underline; text-underline-offset: 4px; }
+.ws-conflict-closing { display: flex; align-items: center; justify-content: center; gap: 2.5rem; margin-top: 1.25rem; padding: 1rem 2rem; border-radius: 8px; background: #262524; }
+.ws-conflict-drop { width: 9rem; height: auto; border-radius: 50%; }
+.ws-conflict-closing p { margin: 0; font-family: var(--font-merriweather), Georgia, serif; font-size: 3.5rem; line-height: 4rem; font-weight: 800; font-stretch: 87%; letter-spacing: -0.02em; color: var(--white); }
+.ws-conflict-sources { margin: 1.25rem 0 0; font-size: 1.125rem; text-align: center; color: #333; }
+
+/* W5 comparison. */
+.ws-compare-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-top: 1.5rem; }
+.ws-compare { overflow: hidden; border: 1px solid #e4dfd6; border-radius: 6px; background: var(--white); }
+.ws-compare-head { position: relative; display: flex; min-height: 7.875rem; align-items: center; gap: 1.5rem; padding: 0 1.5rem; color: var(--white); }
+.ws-compare.is-community .ws-compare-head { background: #8a2433; }
+.ws-compare.is-county .ws-compare-head { background: #262524; }
+.ws-compare-head > span { position: relative; z-index: 1; display: flex; flex: none; width: 4.875rem; height: 4.875rem; align-items: center; justify-content: center; border-radius: 50%; background: var(--white); color: #c4281c; }
+.ws-compare.is-county .ws-compare-head > span { color: #147a4a; }
+.ws-compare-head > span svg { width: 2.5rem; height: 2.5rem; }
+.ws-compare-head h3 { position: relative; z-index: 1; margin: 0; font-family: var(--font-inter), sans-serif; font-size: 1.75rem; line-height: 2.25rem; font-weight: 800; letter-spacing: -0.02em; }
+.ws-compare-photo { position: absolute; top: 0.375rem; right: 0; bottom: 0; width: 30%; height: calc(100% - 0.375rem); object-fit: cover; }
+.ws-compare ul { margin: 0; padding: 0 1.25rem 0.5rem; list-style: none; }
+.ws-compare li { display: flex; min-height: 4.75rem; align-items: center; gap: 1.5rem; border-bottom: 1px solid #e6e1d8; }
+.ws-compare li:last-child { border-bottom: 0; }
+.ws-compare-mark { display: flex; flex: none; width: 2.5rem; height: 2.5rem; align-items: center; justify-content: center; margin-right: 0.5rem; border-radius: 50%; color: var(--white); }
+.ws-compare.is-community .ws-compare-mark { background: #e02d22; }
+.ws-compare.is-county .ws-compare-mark { background: #1d8a50; }
+.ws-compare-mark svg { width: 1.25rem; height: 1.25rem; }
+.ws-compare li p { margin: 0; padding-left: 1.5rem; border-left: 1px solid #ddd; font-size: 1.3125rem; line-height: 1.75rem; font-weight: 600; letter-spacing: -0.01em; }
+.ws-compare-cta { display: flex; min-height: 6.75rem; align-items: center; justify-content: center; gap: 1.75rem; margin-top: 1.25rem; border-radius: 6px; background: #ede6dc; font-family: var(--font-merriweather), Georgia, serif; font-size: 2.125rem; color: #2a2827; }
+.ws-compare-cta > span { display: flex; width: 4.5rem; height: 4.5rem; align-items: center; justify-content: center; border-radius: 50%; background: #0b2a5b; color: var(--white); }
+.ws-compare-cta > span svg { width: 2.25rem; height: 2.25rem; }
+.ws-compare-cta:hover { text-decoration: underline; text-underline-offset: 5px; }
+
+/* W7 evidence + what's next. */
+.ws-evidence { padding-bottom: 0; }
+.ws-evidence-head { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 36rem); align-items: start; gap: 3rem; padding-left: 2.75rem; }
+.ws-evidence-head .ws-title { margin-top: 0.75rem; }
+.ws-evidence-head p { margin: 1.75rem 0 0; font-size: 1.25rem; line-height: 1.75rem; }
+.ws-evidence-cards { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 1rem; width: min(100% - 4rem, 90rem); margin: 1.5rem auto 0; padding: 0; list-style: none; }
+.ws-evidence-card { display: flex; flex-direction: column; overflow: hidden; border: 1px solid #e4dfd6; border-radius: 6px; background: var(--white); }
+.ws-evidence-photo { display: block; width: 100%; height: 7.125rem; object-fit: cover; }
+.ws-evidence-title { display: flex; gap: 0.75rem; padding: 1rem 1rem 0; }
+.ws-evidence-title > span { display: flex; flex: none; width: 3.875rem; height: 3.875rem; align-items: center; justify-content: center; border-radius: 50%; color: var(--white); }
+.ws-evidence-title svg { width: 1.875rem; height: 1.875rem; }
+.ws-evidence-card.is-septic .ws-evidence-title > span { background: #1a73c4; }
+.ws-evidence-card.is-repair .ws-evidence-title > span { background: #c4281c; }
+.ws-evidence-card.is-maps .ws-evidence-title > span { background: #1d6b3d; }
+.ws-evidence-card.is-records .ws-evidence-title > span { background: #f39a11; }
+.ws-evidence-card.is-policies .ws-evidence-title > span { background: #5b2a8a; }
+.ws-evidence-title h3 { margin: 0.375rem 0 0; font-family: var(--font-inter), sans-serif; font-size: 1.3125rem; line-height: 1.5rem; font-weight: 700; }
+.ws-evidence-title p { margin: 0.5rem 0 0; font-size: 0.9375rem; line-height: 1.25rem; }
+.ws-evidence-card dl { display: flex; flex: 1; flex-direction: column; margin: 1.75rem 1rem 0; font-size: 0.9375rem; line-height: 1.375rem; }
+.ws-evidence-card dl > div { display: grid; grid-template-columns: 4rem 1fr; gap: 0.25rem; margin-bottom: 0.75rem; }
+.ws-evidence-card dt { font-weight: 700; }
+.ws-evidence-card .is-finding { min-height: 9.5rem; margin-bottom: 1.5rem; }
+.ws-evidence-card .is-finding dt { color: #8a2433; }
+.ws-evidence-card .is-meta { padding-top: 1rem; border-top: 1px solid #e6e1d8; }
+.ws-evidence-action { display: flex; align-items: center; gap: 0.625rem; margin: auto 1rem 1rem; padding: 1.25rem 0 0; border: 0; border-top: 1px solid #e6e1d8; background: none; font: inherit; font-size: 0.9375rem; font-weight: 700; color: #8a2433; text-align: left; }
+.ws-evidence-action svg { width: 1.375rem; height: 1.375rem; color: #2a4f9a; }
+.ws-evidence-action:hover { text-decoration: underline; }
+.ws-next { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); margin-top: 1.5rem; background: var(--white); }
+.ws-next-copy { padding: 1.5rem 2rem 1.5rem max(4rem, (100vw - 87rem) / 2); }
+.ws-next .ws-kicker { margin-top: 0; }
+.ws-next .ws-kicker-label { color: #555; }
+.ws-next .ws-title { padding-left: 5.375rem; }
+.ws-next .ws-intro { padding-left: 5.375rem; }
+.ws-next .ws-button { margin: 1.25rem 0 0 5.375rem; }
+.ws-next-photo { display: block; width: 100%; height: 100%; max-height: 22rem; object-fit: cover; }
+
+/* Below 1280 px: stack two-column sections (proposed tablet layout — no reference). */
+@media (max-width: 79.999rem) {
+  .ws-wrap, .ws-wrap.is-wide, .ws-evidence-cards { width: min(100% - 4rem, 87rem); }
+  .ws-break { display: none; }
+  .ws-hero-grid, .ws-two, .ws-two.is-repairs, .ws-two.is-connected, .ws-options-grid, .ws-evidence-head, .ws-next { grid-template-columns: minmax(0, 1fr); }
+  .ws-hero-copy, .ws-options-text, .ws-next-copy { padding-inline: 2rem; }
+  .ws-flow { margin-inline: 2rem; }
+  .ws-map.is-small { margin-top: 1.5rem; }
+  .ws-steps { grid-template-columns: minmax(0, 1fr); }
+  .ws-steps-arrow { display: none; }
+  .ws-menu ul, .ws-menu.is-issues ul, #connected-system .ws-menu ul, #water-wastewater-options .ws-menu ul, #community-plan-vs-county .ws-menu ul { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .ws-evidence-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .ws-evidence-head { padding-left: 0; gap: 0; }
+  .ws-compare-grid, .ws-conflict-cards { grid-template-columns: minmax(0, 1fr); }
+  .ws-conflict-title { font-size: 3.75rem; line-height: 4.25rem; }
+  .ws-conflict-closing p { font-size: 2.5rem; line-height: 3rem; }
+  .ws-door-row { flex-wrap: wrap; }
+  .ws-next .ws-title, .ws-next .ws-intro { padding-left: 0; }
+  .ws-next .ws-button { margin-left: 0; }
 }
-@media (max-width: 61.999rem) {
-  .water-hero-grid, .water-data-grid, .water-connected-grid, .water-options-grid, .water-next-grid { grid-template-columns: 1fr; gap: 1.5rem; }
-  .water-numbers { grid-template-columns: 1fr 1fr; }
-  .water-petition-band { flex-direction: column; align-items: start; gap: 1.5rem; }
-}
-@media (max-width: 47.999rem) {
-  .water-hero-connections, .water-comparison-grid, .water-conflict-cards, .water-evidence-grid { grid-template-columns: 1fr; }
-  .water-hero-connections li { flex-direction: row; align-items: center; gap: 1rem; }
-  .water-hero-connections .water-image { width: 5rem; }
-  .water-evidence-card { padding: 1.5rem; }
-  .water-card-finding { font-size: 0.9375rem; }
-  .water-evidence-card dl { font-size: 0.8125rem; }
-  .water-evidence-card > button { font-size: 0.875rem; }
-  .water-comparison-heading { grid-template-columns: 1fr auto; }
-  .water-comparison-heading .water-image { width: 6rem; }
-}
+
+/* Phone below 640 px (proposed layout — no reference). */
 @media (max-width: 39.999rem) {
-  .water-hero { padding-top: 1.5rem; }
-  .water-hero h1 { font-size: clamp(2rem, 8vw, 2.875rem); }
-  .water-section { padding-block: 2.5rem; }
-  .water-heading, .water-connected-grid .water-heading { font-size: clamp(1.75rem, 7vw, 2.375rem); line-height: 1.2; }
-  .water-lead { font-size: 0.9375rem; }
-  .water-topic-nav { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.625rem; }
-  .water-topic-nav a { gap: 0.5rem; padding: 0.625rem; font-size: 0.6875rem; }
-  .water-topic-nav a > svg:first-child { width: 1rem; height: 1rem; }
-  .water-numbers { grid-template-columns: 1fr; padding: 1.25rem; }
-  .water-groups > div { justify-content: space-between; }
-  .water-statement { padding: 1.25rem; }
-  .water-petition-band, .water-research { padding: 1.25rem; }
-  .water-conflict-panel > h2 { padding: 1.25rem; font-size: clamp(2rem, 8vw, 3rem); }
-  .water-conflict-cards article { padding: 1.25rem; }
-  .water-conflict-cards h3 { gap: 0.75rem; font-size: 1.375rem; }
-  .water-conflict-cards h3 > svg { width: 1.5rem; height: 1.5rem; }
-  .water-conflict-cards p { font-size: 1rem; }
-  .water-comparison-heading { grid-template-columns: 1fr; }
-  .water-comparison-heading h3 { font-size: 1.125rem; }
-  .water-cta { width: 100%; }
+  .ws-wrap, .ws-wrap.is-wide, .ws-evidence-cards { width: calc(100% - 3rem); }
+  .ws-hero-copy, .ws-options-text, .ws-next-copy { padding-inline: 1.5rem; }
+  .ws-flow { margin-inline: 1.5rem; }
+  .ws-title, .ws-hero-title { font-size: 2.125rem; line-height: 2.5rem; }
+  .ws-display, .ws-display.is-large, .ws-connected .ws-display { font-size: 2.125rem; line-height: 2.375rem; }
+  .ws-display.is-medium { font-size: 1.75rem; line-height: 2rem; }
+  .ws-intro, .ws-intro.is-small, .ws-hero-intro { font-size: 1.0625rem; line-height: 1.625rem; }
+  .ws-kicker-icon { width: 3rem; height: 3rem; }
+  .ws-kicker-icon svg { width: 1.5rem; height: 1.5rem; }
+  .ws-kicker-text { font-size: 1.125rem; line-height: 1.5rem; }
+  .ws-message, .ws-hero-message { padding: 1rem 1.25rem; font-size: 1.25rem; line-height: 1.75rem; text-align: left; }
+  .ws-step-circle { width: 5.5rem; height: 5.5rem; }
+  .ws-menu ul, .ws-menu.is-issues ul, #connected-system .ws-menu ul, #water-wastewater-options .ws-menu ul, #community-plan-vs-county .ws-menu ul { grid-template-columns: minmax(0, 1fr); }
+  .ws-stat-card { grid-template-columns: minmax(0, 1fr); }
+  .ws-stat-main { padding: 0 0 1rem; border-right: 0; border-bottom: 1px solid #e4dfd6; }
+  .ws-stat-groups { padding: 1rem 0 0; }
+  .ws-stat-groups li { grid-template-columns: 4rem minmax(0, 1fr); }
+  .ws-repair-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem 0; }
+  .ws-repair-stats > div:nth-child(3) { padding-left: 0; border-left: 0; }
+  .ws-repair-stats dd { font-size: 2.5rem; line-height: 3rem; }
+  .ws-banner { font-size: 1.25rem; line-height: 1.625rem; }
+  .ws-callout { flex-direction: column; align-items: flex-start; padding: 1.25rem; }
+  .ws-callout h3 { font-size: 1.625rem; line-height: 2rem; }
+  .ws-options-photo { height: 14rem; }
+  .ws-flow-step { flex-wrap: wrap; padding: 1.25rem; }
+  .ws-flow-step.is-1 { flex-direction: column; }
+  .ws-flow-step { min-width: 0; }
+  .ws-flow-step:not(.is-1) .ws-flow-body { flex-basis: 100%; }
+  .ws-flow-body h3 { font-size: 1.125rem; line-height: 1.5rem; overflow-wrap: anywhere; }
+  .ws-flow-step.is-1 { align-items: stretch; }
+  .ws-flow-step.is-1 .ws-flow-number { align-self: flex-start; }
+  .ws-flow-icon { width: 3.75rem; height: 3.75rem; font-size: 2rem; }
+  .ws-flow-icon svg { width: 1.75rem; height: 1.75rem; }
+  .ws-flow-circles { gap: 0.5rem; }
+  .ws-flow-circles img { width: 4rem; height: 4rem; }
+  .ws-flow-body { min-width: 0; }
+  .ws-policy-text { font-size: 1.1875rem; line-height: 1.75rem; }
+  .ws-policy-source { font-size: 1rem; line-height: 1.5rem; }
+  .ws-policy-link { font-size: 1.125rem; }
+  .ws-conflict-title { font-size: 2.5rem; line-height: 3rem; }
+  .ws-conflict-intro { font-size: 1.5rem; line-height: 2rem; }
+  .ws-conflict-head { flex-direction: column; align-items: flex-start; }
+  .ws-conflict-icon { width: 4.5rem; height: 4.5rem; }
+  .ws-conflict-head h3 { font-size: 1.5rem; line-height: 1.875rem; }
+  .ws-conflict-card p { font-size: 1.1875rem; line-height: 1.75rem; }
+  .ws-conflict-link { font-size: 1.125rem; }
+  .ws-conflict-closing { flex-direction: column; gap: 1rem; padding: 1.25rem; }
+  .ws-conflict-drop { width: 5rem; }
+  .ws-conflict-closing p { font-size: 1.875rem; line-height: 2.25rem; text-align: center; }
+  .ws-compare-head h3 { font-size: 1.25rem; line-height: 1.625rem; }
+  .ws-compare-head > span { width: 3.25rem; height: 3.25rem; }
+  .ws-compare-photo { display: none; }
+  .ws-compare li p { font-size: 1.0625rem; line-height: 1.5rem; }
+  .ws-compare-cta { flex-wrap: wrap; gap: 1rem; padding: 1.25rem; font-size: 1.375rem; text-align: center; }
+  .ws-evidence-cards { grid-template-columns: minmax(0, 1fr); }
+  .ws-evidence-card .is-finding { min-height: 0; }
+  .ws-button { white-space: normal; }
 }
+
+#community-plan-vs-county .ws-title { max-width: none; }
+.ws-evidence-card dl { font-size: 0.875rem; line-height: 1.3125rem; }
+.ws-evidence-card dl > div { grid-template-columns: 3.625rem 1fr; }
+.ws-evidence-title h3 { font-size: 1.1875rem; }

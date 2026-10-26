@@ -1,98 +1,119 @@
-// PDF 54–60. Artwork-only labels are transcribed in GROWTH_ARTWORK_TRANSCRIPT.md.
-// The historic counts, schematic locations and travel times are unverified illustrations.
-export const growth = {
-  hero: {
-    title: "The community has changed. Planning needs to keep up.",
-    text: "The Keystone–Odessa Community Plan maintains a very-low-density development pattern and limits where many commercial activities can be located and how large they can be. These rules affect housing, distance to services, travel needs, and the ability to provide infrastructure efficiently.",
-    sides: [
-      { title: "KEYSTONE–ODESSA WHEN THE COMMUNITY PLAN WAS CREATED", date: "Early 2000s", image: "L01-then", stats: [
-        { value: "~ 4,000", label: "Population" }, { value: "~ 1,100", label: "Housing units" },
-        { value: "Limited", label: "Road network" }, { value: "Few", label: "Commercial areas" },
-        { value: "Rural character", label: "Mostly large lots and open space" },
-      ] },
-      { title: "KEYSTONE–ODESSA TODAY", date: "2026", image: "L01-today", stats: [
-        { value: "~ 7,000+", label: "Population" }, { value: "~ 2,500+", label: "Housing units" },
-        { value: "More", label: "Road network" }, { value: "More", label: "Commercial areas" },
-        { value: "Continued low-density pattern", label: "Growing subdivisions and more development" },
-      ] },
-    ],
+// Growth, Infrastructure & Daily Life copy — verbatim from approved images G1, G2, G4, G5
+// (IMG blocks in docs/sections/growth.md; TXT:1742-1856). Checked by `npm run check:copy`.
+// Rich text is split into parts; `em` parts are the coloured/bold phrases shown in the images.
+import type { AssetId } from "@/lib/assets";
+
+const img = (id: AssetId) => id;
+export type Part = string | { em: string };
+
+export const label = "GROWTH & DAILY LIFE";
+export const crumbs = { issues: "ISSUES", growth: "GROWTH, INFRASTRUCTURE & DAILY LIFE" } as const;
+export const planPage20 = "https://planhillsborough.org/wp-content/uploads/2025/12/LIVABLE-COMMUNITIES.pdf#page=20";
+
+export const hero = {
+  title: "The community has changed. Planning needs to keep up.",
+  intro: "The Keystone–Odessa Community Plan maintains a very-low-density development pattern and limits where many commercial activities can be located and how large they can be. These rules affect housing, distance to services, travel needs, and the ability to provide infrastructure efficiently.",
+  // G1 is a PRIVATE PLACEHOLDER (TXT:1767-1769, D-015 OQ-09): keep the red note and all ten sample cells.
+  notice: { label: "PRIVATE PLACEHOLDER · OFFICIAL DATA PENDING", text: "Fake data. Official data request pending. I will implement before publication." },
+  then: { image: img("growth-then"), alt: "Conceptual aerial illustration of Keystone–Odessa when the Community Plan was created, early 2000s (title and legend are part of the artwork)" },
+  today: { image: img("growth-today"), alt: "Conceptual aerial illustration of Keystone–Odessa today, 2026, with newer subdivisions and commercial areas (title and legend are part of the artwork)" },
+  thenCells: [
+    { icon: "users", value: "~ 4,000", label: "Population" },
+    { icon: "house", value: "~ 1,100", label: "Housing units" },
+    { icon: "road", value: "Limited", label: "Road network" },
+    { icon: "store", value: "Few", label: "Commercial areas" },
+    { icon: "tree", value: "Rural character", label: "Mostly large lots and open space" },
+  ],
+  todayCells: [
+    { icon: "users", value: "~ 7,000+", label: "Population" },
+    { icon: "house", value: "~ 2,500+", label: "Housing units", up: true },
+    { icon: "road", value: "More", label: "Road network", up: true },
+    { icon: "store", value: "More", label: "Commercial areas", up: true },
+    { icon: "tree", value: "Continued low-density pattern", label: "Growing subdivisions and more development" },
+  ],
+};
+
+export const density = {
+  crumb: "LOW-DENSITY DEVELOPMENT",
+  kicker: { number: "03", text: "LOW-DENSITY DEVELOPMENT" },
+  title: ["Are we protecting nature,", "or protecting one way of building?"],
+  plan: {
+    label: "WHAT THE PLAN SAYS",
+    text: "The Plan favors a density of one home per five gross acres and discourages amendments to higher density.",
+    source: { before: "Policy summary:", link: "Keystone–Odessa Community Plan, Residential provisions." },
   },
-  density: {
-    title: "Five acres for one home creates a development pattern with wider consequences.",
-    text: "The Community Plan protects very-low-density residential development in the relevant areas, with policies centered around approximately one dwelling unit per five acres and limits on increasing density.",
-    sides: [
-      { title: "5-ACRE PATTERN", text: "Approximately 1 home per 5 acres", label: "10 homes on 50 acres", image: "L02-five-acre" },
-      { title: "MODERATE LOW-DENSITY PATTERN", text: "Smaller lots with more homes", label: "Same amount of land", image: "L02-moderate" },
-    ],
-    qualification: "Conceptual illustration, not a measured or engineered site plan.",
-    flow: ["More land for the same number of households", "Homes farther apart", "Infrastructure must serve greater distances", "Services farther away", "More trips by car"],
+  panels: [
+    { id: "five", title: "FIVE ACRES. ONE HOME.", subtitle: "A density preference worth challenging.", badge: { small: "ILLUSTRATIVE", text: "10 homes on 50 acres" },
+      image: img("growth-density-five-acre"), alt: "Conceptual aerial illustration of ten homes on fifty acres in a five-acre lot pattern",
+      view: "OUR VIEW", opinion: ["Calling a pattern “rural” does not settle whether it serves today’s community.", { em: "The five-acre preference deserves scrutiny, not automatic deference." }] },
+    { id: "choice", title: "RURAL CHARACTER. MORE CHOICE.", subtitle: "Give alternatives a fair hearing.", badge: { small: null, text: "Same amount of land" },
+      image: img("growth-density-moderate"), alt: "Conceptual aerial illustration of the same amount of land with a moderate low-density pattern and narrow rural lanes",
+      view: "OUR VIEW", opinion: ["Protect rural character. Demand a fair test of alternatives.", { em: "Conservation, infrastructure and residents’ needs should drive the decision." }] },
+  ],
+  qualification: "Conceptual illustration, not a measured or engineered site plan. Actual development yield depends on applicable rules and site conditions.",
+  questionsTitle: "Five questions the five-acre preference should have to answer",
+  questions: [
+    { id: "land", title: "Land use", text: "Is this the best use of land?" },
+    { id: "housing", title: "Housing choice", text: "Which options should residents have?" },
+    { id: "infrastructure", title: "Infrastructure", text: "What are the real service costs?" },
+    { id: "services", title: "Daily services", text: "Can daily needs be closer to home?" },
+    { id: "travel", title: "Travel choices", text: "Can trips be shorter or less car-dependent?" },
+  ],
+  note: "Changes to permitted density would still require the applicable policy and zoning approvals.",
+};
+
+export type CompareRow = { id: string; title: string; text: Part[] };
+
+export const comparison = {
+  crumb: "PLAN COMPARISON",
+  kicker: { number: "07", text: "PLAN COMPARISON" },
+  title: "Two Approaches to Growth and Development",
+  intro: "The Keystone–Odessa Community Plan and the Hillsborough County Comprehensive Plan take different approaches to growth, land use, and development.",
+  community: {
+    title: ["KEYSTONE–ODESSA", "COMMUNITY PLAN"], subtitle: "Emphasizes a very-low-density rural pattern.",
+    rows: [
+      { id: "land", title: "LAND USE PATTERN", text: ["Emphasizes a", { em: "very-low-density rural pattern." }] },
+      { id: "density", title: "DENSITY POLICIES", text: ["Policies of approximately", { em: "1 dwelling unit per 5 acres" }, "in the relevant areas."] },
+      { id: "commercial", title: "COMMERCIAL DEVELOPMENT", text: [{ em: "Limits commercial development" }, "by location, scale, and rural character."] },
+      { id: "flex", title: "FLEXIBILITY", text: [{ em: "Limits the ability of the development pattern" }, "to adapt as community conditions change."] },
+    ] satisfies CompareRow[],
   },
-  housing: {
-    title: "Land rules determine what types of housing the community can provide.",
-    text: "Large-lot requirements increase the amount of land needed for each household and limit the number and variety of housing options. The assessment document also identifies potential impacts on younger families, workers, teachers, and seniors.",
-    scenarios: [
-      { title: "5 ACRES / HOME", text: "more land / household" },
-      { title: "SMALLER LOW-DENSITY LOT", text: "less land / household" },
-      { title: "COUNTYWIDE FRAMEWORK", text: "broader planning options" },
-    ],
+  county: {
+    title: ["HILLSBOROUGH COUNTY", "COMPREHENSIVE PLAN"], subtitle: "Plans land use within a countywide framework.",
+    rows: [
+      { id: "framework", title: "COUNTYWIDE LAND USE FRAMEWORK", text: ["Plans land use through a", { em: "countywide framework that considers growth, development, and infrastructure together." }] },
+      { id: "tools", title: "LAND-USE AND DEVELOPMENT TOOLS", text: ["Provides", { em: "additional land-use and development tools" }, "for evaluating how and where development can occur."] },
+      { id: "services", title: "SERVICES AND DEVELOPMENT", text: ["Allows", { em: "service and development needs" }, "to be evaluated together with land use and infrastructure."] },
+      { id: "growth", title: "GROWTH AND INFRASTRUCTURE", text: ["Allows", { em: "growth to be evaluated together with infrastructure capacity" }, "and countywide planning standards."] },
+    ] satisfies CompareRow[],
   },
-  services: {
-    title: "Everyday needs still exist even when services are farther away.",
-    text: "The Community Plan concentrates commercial development in certain locations and limits the scale and characteristics of commercial uses in other areas.",
-    needs: "Food · Pharmacy · Healthcare · Childcare · Restaurants · Services · Jobs",
-    closing: "When these needs are located farther away from residential areas, people must travel farther to access them.",
-    qualification: "Drive times are estimates and for illustrative purposes only. Actual times may vary depending on location and traffic conditions.",
-    scope: "These are illustrative image labels, not newly verified local travel-time findings.",
-    labels: [
-      { title: "Grocery Stores", time: "10–25 minutes", image: "P058-02", icon: "grocery" },
-      { title: "Healthcare", time: "10–30 minutes", image: "P058-03", icon: "health" },
-      { title: "Childcare", time: "10–25 minutes", image: "P058-04", icon: "childcare" },
-      { title: "Restaurants", time: "10–25 minutes", image: "P058-05", icon: "restaurant" },
-      { title: "Employment / Jobs", time: "15–30 minutes", image: "P058-06", icon: "jobs" },
-    ],
-    legend: ["Community Plan area (Keystone–Odessa)", "Community Plan boundary", "Typical 5–10 minute drive time from residential areas", "Typical 10–15 minute drive time", "15+ minute drive time", "Major roads", "Lakes and conservation areas"],
+  detail: {
+    title: "See the Detailed Policy Comparison",
+    text: "This section provides a summary comparison. For the full side-by-side analysis of policies, standards, and their impacts, please visit the Complete Growth & Development Comparison page.",
+    cta: { label: "View the Growth & Development Comparison →", href: "/comparison#growth-housing" },
   },
-  infrastructure: {
-    title: "More people means more demand for roads, water, services, and infrastructure.",
-    years: ["2001", "2010", "2020", "2026"],
-    tracks: "Population · Housing · Subdivisions · Roads · Water/Wastewater · Services · Traffic",
-    message: "The community changes. Infrastructure and the planning framework must be able to adapt to that change.",
-    support: "The Master Assessment identifies that the gap between actual growth and the Plan’s old assumptions can make it increasingly difficult to provide roads, services, and infrastructure.",
-  },
-  comparison: {
-    title: "Two Approaches to Growth and Development",
-    intro: "The Keystone–Odessa Community Plan and the Hillsborough County Comprehensive Plan take different approaches to growth, land use, and development.",
-    sides: [
-      { title: "KEYSTONE–ODESSA COMMUNITY PLAN", image: "P059-01", sourceId: "SRC-10", points: [
-        "Emphasizes a very-low-density rural pattern",
-        "Policies of approximately 1 dwelling / 5 acres in the relevant areas",
-        "Limits commercial development by location, scale, and rural character",
-        "Limits the ability of the development pattern to adapt",
-      ] },
-      { title: "HILLSBOROUGH COUNTY COMPREHENSIVE PLAN", image: "P059-02", sourceId: "SRC-16", points: [
-        "Plans land use through a countywide framework that considers growth, development, and infrastructure together",
-        "Provides additional land-use and development tools for evaluating how and where development can occur",
-        "Allows service and development needs to be evaluated together with land use and infrastructure",
-        "Allows growth to be evaluated together with infrastructure and planning standards",
-      ] },
-    ],
-    qualification: "This section is only a comparison summary. Detailed policy analysis is reserved for the Full Comparison Page.",
-    cta: "View the Growth & Development Comparison →",
-  },
-  evidence: {
-    title: "See the Evidence Behind the Issue",
-    cards: [
-      { id: "plan", title: "Community Plan", text: "Density, rural character, commercial policies", image: "L07-plan", kind: "document", sourceId: "SRC-10" },
-      { id: "landuse", title: "Land-Use Maps", text: "Residential pattern & development", image: "L07-landuse", kind: "visual", sourceId: "SRC-07" },
-      { id: "housing", title: "Housing Data", text: "Lots, housing units & development", image: "P060-03", kind: "photo", sourceId: null },
-      { id: "service", title: "Service Map", text: "Grocery, healthcare, childcare & employment", image: "L07-services", kind: "visual", sourceId: null },
-      { id: "travel", title: "Travel Data", text: "Distances, drive times & traffic", image: "P060-05", kind: "photo", sourceId: null },
-      { id: "infrastructure", title: "Infrastructure Records", text: "Roads, utilities, drainage & development", image: "P060-06", kind: "photo", sourceId: null },
-    ],
-  },
-  next: {
-    title: "Outdated Community Plan",
-    text: "A Community Plan created for the conditions of more than two decades ago continues to shape the roads, water, growth, and daily life of Keystone–Odessa today.",
-    cta: "Learn About the Community Plan →",
-  },
-} as const;
+};
+
+export const evidence = {
+  crumb: "EVIDENCE",
+  kicker: { number: "09", text: "EVIDENCE" },
+  title: "See the Evidence Behind the Issue",
+  intro: "These documents, data, and maps show how the Community Plan affects growth, development, and daily life in Keystone–Odessa.",
+  // Card destinations have not been supplied (D-015 OQ-22): each opens the "Not available yet" notice.
+  cards: [
+    { id: "plan", title: "Community Plan", text: "Density, rural character, commercial policies", action: "View Document →", image: img("growth-evidence-plan") },
+    { id: "landuse", title: "Land-Use Maps", text: "Residential pattern & development", action: "View Map →", image: img("growth-evidence-landuse") },
+    { id: "housing", title: "Housing Data", text: "Lots, housing units & development", action: "View Data →", image: img("growth-evidence-housing") },
+    { id: "service", title: "Service Map", text: "Grocery, healthcare, childcare & employment", action: "View Map →", image: img("growth-evidence-service") },
+    { id: "travel", title: "Travel Data", text: "Distances, drive times & traffic", action: "View Data →", image: img("growth-evidence-travel") },
+    { id: "infrastructure", title: "Infrastructure Records", text: "Roads, utilities, drainage & development", action: "View Records →", image: img("growth-evidence-infrastructure") },
+  ],
+};
+
+export const next = {
+  kicker: { number: "10", text: "NEXT" },
+  title: "Outdated Community Plan",
+  text: "A Community Plan created for the conditions of more than two decades ago continues to shape the roads, water, growth, and daily life of Keystone–Odessa today.",
+  cta: { label: "Learn About the Community Plan →", href: "/issues#community-plan" },
+  image: img("growth-next-aerial"),
+};

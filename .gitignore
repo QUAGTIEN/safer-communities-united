@@ -11,3 +11,4 @@ src/content/blueprint.generated.json
 tmp/
 .DS_Store
 npm-debug.log*
+assets/extracted/review/

@@ -1,14 +1,21 @@
 "use client";
 
 import { useRef, useState } from "react";
-import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { ArrowRight, Menu, X } from "lucide-react";
-import { mainNavigation } from "@/content/site";
+import { Search } from "lucide-react";
+import { a11y, comparisonLink, getInvolved, header, mainNavigation, type NavItem } from "@/content/site";
 import { cn } from "@/lib/utils";
-import { Button } from "@/components/ui/button";
+import { NavLink } from "./nav-link";
 import { Wordmark } from "./wordmark";
 
+function isActive(item: NavItem, pathname: string) {
+  if (!item.activeFor) return false;
+  if (item.activeFor === "/") return pathname === "/";
+  return pathname === item.activeFor || pathname.startsWith(item.activeFor + "/");
+}
+
+// Shared header (D-010): 22 October 2026 Home header, references p017 / p082 / p088,
+// mobile menu p079. The search icon is shown but inert (D-009).
 export function SiteHeader() {
   const pathname = usePathname().replace(/\/$/, "") || "/";
   const [menuOpen, setMenuOpen] = useState(false);
@@ -23,30 +30,37 @@ export function SiteHeader() {
     <header className="site-header" onKeyDown={(event) => {
       if (event.key === "Escape" && menuOpen) { event.preventDefault(); closeMenu(true); }
     }}>
-      <div className="site-container header-row">
-        <Wordmark onClick={() => closeMenu()} />
-        <nav aria-label="Main navigation" className="desktop-navigation">
-          {mainNavigation.map((link) => {
-            const active = pathname === link.href || (link.href !== "/" && pathname.startsWith(link.href + "/"));
-            return <Link key={link.href} href={link.href} className={cn("header-link", active && "is-active")}
-              aria-current={pathname === link.href ? "page" : undefined}>{link.label}</Link>;
+      <div className="header-row">
+        <Wordmark className="header-wordmark" onClick={() => closeMenu()} />
+        <nav aria-label={a11y.mainNavigation} className="desktop-navigation">
+          {mainNavigation.map((item) => {
+            const active = isActive(item, pathname);
+            return <NavLink key={item.label} item={item} current={active && pathname === item.activeFor}
+              className={cn("header-link", active && "is-active")} />;
           })}
+          <span className="header-search" aria-hidden="true"><Search strokeWidth={1.75} /></span>
         </nav>
-        <Button asChild className="desktop-cta"><Link href="/take-action">Get Involved<ArrowRight aria-hidden="true" /></Link></Button>
-        <Button ref={menuButton} variant="outline" className="mobile-menu-button min-[72rem]:hidden"
+        <NavLink item={getInvolved} className="header-cta" />
+        <button ref={menuButton} type="button" className="menu-button"
           aria-expanded={menuOpen} aria-controls="mobile-navigation"
-          aria-label={menuOpen ? "Close menu" : "Open menu"} onClick={() => setMenuOpen(!menuOpen)}>
-          {menuOpen ? <X aria-hidden="true" /> : <Menu aria-hidden="true" />}<span>{menuOpen ? "Close" : "Menu"}</span>
-        </Button>
+          aria-label={menuOpen ? a11y.closeMenu : a11y.openMenu} onClick={() => setMenuOpen(!menuOpen)}>
+          <span>{header.menu}</span>
+          <svg viewBox="0 0 20 14" aria-hidden="true" className="menu-icon">
+            <path d="M0 1h20M0 7h20M0 13h20" stroke="currentColor" strokeWidth="1.5" />
+          </svg>
+        </button>
       </div>
-      <nav id="mobile-navigation" aria-label="Mobile navigation" hidden={!menuOpen} className="mobile-navigation">
-        <div className="site-container mobile-navigation-content">
-          {mainNavigation.map((link) => <Link key={link.href} href={link.href} className="mobile-nav-link"
-            aria-current={pathname === link.href ? "page" : undefined} onClick={() => closeMenu()}>
-            {link.label}<ArrowRight className="size-4" aria-hidden="true" />
-          </Link>)}
-          <Button asChild className="mt-4"><Link href="/take-action" onClick={() => closeMenu()}>Get Involved<ArrowRight aria-hidden="true" /></Link></Button>
-        </div>
+      <nav id="mobile-navigation" aria-label={a11y.mobileNavigation} hidden={!menuOpen} className="mobile-navigation">
+        <ul className="mobile-nav-list">
+          {mainNavigation.map((item) => <li key={item.label}>
+            <NavLink item={item} className="mobile-nav-link" onNavigate={() => closeMenu()}
+              current={isActive(item, pathname) && pathname === item.activeFor} />
+            {item.label === "The Proposal" && <ul>
+              <li><NavLink item={comparisonLink} className="mobile-nav-link is-nested" onNavigate={() => closeMenu()} /></li>
+            </ul>}
+          </li>)}
+        </ul>
+        <NavLink item={getInvolved} className="mobile-cta" onNavigate={() => closeMenu()} />
       </nav>
     </header>
   );

@@ -1,108 +1,101 @@
-/* Home composition follows PDF 7–17. Static maps remain uncropped originals. */
-.home-hero { background: var(--white); padding-block: 2.25rem 2.5rem; }
-.home-hero-grid { display: grid; grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.25fr); align-items: center; gap: 2.25rem; }
-.home-hero-title { margin-top: 0.65rem; font-size: clamp(2rem, 3.3vw, 3.25rem); font-weight: 700; line-height: 1.08; letter-spacing: -0.035em; }
-.home-hero-message { max-width: 36rem; margin-top: 1.125rem; font-size: 1rem; line-height: 1.6; }
-.home-problem { display: flex; align-items: center; gap: 0.875rem; margin-top: 1.125rem; padding: 1rem; border-radius: var(--radius); background: color-mix(in srgb, var(--coral) 9%, var(--white)); }
-.home-problem p { font-family: var(--font-source-serif), Georgia, serif; font-size: 1.125rem; line-height: 1.3; font-weight: 650; }
-.home-hero-visual { min-width: 0; }
-.home-hero-image { display: block; width: 100%; max-width: 886px; height: auto; }
-.home-hero-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1.25rem; }
-.home-maps { padding-top: 4rem; }
-.home-map-heading { margin-bottom: 1.5rem; }
-.home-map-title { max-width: 30ch; font-size: clamp(2rem, 3.4vw, 3.125rem); font-weight: 700; line-height: 1.12; letter-spacing: -0.025em; }
-.home-map-source { margin-top: 0.875rem; font-size: 0.875rem; line-height: 1.7; }
-.home-map-figure { width: 100%; }
-.home-map-image { display: block; width: 100%; height: auto; border: 1px solid var(--gray); background: var(--white); }
-.home-map-caption { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 0.25rem 1rem; padding-top: 0.25rem; }
-.home-map-summary { flex: 1; min-width: min(100%, 16rem); font-size: 0.8125rem; line-height: 1.7; }
-.source-link { display: inline-flex; min-height: 2.75rem; align-items: center; gap: 0.5rem; padding-block: 0.375rem; font-size: 0.8125rem; font-weight: 500; line-height: 1.6; color: var(--teal); text-decoration: underline; text-decoration-color: var(--gray); text-underline-offset: 0.25rem; }
-.source-link:hover, .source-inline:hover { text-decoration-color: var(--teal); }
-.source-inline { color: var(--teal); text-decoration: underline; text-underline-offset: 0.2rem; }
-.home-versus { display: flex; align-items: center; gap: 1.5rem; margin-block: 2.5rem; }
-.home-versus::before, .home-versus::after { content: ""; flex: 1; height: 1px; background: var(--coral); }
-.home-versus span { display: grid; width: 4.5rem; height: 4.5rem; place-items: center; border-radius: 50%; background: var(--coral); color: var(--white); font-family: var(--font-source-serif), Georgia, serif; font-size: 1.75rem; font-weight: 700; }
-.home-area-intro { margin-bottom: 2rem; }
-.home-area-intro .home-map-title { max-width: 25ch; }
-.home-map-subtitle { margin-top: 1rem; font-family: var(--font-source-serif), Georgia, serif; font-size: clamp(1.25rem, 2vw, 1.75rem); font-weight: 650; line-height: 1.4; }
-.home-detail { margin-top: 0.75rem; font-size: 0.875rem; line-height: 1.7; }
-.home-map-reading { max-width: 65rem; margin: 2.5rem auto 0; }
-.home-reading-block + .home-reading-block { margin-top: 2.75rem; }
-.home-reading-block h3, .home-nature-message h3 { max-width: 34ch; font-size: clamp(1.5rem, 2.6vw, 2.375rem); font-weight: 700; line-height: 1.2; letter-spacing: -0.02em; }
-.home-reading-block > p, .home-nature-message p { margin-top: 1rem; font-size: 1rem; line-height: 1.8; }
-.home-reading-block > .home-source-note, .home-source-note { font-size: 0.8125rem; line-height: 1.8; }
-.home-reading-block > .home-lead, .home-lead { font-size: 1.1875rem; line-height: 1.65; }
-.home-landscape-statement { margin-top: 2.5rem; font-family: var(--font-source-serif), Georgia, serif; font-size: clamp(1.375rem, 2.5vw, 2rem); font-weight: 700; line-height: 1.3; color: var(--teal); }
-.home-nature-message { margin-top: 2.5rem; padding: 1.75rem 0; border-block: 1px solid var(--gray); }
-.home-nature-message h3 { color: var(--teal); }
-.home-parcels { margin-top: 2.75rem; }
-.home-source-list { display: flex; flex-wrap: wrap; gap: 0 1.5rem; margin-top: 0.75rem; }
-.home-roads { margin-top: 4rem; }
-.home-road-reading > .home-source-note { margin-top: 1rem; }
-.home-road-reading > .source-link { margin-top: 0.5rem; }
-.home-roads-continuation { margin-top: 1.75rem; padding-top: 1.5rem; border-top: 1px solid var(--gray); font-size: 0.9375rem; line-height: 1.8; }
-.home-roads-continuation .source-link { display: flex; width: fit-content; margin-top: 0.5rem; }
-.home-transition { margin-top: 3rem; padding-block: 3rem; background: var(--navy); color: var(--white); text-align: center; }
-.home-transition h2 { font-size: clamp(2rem, 4vw, 3.5rem); font-weight: 700; line-height: 1.15; letter-spacing: -0.025em; }
-.home-transition-actions { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 1rem 2rem; margin-top: 1.75rem; }
-.home-transition-link { display: inline-flex; min-height: 2.75rem; align-items: center; gap: 0.75rem; font-size: 0.875rem; text-decoration: underline; text-underline-offset: 0.25rem; }
-.home-transition :focus-visible { outline-color: var(--white); }
-.home-issues { padding-block: 3.5rem 4rem; background: var(--white); }
-.home-issues-heading { display: grid; grid-template-columns: minmax(0, 2.2fr) minmax(0, 1fr); align-items: end; gap: 2.5rem; margin-bottom: 2rem; }
-.home-issues-heading h2 { max-width: 30ch; margin-top: 0.65rem; font-size: clamp(1.75rem, 3.1vw, 2.75rem); font-weight: 700; line-height: 1.15; letter-spacing: -0.025em; }
-.home-issues-heading > p { font-size: 0.875rem; line-height: 1.7; }
-.home-issues-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); align-items: stretch; gap: 1.25rem; }
-.home-issue-card { display: flex; min-width: 0; flex-direction: column; border: 1px solid var(--gray); border-radius: var(--radius); background: var(--white); }
-.home-issue-visual { position: relative; display: flex; align-items: flex-start; justify-content: center; min-width: 0; background: var(--cream); border-radius: var(--radius) var(--radius) 0 0; }
-.home-issue-image { display: block; width: 100%; height: auto; border-radius: var(--radius) var(--radius) 0 0; }
-.home-issue-icon { position: absolute; bottom: -1rem; left: 0.625rem; display: grid; width: 4.75rem; height: 4.75rem; place-items: center; border: 4px solid var(--white); border-radius: 50%; background: var(--coral); color: var(--white); }
-.home-issue-water .home-issue-icon { background: var(--teal); }
-.home-issue-growth .home-issue-icon { background: var(--navy); }
-.home-issue-plan .home-issue-icon { background: var(--teal); }
-.home-issue-icon svg { width: 1.875rem; height: 1.875rem; stroke-width: 1.75; }
-.home-issue-body { display: flex; flex: 1; flex-direction: column; align-items: flex-start; padding: 1.875rem 1.125rem 1rem; }
-.home-issue-body h3 { margin-bottom: 0.75rem; font-size: clamp(1.375rem, 1.8vw, 1.75rem); font-weight: 700; line-height: 1.12; letter-spacing: -0.025em; }
-.home-issue-body > p { font-size: 0.9375rem; line-height: 1.65; }
-.home-issue-body > .home-illustration-label { margin-bottom: 0.65rem; font-size: 0.6875rem; line-height: 1.5; color: var(--teal); }
-.home-issue-body > .home-issue-timeline { margin-top: 0.875rem; font-size: 0.75rem; line-height: 1.6; }
-.home-issue-body > .home-water-scope { margin-block: 1rem; padding-top: 0.875rem; border-top: 1px solid var(--gray); font-size: 0.8125rem; line-height: 1.7; }
-.home-issue-link { display: inline-flex; width: 100%; min-height: 2.75rem; align-items: center; justify-content: space-between; gap: 0.5rem; margin-top: auto; padding-top: 1.25rem; font-size: 0.8125rem; line-height: 1.6; font-weight: 600; text-decoration: underline; text-decoration-color: var(--gray); text-underline-offset: 0.25rem; }
-.home-issue-link:hover { color: var(--teal); text-decoration-color: var(--teal); }
+/* Home pilot (S3). Measurements: docs/DESIGN_SPEC.md §5 — "estimate" values are
+   taken from the reference screenshots p019/p021 (1536), p083/p085 (768), p089/p091 (390). */
 
-@media (max-width: 63.999rem) {
-  .home-hero-grid { grid-template-columns: 1fr; gap: 1.75rem; }
-  .home-hero-title { font-size: clamp(2rem, 5vw, 3rem); }
-  .home-hero-copy { max-width: 40rem; }
-  .home-hero-image { max-width: min(100%, 886px); }
-  .home-issues-heading { grid-template-columns: 1fr; gap: 1rem; }
-  .home-issues-heading > p { max-width: 45rem; }
-  .home-issues-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .home-issue-body h3 { font-size: 1.75rem; }
+/* HOME-OPENING — approved Home exception palette (TXT:44). */
+.home-opening { background: var(--cream); color: var(--charcoal); }
+.home-opening-grid { display: grid; grid-template-columns: 37.5rem 32.25rem; column-gap: clamp(2rem, 100% - 69.75rem, 9.875rem); align-items: start; width: min(100% - 4.25rem, 85.875rem); margin-inline: auto; padding-block: 3.125rem 3.5rem; }
+.home-eyebrow { margin: 0; font-size: 0.875rem; line-height: 1.25rem; font-weight: 700; letter-spacing: 0.8px; color: var(--burgundy); }
+.home-title { margin: 1.25rem 0 0; font-size: 3rem; line-height: 3.4375rem; font-weight: 700; font-stretch: 90%; letter-spacing: 0; color: var(--charcoal); }
+.home-vision { max-width: 35rem; margin: 1.3125rem 0 0; font-size: 1.0625rem; line-height: 1.75rem; }
+.home-alert { display: flex; align-items: center; gap: 1.0625rem; margin-top: 2rem; padding: 0.875rem 1.25rem 0.875rem 1.0625rem; border-radius: 4px; background: var(--alert-bg); }
+.home-alert-icon { flex: none; width: 4.3125rem; height: auto; }
+.home-alert p { margin: 0; font-family: var(--font-merriweather), Georgia, serif; font-size: 1.25rem; line-height: 1.75rem; font-weight: 400; letter-spacing: -0.3px; }
+.home-alert strong { font-weight: inherit; color: var(--alert-red); }
+.home-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1.75rem; }
+.home-button { display: inline-flex; height: 3rem; align-items: center; padding-inline: 1.25rem; border: 1px solid var(--burgundy); border-radius: 2px; font-size: 0.9375rem; font-weight: 600; white-space: nowrap; }
+.home-button.is-primary { background: var(--burgundy); color: var(--white); }
+.home-button.is-secondary { background: transparent; color: var(--burgundy); }
+.home-button:hover { text-decoration: underline; text-underline-offset: 4px; }
+.home-sign { display: block; width: 100%; height: auto; }
+
+/* HOME-CARDS (M4) — section-specific appearance from p021 (light lavender band, navy text, red accents). */
+.home-issues { --issues-bg: #faf9fe; --issues-red: #d51319; --issues-navy: #051534; --issues-text: #121a31; --arrow-red: #f01e1e;
+  background: var(--issues-bg); color: var(--issues-text); }
+.home-issues-inner { width: min(100% - 2rem, 90.625rem); margin-inline: auto; padding-block: 4.5rem 3.5rem; }
+.home-issues-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 2rem; padding-inline: 3.125rem 1.5rem; }
+.home-issues-eyebrow { position: relative; margin: 0; padding-top: 0.5625rem; font-size: 1.25rem; line-height: 1.5rem; font-weight: 700; color: var(--issues-red); }
+.home-issues-eyebrow::before { position: absolute; top: 0; left: 0; width: 2rem; height: 3px; content: ""; background: var(--issues-red); }
+.home-issues-title { margin: 0.3125rem 0 0; font-size: 2.4375rem; line-height: 2.875rem; font-weight: 700; letter-spacing: -0.4px; color: var(--issues-navy); }
+.home-issues-intro { max-width: 23rem; margin: 0 0 0.25rem; font-size: 0.9375rem; line-height: 1.25rem; }
+
+.home-cards { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.9375rem; margin: 0.25rem 0 0; padding: 0; list-style: none; }
+.home-cards li { display: flex; }
+.home-card { position: relative; display: flex; width: 100%; flex-direction: column; overflow: hidden; border-radius: 6px; background: var(--white); box-shadow: 0 1px 4px rgb(18 26 49 / 0.12); color: var(--issues-text); }
+.home-card-media { position: relative; display: flex; height: var(--media); flex-direction: column; }
+.home-card-caption { height: var(--cap); margin: 0; padding: 0.3125rem 0.625rem 0; overflow: hidden; font-size: 0.6rem; line-height: 0.8125rem; color: #333; }
+/* Media band: --media total, --cap caption strip (cards 1–2 only), --ph photo height (p021: 148 = 33 + 115).
+   The photo scales like object-fit: cover anchored bottom-left; --s is its scale per source pixel.
+   --iw/--ih: extracted photo size; the baked circle sits at (47.5, --cy) with outer radius 35. */
+.home-card { --media: 148px; --cap: 33px; --ph: calc(var(--media) - var(--cap)); --iw: 355; --ih: 115; --cy: 93; }
+.home-card.is-water { --iw: 350; }
+.home-card.is-needs { --cap: 0px; --iw: 331; --ih: 146; --cy: 125; }
+.home-card.is-plan { --cap: 0px; --iw: 364; --ih: 146; --cy: 125; }
+.home-card-photo { position: relative; height: var(--ph); container-type: inline-size; }
+.home-card-photo-clip { position: absolute; inset: 0; overflow: hidden; }
+.home-card-photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: left bottom; }
+.home-card-icon { --s: max(100cqw / var(--iw), var(--ph) / var(--ih)); position: absolute; top: calc(var(--ph) - (var(--ih) - var(--cy) + 35) * var(--s)); left: calc(12.5 * var(--s)); display: flex; width: calc(70 * var(--s)); height: calc(70 * var(--s)); align-items: center; justify-content: center; border: calc(4.5 * var(--s)) solid var(--white); border-radius: 50%; color: var(--white); }
+.home-card-icon svg { width: 46%; height: 46%; }
+.home-card.is-roads .home-card-icon { background: #fd291b; }
+.home-card.is-water .home-card-icon { background: #047797; }
+.home-card.is-needs .home-card-icon { background: #09203c; }
+.home-card.is-plan .home-card-icon { background: #025639; }
+.home-card-arrow { position: absolute; top: 9.3125rem; right: 1rem; display: flex; width: 2.375rem; height: 2.375rem; align-items: center; justify-content: center; border-radius: 50%; background: var(--arrow-red); color: var(--white); }
+.home-card-arrow svg { width: 1.25rem; height: 1.25rem; }
+.home-card-body { padding: 1.125rem 2.75rem 1.25rem 1.375rem; }
+.home-card-title { margin: 0; font-size: 1.625rem; line-height: 1.75rem; font-weight: 700; letter-spacing: -0.3px; color: var(--issues-navy); }
+.home-card-text { margin: 0.5rem 0 0; font-size: 1.0625rem; line-height: 1.375rem; }
+.home-card:hover .home-card-title { text-decoration: underline; text-underline-offset: 4px; }
+.home-card:focus-visible { outline-offset: 3px; }
+
+/* Below 1280 px: opening stacks, picture centred under the buttons (p083); cards in two columns (p085). */
+@media (max-width: 79.999rem) {
+  .home-opening-grid { grid-template-columns: minmax(0, 1fr); row-gap: 2rem; width: min(100% - 7rem, 85.875rem); padding-block: 2.375rem 2.6875rem; }
+  .home-sign { width: min(100%, 32.25rem); margin-inline: auto; }
+  .home-title { font-size: 2.875rem; line-height: 3.25rem; }
+  .home-vision { max-width: 40.25rem; font-size: 1rem; line-height: 1.6875rem; }
+  .home-alert { max-width: 37.5rem; gap: 0.9375rem; padding: 0.9375rem 1.25rem 0.9375rem 0.9375rem; }
+  .home-alert-icon { width: 3rem; }
+  .home-alert p { font-size: 1.125rem; line-height: 1.5rem; }
+  .home-issues-inner { width: min(100% - 4rem, 90.625rem); padding-block: 4rem 2rem; }
+  .home-issues-head { display: block; padding-inline: 0; }
+  .home-issues-title { max-width: 28rem; font-size: 2.125rem; line-height: 2.5rem; }
+  .home-issues-intro { max-width: 30rem; margin-top: 1.25rem; }
+  .home-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.875rem; margin-top: 1.5rem; }
+  .home-card { --media: 137px; --cap: 30px; }
+  .home-card-caption { padding-top: 0.25rem; }
+  .home-card-arrow { top: 8.625rem; }
 }
+
+/* Phone below 640 px (p089, p091). */
 @media (max-width: 39.999rem) {
-  .home-hero { padding-block: 1.75rem 2rem; }
-  .home-hero-title { font-size: clamp(1.875rem, 8vw, 2.75rem); }
-  .home-hero-message { font-size: 0.9375rem; }
-  .home-problem { padding: 0.875rem; gap: 0.625rem; }
-  .home-problem p { font-size: 1rem; }
-  .home-hero-actions { display: grid; grid-template-columns: 1fr; }
-  .home-maps { padding-top: 2.5rem; }
-  .home-map-title { font-size: clamp(1.75rem, 7vw, 2.25rem); }
-  .home-versus { margin-block: 1.75rem; }
-  .home-versus span { width: 3.5rem; height: 3.5rem; font-size: 1.375rem; }
-  .home-map-reading { margin-top: 1.5rem; }
-  .home-reading-block h3, .home-nature-message h3 { font-size: 1.5rem; }
-  .home-reading-block > p { font-size: 0.9375rem; }
-  .home-reading-block > .home-source-note, .home-source-note { font-size: 0.8125rem; }
-  .home-reading-block > .home-lead, .home-lead { font-size: 1.0625rem; }
-  .home-roads { margin-top: 2.75rem; }
-  .home-transition-actions { flex-direction: column; gap: 0.5rem; }
-  .home-issues { padding-block: 2.5rem 3rem; }
-  .home-issues-grid { gap: 1rem; }
-}
-@media (max-width: 34.999rem) {
-  .home-issues-grid { grid-template-columns: 1fr; }
-  .home-issue-card { width: 100%; }
-  .home-issue-visual { justify-content: flex-start; }
-  .home-issue-body h3 { font-size: 1.75rem; }
+  .home-opening-grid { width: calc(100% - 3rem); padding-block: 2rem 2.25rem; }
+  .home-eyebrow { font-size: 0.6875rem; line-height: 1rem; letter-spacing: 0.6px; }
+  .home-title { margin-top: 1.25rem; font-size: 2.1875rem; line-height: 2.4375rem; }
+  .home-vision { font-size: 0.96875rem; line-height: 1.625rem; }
+  .home-alert { gap: 0.75rem; padding: 0.9375rem 1rem 0.9375rem 0.9375rem; }
+  .home-alert-icon { width: 2.75rem; }
+  .home-alert p { font-size: 1.03125rem; line-height: 1.5625rem; letter-spacing: 0; }
+  .home-actions { flex-direction: column; gap: 0.625rem; }
+  .home-button { justify-content: flex-start; padding-inline: 1.1875rem; }
+  .home-sign { width: 100%; }
+  .home-issues-inner { width: calc(100% - 3rem); padding-block: 3rem 1.5rem; }
+  .home-issues-eyebrow { font-size: 1rem; line-height: 1.25rem; }
+  .home-issues-title { font-size: 1.8125rem; line-height: 2.09375rem; }
+  .home-issues-intro { line-height: 1.5rem; }
+  .home-cards { grid-template-columns: minmax(0, 1fr); gap: 1.375rem; }
+  .home-card { --media: 148px; --cap: 40px; }
+  .home-card-caption { padding-top: 0.25rem; font-size: 0.78125rem; line-height: 1rem; }
+  .home-card-arrow { top: 9.5rem; }
+  .home-card-body { padding: 1rem 3.5rem 1.375rem 1.25rem; }
+  .home-card-text { font-size: 1.03125rem; line-height: 1.28125rem; }
 }

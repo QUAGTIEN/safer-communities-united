@@ -1,0 +1,1703 @@
+{
+  "note": "Temporary website assets cut from blueprint/references (decision D-007). Rect = [x, y, width, height] in source pixels. Replace with original files when found.",
+  "assets": [
+    {
+      "id": "shared-wordmark-navy",
+      "page": "shared",
+      "source": "p017-obj42-1536x87.png",
+      "rect": [
+        81,
+        18,
+        229,
+        52
+      ],
+      "kind": "glyph",
+      "color": "navy",
+      "scale": 3,
+      "use": "Header wordmark (all pages)"
+    },
+    {
+      "id": "shared-wordmark-white",
+      "page": "shared",
+      "source": "p017-obj42-1536x87.png",
+      "rect": [
+        81,
+        18,
+        229,
+        52
+      ],
+      "kind": "glyph",
+      "color": "white",
+      "scale": 3,
+      "use": "Footer F1 wordmark (same shape as header, recoloured white; footer source p023 is smaller at 180 x 39)"
+    },
+    {
+      "id": "home-welcome-sign",
+      "page": "home",
+      "source": "p019-obj48-1536x609.png",
+      "rect": [
+        838,
+        50,
+        516,
+        387
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Home opening photo (keystone-odessa-user-sign); full frame as in reference"
+    },
+    {
+      "id": "home-warning-triangle",
+      "page": "home",
+      "source": "p019-obj48-1536x609.png",
+      "rect": [
+        97,
+        389,
+        69,
+        62
+      ],
+      "kind": "graphic",
+      "scale": 3,
+      "use": "Home warning panel icon; keeps the panel's #FCEAEA background around the triangle"
+    },
+    {
+      "id": "home-card-roads",
+      "page": "home",
+      "source": "p021-obj53-1536x541.png",
+      "rect": [
+        43,
+        195,
+        355,
+        115
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Home card 1 photo (Gunn Highway, Keystone - AARoads 2016)",
+      "limitation": "Icon circle is baked into the bottom-left corner of the photo"
+    },
+    {
+      "id": "home-card-water",
+      "page": "home",
+      "source": "p021-obj53-1536x541.png",
+      "rect": [
+        413,
+        195,
+        350,
+        115
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Home card 2 photo (Lake Rogers, Odessa - Florida Hikes)",
+      "limitation": "Icon circle is baked into the bottom-left corner of the photo"
+    },
+    {
+      "id": "home-card-everyday-needs",
+      "page": "home",
+      "source": "p021-obj53-1536x541.png",
+      "rect": [
+        779,
+        163,
+        331,
+        146
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Home card 3 image",
+      "limitation": "Icon circle is baked into the bottom-left corner; top corners include the card's rounded-corner background"
+    },
+    {
+      "id": "home-card-community-plan",
+      "page": "home",
+      "source": "p021-obj53-1536x541.png",
+      "rect": [
+        1128,
+        163,
+        364,
+        146
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Home card 4 image (artwork lettering kept)",
+      "limitation": "Icon circle is baked into the bottom-left corner; top corners include the card's rounded-corner background"
+    },
+    {
+      "id": "issues-roads-gunn-highway",
+      "page": "issues",
+      "source": "p032-obj80-1536x659.png",
+      "rect": [
+        81,
+        167,
+        894,
+        276
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Issues Roads & Safety photo (Gunn Highway, Keystone - Alex Nitzman / AARoads, April 20, 2016)"
+    },
+    {
+      "id": "issues-water-septic-map",
+      "page": "issues",
+      "source": "p034-obj85-1536x1392.png",
+      "rect": [
+        81,
+        548,
+        862,
+        555
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Issues Water & Septic map illustration (legend and labels baked in)"
+    },
+    {
+      "id": "issues-water-thumb-septic-concentration",
+      "page": "issues",
+      "source": "p034-obj85-1536x1392.png",
+      "rect": [
+        976,
+        588,
+        227,
+        85
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Issues Key Water & Septic Issues thumbnail: Septic Concentration",
+      "limitation": "Icon circle baked into the image"
+    },
+    {
+      "id": "issues-water-thumb-septic-repairs",
+      "page": "issues",
+      "source": "p034-obj85-1536x1392.png",
+      "rect": [
+        1228,
+        588,
+        227,
+        85
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Issues thumbnail: Septic Repairs",
+      "limitation": "Icon circle baked into the image"
+    },
+    {
+      "id": "issues-water-thumb-private-wells",
+      "page": "issues",
+      "source": "p034-obj85-1536x1392.png",
+      "rect": [
+        976,
+        767,
+        227,
+        85
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Issues thumbnail: Private Wells",
+      "limitation": "Icon circle baked into the image"
+    },
+    {
+      "id": "issues-water-thumb-groundwater",
+      "page": "issues",
+      "source": "p034-obj85-1536x1392.png",
+      "rect": [
+        1228,
+        767,
+        227,
+        85
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Issues thumbnail: Groundwater",
+      "limitation": "Icon circle baked into the image"
+    },
+    {
+      "id": "issues-water-thumb-wellfields",
+      "page": "issues",
+      "source": "p034-obj85-1536x1392.png",
+      "rect": [
+        976,
+        947,
+        227,
+        85
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Issues thumbnail: Wellfields, Lakes & Wetlands",
+      "limitation": "Icon circle baked into the image"
+    },
+    {
+      "id": "issues-water-thumb-infrastructure",
+      "page": "issues",
+      "source": "p034-obj85-1536x1392.png",
+      "rect": [
+        1228,
+        947,
+        227,
+        85
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Issues thumbnail: Water & Wastewater Infrastructure",
+      "limitation": "Icon circle baked into the image"
+    },
+    {
+      "id": "issues-growth-services-map",
+      "page": "issues",
+      "source": "p036-obj90-1536x1999.png",
+      "rect": [
+        67,
+        454,
+        733,
+        739
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Issues Growth illustration map with schematic service pins (caption: Illustration)"
+    },
+    {
+      "id": "issues-plan-map",
+      "page": "issues",
+      "source": "p040-obj99-1536x1189.png",
+      "rect": [
+        46,
+        282,
+        714,
+        518
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Issues Community Plan area map illustration"
+    },
+    {
+      "id": "issues-plan-2001",
+      "page": "issues",
+      "source": "p040-obj99-1536x1189.png",
+      "rect": [
+        792,
+        552,
+        201,
+        98
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Issues Community Plan timeline card 2001 photo"
+    },
+    {
+      "id": "issues-plan-today",
+      "page": "issues",
+      "source": "p040-obj99-1536x1189.png",
+      "rect": [
+        1040,
+        578,
+        201,
+        72
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Issues timeline card TODAY photo"
+    },
+    {
+      "id": "issues-plan-2026",
+      "page": "issues",
+      "source": "p040-obj99-1536x1189.png",
+      "rect": [
+        1288,
+        599,
+        201,
+        51
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Issues timeline card 2026 photo"
+    },
+    {
+      "id": "issues-plan-area-roads",
+      "page": "issues",
+      "source": "p040-obj99-1536x1189.png",
+      "rect": [
+        46,
+        1064,
+        200,
+        75
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Issues Areas affected card photo: Roads & Transportation"
+    },
+    {
+      "id": "issues-plan-area-water",
+      "page": "issues",
+      "source": "p040-obj99-1536x1189.png",
+      "rect": [
+        260,
+        1064,
+        200,
+        75
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Issues Areas affected card photo: Water & Wastewater"
+    },
+    {
+      "id": "issues-plan-area-growth",
+      "page": "issues",
+      "source": "p040-obj99-1536x1189.png",
+      "rect": [
+        474,
+        1064,
+        200,
+        75
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Issues Areas affected card photo: Growth & Housing"
+    },
+    {
+      "id": "issues-plan-area-infrastructure",
+      "page": "issues",
+      "source": "p040-obj99-1536x1189.png",
+      "rect": [
+        688,
+        1064,
+        200,
+        75
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Issues Areas affected card photo: Infrastructure & Services"
+    },
+    {
+      "id": "issues-connected-roads",
+      "page": "issues",
+      "source": "p043-obj106-1536x1281.png",
+      "rect": [
+        81,
+        432,
+        445,
+        60
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Issues Connected column header photo: Roads & Safety"
+    },
+    {
+      "id": "issues-connected-water",
+      "page": "issues",
+      "source": "p043-obj106-1536x1281.png",
+      "rect": [
+        545,
+        432,
+        445,
+        60
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Issues Connected column header photo: Water & Septic"
+    },
+    {
+      "id": "issues-connected-growth",
+      "page": "issues",
+      "source": "p043-obj106-1536x1281.png",
+      "rect": [
+        1010,
+        432,
+        445,
+        60
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Issues Connected column header photo: Growth & Daily Life"
+    },
+    {
+      "id": "issues-connected-side-left",
+      "page": "issues",
+      "source": "p043-obj106-1536x1281.png",
+      "rect": [
+        0,
+        304,
+        60,
+        715
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Issues Connected section: visible left edge of the background aerial",
+      "limitation": "Only the visible edge strip exists; the rest of the background is hidden behind the content"
+    },
+    {
+      "id": "issues-connected-side-right",
+      "page": "issues",
+      "source": "p043-obj106-1536x1281.png",
+      "rect": [
+        1477,
+        303,
+        59,
+        716
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Issues Connected section: visible right edge of the background aerial",
+      "limitation": "Only the visible edge strip exists; the rest of the background is hidden behind the content"
+    },
+    {
+      "id": "roads-street-lighting",
+      "page": "roads",
+      "source": "p051-obj125-1536x1220.png",
+      "rect": [
+        677,
+        25,
+        778,
+        400
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Roads 01 Street Lighting hero image (artwork, not a real event)"
+    },
+    {
+      "id": "roads-gunn-photo",
+      "page": "roads",
+      "source": "p054-obj132-1536x1308.png",
+      "rect": [
+        81,
+        351,
+        754,
+        264
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Roads 02 Gunn Highway photo"
+    },
+    {
+      "id": "roads-gunn-map",
+      "page": "roads",
+      "source": "p054-obj132-1536x1308.png",
+      "rect": [
+        857,
+        85,
+        598,
+        519
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Roads 02 Gunn Highway map illustration (labels and legend baked in)"
+    },
+    {
+      "id": "roads-walking",
+      "page": "roads",
+      "source": "p057-obj139-1536x1433.png",
+      "rect": [
+        679,
+        83,
+        775,
+        384
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Roads 03 Walking, Biking & Crossings image",
+      "limitation": "The 'Illustration' label is baked into the bottom-right corner"
+    },
+    {
+      "id": "roads-emergency",
+      "page": "roads",
+      "source": "p059-obj144-1536x1173.png",
+      "rect": [
+        644,
+        49,
+        811,
+        371
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Roads 04 Emergency Access image (artwork, not a real event)"
+    },
+    {
+      "id": "roads-records-safety",
+      "page": "roads",
+      "source": "p068-obj164-1536x1207.png",
+      "rect": [
+        55,
+        405,
+        259,
+        214
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Roads 06 Records card image: Safety Data"
+    },
+    {
+      "id": "roads-records-traffic",
+      "page": "roads",
+      "source": "p068-obj164-1536x1207.png",
+      "rect": [
+        347,
+        405,
+        258,
+        215
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Roads 06 Records card image: Traffic Data"
+    },
+    {
+      "id": "roads-records-maps",
+      "page": "roads",
+      "source": "p068-obj164-1536x1207.png",
+      "rect": [
+        638,
+        408,
+        259,
+        233
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Roads 06 Records card image: Maps"
+    },
+    {
+      "id": "roads-records-public",
+      "page": "roads",
+      "source": "p068-obj164-1536x1207.png",
+      "rect": [
+        930,
+        408,
+        257,
+        217
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Roads 06 Records card image: Public Records (illustration, not original document covers)"
+    },
+    {
+      "id": "roads-records-plan",
+      "page": "roads",
+      "source": "p068-obj164-1536x1207.png",
+      "rect": [
+        1221,
+        407,
+        259,
+        242
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Roads 06 Records card image: Community Plan page-24 excerpt"
+    },
+    {
+      "id": "roads-map-heading-tree",
+      "page": "roads",
+      "source": "p062-obj151-556x2044.png",
+      "rect": [
+        264,
+        36,
+        49,
+        52
+      ],
+      "kind": "photo",
+      "scale": 4,
+      "use": "Roads map area: tree illustration beside 'THE NIMBY MAP' heading",
+      "limitation": "Source is the downscaled map-area reference (556 px wide instead of 1536): very low detail"
+    },
+    {
+      "id": "roads-map-protect-nature-icon",
+      "page": "roads",
+      "source": "p062-obj151-556x2044.png",
+      "rect": [
+        85,
+        1283,
+        33,
+        31
+      ],
+      "kind": "graphic",
+      "scale": 4,
+      "use": "Roads map area: trees icon beside 'PROTECT NATURE. PROTECT PEOPLE.'",
+      "limitation": "Downscaled source: very low detail; a vector redraw would be sharper"
+    },
+    {
+      "id": "roads-map-homes-icon",
+      "page": "roads",
+      "source": "p062-obj151-556x2044.png",
+      "rect": [
+        332,
+        1288,
+        34,
+        19
+      ],
+      "kind": "graphic",
+      "scale": 4,
+      "use": "Roads map area: homes icon beside 'THOUSANDS OF HOMES...'",
+      "limitation": "Downscaled source: very low detail; a vector redraw would be sharper"
+    },
+    {
+      "id": "roads-map-forest-band",
+      "page": "roads",
+      "source": "p062-obj151-556x2044.png",
+      "rect": [
+        0,
+        1908,
+        556,
+        136
+      ],
+      "kind": "photo",
+      "scale": 4,
+      "use": "Roads map area closing band background (forest) behind 'KEEP THE LANDSCAPE.'",
+      "limitation": "Downscaled source; heading, button and link are baked into the image and cannot be separated"
+    },
+    {
+      "id": "water-hero-lake-keystone",
+      "page": "water",
+      "source": "p189-obj454-1336x939.png",
+      "rect": [
+        704,
+        72,
+        632,
+        420
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Water W6 hero: Lake Keystone, Odessa (Source: Noble Star Realty; MATRIX watermark kept)"
+    },
+    {
+      "id": "water-circle-septic",
+      "page": "water",
+      "source": "p189-obj454-1336x939.png",
+      "rect": [
+        65,
+        536,
+        129,
+        129
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Water W6 circle illustration: Septic Systems",
+      "limitation": "Square crop including page background; display as a circle"
+    },
+    {
+      "id": "water-circle-groundwater",
+      "page": "water",
+      "source": "p189-obj454-1336x939.png",
+      "rect": [
+        485,
+        536,
+        129,
+        129
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Water W6 circle illustration: Groundwater",
+      "limitation": "Square crop including page background; display as a circle"
+    },
+    {
+      "id": "water-circle-wells",
+      "page": "water",
+      "source": "p189-obj454-1336x939.png",
+      "rect": [
+        906,
+        536,
+        130,
+        130
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Water W6 circle illustration: Private Wells",
+      "limitation": "Square crop including page background; display as a circle"
+    },
+    {
+      "id": "water-septic-map",
+      "page": "water",
+      "source": "p191-obj459-1402x1013.png",
+      "rect": [
+        606,
+        117,
+        733,
+        464
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Water W3 septic records map (legend and labels baked in; provenance to confirm)"
+    },
+    {
+      "id": "water-repairs-map",
+      "page": "water",
+      "source": "p192-obj462-1476x922.png",
+      "rect": [
+        929,
+        131,
+        475,
+        372
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Water R2 septic repair records map (legend and labels baked in)"
+    },
+    {
+      "id": "water-connected-3d",
+      "page": "water",
+      "source": "p195-obj470-1341x1218.png",
+      "rect": [
+        513,
+        121,
+        804,
+        281
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Water W1 conceptual 3D block illustration (labels baked in)"
+    },
+    {
+      "id": "water-connected-cross-section",
+      "page": "water",
+      "source": "p195-obj470-1341x1218.png",
+      "rect": [
+        0,
+        504,
+        1341,
+        252
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Water W1 conceptual cross-section illustration (labels baked in)"
+    },
+    {
+      "id": "water-options-circle-1",
+      "page": "water",
+      "source": "p198-obj479-1448x1556.png",
+      "rect": [
+        699,
+        169,
+        135,
+        133
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Water W2 step 1 circle photo (left)",
+      "limitation": "Square crop including card background; display as a circle"
+    },
+    {
+      "id": "water-options-circle-2",
+      "page": "water",
+      "source": "p198-obj479-1448x1556.png",
+      "rect": [
+        946,
+        169,
+        135,
+        133
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Water W2 step 1 circle photo (middle)",
+      "limitation": "Square crop including card background; display as a circle"
+    },
+    {
+      "id": "water-options-circle-3",
+      "page": "water",
+      "source": "p198-obj479-1448x1556.png",
+      "rect": [
+        1193,
+        169,
+        135,
+        133
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Water W2 step 1 circle photo (right)",
+      "limitation": "Square crop including card background; display as a circle"
+    },
+    {
+      "id": "water-options-lake",
+      "page": "water",
+      "source": "p198-obj479-1448x1556.png",
+      "rect": [
+        0,
+        586,
+        618,
+        284
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Water W2 lake photo under the intro (right edge fades into the page)"
+    },
+    {
+      "id": "water-leftout-strip",
+      "page": "water",
+      "source": "p202-obj494-1536x1056.png",
+      "rect": [
+        0,
+        174,
+        1536,
+        103
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Water W4 lake/reeds strip under 'LEFT OUT. BY CHOICE.' (fades into page background)"
+    },
+    {
+      "id": "water-leftout-document-icon",
+      "page": "water",
+      "source": "p202-obj494-1536x1056.png",
+      "rect": [
+        55,
+        424,
+        129,
+        131
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Water W4 document circle icon (illustrated)"
+    },
+    {
+      "id": "water-leftout-shield-icon",
+      "page": "water",
+      "source": "p202-obj494-1536x1056.png",
+      "rect": [
+        804,
+        425,
+        132,
+        131
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Water W4 shield circle icon (illustrated)"
+    },
+    {
+      "id": "water-leftout-drop-icon",
+      "page": "water",
+      "source": "p202-obj494-1536x1056.png",
+      "rect": [
+        316,
+        819,
+        140,
+        132
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Water W4 water-drop icon on the dark band (dark background kept)"
+    },
+    {
+      "id": "water-compare-community",
+      "page": "water",
+      "source": "p204-obj499-1476x1049.png",
+      "rect": [
+        531,
+        379,
+        200,
+        104
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Water W5 Community Plan column header photo (burgundy tint baked in)"
+    },
+    {
+      "id": "water-compare-county",
+      "page": "water",
+      "source": "p204-obj499-1476x1049.png",
+      "rect": [
+        1232,
+        379,
+        200,
+        104
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Water W5 County Comprehensive Plan column header photo"
+    },
+    {
+      "id": "water-evidence-septic",
+      "page": "water",
+      "source": "p207-obj506-1476x1116.png",
+      "rect": [
+        41,
+        282,
+        265,
+        104
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Water W7 evidence card image: Septic Data"
+    },
+    {
+      "id": "water-evidence-repair",
+      "page": "water",
+      "source": "p207-obj506-1476x1116.png",
+      "rect": [
+        323,
+        282,
+        265,
+        104
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Water W7 evidence card image: Repair Records"
+    },
+    {
+      "id": "water-evidence-maps",
+      "page": "water",
+      "source": "p207-obj506-1476x1116.png",
+      "rect": [
+        605,
+        282,
+        265,
+        104
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Water W7 evidence card image: Water & Well Maps"
+    },
+    {
+      "id": "water-evidence-public",
+      "page": "water",
+      "source": "p207-obj506-1476x1116.png",
+      "rect": [
+        887,
+        282,
+        265,
+        104
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Water W7 evidence card image: Public Records"
+    },
+    {
+      "id": "water-evidence-policies",
+      "page": "water",
+      "source": "p207-obj506-1476x1116.png",
+      "rect": [
+        1169,
+        282,
+        265,
+        104
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Water W7 evidence card image: Planning Policies"
+    },
+    {
+      "id": "water-next-road",
+      "page": "water",
+      "source": "p207-obj506-1476x1116.png",
+      "rect": [
+        792,
+        848,
+        684,
+        268
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Water W7 'What's next' road photo (bottom edge of the reference; may be cut off)"
+    },
+    {
+      "id": "growth-then",
+      "page": "growth",
+      "source": "p209-obj511-1476x1219.png",
+      "rect": [
+        0,
+        460,
+        736,
+        412
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Growth G1 aerial: Keystone-Odessa when the Community Plan was created (title box and legend baked in)",
+      "limitation": "Private placeholder (fake data, TXT:1767); the centre arrow circle overlaps the right edge"
+    },
+    {
+      "id": "growth-today",
+      "page": "growth",
+      "source": "p209-obj511-1476x1219.png",
+      "rect": [
+        742,
+        460,
+        734,
+        412
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Growth G1 aerial: Keystone-Odessa today 2026 (title box and legend baked in)",
+      "limitation": "Private placeholder (fake data, TXT:1767); the centre arrow circle overlaps the left edge"
+    },
+    {
+      "id": "growth-density-five-acre",
+      "page": "growth",
+      "source": "p212-obj518-1536x1428.png",
+      "rect": [
+        42,
+        554,
+        720,
+        261
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Growth G2 aerial: five acres, one home (conceptual illustration)"
+    },
+    {
+      "id": "growth-density-moderate",
+      "page": "growth",
+      "source": "p212-obj518-1536x1428.png",
+      "rect": [
+        774,
+        554,
+        720,
+        261
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Growth G2 aerial: natural rural-lane moderate density (conceptual illustration)"
+    },
+    {
+      "id": "growth-evidence-plan",
+      "page": "growth",
+      "source": "p217-obj530-1476x1220.png",
+      "rect": [
+        310,
+        352,
+        179,
+        145
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Growth G5 evidence card image: Community Plan"
+    },
+    {
+      "id": "growth-evidence-landuse",
+      "page": "growth",
+      "source": "p217-obj530-1476x1220.png",
+      "rect": [
+        788,
+        353,
+        179,
+        143
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Growth G5 evidence card image: Land-Use Maps"
+    },
+    {
+      "id": "growth-evidence-housing",
+      "page": "growth",
+      "source": "p217-obj530-1476x1220.png",
+      "rect": [
+        1266,
+        359,
+        179,
+        131
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Growth G5 evidence card image: Housing Data"
+    },
+    {
+      "id": "growth-evidence-service",
+      "page": "growth",
+      "source": "p217-obj530-1476x1220.png",
+      "rect": [
+        310,
+        595,
+        179,
+        142
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Growth G5 evidence card image: Service Map"
+    },
+    {
+      "id": "growth-evidence-travel",
+      "page": "growth",
+      "source": "p217-obj530-1476x1220.png",
+      "rect": [
+        788,
+        593,
+        179,
+        147
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Growth G5 evidence card image: Travel Data"
+    },
+    {
+      "id": "growth-evidence-infrastructure",
+      "page": "growth",
+      "source": "p217-obj530-1476x1220.png",
+      "rect": [
+        1266,
+        595,
+        179,
+        143
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Growth G5 evidence card image: Infrastructure Records"
+    },
+    {
+      "id": "growth-next-aerial",
+      "page": "growth",
+      "source": "p217-obj530-1476x1220.png",
+      "rect": [
+        793,
+        830,
+        642,
+        209
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Growth G5 'Outdated Community Plan' aerial"
+    },
+    {
+      "id": "comparison-h1-community-dwelling",
+      "page": "comparison",
+      "source": "p226-obj551-2047x1383.png",
+      "rect": [
+        125,
+        391,
+        101,
+        101
+      ],
+      "kind": "graphic",
+      "scale": 3,
+      "use": "Comparison H1 original symbol: one dwelling unit per five acres (one of the eight original symbols, TXT:57)"
+    },
+    {
+      "id": "comparison-h1-community-low-density",
+      "page": "comparison",
+      "source": "p226-obj551-2047x1383.png",
+      "rect": [
+        125,
+        592,
+        101,
+        101
+      ],
+      "kind": "graphic",
+      "scale": 3,
+      "use": "Comparison H1 original symbol: low-density, scattered residential pattern (one of the eight original symbols, TXT:57)"
+    },
+    {
+      "id": "comparison-h1-community-amendments",
+      "page": "comparison",
+      "source": "p226-obj551-2047x1383.png",
+      "rect": [
+        125,
+        792,
+        101,
+        101
+      ],
+      "kind": "graphic",
+      "scale": 3,
+      "use": "Comparison H1 original symbol: discourages higher-density amendments (one of the eight original symbols, TXT:57)"
+    },
+    {
+      "id": "comparison-h1-community-rural",
+      "page": "comparison",
+      "source": "p226-obj551-2047x1383.png",
+      "rect": [
+        125,
+        995,
+        101,
+        101
+      ],
+      "kind": "graphic",
+      "scale": 3,
+      "use": "Comparison H1 original symbol: rural development pattern (one of the eight original symbols, TXT:57)"
+    },
+    {
+      "id": "comparison-h1-county-mapped",
+      "page": "comparison",
+      "source": "p226-obj551-2047x1383.png",
+      "rect": [
+        1079,
+        391,
+        101,
+        101
+      ],
+      "kind": "graphic",
+      "scale": 3,
+      "use": "Comparison H1 original symbol: mapped land-use categories (one of the eight original symbols, TXT:57)"
+    },
+    {
+      "id": "comparison-h1-county-rural-limits",
+      "page": "comparison",
+      "source": "p226-obj551-2047x1383.png",
+      "rect": [
+        1079,
+        592,
+        101,
+        101
+      ],
+      "kind": "graphic",
+      "scale": 3,
+      "use": "Comparison H1 original symbol: rural density limits still apply (one of the eight original symbols, TXT:57)"
+    },
+    {
+      "id": "comparison-h1-county-housing-goals",
+      "page": "comparison",
+      "source": "p226-obj551-2047x1383.png",
+      "rect": [
+        1079,
+        792,
+        101,
+        101
+      ],
+      "kind": "graphic",
+      "scale": 3,
+      "use": "Comparison H1 original symbol: housing choice and affordability (one of the eight original symbols, TXT:57)"
+    },
+    {
+      "id": "comparison-h1-county-tools",
+      "page": "comparison",
+      "source": "p226-obj551-2047x1383.png",
+      "rect": [
+        1079,
+        995,
+        101,
+        101
+      ],
+      "kind": "graphic",
+      "scale": 3,
+      "use": "Comparison H1 original symbol: infill, small lots, accessory homes (one of the eight original symbols, TXT:57)"
+    },
+    {
+      "id": "comparison-h1-illustration",
+      "page": "comparison",
+      "source": "p226-obj551-2047x1383.png",
+      "rect": [
+        89,
+        1242,
+        242,
+        64
+      ],
+      "kind": "photo",
+      "scale": 3,
+      "use": "Comparison H1 small illustration beside the closing statement"
+    },
+    {
+      "id": "comparison-r1-gunn",
+      "page": "comparison",
+      "source": "p220-obj537-1070x1490.png",
+      "rect": [
+        792,
+        93,
+        225,
+        149
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Comparison R1 header photo: Gunn Highway, April 20, 2016 (Alex Nitzman / AARoads)"
+    },
+    {
+      "id": "comparison-r1-illustration",
+      "page": "comparison",
+      "source": "p220-obj537-1070x1490.png",
+      "rect": [
+        53,
+        1131,
+        171,
+        52
+      ],
+      "kind": "photo",
+      "scale": 3,
+      "use": "Comparison R1 small roadside illustration beside the closing statement"
+    },
+    {
+      "id": "comparison-w8-header",
+      "page": "comparison",
+      "source": "p224-obj546-1536x1260.png",
+      "rect": [
+        805,
+        76,
+        731,
+        219
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Comparison W8 header photo: water tank by the lake"
+    },
+    {
+      "id": "comparison-w8-illustration",
+      "page": "comparison",
+      "source": "p224-obj546-1536x1260.png",
+      "rect": [
+        48,
+        1011,
+        232,
+        79
+      ],
+      "kind": "photo",
+      "scale": 3,
+      "use": "Comparison W8 small lake illustration beside the closing statement"
+    },
+    {
+      "id": "comparison-c1-aerial",
+      "page": "comparison",
+      "source": "p228-obj557-1476x1632.png",
+      "rect": [
+        806,
+        111,
+        626,
+        212
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Comparison C1 aerial: Lake Keystone area, Odessa (Coldwell Banker; StellarMLS watermark kept if present)"
+    },
+    {
+      "id": "comparison-c1-remove",
+      "page": "comparison",
+      "source": "p228-obj557-1476x1632.png",
+      "rect": [
+        62,
+        477,
+        335,
+        335
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Comparison C1 REMOVE illustration: crossed-out Community Plan (Area-specific policy layer)"
+    },
+    {
+      "id": "comparison-c1-arrow",
+      "page": "comparison",
+      "source": "p228-obj557-1476x1632.png",
+      "rect": [
+        434,
+        620,
+        64,
+        66
+      ],
+      "kind": "graphic",
+      "scale": 3,
+      "use": "Comparison C1 brown arrow between REMOVE and REMAINS"
+    },
+    {
+      "id": "comparison-c1-illustration",
+      "page": "comparison",
+      "source": "p228-obj557-1476x1632.png",
+      "rect": [
+        66,
+        1000,
+        188,
+        58
+      ],
+      "kind": "photo",
+      "scale": 3,
+      "use": "Comparison C1 small trees illustration beside the closing statement"
+    },
+    {
+      "id": "evidence-r3-roads",
+      "page": "evidence",
+      "source": "p231-obj564-1536x1256.png",
+      "rect": [
+        40,
+        323,
+        346,
+        167
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Evidence R3 card image: Gunn Highway, Keystone (Alex Nitzman / AARoads)"
+    },
+    {
+      "id": "evidence-r3-water",
+      "page": "evidence",
+      "source": "p231-obj564-1536x1256.png",
+      "rect": [
+        410,
+        323,
+        346,
+        167
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Evidence R3 card image: Lake Rogers, Odessa (Florida Hikes)"
+    },
+    {
+      "id": "evidence-r3-growth",
+      "page": "evidence",
+      "source": "p231-obj564-1536x1256.png",
+      "rect": [
+        780,
+        323,
+        346,
+        167
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Evidence R3 card image: planning symbol, not a geographic map"
+    },
+    {
+      "id": "evidence-r3-plans",
+      "page": "evidence",
+      "source": "p231-obj564-1536x1256.png",
+      "rect": [
+        1150,
+        323,
+        346,
+        167
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Evidence R3 card image: illustration, not original document covers"
+    },
+    {
+      "id": "evidence-e1-header",
+      "page": "evidence",
+      "source": "p234-obj571-1476x1791.png",
+      "rect": [
+        979,
+        42,
+        455,
+        108
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Evidence E1 library header image (soft trees)"
+    },
+    {
+      "id": "evidence-e1-thumb-livable",
+      "page": "evidence",
+      "source": "p234-obj571-1476x1791.png",
+      "rect": [
+        65,
+        450,
+        200,
+        102
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Evidence E1 library thumbnail: Livable Communities Element (illustration, not the original cover)"
+    },
+    {
+      "id": "evidence-e1-thumb-public-records",
+      "page": "evidence",
+      "source": "p234-obj571-1476x1791.png",
+      "rect": [
+        65,
+        663,
+        200,
+        94
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Evidence E1 library thumbnail: Response to Public Records Request (illustration, not the original cover)"
+    },
+    {
+      "id": "evidence-e1-thumb-water",
+      "page": "evidence",
+      "source": "p234-obj571-1476x1791.png",
+      "rect": [
+        65,
+        863,
+        200,
+        86
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Evidence E1 library thumbnail: Water Infrastructure Records (illustration, not the original cover)"
+    },
+    {
+      "id": "evidence-e1-thumb-septic-repair",
+      "page": "evidence",
+      "source": "p234-obj571-1476x1791.png",
+      "rect": [
+        65,
+        1060,
+        200,
+        82
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Evidence E1 library thumbnail: Septic System Repair Records (illustration, not the original cover)"
+    },
+    {
+      "id": "evidence-e1-thumb-septic-classification",
+      "page": "evidence",
+      "source": "p234-obj571-1476x1791.png",
+      "rect": [
+        65,
+        1255,
+        200,
+        82
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Evidence E1 library thumbnail: Septic Classification Data (illustration, not the original cover)"
+    },
+    {
+      "id": "evidence-e1-action-strip",
+      "page": "evidence",
+      "source": "p234-obj571-1476x1791.png",
+      "rect": [
+        914,
+        1676,
+        293,
+        43
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Evidence E1 From Evidence to Action image strip"
+    },
+    {
+      "id": "action-hero-family",
+      "page": "action",
+      "source": "p237-obj578-2046x698.png",
+      "rect": [
+        1215,
+        91,
+        746,
+        530
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Take Action A1 hero: family looking toward the lake (illustrative photo)"
+    },
+    {
+      "id": "action-card-01",
+      "page": "action",
+      "source": "p246-obj606-2046x1502.png",
+      "rect": [
+        86,
+        456,
+        598,
+        293
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Take Action A2 card 01 image (COMMUNITY SUPPORT clipboard; lettering baked in)",
+      "limitation": "Number badge 01 is baked into the top-left of the image"
+    },
+    {
+      "id": "action-card-02",
+      "page": "action",
+      "source": "p246-obj606-2046x1502.png",
+      "rect": [
+        726,
+        456,
+        597,
+        296
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Take Action A2 card 02 image (writing in a notebook)",
+      "limitation": "Number badge 02 is baked into the top-left of the image"
+    },
+    {
+      "id": "action-card-03",
+      "page": "action",
+      "source": "p246-obj606-2046x1502.png",
+      "rect": [
+        1365,
+        456,
+        597,
+        289
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Take Action A2 card 03 image (document binders; lettering baked in)",
+      "limitation": "Number badge 03 is baked into the top-left of the image"
+    },
+    {
+      "id": "action-story-mailbox",
+      "page": "action",
+      "source": "p248-obj611-2046x1348.png",
+      "rect": [
+        797,
+        821,
+        341,
+        345
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Take Action A3 mailbox photo '33556'"
+    },
+    {
+      "id": "action-share-laptop",
+      "page": "action",
+      "source": "p254-obj628-2047x1073.png",
+      "rect": [
+        1045,
+        86,
+        853,
+        896
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Take Action A4 sharing illustration (laptop, share panel, icons; lettering kept as artwork)"
+    },
+    {
+      "id": "action-stories-road",
+      "page": "action",
+      "source": "p258-obj638-2046x1600.png",
+      "rect": [
+        86,
+        445,
+        598,
+        243
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Take Action A5 sample story image: Road Safety (illustrative)"
+    },
+    {
+      "id": "action-stories-water",
+      "page": "action",
+      "source": "p258-obj638-2046x1600.png",
+      "rect": [
+        726,
+        445,
+        597,
+        254
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Take Action A5 sample story image: Water & Septic (illustrative)"
+    },
+    {
+      "id": "action-stories-access",
+      "page": "action",
+      "source": "p258-obj638-2046x1600.png",
+      "rect": [
+        1365,
+        445,
+        597,
+        242
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Take Action A5 sample story image: Everyday Access (illustrative)"
+    },
+    {
+      "id": "action-stories-landscape",
+      "page": "action",
+      "source": "p258-obj638-2046x1600.png",
+      "rect": [
+        85,
+        1447,
+        1876,
+        86
+      ],
+      "kind": "photo",
+      "scale": 2,
+      "use": "Take Action A5 landscape band under the stories"
+    },
+    {
+      "id": "action-petition-side-left",
+      "page": "action",
+      "source": "p267-obj662-793x2046.png",
+      "rect": [
+        0,
+        242,
+        47,
+        198
+      ],
+      "kind": "photo",
+      "scale": 4,
+      "use": "Take Action A6 petition section: visible left edge of the landscape background",
+      "limitation": "Downscaled source (793 px wide); only the visible edge strip exists"
+    },
+    {
+      "id": "action-petition-side-right",
+      "page": "action",
+      "source": "p267-obj662-793x2046.png",
+      "rect": [
+        746,
+        245,
+        47,
+        195
+      ],
+      "kind": "photo",
+      "scale": 4,
+      "use": "Take Action A6 petition section: visible right edge of the landscape background",
+      "limitation": "Downscaled source (793 px wide); only the visible edge strip exists"
+    }
+  ]
+}

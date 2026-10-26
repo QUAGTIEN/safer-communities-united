@@ -1,0 +1,140 @@
+/* The Facts — Evidence & Records (S5). Estimates from approved desktop images R3 p231 (1536 px) and
+   E1 p234 (1476 px canvas, scaled ×1.04). Card colours follow R3 (D-015 OQ-25). Tablet/phone layouts are proposals. */
+
+.ev-page { background: var(--cream); color: var(--charcoal); }
+.ev-wrap { width: min(100% - 8.5rem, 87.75rem); margin-inline: auto; }
+.ev-wrap.is-library { width: min(100% - 5.25rem, 89.75rem); }
+.ev-section { padding-block: 2rem 2.5rem; }
+.ev-eyebrow { display: flex; align-items: center; gap: 1rem; margin: 0; font-size: 1rem; letter-spacing: 0.08em; color: #8a2433; }
+.ev-eyebrow.is-strong { font-size: 1.25rem; font-weight: 700; letter-spacing: 0; }
+.ev-eyebrow > span { display: flex; width: 3rem; height: 3rem; align-items: center; justify-content: center; border-radius: 50%; background: #876150; color: var(--white); }
+.ev-eyebrow.is-strong > span { width: 3.5rem; height: 3.5rem; }
+.ev-eyebrow svg { width: 1.5rem; height: 1.5rem; }
+.ev-title { margin: 1.25rem 0 0; font-size: 3.75rem; line-height: 4.25rem; font-weight: 700; letter-spacing: -0.045em; }
+.ev-title.is-small { margin-top: 0.75rem; font-size: 3rem; line-height: 3.5rem; }
+.ev-intro { margin: 1.25rem 0 0; font-size: 1.375rem; line-height: 2rem; }
+.ev-intro.is-small { margin-top: 0.5rem; font-size: 1.3125rem; }
+.ev-inline-link { padding: 0; border: 0; background: none; font: inherit; color: inherit; text-decoration: underline; }
+
+/* R3 four cards. */
+.ev-cards { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0.875rem; width: min(100% - 4rem, 91.75rem); margin: 2rem auto 0; padding: 0; list-style: none; }
+.ev-card { display: flex; flex-direction: column; padding: 0.375rem 0.375rem 0.875rem; border-radius: 10px; }
+.ev-card.is-roads { background: #f8f3ee; }
+.ev-card.is-water { background: #eef3fa; }
+.ev-card.is-growth { background: #eef4f0; }
+.ev-card.is-plans { background: #f2eff9; }
+.ev-card { box-shadow: 0 0 0 6px var(--white); }
+.ev-card-image { display: block; width: 100%; height: 10.5rem; object-fit: cover; }
+.ev-card-caption { min-height: 2.5rem; margin: 0.5rem 0.5rem 0; font-size: 0.75rem; line-height: 1rem; color: #555; }
+.ev-card-head { display: flex; align-items: center; gap: 0.75rem; margin: 1.5rem 0.75rem 0; padding-bottom: 1.25rem; border-bottom: 1px solid #ddd6cb; }
+.ev-card-head > span { display: flex; flex: none; width: 4rem; height: 4rem; align-items: center; justify-content: center; border-radius: 50%; color: var(--white); }
+.ev-card-head svg { width: 2rem; height: 2rem; }
+.ev-card.is-roads .ev-card-head > span { background: #76452e; }
+.ev-card.is-water .ev-card-head > span { background: #0e4eae; }
+.ev-card.is-growth .ev-card-head > span { background: #12592f; }
+.ev-card.is-plans .ev-card-head > span { background: #553496; }
+.ev-card-head h2 { margin: 0; font-size: 1.25rem; line-height: 1.625rem; font-weight: 800; font-stretch: 90%; letter-spacing: -0.02em; }
+.ev-card.is-roads h2 { color: #4e2f22; }
+.ev-card.is-water h2 { color: #0e3c86; }
+.ev-card.is-growth h2 { color: #12592f; }
+.ev-card.is-plans h2 { color: #3c2a7a; }
+.ev-card dl { flex: 1; margin: 0 0.75rem; }
+.ev-card dl > div { padding-block: 1rem; }
+.ev-card dl > div + div { border-top: 1px solid #ddd6cb; }
+.ev-card dt { display: flex; align-items: center; gap: 0.75rem; font-size: 1.125rem; font-weight: 700; }
+.ev-card dt svg { width: 1.375rem; height: 1.375rem; }
+.ev-card dd { margin: 0.375rem 0 0 2.125rem; font-size: 1.0625rem; line-height: 1.5625rem; }
+.ev-card.is-roads :is(dt, dd) { color: #4e2f22; } .ev-card.is-roads dt svg { color: #76452e; }
+.ev-card.is-water :is(dt, dd) { color: #0e3c86; } .ev-card.is-water dt svg { color: #0e4eae; }
+.ev-card.is-growth :is(dt, dd) { color: #12592f; } .ev-card.is-growth dt svg { color: #12592f; }
+.ev-card.is-plans :is(dt, dd) { color: #3c2a7a; } .ev-card.is-plans dt svg { color: #553496; }
+.ev-card-button { display: flex; min-height: 3.625rem; align-items: center; justify-content: center; margin: 1.5rem 0.75rem 0; border: 0; border-radius: 2px; font: inherit; font-size: 1.0625rem; color: var(--white); }
+.ev-card.is-roads .ev-card-button { background: #7a4a33; }
+.ev-card.is-water .ev-card-button { background: #0e45a8; }
+.ev-card.is-growth .ev-card-button { background: #0f5a33; }
+.ev-card.is-plans .ev-card-button { background: #5b3aa0; }
+.ev-card-button:hover { text-decoration: underline; }
+
+/* E1 library. */
+.ev-library { padding-top: 2.5rem; }
+.ev-library-head { display: grid; grid-template-columns: minmax(0, 1fr) 29.5rem; align-items: center; gap: 2rem; }
+.ev-library-header { display: block; width: 100%; height: 7rem; object-fit: cover; border-radius: 6px; }
+.ev-filters { display: grid; grid-template-columns: repeat(4, 12rem) minmax(0, 1fr) auto; align-items: end; gap: 1rem; margin-top: 1.75rem; padding: 1.5rem 1.375rem; border: 1px solid #ddd6cb; border-radius: 4px; background: #ede6dc; }
+.ev-filter-label { display: flex; align-items: center; gap: 0.625rem; margin: 0 0 0.75rem; font-size: 1.0625rem; font-weight: 600; }
+.ev-filter-label svg { width: 1.375rem; height: 1.375rem; color: #1d3f8a; }
+.ev-select, .ev-search, .ev-sort span { display: flex; height: 2.875rem; align-items: center; justify-content: space-between; gap: 0.75rem; margin: 0; padding: 0 0.875rem; border: 1px solid #cfc7bb; border-radius: 3px; background: var(--white); font-size: 1.0625rem; color: #26282b; }
+.ev-select svg, .ev-sort svg { width: 1rem; height: 1rem; }
+.ev-search { justify-content: flex-start; height: 3.125rem; color: #555; }
+.ev-search svg { width: 1.375rem; height: 1.375rem; color: #1d3f8a; }
+.ev-search-button { display: flex; height: 3.125rem; align-items: center; margin: 0; padding: 0 1.5rem; border-radius: 3px; background: #7d2033; font-size: 1.1875rem; color: var(--white); }
+.ev-results-bar { display: flex; align-items: center; justify-content: space-between; margin-top: 1rem; }
+.ev-count { margin: 0; font-size: 1.25rem; font-weight: 700; }
+.ev-sort { display: flex; align-items: center; gap: 1.25rem; margin: 0; font-size: 1.25rem; }
+.ev-sort span { height: 2.5rem; font-size: 1.0625rem; }
+.ev-records { display: grid; gap: 0.875rem; margin: 0.75rem 0 0; padding: 0; list-style: none; }
+.ev-record { display: grid; grid-template-columns: 13rem minmax(0, 1fr) 19.5rem; align-items: center; gap: 1.5rem; min-height: 11.25rem; padding: 1.5rem 1.5rem; border: 1px solid #ddd6cb; border-radius: 4px; background: #fdfbf7; }
+.ev-record-thumb { width: 100%; height: auto; border-radius: 3px; }
+.ev-record-main h3 { margin: 0; font-family: var(--font-inter), sans-serif; font-size: 1.5625rem; line-height: 2rem; font-weight: 700; letter-spacing: -0.02em; color: #7d2033; }
+.ev-record-meta { display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; margin: 0.625rem 0 0; font-size: 1.0625rem; color: #555; }
+.ev-record-meta span { display: inline-flex; align-items: center; gap: 0.5rem; }
+.ev-record-meta svg { width: 1.0625rem; height: 1.0625rem; color: #555; }
+.ev-record-uses { margin: 0.75rem 0 0; font-size: 1.1875rem; line-height: 1.75rem; }
+.ev-record-uses strong { font-weight: 700; }
+.ev-record-side { padding-left: 1.25rem; border-left: 1px solid #ddd6cb; }
+.ev-related-label { margin: 0; font-size: 0.9375rem; font-weight: 700; color: #8a2433; }
+.ev-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.75rem 0 0; padding: 0; list-style: none; }
+.ev-tags li { padding: 0.25rem 0.75rem; border-radius: 999px; background: #ede6dc; font-size: 0.9375rem; }
+.ev-record-button { display: flex; width: 100%; min-height: 3rem; align-items: center; justify-content: space-between; margin-top: 1rem; padding: 0 1rem; border: 0; border-radius: 2px; background: #7d2033; font: inherit; font-size: 1.0625rem; color: var(--white); text-align: left; }
+.ev-record-button svg { width: 1rem; height: 1rem; }
+.ev-record-button:hover { text-decoration: underline; }
+.ev-pages { display: flex; justify-content: center; gap: 1.25rem; margin: 1.25rem 0 0; font-size: 1.25rem; color: #7d2033; }
+.ev-pages span { display: flex; min-width: 2.25rem; height: 2.25rem; align-items: center; justify-content: center; }
+.ev-pages .is-current { border-radius: 2px; background: #7d2033; color: var(--white); }
+.ev-action { margin-top: 1.25rem; padding: 1.75rem 2rem 1.75rem; border: 1px solid #ddd6cb; border-radius: 4px; background: #ede4d8; }
+.ev-action-title { margin: 1.25rem 0 0; font-size: 2.375rem; line-height: 2.875rem; font-weight: 700; letter-spacing: -0.02em; }
+.ev-action-text { margin: 0.75rem 0 0; font-size: 1.3125rem; line-height: 1.875rem; }
+.ev-action-row { display: flex; align-items: center; justify-content: flex-end; gap: 1.875rem; margin-top: 0.75rem; }
+.ev-action-strip { width: 19rem; height: auto; }
+.ev-action-button { display: inline-flex; min-height: 3.625rem; align-items: center; padding: 0 1.5rem; border-radius: 2px; background: #7d2033; font-size: 1.3125rem; color: var(--white); }
+.ev-action-button:hover { text-decoration: underline; }
+
+/* Below 1280 px (proposed tablet layout — no reference). */
+@media (max-width: 79.999rem) {
+  .ev-wrap, .ev-wrap.is-library, .ev-cards { width: min(100% - 4rem, 88rem); }
+  .ev-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; }
+  .ev-library-head { grid-template-columns: minmax(0, 1fr); }
+  .ev-filters { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .ev-search { grid-column: 1 / -1; }
+  .ev-record { grid-template-columns: 10rem minmax(0, 1fr); }
+  .ev-record-side { grid-column: 1 / -1; padding: 1rem 0 0; border-left: 0; border-top: 1px solid #ddd6cb; }
+}
+
+/* Phone below 640 px (proposed layout — no reference). */
+@media (max-width: 39.999rem) {
+  .ev-wrap, .ev-wrap.is-library, .ev-cards { width: calc(100% - 3rem); }
+  .ev-title, .ev-title.is-small { font-size: 2.25rem; line-height: 2.625rem; }
+  .ev-intro, .ev-intro.is-small { font-size: 1.0625rem; line-height: 1.625rem; }
+  .ev-cards { grid-template-columns: minmax(0, 1fr); }
+  .ev-filters { grid-template-columns: minmax(0, 1fr); }
+  .ev-results-bar { flex-wrap: wrap; gap: 0.75rem; }
+  .ev-record { grid-template-columns: minmax(0, 1fr); }
+  .ev-record-thumb { max-width: 12rem; }
+  .ev-record-main h3 { font-size: 1.25rem; line-height: 1.625rem; }
+  .ev-record-uses { font-size: 1.0625rem; line-height: 1.625rem; }
+  .ev-pages { flex-wrap: wrap; gap: 0.125rem; font-size: 1rem; }
+  .ev-pages span { min-width: 1.75rem; }
+  .ev-action { padding: 1.25rem; }
+  .ev-action-title { font-size: 1.625rem; line-height: 2.125rem; }
+  .ev-action-text { font-size: 1.0625rem; line-height: 1.625rem; }
+  .ev-action-row { flex-direction: column; align-items: stretch; }
+  .ev-action-strip { width: 100%; }
+  .ev-action-button { justify-content: center; }
+}
+
+/* Fit tweaks after comparison with E1. (desktop only) */
+@media (min-width: 80rem) {
+.ev-record { grid-template-columns: 12rem minmax(0, 1fr) 21rem; }
+.ev-record-button { font-size: 1rem; white-space: nowrap; }
+.ev-tags li { font-size: 0.875rem; }
+.ev-card dt svg { color: inherit; }
+}

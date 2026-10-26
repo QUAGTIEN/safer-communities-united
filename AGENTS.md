@@ -1,6 +1,6 @@
 # Safer Communities United
 
-Read [agent.md](agent.md) and the latest [project decisions](docs/PROJECT_DECISIONS.md) before editing. Those files contain the user's blueprint, image, copy, demo-scope and coding-round requirements. Keep original images/PDF immutable. Follow [the coding plan](docs/CODING_PLAN.md); only the currently requested round is in scope.
+Read [agent.md](agent.md), [docs/RULES.md](docs/RULES.md) and the [approval log](docs/APPROVAL_LOG.md) before editing. The master source is the 22 October 2026 blueprint in [blueprint/](blueprint/README.md); visible website copy must match it 100%. Keep `blueprint/` and `assets/source/` immutable. Follow [the implementation plan](docs/IMPLEMENTATION_PLAN.md); work is split into rounds S1–S8 and only the round the user has requested is in scope.
 
 <!-- BEGIN:nextjs-agent-rules -->
 
