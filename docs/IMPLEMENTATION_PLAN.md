@@ -99,7 +99,7 @@ Cách đọc: `[x]` = đã xong, `[ ]` = chưa xong. Một lượt chỉ đượ
 
 | | Việc | Kết quả / căn cứ |
 |---|---|---|
-| [ ] | Chạy [ACCEPTANCE_CHECKLIST](ACCEPTANCE_CHECKLIST.md) | Báo cáo kiểm tra |
+| [x] | Chạy [ACCEPTANCE_CHECKLIST](ACCEPTANCE_CHECKLIST.md) | 26/10/2026 — [reviews/S8](reviews/S8/README.md); 6 phát hiện chờ quyết định (V-015) |
 
 ## Quy tắc mỗi lượt
 
