@@ -20,7 +20,7 @@ type SendRequest = { fingerprint: string; body: () => BodyInit; json: boolean };
 function useFormSend(form: FormName) {
   const [phase, setPhase] = useState<Phase>("idle");
   const busy = useRef(false);
-  const attempt = useRef<{ fingerprint: string; key: string } | null>(null);
+  const attempt = useRef<{ fingerprint: string; key: string; at: string } | null>(null);
   const last = useRef<SendRequest | null>(null);
   const forced = useRef(false);
 
@@ -28,9 +28,10 @@ function useFormSend(form: FormName) {
     if (busy.current) return;
     busy.current = true;
     last.current = request;
-    // Same entries → same key (the provider de-duplicates a retry); changed entries → a new submission.
-    if (attempt.current?.fingerprint !== request.fingerprint) attempt.current = { fingerprint: request.fingerprint, key: crypto.randomUUID() };
-    const key = attempt.current.key;
+    // Same entries → same key and first-attempt time, so a retry is byte-identical and the provider de-duplicates it;
+    // changed entries → a new submission.
+    if (attempt.current?.fingerprint !== request.fingerprint) attempt.current = { fingerprint: request.fingerprint, key: crypto.randomUUID(), at: new Date().toISOString() };
+    const { key, at } = attempt.current;
     setPhase("pending");
     let ok = false;
     try {
@@ -40,7 +41,7 @@ function useFormSend(form: FormName) {
       } else {
         const response = await fetch(`/api/forms/${form}/`, {
           method: "POST",
-          headers: { "Idempotency-Key": key, ...(request.json ? { "Content-Type": "application/json" } : {}) },
+          headers: { "Idempotency-Key": key, "X-Submitted-At": at, ...(request.json ? { "Content-Type": "application/json" } : {}) },
           body: request.body(),
         });
         const result = (await response.json().catch(() => ({}))) as { ok?: boolean; id?: string };

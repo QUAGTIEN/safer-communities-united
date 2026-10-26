@@ -7,7 +7,8 @@ import {
 // Server delivery for the three Take Action forms (S7, docs/FORMS_SPEC.md §0, docs/ARCHITECTURE.md §3).
 // FORMS_MODE=simulate (default) validates and answers without sending; FORMS_MODE=live emails the complete
 // submission to the fixed FORMS_RECIPIENT through Resend. Nothing is stored: no database, outbox or log of entries.
-// Success is reported only when Resend returns an email id; the client keeps the same Idempotency-Key on retry.
+// Success is reported only when Resend returns an email id; a retry reuses the Idempotency-Key and X-Submitted-At,
+// so the email is byte-identical and Resend de-duplicates it.
 
 export const maxDuration = 20;
 
@@ -70,6 +71,13 @@ export async function POST(request: NextRequest, ctx: RouteContext<"/api/forms/[
   const key = request.headers.get("idempotency-key") ?? "";
   if (!/^[A-Za-z0-9-]{8,128}$/.test(key)) return reply(400, { ok: false });
 
+  // First-attempt time from the client, kept with the key so a retry produces the identical email (TXT:2390).
+  const submittedAt = request.headers.get("x-submitted-at") ?? "";
+  const submitted = Date.parse(submittedAt);
+  if (!/^\d{4}-\d{2}-\d{2}T[\d:.]+Z$/.test(submittedAt) || Number.isNaN(submitted) || Math.abs(Date.now() - submitted) > 24 * 60 * 60 * 1000) {
+    return reply(400, { ok: false });
+  }
+
   const size = Number(request.headers.get("content-length") ?? 0);
   if (size > (name === "story" ? storyLimit : jsonLimit)) return reply(413, { ok: false, reason: "too-large" });
 
@@ -83,8 +91,7 @@ export async function POST(request: NextRequest, ctx: RouteContext<"/api/forms/[
   if (built.honeypot) return reply(200, { ok: true, id: "accepted" });
   if (Object.keys(built.errors).length) return reply(422, { ok: false, errors: built.errors });
 
-  const received = new Date().toISOString();
-  const textBody = [...built.lines, "", "---", `Form: ${name}`, `Received (server time, UTC): ${received}`, `Reference: ${key}`].join("\n");
+  const textBody = [...built.lines, "", "---", `Form: ${name}`, `Submitted (first attempt, UTC): ${submittedAt}`, `Reference: ${key}`].join("\n");
 
   if (process.env.FORMS_MODE !== "live") {
     await new Promise((resolve) => setTimeout(resolve, 900));
