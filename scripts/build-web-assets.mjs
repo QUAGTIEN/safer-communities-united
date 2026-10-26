@@ -1,6 +1,7 @@
 // Prepare website images from the approved asset sources (runs before dev/build).
 // - assets/extracted/**.png (temporary, D-007): encoded to WebP for the web; the PNG masters stay unchanged.
 // - assets/source/maps/*.png (original maps, D-005): copied byte-for-byte, never re-encoded.
+// - assets/drawn/*.svg (vector redraws, D-026): copied as is; display size from assets/drawn/manifest.json.
 // Writes public/assets/ (git-ignored) and src/content/assets.generated.json (git-ignored).
 import { readFileSync, writeFileSync, mkdirSync, copyFileSync, readdirSync, existsSync, statSync } from "node:fs";
 import path from "node:path";
@@ -28,6 +29,13 @@ for (const file of readdirSync(mapsDir).filter((f) => f.endsWith(".png"))) {
   copyFileSync(path.join(mapsDir, file), path.join(outDir, "maps", file));
   const { width, height } = await sharp(path.join(mapsDir, file)).metadata();
   index[path.basename(file, ".png")] = { src: `/assets/maps/${file}`, width, height, intrinsic: [width, height] };
+}
+
+const drawn = JSON.parse(readFileSync("assets/drawn/manifest.json", "utf8"));
+mkdirSync(path.join(outDir, "drawn"), { recursive: true });
+for (const [id, { display }] of Object.entries(drawn)) {
+  copyFileSync(`assets/drawn/${id}.svg`, path.join(outDir, "drawn", `${id}.svg`));
+  index[id] = { src: `/assets/drawn/${id}.svg`, width: display[0], height: display[1], intrinsic: display };
 }
 
 writeFileSync("src/content/assets.generated.json", JSON.stringify(index, null, 2) + "\n");

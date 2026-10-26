@@ -39,7 +39,7 @@ export const roads = {
       { icon: "users", label: "WALKING AND CROSSINGS", title: "MAKE PEOPLE’S NEEDS CENTRAL TO THE ASSESSMENT.", text: ["County policies address crossing visibility, walking, cycling and safe routes to schools."] },
     ] satisfies Row[],
   },
-  illustration: img("comparison-r1-illustration"),
+  illustration: img("drawn-road"),
   closing: "PROTECT THE CHARACTER OF THE AREA. QUESTION THE RULES THAT GOVERN ITS ROADS.",
   note: "Countywide policies already apply. Retiring the Community Plan and changing related restrictions would not automatically approve or fund road projects.",
   cta: "View the Full Roads Comparison →",
@@ -71,7 +71,7 @@ export const water = {
     ] satisfies Row[],
   },
   limit: { title: "KEYSTONE–ODESSA LIMIT", text: "One Water Policy 4.3.7 excludes properties within the Keystone–Odessa Community Plan boundary from the wellhead/wellfield pathway described above." },
-  illustration: img("comparison-w8-illustration"),
+  illustration: img("drawn-lake"),
   closing: ["The County framework provides more specific tools", "to respond to current water, septic, groundwater, and stormwater", "conditions."],
   cta: "View the Full Water Comparison →",
 };
@@ -97,7 +97,7 @@ export const housing = {
       { icon: img("comparison-h1-county-tools"), text: ["Supports tools including", { em: "infill, small lots, accessory homes, and different housing types" }, ", with adequate infrastructure."] },
     ] satisfies Row[],
   },
-  illustration: img("comparison-h1-illustration"),
+  illustration: img("drawn-homes"),
   closing: "Protecting rural character matters. So does whether people can afford a home. A community plan should address both.",
   cta: "View the Full Growth & Housing Comparison →",
 };
@@ -122,7 +122,7 @@ export const remains = {
       { icon: "shield", text: "Applicable Health/Engineering/ Environmental Standards" },
     ],
   },
-  illustration: img("comparison-c1-illustration"),
+  illustration: img("drawn-green"),
   panel: { title: "The proposed change is a change to the policy layer that applies to Keystone–Odessa.", text: "The Countywide planning framework continues to apply.", cta: "Learn More About the County Framework →" },
   campaign: {
     title: "RETIRE THE EXTRA PLAN. KEEP THE PROTECTIONS.",

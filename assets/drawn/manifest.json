@@ -1,0 +1,37 @@
+{
+  "drawn-road": {
+    "replaces": "comparison-r1-illustration",
+    "display": [
+      171,
+      52
+    ]
+  },
+  "drawn-lake": {
+    "replaces": "comparison-w8-illustration",
+    "display": [
+      232,
+      79
+    ]
+  },
+  "drawn-homes": {
+    "replaces": "comparison-h1-illustration",
+    "display": [
+      242,
+      64
+    ]
+  },
+  "drawn-green": {
+    "replaces": "comparison-c1-illustration",
+    "display": [
+      188,
+      58
+    ]
+  },
+  "drawn-landscape": {
+    "replaces": "action-stories-landscape",
+    "display": [
+      1876,
+      86
+    ]
+  }
+}

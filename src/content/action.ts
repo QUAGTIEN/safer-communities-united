@@ -168,7 +168,7 @@ export const stories = {
   ],
   read: "Read the Story →",
   viewAll: "VIEW ALL STORIES →",
-  landscape: img("action-stories-landscape"),
+  landscape: img("drawn-landscape"),
 };
 
 export const petition = {

@@ -62,7 +62,7 @@ export const library = {
     eyebrow: "FROM EVIDENCE TO ACTION",
     title: "The Community’s Voice Can Help Shape What Happens Next.",
     text: "You’ve seen the issues, the evidence, and the plan. Now you can take action to support a safer, healthier, and stronger future for Keystone–Odessa.",
-    strip: img("action-stories-landscape"), // 5B, D-025: full landscape band instead of the half-cropped E1 strip
+    strip: img("drawn-landscape"), // 5B, D-025 (landscape band); redrawn as vector, D-026
     cta: { label: "Take Action →", href: "/take-action" },
   },
 };

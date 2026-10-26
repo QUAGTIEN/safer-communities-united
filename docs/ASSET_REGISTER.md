@@ -182,6 +182,18 @@ Tổng: **119** file — Header/footer 2 · Home 6 · Issues 22 · Roads & Safet
 | `action-petition-side-left` | 188 × 792 | `p267-obj662-793x2046.png` (0, 242, 47, 198) | Take Action A6 petition section: visible left edge of the landscape background | Downscaled source (793 px wide); only the visible edge strip exists |
 | `action-petition-side-right` | 188 × 780 | `p267-obj662-793x2046.png` (746, 245, 47, 195) | Take Action A6 petition section: visible right edge of the landscape background | Downscaled source (793 px wide); only the visible edge strip exists |
 
+## 1c. Hình vẽ lại bằng vector (D-026)
+
+`assets/drawn/*.svg`, sinh bằng `node scripts/draw-illustrations.mjs`; kích thước hiển thị trong `assets/drawn/manifest.json` bằng ảnh trích được thay thế. Không phải artwork gốc: vẽ lại cùng chủ đề và màu, không giống chính xác (người dùng duyệt).
+
+| ID | Thay cho | Dùng ở |
+|---|---|---|
+| `drawn-road` | `comparison-r1-illustration` | The Proposal — R1 |
+| `drawn-lake` | `comparison-w8-illustration` | The Proposal — W8 |
+| `drawn-homes` | `comparison-h1-illustration` | The Proposal — H1 |
+| `drawn-green` | `comparison-c1-illustration` | The Proposal — C1 |
+| `drawn-landscape` | `action-stories-landscape` | Take Action — A5; The Facts — From Evidence to Action (D-025) |
+
 **Không trích** (dựng lại bằng vector/CSS ở S2, so sánh khi trình duyệt từng trang): icon giao diện (search, mạng xã hội, mũi tên, icon tròn của section/tab/menu số, icon trong thẻ và form), nút, khung, nền màu. Riêng 8 biểu tượng gốc của Comparison H1 (TXT:57 yêu cầu “eight original symbols”) và icon minh họa có shading của Water W4 được trích như ảnh.
 
 ## 2. Danh sách asset theo blueprint (đối chiếu với §1b)
