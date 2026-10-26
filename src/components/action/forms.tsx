@@ -2,7 +2,7 @@
 
 import { useId, useRef, useState, type FormEvent, type ReactNode } from "react";
 import { ChevronDown } from "lucide-react";
-import { pendingCopy, petition, story, supporter } from "@/content/action";
+import { approvedCopy, petition, story, supporter } from "@/content/action";
 import {
   maxAttachmentBytes, petitionErrors, storyErrors, supporterErrors,
   type FormName, type PetitionField, type PetitionValues, type SupporterField, type SupporterValues,
@@ -250,7 +250,7 @@ export function StorySection({ left }: { left: ReactNode }) {
     if (phase === "pending") return;
     const values = { name, connection, issue, story: text, publish };
     const tooLarge = chosen.reduce((sum, file) => sum + file.size, 0) > maxAttachmentBytes;
-    const found = { ...storyErrors(values), files: tooLarge ? pendingCopy.attachmentsTooLarge : undefined };
+    const found = { ...storyErrors(values), files: tooLarge ? approvedCopy.attachmentsTooLarge : undefined };
     setErrors(found);
     if (found.issue || found.story || found.files) { focusFirstInvalid(form.current); return; }
     const fingerprint = JSON.stringify({ ...values, trap, files: chosen.map((file) => [file.name, file.size, file.lastModified]) });
