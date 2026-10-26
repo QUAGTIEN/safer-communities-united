@@ -28,10 +28,18 @@
 .cp-small-art { flex: none; width: 15rem; height: auto; }
 .cp-swap { position: absolute; top: 40%; left: 50%; z-index: 1; font-size: 2.25rem; font-weight: 700; color: #8a2433; transform: translate(-50%, -50%); }
 
-/* Proposed Change — not supplied: inline "Not available yet" panel (same treatment as the shared notice). */
-.cp-proposed { padding-block: 3rem 1rem; }
-.cp-proposed-panel { width: min(100%, 51.5625rem); margin-inline: auto; padding: 3.5rem 2.875rem 3rem; border-top: 4px solid var(--burgundy); background: var(--white); }
-.cp-proposed-panel h1 { margin: 0; font-size: clamp(1.75rem, 4vw, 2.3125rem); line-height: 1.2; font-weight: 700; }
+/* Page opening (D-027): title, two actions and a jump list to the comparisons. Proposed Change copy is not supplied. */
+.cp-proposed { padding-block: 3.5rem 0.5rem; }
+.cp-proposed .cp-proposed-title { margin-top: 0; }
+.cp-proposed-actions { display: flex; flex-wrap: wrap; gap: 0.75rem 1rem; margin-top: 1.75rem; }
+.cp-proposed-actions .cp-button { gap: 0.625rem; font-weight: 600; }
+.cp-proposed-actions svg { width: 1.125rem; height: 1.125rem; }
+.cp-button.is-outline { border: 1px solid #7d2033; background: transparent; color: #7d2033; }
+.cp-proposed-nav { margin-top: 2.5rem; padding-block: 1.25rem; border-block: 1px solid #e3ddd3; }
+.cp-proposed-nav ul { display: flex; flex-wrap: wrap; gap: 0.75rem 2.5rem; margin: 0; padding: 0; list-style: none; }
+.cp-proposed-nav a { display: inline-flex; min-height: 2.75rem; align-items: center; gap: 0.5rem; font-size: 0.9375rem; font-weight: 600; letter-spacing: 0.04em; color: #8a2433; }
+.cp-proposed-nav a:hover { text-decoration: underline; text-underline-offset: 4px; }
+.cp-proposed-nav svg { width: 1rem; height: 1rem; flex: none; }
 
 /* R1 roads. */
 .cp-r1-top { display: grid; grid-template-columns: minmax(0, 1fr) 21.25rem; gap: 2.5rem; align-items: start; }
@@ -163,7 +171,9 @@
 @media (max-width: 39.999rem) {
   .cp-wrap, .cp-wrap.is-narrow { width: calc(100% - 3rem); }
   .cp-section { padding-block: 2rem; }
-  .cp-proposed-panel { padding: 2.5rem 1.5rem; }
+  .cp-proposed { padding-top: 2.5rem; }
+  .cp-proposed-nav ul { flex-direction: column; gap: 0; }
+  .cp-proposed-actions .cp-button { width: 100%; justify-content: center; }
   .cp-w8-copy { padding-inline: 1.5rem; }
   .cp-kicker p { font-size: 1rem; line-height: 1.375rem; }
   .cp-kicker-icon { width: 3rem; height: 3rem; }

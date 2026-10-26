@@ -11,8 +11,19 @@ export const comparisonLinks = {
   communityPlan: "https://planhillsborough.org/wp-content/uploads/2025/12/LIVABLE-COMMUNITIES.pdf",
 } as const;
 
-// Proposed Change has no supplied copy or layout (TXT:102, TXT:143; D-015 OQ-20, OQ-29).
-export const proposed = { title: "Not available yet" } as const;
+// Page opening (D-027). Proposed Change itself has no supplied copy or layout (TXT:101, TXT:112; OQ-20, OQ-29), so the
+// opening only names the page and leads to the comparisons and the petition, using labels already in the blueprint.
+export const proposed = {
+  title: "The Proposal",
+  compare: "Compare the Two Plans",
+  petition: "Read and sign the petition →",
+  sections: [
+    { label: "ROADS & SAFETY", anchor: "roads" },
+    { label: "WATER & WASTEWATER", anchor: "water" },
+    { label: "GROWTH & HOUSING", anchor: "growth-housing" },
+    { label: "IF THE COMMUNITY PLAN IS REMOVED, WHAT REMAINS?", anchor: "what-remains" },
+  ],
+} as const;
 
 export const roads = {
   kicker: ["COMPARISON 01", "ROADS & SAFETY"],

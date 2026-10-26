@@ -63,6 +63,8 @@ Ký hiệu: ✅ đạt (đã kiểm tra thật) · ⚠️ đạt một phần / 
 | Không lỗi runtime/hydration/404 | ✅ | Site thật: không lỗi console, không tài nguyên ≥ 400, không ảnh hỏng trên 8 trang |
 | Preview có bảo vệ truy cập | ❌ (ngoại lệ đã duyệt) | **S8-4:** site công khai, không mật khẩu (D-022); `FORMS_MODE=live` nên form công khai gửi email thật |
 
+Ghi chú sau nghiệm thu: điểm 6 (The Proposal) đã xử lý ở D-027 — đầu trang có tiêu đề, 2 nút và mục lục thay cho “Not available yet”.
+
 ## 7. Cổng công bố — ⏸ ngoài first version
 
 Chưa làm: kiểm tra nguồn và quyền ảnh (ảnh vẫn là bản tạm trích từ PDF, OQ-19); privacy notice petition; người liên hệ; domain gửi đã xác thực; quy trình giao County; dịch vụ unsubscribe (OQ-11, 13, 14, 31).

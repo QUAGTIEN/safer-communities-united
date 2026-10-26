@@ -5,7 +5,7 @@ import "./comparison.css";
 
 export const metadata: Metadata = { title: "The Proposal" };
 
-// The Proposal (S5): #proposed-change (not supplied — notice panel) → Compare the Two Plans:
+// The Proposal (S5): #proposed-change (page opening, D-027) → Compare the Two Plans:
 // R1 Roads → W8 Water → H1 Growth & Housing → C1 What remains (docs/sections/comparison.md, D-015 OQ-29).
 export default function ComparisonPage() {
   return <div className="cp-page">

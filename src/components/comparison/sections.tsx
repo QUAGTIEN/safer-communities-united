@@ -1,7 +1,9 @@
-import { Ban, CircleAlert, ClipboardCheck, Cog, Construction, Droplet, FileText, House, Landmark, Layers, Leaf, Lightbulb, LampFloor, Map, PersonStanding, RefreshCw, Shield, ShowerHead, Users, Waves, type LucideIcon } from "lucide-react";
+import Link from "next/link";
+import { ArrowDown, Ban, CircleAlert, ClipboardCheck, Cog, Construction, Droplet, FileText, House, Landmark, Layers, Leaf, Lightbulb, LampFloor, Map, PersonStanding, RefreshCw, Shield, ShowerHead, Users, Waves, type LucideIcon } from "lucide-react";
 import { comparisonLinks, housing, proposed, remains, roads, water, type Part, type Row } from "@/content/comparison";
 import { asset, type AssetId } from "@/lib/assets";
 import { NoticeLink } from "@/components/issues/notice-link";
+import { comparisonAnchor, routes } from "@/content/site";
 
 // The Proposal / Comparison — approved later-page images R1, W8, H1, C1 (desktop only); Proposed Change is
 // not supplied (D-015 OQ-20, OQ-29). "View the Full … Comparison" and "Learn More About the County Framework"
@@ -26,12 +28,19 @@ function Rich({ parts }: { parts: Part[] }) {
   })}</>;
 }
 
+// Page opening at #proposed-change (D-027): title, the two next steps and a jump list to the four comparisons.
 export function ProposedChange() {
+  const p = proposed;
   return <section id="proposed-change" className="cp-proposed" aria-labelledby="cp-proposed-title">
     <div className="cp-wrap">
-      <div className="cp-proposed-panel">
-        <h1 id="cp-proposed-title">{proposed.title}</h1>
+      <h1 id="cp-proposed-title" className="cp-title cp-proposed-title">{p.title}</h1>
+      <div className="cp-proposed-actions">
+        <a href={`#${comparisonAnchor}`} className="cp-button">{p.compare}<ArrowDown aria-hidden="true" strokeWidth={2.25} /></a>
+        <Link href={`${routes.action}#petition`} className="cp-button is-outline">{p.petition}</Link>
       </div>
+      <nav className="cp-proposed-nav" aria-label={p.compare}>
+        <ul>{p.sections.map((s) => <li key={s.anchor}><a href={`#${s.anchor}`}>{s.label}<ArrowDown aria-hidden="true" strokeWidth={2.25} /></a></li>)}</ul>
+      </nav>
     </div>
   </section>;
 }
