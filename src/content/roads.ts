@@ -30,6 +30,9 @@ export const sectionNav = [
 
 export const crumbs = { issues: "ISSUES", roads: "ROADS & SAFETY" } as const;
 
+// Page heading for screen readers only: the approved design has no visible hero (S8-1, D-024).
+export const pageTitle = "Roads & Safety";
+
 export const lighting = {
   crumb: null,
   kicker: "01 — STREET LIGHTING",

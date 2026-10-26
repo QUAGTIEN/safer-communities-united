@@ -1,6 +1,6 @@
 # S8 — Nghiệm thu first version
 
-**Trạng thái: awaiting decision** (V-015). Ngày 26/10/2026. Đối chiếu từng mục của [ACCEPTANCE_CHECKLIST](../../ACCEPTANCE_CHECKLIST.md) trên site thật `https://safer-communities-united.vercel.app` (commit `87a0e10`) và server local.
+**Trạng thái:** S8-1, S8-2 đã sửa (D-024); S8-3 → S8-6 chờ quyết định (V-015). Ngày 26/10/2026. Đối chiếu từng mục của [ACCEPTANCE_CHECKLIST](../../ACCEPTANCE_CHECKLIST.md) trên site thật `https://safer-communities-united.vercel.app` (commit `87a0e10`) và server local.
 
 Ký hiệu: ✅ đạt (đã kiểm tra thật) · ⚠️ đạt một phần / có ngoại lệ đã duyệt · ❌ chưa đạt · ⏸ ngoài phạm vi first version.
 
@@ -34,8 +34,8 @@ Ký hiệu: ✅ đạt (đã kiểm tra thật) · ⚠️ đạt một phần / 
 | Mục | KQ | Bằng chứng |
 |---|---|---|
 | Menu, CTA, anchor, link nguồn | ⚠️ | Không link nội bộ/anchor hỏng; 121/121 ảnh tải được; 14/17 link ngoài trả 200. **S8-3:** 3 link quá thời gian chờ từ máy kiểm tra (Việt Nam) |
-| Heading ngữ nghĩa | ❌ | 7/8 trang có đúng 1 `h1`, không nhảy cấp. **S8-1:** trang Roads & Safety không có `h1` |
-| Bàn phím, focus thấy được | ⚠️ | Tab đi qua header, viền focus burgundy 2 px hiện đúng. **S8-2:** đóng hộp thoại (“Not available yet”, “Share This Page”, panel câu chuyện) thì focus về đầu trang thay vì nút đã mở; khung xem bản đồ trả focus đúng |
+| Heading ngữ nghĩa | ✅ | 8/8 trang có đúng 1 `h1`, không nhảy cấp. S8-1 đã sửa (D-024): Roads có `h1` chỉ cho trình đọc màn hình |
+| Bàn phím, focus thấy được | ✅ | Tab đi qua header, viền focus burgundy 2 px hiện đúng. S8-2 đã sửa (D-024): Enter mở rồi Escape đóng “Share This Page”, panel câu chuyện, “Not available yet” đều trả focus về nút đã mở; khung xem bản đồ vốn đã đúng |
 | Nhãn điều khiển, alt ảnh, id trùng | ✅ | Mọi link/nút có tên; mọi ảnh có `alt`; mọi ô form có nhãn; không id trùng; `lang="en"`, tiêu đề trang riêng |
 | Thông báo lỗi/trạng thái được đọc | ✅ | `role=status/alert`, `aria-invalid`, `aria-describedby` |
 | Tương phản | ✅ | Sau D-021 không còn chữ dưới AA, trừ chữ đỏ Home đã duyệt giữ (V-007) và dấu “•” trang trí |
@@ -71,8 +71,8 @@ Chưa làm: kiểm tra nguồn và quyền ảnh (ảnh vẫn là bản tạm tr
 
 | ID | Mức | Phát hiện | Đề xuất |
 |---|---|---|---|
-| S8-1 | Truy cập | Roads & Safety không có `h1` | Thêm `h1` ẩn với mắt (chỉ trình đọc màn hình) “Roads & Safety”, không đổi giao diện |
-| S8-2 | Truy cập | Đóng hộp thoại không trả focus về nút đã mở | Ghi nhớ nút mở và trả focus khi đóng (không đổi giao diện) |
+| S8-1 | Truy cập | Roads & Safety không có `h1` | **Đã sửa (D-024)** |
+| S8-2 | Truy cập | Đóng hộp thoại không trả focus về nút đã mở | **Đã sửa (D-024)** |
 | S8-3 | Link | 3 link ngoài không mở được từ máy kiểm tra: 2 dịch vụ bản đồ ArcGIS của County, tài liệu Hillsborough Clerk (May 9, 2024) | Bạn mở thử trên trình duyệt; nếu vẫn lỗi thì thay bằng “Not available yet” |
 | S8-4 | Bảo mật | Site công khai, form gửi thật | Để `FORMS_MODE=simulate` khi không test, tới khi xong cổng công bố |
 | S8-5 | Form | Chưa kiểm tra loại file, chưa quét malware | Để sau (D-022); bắt buộc trước khi chạy thật |

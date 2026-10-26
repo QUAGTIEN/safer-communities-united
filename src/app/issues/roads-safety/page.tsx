@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { Emergency, Frameworks, GunnHighway, MapArea, Records, StreetLighting, Walking } from "@/components/roads/sections";
+import { pageTitle } from "@/content/roads";
 import "./roads.css";
 
 export const metadata: Metadata = { title: "Roads & Safety" };
@@ -14,6 +15,7 @@ const anton = localFont({
 // Roads & Safety (S4): no hero; 01 → 04, three-map area (section 4), 06 Records, 07 frameworks (docs/sections/roads.md).
 export default function RoadsSafetyPage() {
   return <div className={`rd-page ${anton.variable}`}>
+    <h1 className="sr-only">{pageTitle}</h1>
     <StreetLighting />
     <GunnHighway />
     <Walking />

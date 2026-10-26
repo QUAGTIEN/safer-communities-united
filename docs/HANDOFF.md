@@ -18,7 +18,7 @@
 | S5 | Water, Growth, The Proposal (`/comparison`), The Facts (`/evidence`) | ✅ D-018 |
 | **S6** | **Take Action + 3 form ở chế độ mô phỏng** | ✅ D-019 ([reviews/S6](reviews/S6/README.md)) |
 | **S7** | Hạ tầng server (Vercel có mật khẩu, Resend) — cần người dùng cho phép riêng | Đang làm: bỏ static export + deploy Vercel (D-020); API 3 form xong (D-022); gửi thật qua Resend tới hộp thư test đã đạt, kể cả gửi lại không trùng. Còn: mật khẩu (chưa cần), quét malware (để sau), duyệt V-014 |
-| **S8** | Nghiệm thu (`docs/ACCEPTANCE_CHECKLIST.md`) | Đã chạy, chờ quyết định S8-1 → S8-6 (V-015, [reviews/S8](reviews/S8/README.md)) |
+| **S8** | Nghiệm thu (`docs/ACCEPTANCE_CHECKLIST.md`) | Đã chạy; S8-1, S8-2 đã sửa (D-024); chờ quyết định S8-3 → S8-6 (V-015, [reviews/S8](reviews/S8/README.md)) |
 
 ## 3. Tài liệu quan trọng
 - `agent.md`, `AGENTS.md`, `docs/RULES.md` — quy tắc.

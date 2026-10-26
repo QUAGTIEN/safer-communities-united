@@ -9,7 +9,7 @@ import {
 import { cards, hero, links, petition, share, stories, story } from "@/content/action";
 import { a11y } from "@/content/site";
 import { asset, type AssetId } from "@/lib/assets";
-import { useNotAvailable } from "@/components/layout/not-available";
+import { useNotAvailable, useReturnFocus } from "@/components/layout/not-available";
 import { PetitionForm, StorySection, SupporterForm } from "./forms";
 
 // Take Action (S6) — A1 hero, A2 three actions, H3 supporter application, A3 story, A4 sharing, A5 stories, A6 petition.
@@ -44,11 +44,11 @@ const topicIcons: Record<(typeof story.topics)[number]["id"], { icon: LucideIcon
 const storyIcons = { road: topicIcons.roads, water: topicIcons.water, access: topicIcons.housing };
 
 // A static sharing panel over the unchanged page (p255): nothing is shared, composed or copied.
-function SharePanel({ open, onOpenChange }: { open: boolean; onOpenChange: (open: boolean) => void }) {
+function SharePanel({ open, onOpenChange, onCloseAutoFocus }: { open: boolean; onOpenChange: (open: boolean) => void; onCloseAutoFocus: (event: Event) => void }) {
   return <DialogPrimitive.Root open={open} onOpenChange={onOpenChange}>
     <DialogPrimitive.Portal>
       <DialogPrimitive.Overlay className="notice-overlay" />
-      <DialogPrimitive.Content className="act-dialog act-share-dialog" aria-describedby="share-panel-intro">
+      <DialogPrimitive.Content className="act-dialog act-share-dialog" aria-describedby="share-panel-intro" onCloseAutoFocus={onCloseAutoFocus}>
         <DialogPrimitive.Title className="act-dialog-title">{share.panel.title}</DialogPrimitive.Title>
         <p id="share-panel-intro" className="act-dialog-lead">{share.panel.intro}</p>
         <ul className="act-share-choices">
@@ -60,11 +60,11 @@ function SharePanel({ open, onOpenChange }: { open: boolean; onOpenChange: (open
   </DialogPrimitive.Root>;
 }
 
-function StoryPanel({ item, onClose }: { item: (typeof stories.items)[number] | null; onClose: () => void }) {
+function StoryPanel({ item, onClose, onCloseAutoFocus }: { item: (typeof stories.items)[number] | null; onClose: () => void; onCloseAutoFocus: (event: Event) => void }) {
   return <DialogPrimitive.Root open={item !== null} onOpenChange={(open) => { if (!open) onClose(); }}>
     <DialogPrimitive.Portal>
       <DialogPrimitive.Overlay className="notice-overlay" />
-      <DialogPrimitive.Content className="act-dialog act-story-dialog" aria-describedby="story-panel-quote">
+      <DialogPrimitive.Content className="act-dialog act-story-dialog" aria-describedby="story-panel-quote" onCloseAutoFocus={onCloseAutoFocus}>
         {item && <>
           <p className="act-dialog-sample">{stories.sample}</p>
           <DialogPrimitive.Title className="act-dialog-title is-upper">{item.label}</DialogPrimitive.Title>
@@ -82,6 +82,9 @@ export function TakeActionContent() {
   const [shareOpen, setShareOpen] = useState(false);
   const [openStory, setOpenStory] = useState<(typeof stories.items)[number] | null>(null);
   const notAvailable = useNotAvailable();
+  const shareFocus = useReturnFocus();
+  const storyFocus = useReturnFocus();
+  const openShare = () => { shareFocus.remember(); setShareOpen(true); };
   const openSupporter = () => goTo("supporter-application", "input[name=fullName]");
   const openPetition = () => goTo("petition", "input[name=name]");
   const openStoryForm = () => goTo("share-story", "input[name=name]");
@@ -137,7 +140,7 @@ export function TakeActionContent() {
               <p>{cards.share.text}</p>
               <p className="act-card-channels">{cards.share.channels.join(" • ")}</p>
               <div className="act-card-actions">
-                <button type="button" className="act-button is-block" aria-haspopup="dialog" onClick={() => setShareOpen(true)}>{cards.share.cta}</button>
+                <button type="button" className="act-button is-block" aria-haspopup="dialog" onClick={openShare}>{cards.share.cta}</button>
               </div>
             </div>
           </article>
@@ -185,7 +188,7 @@ export function TakeActionContent() {
               </li>;
             })}
           </ul>
-          <button type="button" className="act-button" aria-haspopup="dialog" onClick={() => setShareOpen(true)}>{share.cta}</button>
+          <button type="button" className="act-button" aria-haspopup="dialog" onClick={openShare}>{share.cta}</button>
           <div className="act-share-note">
             <span aria-hidden="true"><Users strokeWidth={2.25} /></span>
             <p>{share.note}</p>
@@ -216,7 +219,7 @@ export function TakeActionContent() {
                   <span className={`act-avatar${item.id === "water" ? " is-navy" : ""}`} aria-hidden="true"><User strokeWidth={2.5} /></span>
                   <p>{item.who}<br /><span>{item.date}</span></p>
                 </div>
-                <button type="button" className="act-read" aria-haspopup="dialog" onClick={() => setOpenStory(item)}>{stories.read}<span className="sr-only"> — {item.label}</span></button>
+                <button type="button" className="act-read" aria-haspopup="dialog" onClick={() => { storyFocus.remember(); setOpenStory(item); }}>{stories.read}<span className="sr-only"> — {item.label}</span></button>
               </div>
             </article>;
           })}
@@ -257,7 +260,7 @@ export function TakeActionContent() {
       </div>
     </section>
 
-    <SharePanel open={shareOpen} onOpenChange={setShareOpen} />
-    <StoryPanel item={openStory} onClose={() => setOpenStory(null)} />
+    <SharePanel open={shareOpen} onOpenChange={setShareOpen} onCloseAutoFocus={shareFocus.restore} />
+    <StoryPanel item={openStory} onClose={() => setOpenStory(null)} onCloseAutoFocus={storyFocus.restore} />
   </div>;
 }
